@@ -1,11 +1,16 @@
 // HEADER LAYOUT
+.l-fullpage-header
+  background:
+    size: cover
+    repeat: no-repeat
+    position: center
+    //attachment: fixed
+  height: 100vh
 
-header
-  height: 50px
-  background: transparentize($dark, 0.2)
+.l-fullpage-header-content
   color: $white
-  position: fixed
-  width: 100%
+  background: transparentize($primary, 0.25)
+  padding: 15px 60px
   h1
-    margin: 0
-    line-height: 50px
+    font-size: 50px
+    text-transform: uppercase
