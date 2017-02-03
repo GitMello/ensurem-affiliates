@@ -2,9 +2,10 @@
 
 body
   color: $dark
-  font-family: $helvetica
+  font-family: $lucida-grande
   font-size: $base-size
   margin: 0
+  overflow-x: hidden
 
 .brand
   +hide-text
@@ -16,12 +17,17 @@ body
   height: 40px
   float: left
   opacity: 0.8
-  transition: 500ms
+  +transition(all 300ms)
   &:hover
     opacity: 1
 
+sup
+  vertical-align: top - 2%
+  font-size: 50%
+
 h1
   margin: 0
+  font-size: $base-h1
 
 a
   color: $primary
