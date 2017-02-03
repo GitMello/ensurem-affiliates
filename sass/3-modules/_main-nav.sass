@@ -10,7 +10,7 @@
 #main-nav-links
   float: right
   text-transform: uppercase
-  font-size: $base-size - 4
+  font-size: $base-size - 0.25
   line-height: 25px
   padding: 0
   li
@@ -19,3 +19,7 @@
     a
       text-decoration: none
       +transition(all 300ms)
+
+//@media (max-width: 768px)
+  #main-nav-links
+    display: none
