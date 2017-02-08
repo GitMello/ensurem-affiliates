@@ -6,17 +6,21 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <nav id="main-nav" class="navbar">
-      <a href="/"><h1 class="brand">AffCo.</h1></a>
-      <ul id="main-nav-links">
-        <li><a href="">Link</a></li>
-        <li><a href="">Link</a></li>
-        <li><a href="">Link</a></li>
-        <li><a href="/styles.html">Styles</a></li>
-      </ul>
-    </nav>
+    <div class="l-navbar-fixed-top">
+      <nav id="main-nav">
+        <a href="/"><h1 class="brand-light l-float-l opacity-hover-opaque">AffCo.</h1></a>
+        <ul class="l-inline l-float-r">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="/styles.html">Styles</a></li>
+        </ul>
+      </nav>
+    </div>
     <header>
-      <h1>Default Header</h1>
+      <div class="container no-pad">
+        <h1>Default Header</h1>
+      </div>
     </header>
     <div class="container">
       <h1>Headline H1</h1>
@@ -27,5 +31,17 @@
       <h6>Headline H6</h6>
       <p>This here is a little something called a paragraph. Inside of this paragraph we have a <a href="#">link</a>. Cool, huh?</p>
     </div>
+    <footer>
+      <nav id="main-nav">
+        <a href="/"><h1 class="brand-light opacity-hover-opaque">AffCo.</h1></a>
+        <ul class="l-inline l-center">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="/styles.html">Styles</a></li>
+        </ul>
+      </nav>
+      <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
+    </footer>
   </body>
 </html>

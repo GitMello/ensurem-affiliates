@@ -7,6 +7,8 @@
   padding-left: 0
   padding-right: 0
 
+.max-width
+  max-width: 1200px
 
 // BACKGROUND COLORS
 
@@ -73,11 +75,33 @@
 .text-center
   text-align: center
 
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.text-just
+  text-align: justify
+
 .text-no-shad
   text-shadow: none
+
 
 // IMAGE STYLES
 
 .img-responsive
   width: 100%
   height: auto
+
+.opacity-hover-opaque
+  opacity: 0.8
+  transition: 500ms
+  &:hover
+    opacity: 1
+
+.opacity-hover-80
+  opacity: 1
+  transition: 500ms
+  &:hover
+    opacity: 0.8

@@ -7,7 +7,7 @@ body
   margin: 0
   overflow-x: hidden
 
-.brand
+.brand-light
   +hide-text
   background:
     image: url(/assets/logos/affco-logo-white.png)
@@ -15,21 +15,28 @@ body
     repeat: no-repeat
   width: 152px
   height: 40px
-  float: left
-  opacity: 0.8
-  +transition(all 300ms)
-  &:hover
-    opacity: 1
+  margin: 5px auto 0
+
+.brand-dark
+  +hide-text
+  background:
+    image: url(/assets/logos/affco-logo-black.png)
+    size: cover
+    repeat: no-repeat
+  width: 152px
+  height: 40px
+  margin: 5px auto 0
 
 sup
-  vertical-align: top - 2%
-  font-size: 50%
-
-h1
-  margin: 0
-  font-size: $base-h1
+  vertical-align: top - 0.02em
+  font-size: 0.5em
 
 a
   color: $primary
   &:hover
     color: $accent
+    
+
+//@media (max-width: 768px)
+  body
+    font-size: $base-size + 0.5
