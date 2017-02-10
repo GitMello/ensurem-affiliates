@@ -467,30 +467,31 @@ header {
 
 .l-fullpage-header-content {
   color: #fff;
-  padding: 15px 60px;
+  padding: 15px 30px;
   text-shadow: 0 0 10px #343434;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 55%; }
   .l-fullpage-header-content h1 {
-    font-size: 3.75em;
-    margin: 0; }
+    margin: 0;
+    transition: 300ms; }
   .l-fullpage-header-content h2 {
     margin: 0 0 10px;
     font-weight: 300;
     font-style: italic;
     text-transform: none; }
   .l-fullpage-header-content a {
+    font-size: 150%;
     text-decoration: none;
     color: #fff;
     white-space: nowrap;
     text-shadow: none;
     border: solid 1px #fff;
-      border-radius: 5px;
-    padding: 20px 40px;
+      border-radius: 50px;
+    padding: 10px 20px;
     line-height: 80px;
-    font-size: 1.125em;
     font-weight: 700;
     display: inline;
-    margin-right: 15px;
+    margin: 0 15px 0 0;
     transition: 500ms; }
     .l-fullpage-header-content a:hover {
       color: #488933;
@@ -511,12 +512,47 @@ footer {
 section {
   padding: 30px 0; }
 
+#comparison-light {
+  text-align: center; }
+  #comparison-light ul img {
+    max-width: 200px; }
+  #comparison-light ul h3 {
+    margin: 0 0 0.5em; }
+  #comparison-light ul p {
+    margin: 0; }
+  #comparison-light ul li {
+    margin: 30px 9px; }
+  #comparison-light ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #488933;
+    white-space: nowrap;
+    text-shadow: none;
+    border: solid 1px #488933;
+      border-radius: 50px;
+    padding: 10px 40px;
+    line-height: 80px;
+    font-size: 1em;
+    font-weight: 700;
+    display: inline;
+    transition: 300ms; }
+    #comparison-light ul a:hover {
+      color: #fff;
+      border: solid 1px #63bc46;
+      background-color: #63bc46; }
+
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 40px;
+  padding: 2em 1.5em;
   box-sizing: border-box; }
+
+.l-2-200 {
+  columns: 2 200px;
+  column-gap: 2em; }
+  .l-2-200 p {
+    margin: 0; }
 
 .grid {
   max-width: 1200px;
@@ -781,6 +817,7 @@ section {
 
 #main-nav {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
   text-transform: uppercase;
   font-size: 0.75em;
@@ -839,6 +876,15 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   position: relative;
   top: 2px; }
 
+@media screen and (min-width: 321px) {
+  .l-fullpage-header-content {
+    font-size: 65%; } }
+@media screen and (min-width: 640px) {
+  .l-fullpage-header-content {
+    font-size: 120%; }
+    .l-fullpage-header-content a {
+      padding: 20px 40px;
+      font-size: 85%; } }
 .no-pad {
   padding: 0; }
 
