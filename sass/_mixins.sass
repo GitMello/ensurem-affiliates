@@ -1,16 +1,23 @@
 // GLOBAL MIXINS
 
-=circle($rad, $shadCo, $grad1, $grad2)
-  -webkit-border-radius: $rad
-  -moz-border-radius: $rad
-  border-radius: $rad
-
-  -webkit-box-shadow: 0 5px 10px $shadCo
-  -moz-box-shadow: 0 5px 10px $shadCo
-  box-shadow: 0 5px 10px $shadCo
-
-  background: $grad2
-  background: -webkit-linear-gradient($grad1, $grad2)
-  background: -o-linear-gradient($grad1, $grad2)
-  background: -moz-linear-gradient($grad1, $grad2)
-  background: linear-gradient($grad1, $grad2)
+=link-button ($co, $hoco, $hotext, $size)
+  a
+    text-decoration: none
+    text-transform: uppercase
+    color: $co
+    white-space: nowrap
+    text-shadow: none
+    border: solid 0.0625em $co
+      radius: 50em
+    padding: 0.5em 2em
+    line-height: 4em
+    font:
+      size: $base-size * $size
+      weight: 700
+    display: inline
+    transition: 300ms
+    &:hover
+      color: $hotext
+      border: solid 0.0625em $hoco
+      background:
+        color: $hoco
