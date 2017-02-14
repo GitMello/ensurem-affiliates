@@ -4,42 +4,59 @@
 
 #{$all-text-inputs}
   position: relative
-  padding: 20px 40px
-  font-size: $base-size
+  padding: 1.25em 1.75em
+  font:
+    family: $lucida-grande
+    size: $base-size
   box-shadow: none
-  border-radius: 7px
-  border: solid 1px $mid
+  border-radius: 50em
+  border: solid 0.0625em $mid
   color: $dark
+  transition: 300ms
+  margin: 0.1em
+  flex-grow: 1
+
 
 #{$all-text-inputs-focus},
 #{$all-text-inputs-hover}
-  border: solid 1px $primary
+  border: solid 0.0625em $primary
   outline: none
 
-#{$all-text-inputs-focus},
-  box-shadow: 0 0 2px $primary
-
+#{$all-text-inputs-focus}
+  border: solid 0.0625em $white
+  box-shadow: 0 0 2px $alt
+  padding: 1.25em 3em 1.25em 1.75em
 
 // BUTTON INPUTS
 
 #{$all-buttons}
   background:
-    color: $accent
-  font-size: $base-size
-  padding: 20px 40px
-  border: solid 1px $accent
-    radius: 7px
+    color: $primary
+  text-transform: uppercase
+  white-space: nowrap
+  font:
+    size: $base-size
+    weight: 700
+    family: $lucida-grande
+  padding: 1.25em 2em
+  //padding: 20px 40px
+  border: solid 0.0625em $primary
+    radius: 50em
   color: $white
+  transition: 300ms
+  margin: 0.1em
+  flex-grow: 1
 
 #{$all-buttons-focus},
 #{$all-buttons-hover}
   background:
-    color: $primary
-  border: solid 1px $primary
+    color: $alt
+  border: solid 0.0625em $alt
   cursor: pointer
   outline: none
 
-#{$all-buttons-active},
-  outline: none
-  position: relative
-  top: 2px
+#{$all-buttons-active}
+  background:
+    color: $primary
+  box-shadow: 0 0 2px $primary
+  border: solid 0.0625em $primary
