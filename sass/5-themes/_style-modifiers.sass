@@ -60,6 +60,9 @@
 
 // FONT STYLES
 
+.font-12
+  font-size: $base-size - 0.25
+
 .text-white
   color: $white
 
@@ -89,6 +92,26 @@
     &:hover
       color: $accent
 
+.link-hover-primary
+  a
+    &:hover
+      color: $primary
+
+.link-hover-white
+  a
+    &:hover
+      color: $white
+
+.link-hover-dark
+  a
+    &:hover
+      color: $dark
+
+.link-hover-alt
+  a
+    &:hover
+      color: $alt
+
 .text-center
   text-align: center
 
@@ -116,8 +139,10 @@
 // IMAGE STYLES
 
 .img-responsive
-  width: 100%
-  height: auto
+  img
+    width: 100%
+    height: auto
+    display: block
 
 .opacity-hover-opaque
   opacity: 0.8
@@ -136,3 +161,9 @@
   transition: 500ms
   &:hover
     opacity: 0.8
+
+.absolute
+  position: absolute
+
+.relative
+  position: relative

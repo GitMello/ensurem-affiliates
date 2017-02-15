@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Style Guide</title>
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="l-navbar-fixed-top">
-      <nav class="l-navbar l-navlinks flex flex-center just-between flex-wrap">
-        <a href="/"><h1 class="brand-light l-float-l opacity-hover-opaque">AffCo.</h1></a>
-        <ul class="l-inline l-float-r">
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="/styles.html">Styles</a></li>
-        </ul>
-      </nav>
-    </div>
+<?php $title="Style Guide"; ?>
+<?php include('includes/topnav.php'); ?>
     <header>
       <div class="container no-pad">
         <h1>Default Header</h1>
@@ -117,17 +99,4 @@
       </div>
       <!-- end grid -->
     </article>
-    <footer>
-      <nav class="l-navlinks">
-        <a href="/"><h1 class="brand-light opacity-hover-opaque">AffCo.</h1></a>
-        <ul class="l-inline l-center">
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="/styles.html">Styles</a></li>
-        </ul>
-      </nav>
-      <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
-    </footer>
-  </body>
-</html>
+    <?php include('includes/footer.php'); ?>
