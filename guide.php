@@ -10,7 +10,7 @@
     </div>
   </header>
 
-  <article class="discover-content dark text-center text-white">
+  <article class="discover-content black text-center text-white">
     <div class="container-900">
       <h1>Life Insurance</h1>
       <h3>Insurance coverage options for every stage of life</h3>
@@ -29,33 +29,35 @@
   <article class="discover-grid flex flex-wrap img-responsive text-center text-white butt-link-light">
 
     <div class="col-md-12 col-lg-6 accent">
-      <div class="col-sm-12 flex flex-center just-center relative">
-        <img src="/assets/discover/discover-term-life-insurance.jpg" alt="Discover Term Life Insurance"></img>
-        <div class="absolute">
+      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
+        <div class="abso-centered">
           <h2>TERM LIFE INSURANCE</h2>
           <a href="#">View Guide</a>
         </div>
       </div>
-      <div id="term-1" class="primary col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-2" class="alt col-md-6 disc col-sq col-sm-hide"></div>
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
     </div>
 
-    <div class="col-md-12 col-lg-6 alt">
-      <div class="alt col-md-6 col-sq col-sm-hide"></div>
-      <div class="primary col-md-6 col-sq col-sm-hide"></div>
-      <div class="col-sm-12"><img src="/assets/discover/discover-term-life-insurance.jpg" alt="Discover Term Life Insurance"></div>
-    </div>
+    <div class="col-md-12 col-lg-6">
+      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
+        <div class="abso-centered">
+          <h2>TERM LIFE INSURANCE</h2>
+          <a href="#">View Guide</a>
+        </div>
+      </div>    </div>
 
     <div class="col-md-12 col-lg-6 accent">
-      <div class="col-sm-12 flex flex-center just-center relative">
-        <img src="/assets/discover/discover-term-life-insurance.jpg" alt="Discover Term Life Insurance"></img>
-        <div class="absolute">
+      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
+        <div class="abso-centered">
           <h2>TERM LIFE INSURANCE</h2>
           <a href="#">View Guide</a>
         </div>
       </div>
-      <div id="term-1" class="primary col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-2" class="alt col-md-6 disc col-sq col-sm-hide"></div>
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-3" class="col-md-6 disc col-sq col-sm-hide"></div>
     </div>
 
   </article>
@@ -82,33 +84,36 @@
   <article class="discover-grid flex flex-wrap img-responsive text-center text-white butt-link-light">
 
     <div class="col-md-12 col-lg-6 accent">
-      <div class="col-sm-12 flex flex-center just-center relative">
-        <img src="/assets/discover/discover-term-life-insurance.jpg" alt="Discover Term Life Insurance"></img>
-        <div class="absolute">
+      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
+        <div class="abso-centered">
           <h2>TERM LIFE INSURANCE</h2>
           <a href="#">View Guide</a>
         </div>
       </div>
-      <div id="term-1" class="primary col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-2" class="alt col-md-6 disc col-sq col-sm-hide"></div>
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-3" class="col-md-6 disc col-sq col-sm-hide"></div>
     </div>
 
-    <div class="col-md-12 col-lg-6 alt">
-      <div class="alt col-md-6 col-sq col-sm-hide"></div>
-      <div class="primary col-md-6 col-sq col-sm-hide"></div>
-      <div class="col-sm-12"><img src="/assets/discover/discover-term-life-insurance.jpg" alt="Discover Term Life Insurance"></div>
+    <div class="col-md-12 col-lg-6">
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
+        <div class="abso-centered">
+          <h2>TERM LIFE INSURANCE</h2>
+          <a href="#">View Guide</a>
+        </div>
+      </div>
     </div>
 
     <div class="col-md-12 col-lg-6 accent">
-      <div class="col-sm-12 flex flex-center just-center relative">
-        <img src="/assets/discover/discover-term-life-insurance.jpg" alt="Discover Term Life Insurance"></img>
-        <div class="absolute">
+      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
+        <div class="abso-centered">
           <h2>TERM LIFE INSURANCE</h2>
           <a href="#">View Guide</a>
         </div>
       </div>
-      <div id="term-1" class="primary col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-2" class="alt col-md-6 disc col-sq col-sm-hide"></div>
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-3" class="col-md-6 disc col-sq col-sm-hide"></div>
     </div>
 
   </article>
