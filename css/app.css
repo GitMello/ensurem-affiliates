@@ -709,6 +709,9 @@ footer {
 
   .col-lg-hide {
     display: none; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .col-sm-hide {
+    display: none; } }
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -1218,6 +1221,9 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
 @media screen and (min-width: 7000px) {
   body {
     font-size: 3.5em; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .l-fullpage-header-content {
+    font-size: 75%; } }
 .no-pad {
   padding: 0; }
 
@@ -1363,5 +1369,8 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
 
 .relative {
   position: relative; }
+
+.smart-break {
+  white-space: nowrap; }
 
 /*# sourceMappingURL=app.css.map */
