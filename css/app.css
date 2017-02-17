@@ -404,7 +404,7 @@ template {
 
 body {
   color: #343434;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   margin: 0;
   overflow-x: hidden; }
@@ -904,9 +904,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid .0625em #488933;
+  border: solid 0.0625em #488933;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 0.65em;
   font-weight: 500;
@@ -914,7 +914,7 @@ footer {
   transition: 300ms; }
   .butt-link-mini a:hover {
     color: #fff;
-    border: solid .0625em #63bc46;
+    border: solid 0.0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-mini-light a {
@@ -922,9 +922,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid .0625em #fff;
+  border: solid 0.0625em #fff;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 0.65em;
   font-weight: 500;
@@ -932,7 +932,7 @@ footer {
   transition: 300ms; }
   .butt-link-mini-light a:hover {
     color: #488933;
-    border: solid .0625em #fff;
+    border: solid 0.0625em #fff;
     background-color: #fff; }
 
 .butt-link a {
@@ -940,9 +940,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid .0625em #488933;
+  border: solid 0.0625em #488933;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 1em;
   font-weight: 500;
@@ -950,7 +950,7 @@ footer {
   transition: 300ms; }
   .butt-link a:hover {
     color: #fff;
-    border: solid .0625em #63bc46;
+    border: solid 0.0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light a {
@@ -958,9 +958,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid .0625em #fff;
+  border: solid 0.0625em #fff;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 1em;
   font-weight: 500;
@@ -968,7 +968,7 @@ footer {
   transition: 300ms; }
   .butt-link-light a:hover {
     color: #488933;
-    border: solid .0625em #fff;
+    border: solid 0.0625em #fff;
     background-color: #fff; }
 
 .butt-link-md a {
@@ -976,9 +976,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid .0625em #488933;
+  border: solid 0.0625em #488933;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 1.25em;
   font-weight: 500;
@@ -986,7 +986,7 @@ footer {
   transition: 300ms; }
   .butt-link-md a:hover {
     color: #fff;
-    border: solid .0625em #63bc46;
+    border: solid 0.0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light-md a {
@@ -994,9 +994,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid .0625em #fff;
+  border: solid 0.0625em #fff;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 1.25em;
   font-weight: 500;
@@ -1004,7 +1004,7 @@ footer {
   transition: 300ms; }
   .butt-link-light-md a:hover {
     color: #488933;
-    border: solid .0625em #fff;
+    border: solid 0.0625em #fff;
     background-color: #fff; }
 
 .butt-link-lg a {
@@ -1012,9 +1012,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid .0625em #488933;
+  border: solid 0.0625em #488933;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -1022,7 +1022,7 @@ footer {
   transition: 300ms; }
   .butt-link-lg a:hover {
     color: #fff;
-    border: solid .0625em #63bc46;
+    border: solid 0.0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light-lg a {
@@ -1030,9 +1030,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid .0625em #fff;
+  border: solid 0.0625em #fff;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -1040,7 +1040,7 @@ footer {
   transition: 300ms; }
   .butt-link-light-lg a:hover {
     color: #488933;
-    border: solid .0625em #fff;
+    border: solid 0.0625em #fff;
     background-color: #fff; }
 
 .butt-link-xl a {
@@ -1048,9 +1048,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid .0625em #488933;
+  border: solid 0.0625em #488933;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -1058,7 +1058,7 @@ footer {
   transition: 300ms; }
   .butt-link-xl a:hover {
     color: #fff;
-    border: solid .0625em #63bc46;
+    border: solid 0.0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light-xl a {
@@ -1066,9 +1066,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid .0625em #fff;
+  border: solid 0.0625em #fff;
     border-radius: 50em;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -1076,7 +1076,7 @@ footer {
   transition: 300ms; }
   .butt-link-light-xl a:hover {
     color: #488933;
-    border: solid .0625em #fff;
+    border: solid 0.0625em #fff;
     background-color: #fff; }
 
 .l-navbar {
@@ -1113,6 +1113,7 @@ footer {
       color: #fff; }
       .l-navbar li:hover ul {
         border-top: solid 0.0625em #63bc46;
+        border-bottom: solid 0.0625em #63bc46;
         display: block;
         transition: 500ms;
         border-radius: 0 0 1em 1em;
@@ -1123,7 +1124,7 @@ footer {
     .l-navbar li ul {
       display: none;
       position: absolute;
-      background: rgba(0, 0, 0, 0.6);
+      background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
       padding: 0;
       margin: 0;
       text-decoration: none;
@@ -1148,7 +1149,7 @@ footer {
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   position: relative;
   padding: 1.25em 1.75em;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   box-shadow: none;
   border-radius: 50em;
@@ -1174,7 +1175,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   white-space: nowrap;
   font-size: 1em;
   font-weight: 700;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   padding: 1.25em 2em;
   border: solid 0.0625em #63bc46;
     border-radius: 50em;
