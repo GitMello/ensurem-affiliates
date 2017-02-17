@@ -31,7 +31,7 @@
 
   <article class="discover-content dark text-center text-white">
     <div class="container-900">
-      <h1>Living Insurance <sup>&trade;</sup></h1>
+      <h1>Living Insurance<sup>&trade;</sup></h1>
       <h3>Live life to the fullest <span class="smart-break">without financial stress</span></h3>
       <div class="text-left">
         <p>High health insurance deductibles and a rising cost of living make it difficult to make ends meet. If you’re dealing with financial stress, protect your financial future now with Living Insurance plans — coverage and protection you need to live a better quality of life.</p>

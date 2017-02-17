@@ -1,30 +1,30 @@
 <?php $title="Life Optimized"; ?>
 <?php include('includes/topnav.php'); ?>
 
-  <header id="homepage-hero" class="l-fullpage-header flex flex-center just-start flex-wrap text-shade link-no-shad">
+  <header id="homepage-hero" class="l-fullpage-header flex flex-center just-start flex-wrap text-shade link-no-shad text-left">
     <div class="container no-pad">
-      <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg">
-        <h1>Your Insurance Marketplace</h1>
+      <div class="l-fullpage-header-content no-pad-sides butt-link-primary-lg">
+        <h1>Your Insurance<br>Marketplace</h1>
         <h2>Buying insurance just got awesome!</h2>
         <a href="#">LORAT GO!</a>
       </div>
     </div>
   </header>
 
-  <article class="light text-center">
+  <article class="light text-center fa-primary">
     <section class="container-900">
       <h2>Explore Products</h2>
       <p>Discover the benefits of leading insurance products on the market. We make it easy to find solutions that help you secure your family’s future, build wealth, and protect your assets.</p>
       <hr>
-      <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap butt-link">
+      <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap butt-link-md">
         <li>
-          <h3>Discover</h3>
-          <p>Insurance Basics</p>
+          <h2><i class="fa fa-compass"></i> | Discover</h2>
+          <h3>Insurance Basics</h3>
           <a href="#">Go Now</a>
         </li>
         <li>
-          <h3>Why <?php echo $coname;?>?</h3>
-          <p>Get The <?php echo $coname;?> Story</p>
+          <h2><i class="fa fa-book"></i> | Why <?php echo $coname;?>?</h2>
+          <h3>Get The <?php echo $coname;?> Story</h3>
           <a href="#">Go Now</a>
         </li>
       </ul>

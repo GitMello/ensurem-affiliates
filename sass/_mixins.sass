@@ -1,12 +1,14 @@
 // GLOBAL MIXINS
 
-=link-button ($co, $hoco, $hotext, $size)
+=link-button ($co, $bg, $boco, $hoco, $hotext, $size)
   a
     text-decoration: none
     text-transform: uppercase
     color: $co
+    background:
+      color: $bg
     white-space: nowrap
-    border: solid 0.0625em $co
+    border: solid 0.0625em $boco
       radius: 50em
     padding: 0.5em 2em
     line-height: 4em
