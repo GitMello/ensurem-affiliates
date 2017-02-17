@@ -18,12 +18,12 @@
       <hr>
       <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap butt-link-md">
         <li>
-          <h2><i class="fa fa-compass"></i> | Discover</h2>
+          <h2><i class="fa fa-compass"></i> <span class="text-accent">|</span> Discover</h2>
           <h3>Insurance Basics</h3>
           <a href="#">Go Now</a>
         </li>
         <li>
-          <h2><i class="fa fa-book"></i> | Why <?php echo $coname;?>?</h2>
+          <h2><i class="fa fa-book"></i> <span class="text-accent">|</span> Why <?php echo $coname;?>?</h2>
           <h3>Get The <?php echo $coname;?> Story</h3>
           <a href="#">Go Now</a>
         </li>

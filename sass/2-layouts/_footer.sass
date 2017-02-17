@@ -1,23 +1,41 @@
 // FOOTER LAYOUT
 
 footer
+  .foot-hide
+    display: none
   text-align: center
   background: $dark
-  color: $white
+  color: $mid-light
   padding: 3.125em 0
   h1
     font-size: 3em
   ul
     padding: 0 0 0 2em
     margin-left: 2em
-    border-left: solid 0.0625em $white
+    border-left: solid 0.0625em $mid
+    a
+      color: $mid-light
+      i
+        color: $primary
+      &:hover
+        i
+          color: $accent
   +clearfix
   .container
     padding: 0 2.5em
     li
+      display: inline-block
       margin-left: 2em
       ul
         border-left: none
-        padding: 0
+        padding: 0.25em 0 0
+        margin-left: 0
+        margin-bottom: 1em
         li
           margin-left: 0
+
+.copyright
+  border-top: solid 0.0625em $mid
+  margin-top: 1em
+  padding: 1em 1em 0
+  font-weight: 200

@@ -2,13 +2,13 @@
 
 .l-navbar
   width: 100%
-  max-width: 75em
+  max-width: 80.75em
   margin: 0 auto
   padding: 0
   box-sizing: border-box
   text-transform: uppercase
   line-height: 2.2em
-  font-size: $base-size
+  font-size: $base-size - 0.1
   position: relative
 
   [type="checkbox"], label
@@ -35,23 +35,26 @@
       background: $primary
       color: $white
       ul
-        //height: 25vh
+        max-height: 60vh
         width: 100%
         border-top: solid 0.0625em $primary
         border-bottom: solid 0.0625em $primary
         display: block
         transition: 500ms
-        border-radius: 0 0 1em 1em
+        border-radius: 0 0 0.5em 0.5em
         //opacity: 1
         overflow-y: scroll
         //padding: 0 2em 2em
         li
+          color: $mid-light
           text-align: center
           display: inline-block
           width: 100%
           line-height: 0.25em
           &:hover
-            font-size: 125%
+            color: $white
+            background: transparentize($primary, 0.5)
+            font-size: 116%
 
     ul
       display: none

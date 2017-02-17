@@ -10,8 +10,9 @@
         </ul>
       </div>
     </nav>
-    <hr>
-    <p class="font-12">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> <?php echo $conamellc;?> | <?php echo $contactphone;?> <span class="smart-break">| <?php echo $address;?></span> <span class="smart-break">| <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></span></p>
+  </div>
+  <div class="copyright">
+    <p class="font-12">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> <?php echo $conamellc;?> <span class="text-accent">|</span> <?php echo $contactphone;?> <span class="smart-break"><span class="text-accent">|</span> <?php echo $addressStreet;?> <span class="text-accent">|</span> <?php echo $addressCityState;?> </span> <span class="smart-break"><span class="text-accent">|</span> <a href="#">Privacy Policy</a> <span class="text-accent">|</span> <a href="#">Terms of Use</a></span></p>
   </div>
 </footer>
 </body>
