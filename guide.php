@@ -23,45 +23,11 @@
       <h3>Discover Life Insurance <span class="smart-break">Options Below</span></h3>
       <hr>
       <h2>"Buying Insurance Just Got <span class="smart-break">A Whole Lot Easier."</span></h2>
-      <h1 class="brand-light">AffCo.</h1>
+      <h1 class="brand-light"><?php echo $coname;?></h1>
     </div>
   </article>
 
-  <article class="discover-grid flex flex-wrap img-responsive text-center text-white butt-link-light">
-
-    <div class="col-md-12 col-lg-6 accent">
-      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
-        <div class="abso-centered">
-          <h2>TERM LIFE INSURANCE</h2>
-          <a href="#">View Guide</a>
-        </div>
-      </div>
-      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
-    </div>
-
-    <div class="col-md-12 col-lg-6">
-      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
-        <div class="abso-centered">
-          <h2>TERM LIFE INSURANCE</h2>
-          <a href="#">View Guide</a>
-        </div>
-      </div>    </div>
-
-    <div class="col-md-12 col-lg-6 accent">
-      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
-        <div class="abso-centered">
-          <h2>TERM LIFE INSURANCE</h2>
-          <a href="#">View Guide</a>
-        </div>
-      </div>
-      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-3" class="col-md-6 disc col-sq col-sm-hide"></div>
-    </div>
-
-  </article>
+<?php include('includes/disco-life-insurance-products.html'); ?>
 
   <article class="discover-content dark text-center text-white">
     <div class="container-900">
@@ -78,45 +44,10 @@
       <hr>
       <h5><sup>1</sup> Kaiser Family Foundation</h5>
       <h2>"Buying Insurance Just Got <span class="smart-break">A Whole Lot Easier."</span></h2>
-      <h1 class="brand-light">AffCo.</h1>
+      <h1 class="brand-light"><?php echo $coname;?></h1>
     </div>
   </article>
 
-  <article class="discover-grid flex flex-wrap img-responsive text-center text-white butt-link-light">
-
-    <div class="col-md-12 col-lg-6 accent">
-      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
-        <div class="abso-centered">
-          <h2>TERM LIFE INSURANCE</h2>
-          <a href="#">View Guide</a>
-        </div>
-      </div>
-      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-3" class="col-md-6 disc col-sq col-sm-hide"></div>
-    </div>
-
-    <div class="col-md-12 col-lg-6">
-      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
-        <div class="abso-centered">
-          <h2>TERM LIFE INSURANCE</h2>
-          <a href="#">View Guide</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-12 col-lg-6 accent">
-      <div id="term-1" class="col-sm-12 l-16-9-aspect relative">
-        <div class="abso-centered">
-          <h2>TERM LIFE INSURANCE</h2>
-          <a href="#">View Guide</a>
-        </div>
-      </div>
-      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="term-3" class="col-md-6 disc col-sq col-sm-hide"></div>
-    </div>
-
-  </article>
+<?php include('includes/disco-living-insurance-products.html'); ?>
 
 <?php include('includes/footer.php'); ?>

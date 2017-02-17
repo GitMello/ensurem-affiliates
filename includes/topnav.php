@@ -1,3 +1,4 @@
+<?php include('includes/details.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,10 +9,11 @@
   </head>
   <body>
     <div class="l-navbar-fixed-top">
-      <nav class="l-navbar l-navlinks flex flex-center just-between flex-wrap">
-        <a href="/"><h1 class="brand-light l-float-l opacity-hover-opaque">AffCo.</h1></a>
-        <ul class="l-inline l-float-r">
-          <?php include('includes/main-nav.php'); ?>
+      <nav class="l-navbar">
+        <a href="/"><h1 class="brand-light opacity-hover-opaque l-float-l"><?php echo $coname;?></h1></a>
+        <input type="checkbox" id="nav" /><label for="nav"></label>
+        <ul>
+          <?php include('includes/main-nav.html'); ?>
         </ul>
       </nav>
     </div>

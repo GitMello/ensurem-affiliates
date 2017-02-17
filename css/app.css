@@ -438,8 +438,7 @@ sup {
   font-size: 50%; }
 
 a {
-  color: #63bc46;
-  transition: 500ms; }
+  color: #63bc46; }
   a:hover {
     color: #f26429; }
 
@@ -463,7 +462,7 @@ header {
   background-position: center;
   color: #fff;
   text-transform: uppercase;
-  padding: 7.5em 1.5em;
+  padding: 7.5em 1.5em 5.5em;
   transition: 300ms; }
   header h1 {
     font-size: 3em;
@@ -837,6 +836,9 @@ footer {
   -ms-flex-positive: 2;
   flex-grow: 2; }
 
+.flex-grow-ul li {
+  flex-grow: 1; }
+
 .flex-item-start {
   -ms-flex-item-align: start;
   align-self: flex-start; }
@@ -869,8 +871,7 @@ footer {
   margin: 2em 0.75em; }
 
 .l-inline {
-  margin: 0.69em 0;
-  padding-left: 0; }
+  padding: 0; }
   .l-inline li {
     display: inline-block; }
 
@@ -903,9 +904,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid 0.0625em #488933;
+  border: solid .0625em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 0.65em;
   font-weight: 500;
@@ -913,7 +914,7 @@ footer {
   transition: 300ms; }
   .butt-link-mini a:hover {
     color: #fff;
-    border: solid 0.0625em #63bc46;
+    border: solid .0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-mini-light a {
@@ -921,9 +922,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid 0.0625em #fff;
+  border: solid .0625em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 0.65em;
   font-weight: 500;
@@ -931,7 +932,7 @@ footer {
   transition: 300ms; }
   .butt-link-mini-light a:hover {
     color: #488933;
-    border: solid 0.0625em #fff;
+    border: solid .0625em #fff;
     background-color: #fff; }
 
 .butt-link a {
@@ -939,9 +940,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid 0.0625em #488933;
+  border: solid .0625em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 1em;
   font-weight: 500;
@@ -949,7 +950,7 @@ footer {
   transition: 300ms; }
   .butt-link a:hover {
     color: #fff;
-    border: solid 0.0625em #63bc46;
+    border: solid .0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light a {
@@ -957,9 +958,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid 0.0625em #fff;
+  border: solid .0625em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 1em;
   font-weight: 500;
@@ -967,7 +968,7 @@ footer {
   transition: 300ms; }
   .butt-link-light a:hover {
     color: #488933;
-    border: solid 0.0625em #fff;
+    border: solid .0625em #fff;
     background-color: #fff; }
 
 .butt-link-md a {
@@ -975,9 +976,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid 0.0625em #488933;
+  border: solid .0625em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 1.25em;
   font-weight: 500;
@@ -985,7 +986,7 @@ footer {
   transition: 300ms; }
   .butt-link-md a:hover {
     color: #fff;
-    border: solid 0.0625em #63bc46;
+    border: solid .0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light-md a {
@@ -993,9 +994,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid 0.0625em #fff;
+  border: solid .0625em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 1.25em;
   font-weight: 500;
@@ -1003,7 +1004,7 @@ footer {
   transition: 300ms; }
   .butt-link-light-md a:hover {
     color: #488933;
-    border: solid 0.0625em #fff;
+    border: solid .0625em #fff;
     background-color: #fff; }
 
 .butt-link-lg a {
@@ -1011,9 +1012,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid 0.0625em #488933;
+  border: solid .0625em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -1021,7 +1022,7 @@ footer {
   transition: 300ms; }
   .butt-link-lg a:hover {
     color: #fff;
-    border: solid 0.0625em #63bc46;
+    border: solid .0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light-lg a {
@@ -1029,9 +1030,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid 0.0625em #fff;
+  border: solid .0625em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -1039,7 +1040,7 @@ footer {
   transition: 300ms; }
   .butt-link-light-lg a:hover {
     color: #488933;
-    border: solid 0.0625em #fff;
+    border: solid .0625em #fff;
     background-color: #fff; }
 
 .butt-link-xl a {
@@ -1047,9 +1048,9 @@ footer {
   text-transform: uppercase;
   color: #488933;
   white-space: nowrap;
-  border: solid 0.0625em #488933;
+  border: solid .0625em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -1057,7 +1058,7 @@ footer {
   transition: 300ms; }
   .butt-link-xl a:hover {
     color: #fff;
-    border: solid 0.0625em #63bc46;
+    border: solid .0625em #63bc46;
     background-color: #63bc46; }
 
 .butt-link-light-xl a {
@@ -1065,9 +1066,9 @@ footer {
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
-  border: solid 0.0625em #fff;
+  border: solid .0625em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -1075,21 +1076,65 @@ footer {
   transition: 300ms; }
   .butt-link-light-xl a:hover {
     color: #488933;
-    border: solid 0.0625em #fff;
+    border: solid .0625em #fff;
     background-color: #fff; }
 
 .l-navbar {
   width: 100%;
-  max-width: 75em;
+  max-width: 96em;
   margin: 0 auto;
-  padding: 0 1em;
-  box-sizing: border-box; }
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  line-height: 2.2em;
+  font-size: 0.75em;
+  position: relative; }
+  .l-navbar [type="checkbox"], .l-navbar label {
+    display: none; }
+  .l-navbar h1 {
+    margin: 0.3em 0; }
+  .l-navbar a {
+    text-decoration: none; }
+  .l-navbar ul {
+    margin: 0;
+    float: right;
+    padding: 0; }
+  .l-navbar li {
+    background: rgba(99, 188, 70, 0);
+    padding: 1em;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    transition: 500ms;
+    color: #63bc46;
+    cursor: pointer; }
+    .l-navbar li:hover {
+      background: #63bc46;
+      color: #fff; }
+      .l-navbar li:hover ul {
+        border-top: solid 0.0625em #63bc46;
+        display: block;
+        transition: 500ms;
+        border-radius: 0 0 1em 1em;
+        overflow-y: scroll; }
+        .l-navbar li:hover ul li {
+          text-align: center;
+          display: inline-block; }
+    .l-navbar li ul {
+      display: none;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      left: 0;
+      top: 4.2em; }
 
 .l-navlinks {
   text-transform: uppercase;
-  line-height: 1.5625em; }
+  line-height: 1.5125em;
+  font-size: 0.75em; }
   .l-navlinks a {
-    font-size: 0.75em;
     text-decoration: none; }
 
 #homepage-hero {
@@ -1156,6 +1201,7 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   .discover-grid img {
     opacity: 0.15; }
   .discover-grid h2 {
+    text-transform: uppercase;
     margin: 0; }
 
 .discover-content h1 {
@@ -1180,12 +1226,13 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   padding-bottom: 56.25%; }
 
 .discover-grid {
-  background-image: url(/assets/discover/discover-bg.jpg);
+  background-image: radial-gradient(rgba(52, 52, 52, 0.6), rgba(52, 52, 52, 0.6)), url(/assets/discover/discover-bg.jpg);
   background-size: contain;
-  background-position: bottom right; }
+  background-position: bottom right;
+  background-repeat: no-repeat; }
 
 #term-1 {
-  background-image: radial-gradient(rgba(242, 100, 41, 0.9), rgba(242, 100, 41, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-image: radial-gradient(rgba(6, 76, 136, 0.9), rgba(6, 76, 136, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -1194,6 +1241,175 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   background-position: center; }
 
 #term-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#whole-1 {
+  background-image: radial-gradient(rgba(21, 0, 133, 0.9), rgba(21, 0, 133, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#whole-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#whole-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#uni-1 {
+  background-image: radial-gradient(rgba(111, 19, 98, 0.9), rgba(111, 19, 98, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#uni-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#uni-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#fin-1 {
+  background-image: radial-gradient(rgba(194, 38, 37, 0.9), rgba(194, 38, 37, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#fin-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#fin-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#add-1 {
+  background-image: radial-gradient(rgba(242, 100, 41, 0.9), rgba(242, 100, 41, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#add-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#add-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#annu-1 {
+  background-image: radial-gradient(rgba(208, 173, 0, 0.9), rgba(208, 173, 0, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#annu-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#annu-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#dent-1 {
+  background-image: radial-gradient(rgba(99, 188, 70, 0.9), rgba(99, 188, 70, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#dent-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#dent-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#dis-1 {
+  background-image: radial-gradient(rgba(4, 47, 85, 0.9), rgba(4, 47, 85, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#dis-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#dis-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#stm-1 {
+  background-image: radial-gradient(rgba(29, 0, 133, 0.9), rgba(29, 0, 133, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#stm-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#stm-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#homesec-1 {
+  background-image: radial-gradient(rgba(60, 10, 53, 0.9), rgba(60, 10, 53, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#homesec-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#homesec-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#med-1 {
+  background-image: radial-gradient(rgba(143, 28, 27, 0.9), rgba(143, 28, 27, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#med-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#med-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#pet-1 {
+  background-image: radial-gradient(rgba(191, 79, 32, 0.9), rgba(191, 79, 32, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#pet-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#pet-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#save-1 {
+  background-image: radial-gradient(rgba(157, 131, 0, 0.9), rgba(157, 131, 0, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#save-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#save-3 {
+  background-image: url(/assets/heros/green.jpg);
+  background-position: center; }
+
+#msup-1 {
+  background-image: radial-gradient(rgba(72, 137, 51, 0.9), rgba(72, 137, 51, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#msup-2 {
+  background-image: url(/assets/heros/main.jpg);
+  background-position: center; }
+
+#msup-3 {
   background-image: url(/assets/heros/green.jpg);
   background-position: center; }
 
@@ -1208,7 +1424,57 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
     font-size: 65%; }
 
   .discover-grid {
-    font-size: 85%; } }
+    font-size: 85%; }
+
+  .l-navbar ul {
+    border-top: solid 0.0625em #63bc46;
+    display: none; }
+    .l-navbar ul li {
+      display: block;
+      padding: 1em 0;
+      float: none;
+      width: 100%;
+      text-align: center;
+      background: rgba(52, 52, 52, 0.95); }
+      .l-navbar ul li:hover ul {
+        border-radius: 0 0 0 0; }
+      .l-navbar ul li ul {
+        display: none;
+        border-top: none;
+        position: relative;
+        width: 100%;
+        z-index: 9999;
+        float: none;
+        top: 1em;
+        height: 25vh; }
+        .l-navbar ul li ul li {
+          display: block;
+          float: none;
+          background: rgba(52, 52, 52, 0); }
+  .l-navbar label {
+    display: block;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em; }
+    .l-navbar label:after {
+      content: "";
+      display: block;
+      width: 2.5em;
+      height: 0.3125em;
+      border-radius: 50em;
+      background: #fff;
+      margin: 0;
+      box-shadow: 0px 10px 0px #fff, 0px 20px 0px #fff; }
+  .l-navbar [type="checkbox"]:checked ~ ul {
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    top: 4em;
+    left: 0;
+    width: 100%; } }
 @media screen and (min-width: 1921px) {
   body {
     font-size: 1.2em; } }
@@ -1270,6 +1536,48 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
 .transparent {
   background-color: transparent; }
 
+.termco {
+  background-color: #064C88; }
+
+.wholeco {
+  background-color: #150085; }
+
+.unico {
+  background-color: #6f1362; }
+
+.finco {
+  background-color: #c22625; }
+
+.addco {
+  background-color: #f26429; }
+
+.annuco {
+  background-color: #d0ad00; }
+
+.dentco {
+  background-color: #63bc46; }
+
+.disco {
+  background-color: #042f55; }
+
+.stmco {
+  background-color: #1d0085; }
+
+.homeseco {
+  background-color: #3c0a35; }
+
+.medco {
+  background-color: #8f1c1b; }
+
+.petco {
+  background-color: #bf4f20; }
+
+.saveco {
+  background-color: #9d8300; }
+
+.msupco {
+  background-color: #488933; }
+
 .font-12 {
   font-size: 0.75em; }
 
@@ -1310,6 +1618,48 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   color: #343434; }
 
 .link-hover-alt a:hover {
+  color: #488933; }
+
+.link-hover-termco a:hover {
+  color: #064C88; }
+
+.link-hover-wholeco a:hover {
+  color: #150085; }
+
+.link-hover-unico a:hover {
+  color: #6f1362; }
+
+.link-hover-finco a:hover {
+  color: #c22625; }
+
+.link-hover-addco a:hover {
+  color: #f26429; }
+
+.link-hover-annuco a:hover {
+  color: #d0ad00; }
+
+.link-hover-dentco a:hover {
+  color: #63bc46; }
+
+.link-hover-disco a:hover {
+  color: #042f55; }
+
+.link-hover-stmco a:hover {
+  color: #1d0085; }
+
+.link-hover-homeseco a:hover {
+  color: #3c0a35; }
+
+.link-hover-medco a:hover {
+  color: #8f1c1b; }
+
+.link-hover-petco a:hover {
+  color: #bf4f20; }
+
+.link-hover-saveco a:hover {
+  color: #9d8300; }
+
+.link-hover-msupco a:hover {
   color: #488933; }
 
 .text-center {

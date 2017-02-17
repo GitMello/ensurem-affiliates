@@ -1,6 +1,6 @@
 <?php $title="Style Guide"; ?>
 <?php include('includes/topnav.php'); ?>
-    <header>
+    <header class="black">
       <div class="container no-pad">
         <h1>Default Header</h1>
       </div>
@@ -98,5 +98,5 @@
         <!-- end row -->
       </div>
       <!-- end grid -->
-    </article>
-    <?php include('includes/footer.php'); ?>
+  </article>
+<?php include('includes/footer.php'); ?>
