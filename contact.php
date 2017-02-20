@@ -37,7 +37,7 @@
         <input type="email" name="Email" value="" placeholder="Email">
         <input type="tel" name="Phone" value="" placeholder="Phone">
         <textarea name="Message" cols="40" rows="1" placeholder="Type your message..."></textarea>
-        <input type="submit" name="Sign Up" value="SIGN UP">
+        <input type="submit" name="Send" value="SEND">
       </form>
     </div>
   </article>

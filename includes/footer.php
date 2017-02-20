@@ -3,9 +3,16 @@
     <nav class="l-navlinks flex just-between flex-center flex-wrap">
       <div class="col-md-6">
         <a href="/"><h1 class="brand-light opacity-hover-opaque"><?php echo $coname;?></h1></a>
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
+          <li><span class="text-accent">|</span></li>
+          <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+          <li><span class="text-accent">|</span></li>
+          <li><a href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
+        </ul>
       </div>
       <div class="col-md-6">
-        <ul class="l-inline l-center text-left">
+        <ul class="text-left">
           <?php include('includes/main-nav.html'); ?>
         </ul>
       </div>

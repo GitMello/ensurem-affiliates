@@ -3,7 +3,7 @@
 
   <header id="homepage-hero" class="l-fullpage-header flex flex-center just-start flex-wrap text-shade link-no-shad text-left">
     <div class="container no-pad">
-      <div class="l-fullpage-header-content no-pad-sides butt-link-primary-lg">
+      <div class="l-fullpage-header-content no-pad-sides butt-link-primary-xl">
         <h1>Your Insurance<br>Marketplace</h1>
         <h2>Buying insurance just got awesome!</h2>
         <a href="#">LORAT GO!</a>
@@ -44,8 +44,8 @@
   </article>
 
   <article class="primary">
-    <div class="grid flex flex-row flex-wrap just-start flex-start">
-      <div class="row">
+    <div class="grid fluid flex flex-row flex-wrap just-start flex-start">
+      <div class="row flex flex-wrap flex-stretch">
         <div class="light col-md-6 col-lg-4 col-pad butt-link-mini">
           <h2>1 Life Optimized<sup>&trade;</sup></h2>
           <h3>Buying Inurance Just Got Awesome!</h3>
@@ -59,21 +59,23 @@
           <a href="#">Learn Less</a>
           <a href="#">Learn More</a>
         </div>
-        <div class="accent col-md-12 col-lg-4 col-pad butt-link-mini-light text-white link-hover-accent">
+        <div class="dark col-md-12 col-lg-4 col-pad butt-link-mini-light text-white link-hover-dark">
           <h2>2 Optimized Life<sup>&trade;</sup></h2>
           <h3>Buying Inurance Just Got Awesome!</h3>
           <a href="#">Learn Less</a>
           <a href="#">Learn More</a>
         </div>
       </div>
-      <div class="row">
-        <div class="light col-md-6 col-lg-4 col-pad butt-link-mini">
-          <h2>1 Life Optimized<sup>&trade;</sup></h2>
+      <div class="row flex flex-wrap flex-stretch">
+        <div class="accent col-md-12 col-lg-4 col-pad butt-link-mini-light text-white link-hover-accent">
+          <h2>3 Life Optimized<sup>&trade;</sup></h2>
           <h3>Buying Inurance Just Got Awesome!</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend.</p>
           <a href="#">Learn Less</a>
           <a href="#">Learn More</a>
         </div>
-        <div class="dark col-md-6 col-lg-4 col-pad butt-link-mini-light text-white link-hover-dark">
+
+        <div class="mid-dark col-md-6 col-lg-4 col-pad butt-link-mini-light text-white link-hover-dark">
           <h2>2 Optimized Life<sup>&trade;</sup></h2>
           <h3>Buying Inurance Just Got Awesome!</h3>
           <a href="#">Learn Less</a>
@@ -88,13 +90,14 @@
             </li>
           </ul>
         </div>
-        <div class="accent col-md-12 col-lg-4 col-pad butt-link-mini-light text-white link-hover-accent">
-          <h2>3 Life Optimized<sup>&trade;</sup></h2>
+
+        <div class="text-white primary col-md-6 col-lg-4 col-pad butt-link-mini-light link-hover-primary">
+          <h2>1 Life Optimized<sup>&trade;</sup></h2>
           <h3>Buying Inurance Just Got Awesome!</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend.</p>
           <a href="#">Learn Less</a>
           <a href="#">Learn More</a>
         </div>
+
       </div>
     </div>
   </article>

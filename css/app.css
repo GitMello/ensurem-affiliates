@@ -2728,7 +2728,7 @@ template {
   display: none; }
 
 body {
-  color: #343434;
+  color: #222;
   font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
   font-size: 1em;
   margin: 0;
@@ -2768,13 +2768,13 @@ a {
     color: #f26429; }
 
 .l-navbar-fixed-top {
-  background: rgba(52, 52, 52, 0.95);
+  background: rgba(34, 34, 34, 0.95);
   position: fixed;
   width: 100%;
   z-index: 9999; }
 
 .l-navbar-fixed-bottom {
-  background: rgba(52, 52, 52, 0.95);
+  background: rgba(34, 34, 34, 0.95);
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -2782,7 +2782,7 @@ a {
 
 header {
   text-align: center;
-  background-color: #343434;
+  background-color: #222;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2791,7 +2791,7 @@ header {
   padding: 7.5em 1.5em 5.5em;
   transition: 300ms; }
   header h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0; }
 
 .l-fullpage-header {
@@ -2820,7 +2820,7 @@ header {
 
 footer {
   text-align: center;
-  background: #343434;
+  background: #222;
   color: #c4c4c4;
   padding: 3.125em 0; }
   footer .foot-hide {
@@ -2828,8 +2828,8 @@ footer {
   footer h1 {
     font-size: 3em; }
   footer ul {
-    padding: 0 0 0 2em;
-    margin-left: 2em;
+    padding: 0 0 0 3em;
+    margin-left: 0em;
     border-left: solid 0.0625em #777; }
     footer ul a {
       color: #c4c4c4; }
@@ -2852,7 +2852,13 @@ footer {
         margin-left: 0;
         margin-bottom: 1em; }
         footer .container li ul li {
-          margin-left: 0; }
+          margin-left: 1em; }
+    footer .container .social {
+      padding: 0;
+      border-left: none; }
+      footer .container .social li {
+        display: inline-block;
+        margin: 0 1em; }
 
 .copyright {
   border-top: solid 0.0625em #777;
@@ -3445,6 +3451,25 @@ footer {
     border: solid 0.0625em #63bc46;
     background-color: #63bc46; }
 
+.butt-link-primary-xl a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #63bc46;
+  white-space: nowrap;
+  border: solid 0.0625em #63bc46;
+    border-radius: 50em;
+  padding: 0.5em 2em;
+  line-height: 4em;
+  font-size: 2em;
+  font-weight: 500;
+  display: inline;
+  transition: 300ms; }
+  .butt-link-primary-xl a:hover {
+    color: #fff;
+    border: solid 0.0625em #f26429;
+    background-color: #f26429; }
+
 .butt-link-light-xl a {
   text-decoration: none;
   text-transform: uppercase;
@@ -3560,11 +3585,11 @@ footer {
     text-decoration: none; }
 
 #homepage-hero {
-  background-image: radial-gradient(rgba(52, 52, 52, 0.35), rgba(52, 52, 52, 0.5)), url(/assets/heros/home.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/home.jpg);
   background-position: right top; }
 
 #guide-hero {
-  background-image: radial-gradient(rgba(52, 52, 52, 0.35), rgba(52, 52, 52, 0.5)), url(/assets/heros/light.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/light.jpg);
   background-position: center bottom; }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
@@ -3575,7 +3600,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   box-shadow: none;
   border-radius: 2.5em;
   border: solid 0.0625em #777;
-  color: #343434;
+  color: #222;
   transition: 300ms;
   margin: 0.1em;
   flex-grow: 1; }
@@ -3654,7 +3679,7 @@ textarea {
   padding-bottom: 56.25%; }
 
 .discover-grid {
-  background-image: radial-gradient(rgba(52, 52, 52, 0.6), rgba(52, 52, 52, 0.6)), url(/assets/discover/discover-bg.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(/assets/discover/discover-bg.jpg);
   background-size: contain;
   background-position: bottom right;
   background-repeat: no-repeat; }
@@ -3857,11 +3882,12 @@ textarea {
   footer ul {
     margin-left: 0;
     border-left: none;
-    padding-left: 1em; }
-    footer ul li ul {
+    padding-left: 0; }
+  footer .container li {
+    margin-left: 0; }
+    footer .container li ul {
       border-top: solid 0.0625em #777;
-      margin: 0.5em 0;
-      margin-left: 0; }
+      margin: 0.5em 0; }
 
   .l-navbar {
     font-size: 0.75em; }
@@ -3876,7 +3902,7 @@ textarea {
         float: none;
         width: 100%;
         text-align: center;
-        background: rgba(52, 52, 52, 0.95); }
+        background: rgba(34, 34, 34, 0.95); }
         .l-navbar ul li:hover ul {
           border-radius: 0 0 0 0; }
         .l-navbar ul li ul {
@@ -3891,7 +3917,7 @@ textarea {
           .l-navbar ul li ul li {
             display: block;
             float: none;
-            background: rgba(52, 52, 52, 0); }
+            background: rgba(34, 34, 34, 0); }
     .l-navbar label {
       display: block;
       width: 2.5em;
@@ -3965,6 +3991,9 @@ textarea {
 .mid {
   background-color: #777; }
 
+.mid-light {
+  background-color: #c4c4c4; }
+
 .light {
   background-color: #f1f1f1; }
 
@@ -3972,6 +4001,9 @@ textarea {
   background-color: #f26429; }
 
 .dark {
+  background-color: #222; }
+
+.mid-dark {
   background-color: #343434; }
 
 .transparent {
@@ -4043,8 +4075,14 @@ textarea {
 .text-mid {
   color: #777; }
 
-.text-dark {
+.text-mid-dark {
   color: #343434; }
+
+.text-dark {
+  color: #222; }
+
+.text-mid-light {
+  color: #c4c4c4; }
 
 .text-light {
   color: #f1f1f1; }
@@ -4062,7 +4100,13 @@ textarea {
   color: #fff; }
 
 .link-hover-dark a:hover {
+  color: #222; }
+
+.link-hover-mid-dark a:hover {
   color: #343434; }
+
+.link-hover-mid-light a:hover {
+  color: #c4c4c4; }
 
 .link-hover-alt a:hover {
   color: #488933; }
@@ -4128,7 +4172,7 @@ textarea {
   text-shadow: none; }
 
 .text-shade {
-  text-shadow: 0 0 0.5em #343434; }
+  text-shadow: 0 0 0.5em #222; }
 
 .img-responsive img {
   width: 100%;
