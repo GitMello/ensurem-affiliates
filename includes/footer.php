@@ -13,13 +13,13 @@
       </div>
       <div class="col-md-6">
         <ul class="text-left">
-          <?php include('includes/main-nav.html'); ?>
+          <?php include(includes.'main-nav.html'); ?>
         </ul>
       </div>
     </nav>
   </div>
   <div class="copyright">
-    <p class="font-12">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> <?php echo $conamellc;?> <span class="text-accent">|</span> <?php echo $contactphone;?> <span class="smart-break"><span class="text-accent">|</span> <?php echo $addressStreet;?> <span class="text-accent">|</span> <?php echo $addressCityState;?> </span> <span class="smart-break"><span class="text-accent">|</span> <a href="#">Privacy Policy</a> <span class="text-accent">|</span> <a href="#">Terms of Use</a></span></p>
+    <p class="font-12">&copy;2017 <?php echo $conamellc;?> <span class="text-accent">|</span> <?php echo $contactphone;?> <span class="smart-break"><span class="text-accent">|</span> <?php echo $addressStreet;?> <span class="text-accent">|</span> <?php echo $addressCityState;?> </span> <span class="smart-break"><span class="text-accent">|</span> <a href="#">Privacy Policy</a> <span class="text-accent">|</span> <a href="#">Terms of Use</a></span></p>
   </div>
 </footer>
 </body>

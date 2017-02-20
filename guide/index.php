@@ -1,5 +1,5 @@
 <?php $title="Discover Products"; ?>
-<?php include('includes/topnav.php'); ?>
+<?php include('../includes/topnav.php'); ?>
 
   <header id="guide-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
     <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg">
@@ -9,7 +9,7 @@
       <a href="#">SHOW ME!</a>
     </div>
   </header>
-
+  <a id="life-insurance" class="anchor"></a>
   <article class="discover-content black text-center text-white">
     <div class="container-900">
       <h1>Life Insurance</h1>
@@ -27,8 +27,9 @@
     </div>
   </article>
 
-<?php include('includes/disco-life-insurance-products.html'); ?>
+<?php include(includes.'disco-life-insurance-products.html'); ?>
 
+  <a id="living-insurance" class="anchor"></a>
   <article class="discover-content dark text-center text-white">
     <div class="container-900">
       <h1>Living Insurance<sup>&trade;</sup></h1>
@@ -48,6 +49,6 @@
     </div>
   </article>
 
-<?php include('includes/disco-living-insurance-products.html'); ?>
+<?php include(includes.'disco-living-insurance-products.html'); ?>
 
-<?php include('includes/footer.php'); ?>
+<?php include(includes.'footer.php'); ?>

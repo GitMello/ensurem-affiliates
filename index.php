@@ -64,6 +64,19 @@
           <h3>Buying Inurance Just Got Awesome!</h3>
           <a href="#">Learn Less</a>
           <a href="#">Learn More</a>
+          <div class="container no-pad">
+            <div class="no-pad-sides butt-link-light-lg link-hover-dark text-center">
+              <div>
+                <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i></a></div>
+                <div class="butt-next"><a href="#" class=""><i class="fa fa-chevron-right"></i></a></div>
+              </div>
+              <h1>Term Life <span class="smart-break">Insurance Guide</span></h1>
+              <hr>
+              <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
+              <a href="#">LEARN MORE</a>
+              <a href="#">SHOP NOW</a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row flex flex-wrap flex-stretch">
