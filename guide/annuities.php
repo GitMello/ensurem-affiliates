@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-annuco ">
         <div>
-          <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="#" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/whole-life-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/dental-and-vision-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Annuities Guide</h1>
         <hr>

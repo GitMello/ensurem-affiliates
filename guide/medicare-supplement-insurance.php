@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-msupco ">
         <div>
-          <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="#" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/medical-cash-benefits-plans.php" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/pet-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Medicare Supplement <span class="smart-break">Insurance Guide</span></h1>
         <hr>

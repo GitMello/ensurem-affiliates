@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-medco ">
         <div>
-          <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="#" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/home-security-plans.php" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/medicare-supplement-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Medical Cash <span class="smart-break">Benefits Guide</span></h1>
         <hr>
