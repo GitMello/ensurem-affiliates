@@ -6,7 +6,7 @@
       <h2>Life Insurance &amp; Living Insurance <span class="smart-break">Plans Tailored to YOUR Needs</span></h2>
       <hr>
       <h1>Your Insurance Marketplace</h1>
-      <a href="#">SHOW ME!</a>
+      <a href="#life-insurance">SHOW ME!</a>
     </div>
   </header>
   <a id="life-insurance" class="anchor"></a>
@@ -30,7 +30,7 @@
 <?php include(includes.'disco-life-insurance-products.html'); ?>
 
   <a id="living-insurance" class="anchor"></a>
-  <article class="discover-content dark text-center text-white">
+  <article class="discover-content black text-center text-white">
     <div class="container-900">
       <h1>Living Insurance<sup>&trade;</sup></h1>
       <h3>Live life to the fullest <span class="smart-break">without financial stress</span></h3>

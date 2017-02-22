@@ -3518,8 +3518,8 @@ footer {
 
 .anchor {
   display: block;
-  height: 3em;
-  margin-top: -3em;
+  height: 3.7em;
+  margin-top: -3.7em;
   visibility: hidden; }
 
 .l-navbar {
@@ -4000,7 +4000,13 @@ textarea {
       position: absolute;
       top: 4em;
       left: 0;
-      width: 100%; } }
+      width: 100%; }
+
+  .anchor {
+    display: block;
+    height: 3.1em;
+    margin-top: -3.1em;
+    visibility: hidden; } }
 @media screen and (min-width: 1921px) {
   body {
     font-size: 1.2em; } }
