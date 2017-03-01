@@ -1,5 +1,5 @@
 <?php $title="Contact Us"; ?>
-<?php include('includes/topnav.php'); ?>
+<?php include('../includes/topnav.php'); ?>
 
   <header class="alt">
     <div class="container no-pad">
@@ -42,4 +42,4 @@
     </div>
   </article>
 
-<?php include('includes/footer.php'); ?>
+<?php include(includes.'footer.php'); ?>

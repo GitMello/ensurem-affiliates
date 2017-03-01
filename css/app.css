@@ -2729,7 +2729,7 @@ template {
 
 body {
   color: #222;
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   margin: 0;
   overflow-x: hidden; }
@@ -3269,7 +3269,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 0.65em;
   font-weight: 500;
@@ -3288,7 +3288,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 0.65em;
   font-weight: 500;
@@ -3307,7 +3307,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1em;
   font-weight: 500;
@@ -3326,7 +3326,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1em;
   font-weight: 500;
@@ -3345,7 +3345,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1.25em;
   font-weight: 500;
@@ -3364,7 +3364,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1.25em;
   font-weight: 500;
@@ -3383,7 +3383,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -3402,7 +3402,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #63bc46;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -3421,7 +3421,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 1.5em;
   font-weight: 500;
@@ -3440,7 +3440,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -3459,7 +3459,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #63bc46;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -3478,7 +3478,7 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   line-height: 4em;
   font-size: 2em;
   font-weight: 500;
@@ -3520,7 +3520,8 @@ footer {
   display: block;
   height: 3.7em;
   margin-top: -3.7em;
-  visibility: hidden; }
+  visibility: hidden;
+  float: left; }
 
 .l-navbar {
   width: 100%;
@@ -3595,7 +3596,11 @@ footer {
   background-position: right top; }
 
 #guide-hero {
-  background-image: radial-gradient(rgba(34, 34, 34, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/light.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/discover.jpg);
+  background-position: center bottom; }
+
+#about-hero {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/about.jpg);
   background-position: center bottom; }
 
 #term-life-hero {
@@ -3657,7 +3662,7 @@ footer {
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   position: relative;
   padding: 1.25em 1.75em;
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   box-shadow: none;
   border-radius: 2.5em;
@@ -3683,7 +3688,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   white-space: nowrap;
   font-size: 1em;
   font-weight: 700;
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   padding: 1.25em 2em;
   border: solid 0.0625em #63bc46;
     border-radius: 2.5em;
@@ -3928,6 +3933,60 @@ textarea {
   background-image: url(/assets/heros/green.jpg);
   background-position: center; }
 
+.we-believe h1 {
+  margin: 0.4em auto;
+  text-transform: uppercase; }
+.we-believe h2 {
+  font-weight: 400;
+  font-style: italic;
+  text-transform: capitalize; }
+.we-believe h3 {
+  margin: 1.5em 0;
+  font-size: 140%;
+  font-weight: 200;
+  font-style: italic; }
+
+.team h2 {
+  margin: 0.25em 0 0; }
+.team ul {
+  padding: 0; }
+.team li {
+  display: inline-block;
+  margin: 0 0.25em 2em; }
+.team img {
+  border-radius: 100%;
+  width: 12.5em;
+  height: 12.5em;
+  border: solid 0.5em #f1f1f1; }
+
+.modal {
+  padding: 3.5em O;
+  box-sizing: border-box;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  transition: 0ms;
+  top: -3.7em;
+  box-shadow: 0 0 0 0 transparent;
+  border-radius: 0; }
+  .modal:target {
+    height: inherit;
+    opacity: 0.99;
+    top: 3.7em;
+    margin-top: -3.7em;
+    visibility: visible;
+    z-index: 999;
+    transition: 500ms;
+    box-shadow: 0 1.5em 1em -1em #222;
+    border-radius: 0 0 2em 2em;
+    transition: 500ms; }
+  .modal img {
+    float: left;
+    margin: 0 1em 1em 0;
+    border: none; }
+
 @media screen and (min-width: 392px) {
   .smart-break {
     white-space: nowrap; } }
@@ -4006,7 +4065,19 @@ textarea {
     display: block;
     height: 3.1em;
     margin-top: -3.1em;
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  .modal {
+    top: -3.1em; }
+    .modal:target {
+      top: 3.1em;
+      margin-top: -3.1em; }
+    .modal img {
+      width: 40%;
+      height: auto;
+      border: none; }
+    .modal p {
+      clear: both; } }
 @media screen and (min-width: 1921px) {
   body {
     font-size: 1.2em; } }

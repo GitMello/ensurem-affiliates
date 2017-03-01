@@ -100,6 +100,18 @@
     margin-top: -3.1em
     visibility: hidden
 
+  .modal
+    top: -3.1em
+    &:target
+      top: 3.1em
+      margin-top: -3.1em
+    img
+      width: 40%
+      height: auto
+      border: none
+    p
+      clear: both
+
 @media screen and (min-width:1921px)
   body
     font-size: $base-size * 1.2
