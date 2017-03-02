@@ -3,7 +3,7 @@
 
   <header id="homepage-hero" class="l-fullpage-header flex flex-center just-start flex-wrap text-shade link-no-shad text-left">
     <div class="container no-pad">
-      <div class="l-fullpage-header-content no-pad-sides butt-link-primary-xl">
+      <div class="l-fullpage-header-content xl no-pad-sides butt-link-primary-xl">
         <h1>Your Insurance<br>Marketplace</h1>
         <h2>Buying insurance just got awesome!</h2>
         <a href="#"><i class="fa fa-chevron-circle-right"></i> | LORAT GO!</a>

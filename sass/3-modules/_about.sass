@@ -15,8 +15,14 @@
     font-style: italic
 
 .team
-  h2
+  h2, h3, h4
     margin: 0.25em 0 0
+
+  h4
+    font-style: italic
+    font-weight: 400
+    color: $mid
+
   ul
     padding: 0
   li
@@ -27,6 +33,31 @@
       text-transform: uppercase
   img
     border-radius: 100%
-    width: 12.5em
-    height: 12.5em
+    width: 100%
+    max-width: 12.5em
+    height: auto
     border: solid 0.5em $light
+
+.our-story
+  p
+    line-height: 1.5em
+    margin-bottom: 2em
+    font-weight: 300
+    //img
+      width: 20%
+
+  h2
+    font-weight: 300
+    font-style: italic
+
+  blockquote
+    margin: 1.25em 0
+    font-size: 150%
+    font-style: italic
+    text-align: center
+    border-top: solid 0.0525em $light
+    border-bottom: solid 0.0525em $light
+    padding: 2em 0
+
+  strong
+    font-weight: 700

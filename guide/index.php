@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="guide-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
-    <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg">
+    <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
       <h2>Life Insurance &amp; Living Insurance <span class="smart-break">Plans Tailored to YOUR Needs</span></h2>
       <hr>
       <h1>Explore Your Options</h1>

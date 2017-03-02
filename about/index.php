@@ -2,12 +2,12 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="about-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
-    <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg">
+    <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
       <h2>Choice. Freedom. Security. <span class="smart-break">A better quality of life for all…</span></h2>
       <hr>
       <h1>We Believe</h1>
-      <a href="#life-insurance"><i class="fa fa-chevron-circle-down"></i> | Meet the Team</a>
-      <a href="#life-insurance"><i class="fa fa-chevron-circle-right"></i> | Our Story</a>
+      <a href="#team"><i class="fa fa-chevron-circle-down"></i> | Meet the Team</a>
+      <a href="#our-story"><i class="fa fa-chevron-circle-down"></i> | Our Story</a>
     </div>
   </header>
 
@@ -32,41 +32,26 @@
   <article class="team relative">
     <div class="container text-center butt-link-mini">
       <h2>Meet The Team</h2>
-      <ul>
-        <li>
-          <img src="/assets/team/team-1.jpg" alt="<?php echo $team1;?>">
-          <h2><?php echo $team1;?></h2>
-          <a href="#modal-team-1">Read Bio</a>
-          <a href="#modal-team-2">Read Bio</a>
-        </li>
-        <li>
-          <img src="/assets/team/team-1.jpg" alt="<?php echo $team1;?>">
-          <h2><?php echo $team1;?></h2>
-          <a href="#modal-team-1">Read Bio</a>
-          <a href="#modal-team-2">Read Bio</a>
-        </li>
-      </ul>
+      <?php include(includes.'team.php'); ?>
     </div>
-
     <!-- MODALS -->
-      <div id="modal-team-1" class="modal white butt-link">
-        <div class="container">
-          <img src="/assets/team/team-1.jpg" alt="<?php echo $team1;?>">
-          <h2><?php echo $team1;?></h2>
-          <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-          <?php echo $team1bio;?>
-          <a href="#team">close this modal</a>
-        </div>
-      </div>
-
-      <div id="modal-team-2" class="modal primary text-white butt-link-light link-hover-primary">
-        <h2>this another modal</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget tempus. Aenean metus purus, iaculis ut imperdiet eget, sodales et massa. Duis pellentesque nisl vel massa dapibus non lacinia velit volutpat. Maecenas accumsan interdum sodales. In hac habitasse platea dictumst. Pellentesque ornare blandit orci, eget tristique risus convallis ut. Vivamus a sapien neque. Morbi malesuada massa ac sapien luctus vulputate.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget tempus. Aenean metus purus, iaculis ut imperdiet eget, sodales et massa. Duis pellentesque nisl vel massa dapibus non lacinia velit volutpat. Maecenas accumsan interdum sodales. In hac habitasse platea dictumst. Pellentesque ornare blandit orci, eget tristique risus convallis ut. Vivamus a sapien neque. Morbi malesuada massa ac sapien luctus vulputate.</p>
-        <a href="#team">close this modal</a>
-      </div>
+    <?php include(includes.'team-modals.php'); ?>
   </article>
 
-
+  <a id="our-story" class="anchor"></a>
+  <article class="our-story mid-dark text-white">
+    <div class="container-900">
+      <h1>It Begins With You</h1>
+      <p><strong>The story of Ensurem is simple, and it begins with you.</strong> If you have a desire for financial security and believe in the promise of a brighter tomorrow for you and your family, we at Ensurem share your vision. With this vision in mind, Ensurem set out to revolutionize one of the most important choices you will ever make: investing in quality, cost-effective insurance and related products to protect you and the ones <span class="smart-break">you love.</span></p>
+      <img src="/assets/our-story/our-story-1.jpg" alt="Always Remembered" class="img-responsive">
+      <p><strong>Helping you create, grow, and protect wealth is our goal.</strong> We know financial stability enables you to focus on what matters most: living life to its fullest. Comprehensive insurance coverage gives you the peace of mind necessary to do just that. Prior to Ensurem, however, the process of researching and choosing the right insurance was often an intimidating, complex, and frustrating venture – not to mention time-consuming. No one company existed to enable consumers to freely explore options, compare benefits, and, in some cases, purchase insurance policies and related products instantly. With so much at stake, there simply had to be a better way – and with Ensurem, there <span class="smart-break">finally is.</span></p>
+      <p><img src="/assets/our-story/our-story-2.jpg" alt="Protect Your Children" class="l-float-r l-gut-l"><strong>Having insurance is crucial to safeguarding hard-earned assets.</strong> Yet many people believe that purchasing insurance is a cumbersome, confusing, and frustrating endeavor. Experiences in the past may have caused these beliefs. For this reason, postponing the purchase of insurance is an all too common – and costly – mistake. Ensurem’s streamlined, holistic approach to insurance purchase eliminates many of the past roadblocks that prevented people from taking that first important step toward protecting their assets. We believe raising awareness is crucial for folks to make the right choices. We call it “Awaring America™,” and it’s a key way that we differ from other websites. We put the power of information to work for you and your budget by partnering with some of the most reputable names in the insurance industry. Ensurem gives you the freedom to learn the facts from a wealth of sources, compare merits of different companies, confidently weigh your options, and, instantly purchase coverage, all with the confidence of knowing that you made the right choice for you and <span class="smart-break">your family.</span></p>
+      <h2><strong>Freedom for you to make informed choices</strong> regarding your insurance needs and immediately act is what makes Ensurem unique. With choice comes strength, independence, and growth. A life optimized is what we want for you and your family, and the benefits <span class="smart-break">are clear.</span></h2>
+      <img src="/assets/our-story/our-story-3.jpg" alt="Awaring America&trade;" class="img-responsive">
+      <p><strong>Ensurem believes creating—and protecting—wealth is fundamental to the American Dream.</strong> We offer a wide variety of choices that can shield your income and save you money, including policies that pay medical deductibles, warranty products, discount programs, and, quite simply, help you reduce the risk of financial loss. Ensurem has made many revolutionary, positive changes in the way people search for and purchase products. One time-honored component of good business, however, remains the same: trust. Earning and keeping your trust is the foundation of our belief system. Our agency is fully licensed, regulated, and compliant in all states we do business, and our founders have a wealth of successful experience in all facets of the insurance industry. We believe that building – and keeping – relationships is what sets <span class="smart-break">Ensurem apart.</span></p>
+      <blockquote>At Ensurem, the e <span class="smart-break">represents <strong>everyone.</strong></span></blockquote>
+      <p><strong>By now you understand our emphasis is on you, your family, and the importance of investing today to safeguard all of your tomorrows.</strong> As your own story unfolds, experience the strength, independence, and growth our vision can provide. At Ensurem, the “e” represents everyone. We believe the American Dream is alive and well, and everyone deserves a way to safeguard its potential. Optimize your life through the power of choice, experience, and trust. Optimize your life <span class="smart-break">through Ensurem.</span></p>
+    </div>
+  </article>
 
 <?php include(includes.'footer.php'); ?>
