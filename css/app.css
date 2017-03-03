@@ -2899,13 +2899,6 @@ footer {
   margin: 0 auto;
   box-sizing: border-box; }
 
-.grid:before,
-.grid:after,
-.row:before,
-.row:after {
-  content: " ";
-  display: table; }
-
 .grid:after,
 .row:after {
   clear: both; }
@@ -4110,6 +4103,12 @@ textarea {
     display: block;
     height: 3.1em;
     margin-top: -3.1em;
+    visibility: hidden; }
+
+  .anchor-team {
+    display: block;
+    height: 6.1em;
+    margin-top: -6.1em;
     visibility: hidden; }
 
   .modal {
