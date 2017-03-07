@@ -1,8 +1,12 @@
 <?php $title="Buy Disability Income Insurance"; ?>
 <?php include('../includes/topnav.php'); ?>
 
-  <header class="disco">
-    <div class="container no-pad">
+<header class="disco butt-link-light-lg link-hover-disco">
+  <div class="container no-pad">
+    <div>
+      <div class="butt-prev"><a href="/buy/dental-and-vision-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
+      <div class="butt-next"><a href="/buy/home-security-plans.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+    </div>
       <h1>Shop Disability Income Insurance Plans</h1>
     </div>
   </header>

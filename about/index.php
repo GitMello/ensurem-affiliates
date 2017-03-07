@@ -29,7 +29,7 @@
   </article>
 
   <a id="team" class="anchor"></a>
-  <article class="team relative">
+  <article class="team l-team-list relative">
     <div class="container text-center butt-link-mini">
       <h2>Meet The Team</h2>
       <?php include(includes.'team.php'); ?>

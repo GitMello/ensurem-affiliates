@@ -88,13 +88,13 @@
           <a href="#">Learn More</a>
         </div>
 
-        <div class="mid-dark col-md-6 col-lg-4 col-pad butt-link-mini-light text-white link-hover-dark">
+        <div class="l-display-products-list mid-dark col-md-6 col-lg-4 col-pad butt-link-mini-light text-white link-hover-dark">
           <h2>2 Optimized Life<sup>&trade;</sup></h2>
           <h3>Buying Inurance Just Got Awesome!</h3>
           <a href="#">Learn Less</a>
           <a href="#">Learn More</a>
           <hr>
-          <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap butt-link-light text-center">
+          <ul class="butt-link-light text-center">
             <li>
               <img src="/assets/heros/light.jpg" alt="">
               <h3>Discover</h3>

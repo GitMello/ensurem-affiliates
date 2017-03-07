@@ -2,17 +2,24 @@
   //background: $light
   padding: 3em 1.5em 5em
   box-sizing: border-box
+
   h3
     margin: 1em 0 1.5em
     font-weight: 400
     font-style: italic
 
+.l-display-products-list
   ul
     padding: 0
     list-style: none
+    img
+      width: 100%
+    a
+      font:
+        size: 90%
   li
     max-width: 19em
-    width: 100%
+    //width: 100%
     display: inline-block
     vertical-align: top
     border-radius: 1em
@@ -43,7 +50,7 @@
         size: cover
         repeat: no-repeat
 
-      h2, h3
+      h2
         margin: 0
       h3
         transition: 500ms
@@ -61,28 +68,34 @@
     hr
       border: $mid
     ul
+      //display: none
       border: none
       border-bottom: solid 0.08em $mid-light
-      width: 100%
+      //width: 100%
       margin: 1em 0
       padding: 0 0 1em
       li
         opacity: 1
-        max-width: 100%
+        //max-width: 100%
         background: none
         display: block
         border: none
         margin: 0.5em 0 0
+    h3, p
+      margin: 0.25em 0
     h6
       margin: 0
       padding: 0.25em 1.5em
       border-radius: 0.5em 0.5em 0 0
       color: $white
-      font-weight: 400
+      font-weight: 700
       text-transform: uppercase
+      //letter-spacing: 0.1em
 
 .carrier-logo
-  +hide-text
+  overflow: hidden
+  text-indent: 150%
+  white-space: nowrap
   width: 15em
   height: 4em
   margin: 0 auto 0.5em
@@ -93,24 +106,24 @@
 
 .hw
   background:
-    image: url(/assets/logos/hw-logo.png)
+    image: url(/assets/logos/carriers/mutual-of-omaha-life-insurance-company-logo-white-wide.svg)
 
 .aff
   background:
-    image: url(/assets/logos/affco-mark-white.png)
+    image: url(/assets/logos/carriers/gerber-logo-white.svg)
 
 .aff-2
   background:
-    image: url(/assets/logos/affco-logo-white.png)
+    image: url(/assets/logos/carriers/fidelity-life-association-logo-white.svg)
 
 .t1
   background:
-    image: radial-gradient(transparentize($dark, 0.45),transparentize($dark, 0.35)), url(/assets/buy/prod-thumb-1.jpg)
+    image: radial-gradient(transparentize(#5b3e6c, 0.25),transparentize(#5b3e6c, 0.15)), url(/assets/buy/prod-thumb-1.jpg)
 
 .t2
   background:
-    image: radial-gradient(transparentize($termco, 0.15),transparentize($termco, 0.25)), url(/assets/buy/prod-thumb-2.jpg)
+    image: radial-gradient(transparentize(#00395a, 0.25),transparentize(#00395a, 0.15)), url(/assets/buy/prod-thumb-2.jpg)
 
 .t3
   background:
-    image: radial-gradient(transparentize($dark, 0.45),transparentize($dark, 0.35)), url(/assets/buy/prod-thumb-3.jpg)
+    image: radial-gradient(transparentize(#003A70, 0.25),transparentize(#003A70, 0.15)), url(/assets/buy/prod-thumb-3.jpg)

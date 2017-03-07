@@ -18,7 +18,9 @@ body
   margin: 0 auto
 
 .brand-light
-  +hide-text
+  overflow: hidden
+  text-indent: 150%
+  white-space: nowrap
   background:
     image: url(/assets/logos/affco-logo-white.png)
     size: contain
@@ -30,7 +32,9 @@ body
   padding: 0 0.5em
 
 .brand-dark
-  +hide-text
+  overflow: hidden
+  text-indent: 150%
+  white-space: nowrap
   background:
     image: url(/assets/logos/affco-logo-black.png)
     size: contain
@@ -57,6 +61,10 @@ hr
   border-top: solid 0.08em
   border-radius: 50em
   margin: 1em 0
+
+h6
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: auto
 
 //@media (max-width: 768px)
   body

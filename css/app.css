@@ -2736,7 +2736,7 @@ body {
 
 .brand-light {
   overflow: hidden;
-  text-indent: 101%;
+  text-indent: 150%;
   white-space: nowrap;
   background-image: url(/assets/logos/affco-logo-white.png);
   background-size: contain;
@@ -2749,7 +2749,7 @@ body {
 
 .brand-dark {
   overflow: hidden;
-  text-indent: 101%;
+  text-indent: 150%;
   white-space: nowrap;
   background-image: url(/assets/logos/affco-logo-black.png);
   background-size: contain;
@@ -2777,6 +2777,10 @@ hr {
   border-radius: 50em;
   margin: 1em 0; }
 
+h6 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto; }
+
 .l-navbar-fixed-top {
   background: rgba(34, 34, 34, 0.95);
   position: fixed;
@@ -2798,7 +2802,7 @@ header {
   background-position: center;
   color: #fff;
   text-transform: uppercase;
-  padding: 7.5em 1.5em 5.5em;
+  padding: 8em 1.5em 5em;
   transition: 300ms; }
   header h1 {
     margin: 0; }
@@ -3985,16 +3989,20 @@ textarea {
 
 .team h2, .team h3, .team h4 {
   margin: 0.25em 0 0; }
+.team h3 {
+  font-style: normal;
+  font-weight: 700; }
 .team h4 {
   font-style: italic;
   font-weight: 400;
   color: #777; }
-.team ul {
+
+.l-team-list ul {
   padding: 0; }
-.team li {
+.l-team-list li {
   display: inline-block;
   margin: 0 0.25em 2em; }
-.team img {
+.l-team-list img {
   border-radius: 100%;
   width: 100%;
   max-width: 12.5em;
@@ -4056,73 +4064,77 @@ textarea {
     margin: 1em 0 1.5em;
     font-weight: 400;
     font-style: italic; }
-  .display-products ul {
-    padding: 0;
-    list-style: none; }
-  .display-products li {
-    max-width: 19em;
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 1em;
-    margin: 1em;
+
+.l-display-products-list ul {
+  padding: 0;
+  list-style: none; }
+  .l-display-products-list ul img {
+    width: 100%; }
+  .l-display-products-list ul a {
+    font-size: 90%; }
+.l-display-products-list li {
+  max-width: 19em;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 1em;
+  margin: 1em;
+  transition: 500ms; }
+  .l-display-products-list li:hover, .l-display-products-list li:focus {
+    box-shadow: 0 0 2em #c4c4c4;
     transition: 500ms; }
-    .display-products li:hover, .display-products li:focus {
-      box-shadow: 0 0 2em #c4c4c4;
+    .l-display-products-list li:hover header h3, .l-display-products-list li:focus header h3 {
+      transition: 500ms;
+      background-color: #f26429; }
+    .l-display-products-list li:hover ul li, .l-display-products-list li:focus ul li {
+      box-shadow: none; }
+    .l-display-products-list li:hover article, .l-display-products-list li:focus article {
       transition: 500ms; }
-      .display-products li:hover header h3, .display-products li:focus header h3 {
-        transition: 500ms;
-        background-color: #f26429; }
-      .display-products li:hover ul li, .display-products li:focus ul li {
-        box-shadow: none; }
-      .display-products li:hover article, .display-products li:focus article {
-        transition: 500ms; }
-    .display-products li header {
-      padding: 2em 2em 1em;
-      background-color: transparent;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
-      .display-products li header h2, .display-products li header h3 {
-        margin: 0; }
-      .display-products li header h3 {
-        transition: 500ms;
-        background-color: #63bc46;
-        margin: 0 -1.85em;
-        padding: 0.25em 1em;
-        box-sizing: border-box; }
-    .display-products li article {
-      background: #fff;
-      padding: 0.5em;
-      border: solid 0.08em #c4c4c4;
-      border-top: none;
-      border-radius: 0 0 0.5em 0.5em; }
-    .display-products li hr {
-      border: #777; }
-    .display-products li ul {
+  .l-display-products-list li header {
+    padding: 2em 2em 1em;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .l-display-products-list li header h2 {
+      margin: 0; }
+    .l-display-products-list li header h3 {
+      transition: 500ms;
+      background-color: #63bc46;
+      margin: 0 -1.85em;
+      padding: 0.25em 1em;
+      box-sizing: border-box; }
+  .l-display-products-list li article {
+    background: #fff;
+    padding: 0.5em;
+    border: solid 0.08em #c4c4c4;
+    border-top: none;
+    border-radius: 0 0 0.5em 0.5em; }
+  .l-display-products-list li hr {
+    border: #777; }
+  .l-display-products-list li ul {
+    border: none;
+    border-bottom: solid 0.08em #c4c4c4;
+    margin: 1em 0;
+    padding: 0 0 1em; }
+    .l-display-products-list li ul li {
+      opacity: 1;
+      background: none;
+      display: block;
       border: none;
-      border-bottom: solid 0.08em #c4c4c4;
-      width: 100%;
-      margin: 1em 0;
-      padding: 0 0 1em; }
-      .display-products li ul li {
-        opacity: 1;
-        max-width: 100%;
-        background: none;
-        display: block;
-        border: none;
-        margin: 0.5em 0 0; }
-    .display-products li h6 {
-      margin: 0;
-      padding: 0.25em 1.5em;
-      border-radius: 0.5em 0.5em 0 0;
-      color: #fff;
-      font-weight: 400;
-      text-transform: uppercase; }
+      margin: 0.5em 0 0; }
+  .l-display-products-list li h3, .l-display-products-list li p {
+    margin: 0.25em 0; }
+  .l-display-products-list li h6 {
+    margin: 0;
+    padding: 0.25em 1.5em;
+    border-radius: 0.5em 0.5em 0 0;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase; }
 
 .carrier-logo {
   overflow: hidden;
-  text-indent: 101%;
+  text-indent: 150%;
   white-space: nowrap;
   width: 15em;
   height: 4em;
@@ -4132,26 +4144,27 @@ textarea {
   background-repeat: no-repeat; }
 
 .hw {
-  background-image: url(/assets/logos/hw-logo.png); }
+  background-image: url(/assets/logos/carriers/mutual-of-omaha-life-insurance-company-logo-white-wide.svg); }
 
 .aff {
-  background-image: url(/assets/logos/affco-mark-white.png); }
+  background-image: url(/assets/logos/carriers/gerber-logo-white.svg); }
 
 .aff-2 {
-  background-image: url(/assets/logos/affco-logo-white.png); }
+  background-image: url(/assets/logos/carriers/fidelity-life-association-logo-white.svg); }
 
 .t1 {
-  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/buy/prod-thumb-1.jpg); }
+  background-image: radial-gradient(rgba(91, 62, 108, 0.75), rgba(91, 62, 108, 0.85)), url(/assets/buy/prod-thumb-1.jpg); }
 
 .t2 {
-  background-image: radial-gradient(rgba(6, 76, 136, 0.85), rgba(6, 76, 136, 0.75)), url(/assets/buy/prod-thumb-2.jpg); }
+  background-image: radial-gradient(rgba(0, 57, 90, 0.75), rgba(0, 57, 90, 0.85)), url(/assets/buy/prod-thumb-2.jpg); }
 
 .t3 {
-  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/buy/prod-thumb-3.jpg); }
+  background-image: radial-gradient(rgba(0, 58, 112, 0.75), rgba(0, 58, 112, 0.85)), url(/assets/buy/prod-thumb-3.jpg); }
 
 @media screen and (max-width: 319px) {
   header {
-    font-size: 50%; }
+    font-size: 50%;
+    padding: 8.75em 1.5em 4.25em; }
 
   .display-products li header {
     font-size: 60%; } }
@@ -4160,10 +4173,17 @@ textarea {
     white-space: nowrap; } }
 @media screen and (min-width: 320px) and (max-width: 432px) {
   header {
-    font-size: 60%; }
+    font-size: 60%;
+    padding: 8.75em 1.5em 4.25em; }
 
   .display-products li header {
-    font-size: 80%; } }
+    font-size: 80%; }
+
+  .butt-prev {
+    margin-top: -0.3em; }
+
+  .butt-next {
+    margin-top: -0.3em; } }
 @media screen and (min-width: 433px) and (max-width: 640px) {
   header {
     font-size: 80%; }
@@ -4279,6 +4299,9 @@ textarea {
         background: #f26429; }
     .modal p {
       clear: both; } }
+@media screen and (min-width: 1065px) {
+  .product-break {
+    white-space: nowrap; } }
 @media screen and (min-width: 1921px) {
   body {
     font-size: 1.2em; } }
