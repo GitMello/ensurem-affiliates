@@ -45,6 +45,7 @@
         //opacity: 1
         overflow-y: scroll
         //padding: 0 2em 2em
+
         li
           color: $mid-light
           text-align: center
@@ -136,3 +137,17 @@
   li
     padding: 0.5em 0
     width: 100%
+
+//li.has-submenu
+  &:after
+    content: "\25bc"
+    //font-size: .7em
+    //padding-left: 0.25em
+    //vertical-align: top
+    //margin-top: -1em
+
+
+//li.has-submenu
+  &:hover
+    &:after
+      content: "\25b2"
