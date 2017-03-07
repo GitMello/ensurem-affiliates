@@ -4065,22 +4065,37 @@ textarea {
     display: inline-block;
     vertical-align: top;
     border-radius: 1em;
-    margin: 1em; }
+    margin: 1em;
+    transition: 500ms; }
+    .display-products li:hover, .display-products li:focus {
+      box-shadow: 0 0 2em #c4c4c4;
+      transition: 500ms; }
+      .display-products li:hover header h3, .display-products li:focus header h3 {
+        transition: 500ms;
+        background-color: #f26429; }
+      .display-products li:hover ul li, .display-products li:focus ul li {
+        box-shadow: none; }
+      .display-products li:hover article, .display-products li:focus article {
+        transition: 500ms; }
     .display-products li header {
       padding: 2em 2em 1em;
       background-color: transparent;
-      background-position: bottom;
+      background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
       .display-products li header h2, .display-products li header h3 {
         margin: 0; }
       .display-products li header h3 {
+        transition: 500ms;
+        background-color: #63bc46;
         margin: 0 -1.85em;
         padding: 0.25em 1em;
         box-sizing: border-box; }
     .display-products li article {
+      background: #fff;
       padding: 0.5em;
       border: solid 0.08em #c4c4c4;
+      border-top: none;
       border-radius: 0 0 0.5em 0.5em; }
     .display-products li hr {
       border: #777; }
@@ -4091,6 +4106,7 @@ textarea {
       margin: 1em 0;
       padding: 0 0 1em; }
       .display-products li ul li {
+        opacity: 1;
         max-width: 100%;
         background: none;
         display: block;

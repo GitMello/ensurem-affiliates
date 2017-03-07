@@ -1,4 +1,5 @@
 .display-products
+  //background: $light
   padding: 3em 1.5em 5em
   box-sizing: border-box
   h3
@@ -16,27 +17,46 @@
     vertical-align: top
     border-radius: 1em
     margin: 1em
+    //opacity: 0.9
+    transition: 500ms
+    &:hover, &:focus
+      box-shadow: 0 0 2em $mid-light
+      transition: 500ms
+      //opacity: 1
+      header
+        h3
+          transition: 500ms
+          background:
+            color: $accent
+      ul
+        li
+          box-shadow: none
+      article
+        transition: 500ms
     header
       //border-radius: 0.5em 0.5em 0 0
       padding: 2em 2em 1em
       background:
         color: $transparent
         //image: url(/assets/heros/green-2.jpg)
-        position: bottom
+        position: center
         size: cover
         repeat: no-repeat
 
       h2, h3
         margin: 0
       h3
-        //background:
-          color: $termco
+        transition: 500ms
+        background:
+          color: $primary
         margin: 0 -1.85em
         padding: 0.25em 1em
         box-sizing: border-box
     article
+      background: $white
       padding: 0.5em
       border: solid 0.08em $mid-light
+      border-top: none
       border-radius: 0 0 0.5em 0.5em
     hr
       border: $mid
@@ -47,6 +67,7 @@
       margin: 1em 0
       padding: 0 0 1em
       li
+        opacity: 1
         max-width: 100%
         background: none
         display: block
