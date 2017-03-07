@@ -2728,8 +2728,8 @@ template {
   display: none; }
 
 body {
-  color: #222;
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  color: #343434;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   margin: 0;
   overflow-x: hidden; }
@@ -2739,22 +2739,26 @@ body {
   text-indent: 101%;
   white-space: nowrap;
   background-image: url(/assets/logos/affco-logo-white.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 5.7em;
   height: 1.5em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 0.5em; }
 
 .brand-dark {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
   background-image: url(/assets/logos/affco-logo-black.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 5.7em;
   height: 1.5em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 0.5em; }
 
 sup {
   vertical-align: top;
@@ -2766,6 +2770,12 @@ a {
   color: #63bc46; }
   a:hover {
     color: #f26429; }
+
+hr {
+  border: none;
+  border-top: solid 0.08em;
+  border-radius: 50em;
+  margin: 1em 0; }
 
 .l-navbar-fixed-top {
   background: rgba(34, 34, 34, 0.95);
@@ -2791,7 +2801,6 @@ header {
   padding: 7.5em 1.5em 5.5em;
   transition: 300ms; }
   header h1 {
-    font-size: 3.2em;
     margin: 0; }
 
 .l-fullpage-header {
@@ -2803,8 +2812,7 @@ header {
 
 .l-fullpage-header-content {
   padding: 8em 1.5em;
-  text-transform: uppercase;
-  font-size: 120%; }
+  text-transform: uppercase; }
   .l-fullpage-header-content h1 {
     margin: 0;
     transition: 300ms; }
@@ -2817,6 +2825,9 @@ header {
     margin: 0.25em 0;
     text-transform: capitalize;
     font-weight: 100; }
+
+.xl h1 {
+  font-size: 4em; }
 
 footer {
   text-align: center;
@@ -2897,13 +2908,6 @@ footer {
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box; }
-
-.grid:before,
-.grid:after,
-.row:before,
-.row:after {
-  content: " ";
-  display: table; }
 
 .grid:after,
 .row:after {
@@ -3269,8 +3273,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 0.65em;
   font-weight: 500;
   display: inline;
@@ -3280,6 +3284,25 @@ footer {
     border: solid 0.08em #63bc46;
     background-color: #63bc46; }
 
+.butt-link-primary-mini a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #63bc46;
+  white-space: nowrap;
+  border: solid 0.08em #63bc46;
+    border-radius: 50em;
+  padding: 0.5em 1em;
+  line-height: 3em;
+  font-size: 0.65em;
+  font-weight: 500;
+  display: inline;
+  transition: 300ms; }
+  .butt-link-primary-mini a:hover {
+    color: #fff;
+    border: solid 0.08em #f26429;
+    background-color: #f26429; }
+
 .butt-link-mini-light a {
   text-decoration: none;
   text-transform: uppercase;
@@ -3288,8 +3311,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 0.65em;
   font-weight: 500;
   display: inline;
@@ -3307,8 +3330,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1em;
   font-weight: 500;
   display: inline;
@@ -3326,8 +3349,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1em;
   font-weight: 500;
   display: inline;
@@ -3345,8 +3368,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1.25em;
   font-weight: 500;
   display: inline;
@@ -3364,8 +3387,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1.25em;
   font-weight: 500;
   display: inline;
@@ -3383,8 +3406,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1.5em;
   font-weight: 500;
   display: inline;
@@ -3402,8 +3425,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #63bc46;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1.5em;
   font-weight: 500;
   display: inline;
@@ -3421,8 +3444,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 1.5em;
   font-weight: 500;
   display: inline;
@@ -3440,8 +3463,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #488933;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 2em;
   font-weight: 500;
   display: inline;
@@ -3459,8 +3482,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #63bc46;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 2em;
   font-weight: 500;
   display: inline;
@@ -3478,8 +3501,8 @@ footer {
   white-space: nowrap;
   border: solid 0.08em #fff;
     border-radius: 50em;
-  padding: 0.5em 2em;
-  line-height: 4em;
+  padding: 0.5em 1em;
+  line-height: 3em;
   font-size: 2em;
   font-weight: 500;
   display: inline;
@@ -3520,7 +3543,18 @@ footer {
   display: block;
   height: 3.7em;
   margin-top: -3.7em;
+  visibility: hidden;
+  float: left; }
+
+.anchor-team {
+  display: block;
+  height: 9.1em;
+  margin-top: -9.1em;
   visibility: hidden; }
+
+.img-responsive {
+  width: 100%;
+  height: auto; }
 
 .l-navbar {
   width: 100%;
@@ -3549,13 +3583,13 @@ footer {
     display: inline-block;
     float: left;
     transition: 500ms;
-    color: #63bc46;
+    color: #f1f1f1;
     cursor: pointer; }
     .l-navbar li:hover {
       background: #63bc46;
       color: #fff; }
       .l-navbar li:hover ul {
-        max-height: 60vh;
+        height: 50vh;
         width: 100%;
         border-top: solid 0.0625em #63bc46;
         border-bottom: solid 0.0625em #63bc46;
@@ -3595,7 +3629,15 @@ footer {
   background-position: right top; }
 
 #guide-hero {
-  background-image: radial-gradient(rgba(34, 34, 34, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/light.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/discover.jpg);
+  background-position: center bottom; }
+
+#shop-hero {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/green.jpg);
+  background-position: center bottom; }
+
+#about-hero {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/about.jpg);
   background-position: center bottom; }
 
 #term-life-hero {
@@ -3657,7 +3699,7 @@ footer {
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   position: relative;
   padding: 1.25em 1.75em;
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   box-shadow: none;
   border-radius: 2.5em;
@@ -3683,7 +3725,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   white-space: nowrap;
   font-size: 1em;
   font-weight: 700;
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   padding: 1.25em 2em;
   border: solid 0.0625em #63bc46;
     border-radius: 2.5em;
@@ -3752,11 +3794,11 @@ textarea {
   background-size: cover; }
 
 #term-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-term-life-insurance-1.jpg);
   background-position: center; }
 
 #term-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-term-life-insurance-2.jpg);
   background-position: center; }
 
 #whole-1 {
@@ -3765,11 +3807,11 @@ textarea {
   background-size: cover; }
 
 #whole-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-whole-life-insurance-1.jpg);
   background-position: center; }
 
 #whole-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-whole-life-insurance-2.jpg);
   background-position: center; }
 
 #uni-1 {
@@ -3778,11 +3820,11 @@ textarea {
   background-size: cover; }
 
 #uni-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-universal-life-insurance-1.jpg);
   background-position: center; }
 
 #uni-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-universal-life-insurance-2.jpg);
   background-position: center; }
 
 #fin-1 {
@@ -3791,11 +3833,11 @@ textarea {
   background-size: cover; }
 
 #fin-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-final-expense-1.jpg);
   background-position: center; }
 
 #fin-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-final-expense-2.jpg);
   background-position: center; }
 
 #add-1 {
@@ -3804,11 +3846,11 @@ textarea {
   background-size: cover; }
 
 #add-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-accidental-death-dismemberment-1.jpg);
   background-position: center; }
 
 #add-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-accidental-death-dismemberment-2.jpg);
   background-position: center; }
 
 #annu-1 {
@@ -3817,11 +3859,11 @@ textarea {
   background-size: cover; }
 
 #annu-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-annuities-1.jpg);
   background-position: center; }
 
 #annu-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-annuities-2.jpg);
   background-position: center; }
 
 #dent-1 {
@@ -3830,11 +3872,11 @@ textarea {
   background-size: cover; }
 
 #dent-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-dental-vision-1.jpg);
   background-position: center; }
 
 #dent-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-dental-vision-2.jpg);
   background-position: center; }
 
 #dis-1 {
@@ -3843,11 +3885,11 @@ textarea {
   background-size: cover; }
 
 #dis-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-disability-income-1.jpg);
   background-position: center; }
 
 #dis-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-disability-income-2.jpg);
   background-position: center; }
 
 #stm-1 {
@@ -3856,11 +3898,11 @@ textarea {
   background-size: cover; }
 
 #stm-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-short-term-medical-1.jpg);
   background-position: center; }
 
 #stm-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-short-term-medical-2.jpg);
   background-position: center; }
 
 #homesec-1 {
@@ -3869,11 +3911,11 @@ textarea {
   background-size: cover; }
 
 #homesec-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-home-security-1.jpg);
   background-position: center; }
 
 #homesec-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-home-security-2.jpg);
   background-position: center; }
 
 #med-1 {
@@ -3882,11 +3924,11 @@ textarea {
   background-size: cover; }
 
 #med-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-medical-cash-benefits-1.jpg);
   background-position: center; }
 
 #med-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-medical-cash-benefits-2.jpg);
   background-position: center; }
 
 #pet-1 {
@@ -3895,11 +3937,11 @@ textarea {
   background-size: cover; }
 
 #pet-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-pet-insurance-1.jpg);
   background-position: center; }
 
 #pet-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-pet-insurance-2.jpg);
   background-position: center; }
 
 #save-1 {
@@ -3908,11 +3950,11 @@ textarea {
   background-size: cover; }
 
 #save-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-savings-plans-1.jpg);
   background-position: center; }
 
 #save-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-savings-plans-2.jpg);
   background-position: center; }
 
 #msup-1 {
@@ -3921,20 +3963,201 @@ textarea {
   background-size: cover; }
 
 #msup-2 {
-  background-image: url(/assets/heros/main.jpg);
+  background-image: url(/assets/discover/discover-medsup-1.jpg);
   background-position: center; }
 
 #msup-3 {
-  background-image: url(/assets/heros/green.jpg);
+  background-image: url(/assets/discover/discover-medsup-2.jpg);
   background-position: center; }
 
+.we-believe h1 {
+  margin: 0.4em auto;
+  text-transform: uppercase; }
+.we-believe h2 {
+  font-weight: 400;
+  font-style: italic;
+  text-transform: capitalize; }
+.we-believe h3 {
+  margin: 1.5em 0;
+  font-size: 140%;
+  font-weight: 200;
+  font-style: italic; }
+
+.team h2, .team h3, .team h4 {
+  margin: 0.25em 0 0; }
+.team h4 {
+  font-style: italic;
+  font-weight: 400;
+  color: #777; }
+.team ul {
+  padding: 0; }
+.team li {
+  display: inline-block;
+  margin: 0 0.25em 2em; }
+.team img {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 12.5em;
+  height: auto;
+  border: solid 0.5em #f1f1f1; }
+
+.our-story p {
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  font-weight: 300; }
+.our-story h2 {
+  font-weight: 300;
+  font-style: italic; }
+.our-story blockquote {
+  margin: 1.25em 0;
+  font-size: 150%;
+  font-style: italic;
+  text-align: center;
+  border-top: solid 0.0525em #f1f1f1;
+  border-bottom: solid 0.0525em #f1f1f1;
+  padding: 2em 0; }
+.our-story strong {
+  font-weight: 700; }
+
+.modal {
+  padding: 3.5em O;
+  box-sizing: border-box;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  transition: 0ms;
+  top: -3.7em;
+  overflow-y: hidden; }
+  .modal:target {
+    height: inherit;
+    opacity: 0.99;
+    top: 3.7em;
+    margin-top: -3.7em;
+    bottom: 0;
+    visibility: visible;
+    z-index: 999;
+    transition: 500ms;
+    transition: 500ms;
+    overflow-y: scroll; }
+  .modal img {
+    float: left;
+    margin: 0 1em 1em 0;
+    border: none; }
+  .modal .close {
+    display: none;
+    z-index: 1000; }
+
+.display-products {
+  padding: 3em 1.5em 5em;
+  box-sizing: border-box; }
+  .display-products h3 {
+    margin: 1em 0 1.5em;
+    font-weight: 400;
+    font-style: italic; }
+  .display-products ul {
+    padding: 0;
+    list-style: none; }
+  .display-products li {
+    max-width: 19em;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 1em;
+    margin: 1em; }
+    .display-products li header {
+      padding: 2em 2em 1em;
+      background-color: transparent;
+      background-position: bottom;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .display-products li header h2, .display-products li header h3 {
+        margin: 0; }
+      .display-products li header h3 {
+        margin: 0 -1.85em;
+        padding: 0.25em 1em;
+        box-sizing: border-box; }
+    .display-products li article {
+      padding: 0.5em;
+      border: solid 0.08em #c4c4c4;
+      border-radius: 0 0 0.5em 0.5em; }
+    .display-products li hr {
+      border: #777; }
+    .display-products li ul {
+      border: none;
+      border-bottom: solid 0.08em #c4c4c4;
+      width: 100%;
+      margin: 1em 0;
+      padding: 0 0 1em; }
+      .display-products li ul li {
+        max-width: 100%;
+        background: none;
+        display: block;
+        border: none;
+        margin: 0.5em 0 0; }
+    .display-products li h6 {
+      margin: 0;
+      padding: 0.25em 1.5em;
+      border-radius: 0.5em 0.5em 0 0;
+      color: #fff;
+      font-weight: 400;
+      text-transform: uppercase; }
+
+.carrier-logo {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 15em;
+  height: 4em;
+  margin: 0 auto 0.5em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.hw {
+  background-image: url(/assets/logos/hw-logo.png); }
+
+.aff {
+  background-image: url(/assets/logos/affco-mark-white.png); }
+
+.aff-2 {
+  background-image: url(/assets/logos/affco-logo-white.png); }
+
+.t1 {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/buy/prod-thumb-1.jpg); }
+
+.t2 {
+  background-image: radial-gradient(rgba(6, 76, 136, 0.85), rgba(6, 76, 136, 0.75)), url(/assets/buy/prod-thumb-2.jpg); }
+
+.t3 {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/buy/prod-thumb-3.jpg); }
+
+@media screen and (max-width: 319px) {
+  header {
+    font-size: 50%; }
+
+  .display-products li header {
+    font-size: 60%; } }
 @media screen and (min-width: 392px) {
   .smart-break {
     white-space: nowrap; } }
-@media screen and (max-width: 640px) {
-  .l-fullpage-header-content {
+@media screen and (min-width: 320px) and (max-width: 432px) {
+  header {
     font-size: 60%; }
 
+  .display-products li header {
+    font-size: 80%; } }
+@media screen and (min-width: 433px) and (max-width: 640px) {
+  header {
+    font-size: 80%; }
+
+  .display-products li header {
+    font-size: 80%; } }
+@media screen and (min-width: 641px) {
+  header {
+    font-size: 100%; } }
+@media screen and (max-width: 640px) {
   .discover-grid {
     font-size: 85%; }
 
@@ -3984,7 +4207,7 @@ textarea {
       cursor: pointer;
       position: absolute;
       right: 1em;
-      top: 1.25em; }
+      top: 1.1em; }
       .l-navbar label:after {
         content: "";
         display: block;
@@ -4006,7 +4229,40 @@ textarea {
     display: block;
     height: 3.1em;
     margin-top: -3.1em;
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  .anchor-team {
+    display: block;
+    height: 6.1em;
+    margin-top: -6.1em;
+    visibility: hidden; }
+
+  .modal {
+    top: -3.1em; }
+    .modal:target {
+      top: 3.1em;
+      bottom: auto;
+      margin-top: -3.1em;
+      box-shadow: 0 1.5em 1em -1em #222;
+      border-radius: 0 0 2em 2em; }
+    .modal img {
+      width: 40%;
+      height: auto;
+      border: none; }
+    .modal .close {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      line-height: 1em;
+      display: inline;
+      color: #bf4f20;
+      border: solid 0.08em #bf4f20;
+      padding: 0.5em 0.65em; }
+      .modal .close:hover {
+        border: solid 0.08em #f26429;
+        background: #f26429; }
+    .modal p {
+      clear: both; } }
 @media screen and (min-width: 1921px) {
   body {
     font-size: 1.2em; } }
@@ -4020,8 +4276,8 @@ textarea {
   body {
     font-size: 3.5em; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .l-fullpage-header-content {
-    font-size: 75%; } }
+  header {
+    font-size: 65%; } }
 .no-pad {
   padding: 0; }
 

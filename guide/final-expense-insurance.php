@@ -5,10 +5,10 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-finco ">
         <div>
-          <div class="butt-prev"><a href="/guide/accidental-death-and-dismemberment.php" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-prev"><a href="/guide/accidental-death-and-dismemberment-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
           <div class="butt-next"><a href="/guide/term-life-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
-        <h1>Final Expense <span class="smart-break">Insurance Guide</span></h1>
+        <h1>Final Expense Insurance</span></h1>
         <hr>
         <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
         <a href="#">LEARN MORE</a>

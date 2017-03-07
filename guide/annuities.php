@@ -8,7 +8,7 @@
           <div class="butt-prev"><a href="/guide/whole-life-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
           <div class="butt-next"><a href="/guide/dental-and-vision-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
-        <h1>Annuities Guide</h1>
+        <h1>Annuities</h1>
         <hr>
         <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
         <a href="#">LEARN MORE</a>

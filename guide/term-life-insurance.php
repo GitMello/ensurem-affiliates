@@ -6,9 +6,9 @@
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-termco ">
         <div>
           <div class="butt-prev"><a href="/guide/final-expense-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/universal-life-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-next"><a href="/guide/whole-life-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
-        <h1>Term Life <span class="smart-break">Insurance Guide</span></h1>
+        <h1>Term Life Insurance</h1>
         <hr>
         <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
         <a href="#">LEARN MORE</a>

@@ -3,7 +3,7 @@
 
   <header id="homepage-hero" class="l-fullpage-header flex flex-center just-start flex-wrap text-shade link-no-shad text-left">
     <div class="container no-pad">
-      <div class="l-fullpage-header-content no-pad-sides butt-link-primary-xl">
+      <div class="l-fullpage-header-content xl no-pad-sides butt-link-primary-xl">
         <h1>Your Insurance<br>Marketplace</h1>
         <h2>Buying insurance just got awesome!</h2>
         <a href="#">LORAT GO!</a>
@@ -43,8 +43,8 @@
     </div>
   </article>
 
-  <article class="primary">
-    <div class="grid fluid flex flex-row flex-wrap just-start flex-start">
+  <article class="mid-light">
+    <div class="grid fluid flex flex-wrap">
       <div class="row flex flex-wrap flex-stretch">
         <div class="light col-md-6 col-lg-4 col-pad butt-link-mini">
           <h2>1 Life Optimized<sup>&trade;</sup></h2>

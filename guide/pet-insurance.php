@@ -8,7 +8,7 @@
           <div class="butt-prev"><a href="/guide/medicare-supplement-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
           <div class="butt-next"><a href="/guide/savings-plans.php" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
-        <h1>Pet Insurance Guide</h1>
+        <h1>Pet Insurance</h1>
         <hr>
         <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
         <a href="#">LEARN MORE</a>
