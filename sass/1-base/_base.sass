@@ -1,13 +1,13 @@
 // BASE STYLES
 
 body
-  color: $dark
+  color: $mid-dark
   font-family: $font-family
   font-size: $base-size
   margin: 0
   overflow-x: hidden
 
-.brand-light
+// ORIGINAL.brand-light
   +hide-text
   background:
     image: url(/assets/logos/affco-logo-white.png)
@@ -17,15 +17,29 @@ body
   height: 1.5em
   margin: 0 auto
 
+.brand-light
+  +hide-text
+  background:
+    image: url(/assets/logos/affco-logo-white.png)
+    size: contain
+    repeat: no-repeat
+    position: center
+  width: 5.7em
+  height: 1.5em
+  margin: 0 auto
+  padding: 0 0.5em
+
 .brand-dark
   +hide-text
   background:
     image: url(/assets/logos/affco-logo-black.png)
-    size: cover
+    size: contain
     repeat: no-repeat
+    position: center
   width: 5.7em
   height: 1.5em
   margin: 0 auto
+  padding: 0 0.5em
 
 sup
   vertical-align: top
@@ -38,6 +52,11 @@ a
   &:hover
     color: $accent
 
+hr
+  border: none
+  border-top: solid 0.08em
+  border-radius: 50em
+  margin: 1em 0
 
 //@media (max-width: 768px)
   body

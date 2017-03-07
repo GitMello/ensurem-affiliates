@@ -1,0 +1,95 @@
+.display-products
+  padding: 3em 1.5em 5em
+  box-sizing: border-box
+  h3
+    margin: 1em 0 1.5em
+    font-weight: 400
+    font-style: italic
+
+  ul
+    padding: 0
+    list-style: none
+  li
+    max-width: 19em
+    width: 100%
+    display: inline-block
+    vertical-align: top
+    border-radius: 1em
+    margin: 1em
+    header
+      //border-radius: 0.5em 0.5em 0 0
+      padding: 2em 2em 1em
+      background:
+        color: $transparent
+        //image: url(/assets/heros/green-2.jpg)
+        position: bottom
+        size: cover
+        repeat: no-repeat
+
+      h2, h3
+        margin: 0
+      h3
+        //background:
+          color: $termco
+        margin: 0 -1.85em
+        padding: 0.25em 1em
+        box-sizing: border-box
+    article
+      padding: 0.5em
+      border: solid 0.08em $mid-light
+      border-radius: 0 0 0.5em 0.5em
+    hr
+      border: $mid
+    ul
+      border: none
+      border-bottom: solid 0.08em $mid-light
+      width: 100%
+      margin: 1em 0
+      padding: 0 0 1em
+      li
+        max-width: 100%
+        background: none
+        display: block
+        border: none
+        margin: 0.5em 0 0
+    h6
+      margin: 0
+      padding: 0.25em 1.5em
+      border-radius: 0.5em 0.5em 0 0
+      color: $white
+      font-weight: 400
+      text-transform: uppercase
+
+.carrier-logo
+  +hide-text
+  width: 15em
+  height: 4em
+  margin: 0 auto 0.5em
+  background:
+    position: center
+    size: contain
+    repeat: no-repeat
+
+.hw
+  background:
+    image: url(/assets/logos/hw-logo.png)
+
+.aff
+  background:
+    image: url(/assets/logos/affco-mark-white.png)
+
+.aff-2
+  background:
+    image: url(/assets/logos/affco-logo-white.png)
+
+.t1
+  background:
+    image: radial-gradient(transparentize($dark, 0.45),transparentize($dark, 0.35)), url(/assets/buy/prod-thumb-1.jpg)
+
+.t2
+  background:
+    image: radial-gradient(transparentize($termco, 0.15),transparentize($termco, 0.25)), url(/assets/buy/prod-thumb-2.jpg)
+
+.t3
+  background:
+    image: radial-gradient(transparentize($dark, 0.45),transparentize($dark, 0.35)), url(/assets/buy/prod-thumb-3.jpg)
