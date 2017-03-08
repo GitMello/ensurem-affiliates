@@ -2736,29 +2736,34 @@ body {
 
 .brand-light {
   overflow: hidden;
-  text-indent: 150%;
+  text-indent: 101%;
   white-space: nowrap;
   background-image: url(/assets/logos/affco-logo-white.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 5.7em;
+  width: 7.7em;
   height: 1.5em;
-  margin: 0 auto;
-  padding: 0 0.5em; }
+  margin: 0 auto; }
+
+.brand-left {
+  background-position: left; }
+
+.brand-center {
+  background-position: center; }
+
+.brand-right {
+  background-position: right; }
 
 .brand-dark {
   overflow: hidden;
-  text-indent: 150%;
+  text-indent: 101%;
   white-space: nowrap;
   background-image: url(/assets/logos/affco-logo-black.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
   width: 5.7em;
   height: 1.5em;
-  margin: 0 auto;
-  padding: 0 0.5em; }
+  margin: 0 auto; }
 
 sup {
   vertical-align: top;
@@ -3269,6 +3274,12 @@ footer {
 .l-gut-l {
   margin-left: 1.5em; }
 
+.l-half-gut-r {
+  margin-right: 0.75em; }
+
+.l-half-gut-l {
+  margin-left: 0.75em; }
+
 .butt-link-mini a {
   text-decoration: none;
   text-transform: uppercase;
@@ -3602,6 +3613,7 @@ footer {
         border-radius: 0 0 0.5em 0.5em;
         overflow-y: scroll; }
         .l-navbar li:hover ul li {
+          vertical-align: middle;
           color: #c4c4c4;
           text-align: center;
           display: inline-block;
@@ -3754,7 +3766,22 @@ textarea {
   transition: 300ms;
   height: 1.25em; }
   textarea:focus {
-    height: 10em; }
+    height: 10em;
+    border-radius: 2em; }
+
+label {
+  flex-grow: 1; }
+  label span {
+    text-transform: uppercase;
+    font-size: 70%;
+    position: absolute;
+    top: 0.35em;
+    left: 0.75em;
+    width: auto;
+    padding: 0.25em 2em;
+    border-radius: 50em;
+    z-index: 50;
+    color: #63bc46; }
 
 .discover-grid {
   font-size: 120%;
@@ -4129,12 +4156,12 @@ textarea {
     padding: 0.25em 1.5em;
     border-radius: 0.5em 0.5em 0 0;
     color: #fff;
-    font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 0.0225em; }
 
 .carrier-logo {
   overflow: hidden;
-  text-indent: 150%;
+  text-indent: 101%;
   white-space: nowrap;
   width: 15em;
   height: 4em;

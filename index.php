@@ -35,7 +35,7 @@
     <div class="container">
       <h2 class="text-center">About Us</h2>
       <div class="l-copy-3-300">
-        <h2 class="brand-dark l-float-l l-gut-r"><?php echo $coname;?></h2>
+        <h2 class="brand-dark l-float-l l-half-gut-r"><?php echo $coname;?></h2>
         <p>Lorem ipsum dolor mello sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget tempus. Aenean metus purus, iaculis ut imperdiet eget, sodales et massa. Duis pellentesque nisl vel massa dapibus non lacinia velit volutpat. Maecenas accumsan interdum sodales. In hac habitasse platea dictumst. Pellentesque ornare blandit orci, eget tristique risus convallis ut. Vivamus a sapien neque. Morbi malesuada massa ac sapien luctus vulputate.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus.</p>
@@ -119,10 +119,19 @@
     <div class="container">
       <h2>Sign Up For Money Saving Tips</h2>
       <form class="flex flex-wrap just-center">
-        <input type="text" name="name" value="" placeholder="First Name">
-        <input type="text" name="name" value="" placeholder="Last Name">
-        <input type="text" name="name" value="" placeholder="Email">
-        <input type="button" name="name" value="SIGN UP">
+        <label class="flex relative">
+          <span>First Name*</span>
+          <input  placeholder="What's your first name?"type="text" tabindex="1" required>
+        </label>
+        <label class="flex relative">
+          <span>Last Name*</span>
+          <input placeholder="What's your last name?" type="text" tabindex="2" required>
+        </label>
+        <label class="flex relative">
+          <span>Email*</span>
+          <input placeholder="What's your email?" type="email" tabindex="3" required>
+        </label>
+        <button name="submit" type="submit" id="newsletter-signup">Sign Up</button>
       </form>
     </div>
   </article>

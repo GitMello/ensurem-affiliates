@@ -32,12 +32,27 @@
     <div class="container">
       <h2>Drop Us A Line!</h2>
       <form class="flex flex-wrap just-center">
-        <input type="text" name="First Name" value="" placeholder="First Name">
-        <input type="text" name="Last Name" value="" placeholder="Last Name">
-        <input type="email" name="Email" value="" placeholder="Email">
-        <input type="tel" name="Phone" value="" placeholder="Phone">
-        <textarea name="Message" cols="40" rows="1" placeholder="Type your message..."></textarea>
-        <input type="submit" name="Send" value="SEND">
+        <label class="flex relative">
+          <span>First Name*</span>
+          <input  placeholder="Your first name?"type="text" tabindex="1" required>
+        </label>
+        <label class="flex relative">
+          <span>Last Name*</span>
+          <input placeholder="Your last name?" type="text" tabindex="2" required>
+        </label>
+        <label class="flex relative">
+          <span>Email*</span>
+          <input placeholder="Your email?" type="email" tabindex="3" required>
+        </label>
+        <label class="flex relative">
+          <span>Telephone*</span>
+          <input placeholder="Your phone #?" type="tel" tabindex="4" required>
+        </label>
+        <label class="flex relative">
+          <span>Message*</span>
+          <textarea cols="40" placeholder="Type your message..." type="email" tabindex="5" required></textarea>
+        </label>
+        <button name="submit" type="submit" id="contact">Send</button>
       </form>
     </div>
   </article>

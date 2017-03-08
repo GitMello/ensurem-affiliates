@@ -19,31 +19,45 @@ body
 
 .brand-light
   overflow: hidden
-  text-indent: 150%
+  text-indent: 101%
   white-space: nowrap
   background:
     image: url(/assets/logos/affco-logo-white.png)
     size: contain
     repeat: no-repeat
-    position: center
-  width: 5.7em
+    //position: left
+  // Best to make width & height proportinate to logo; however for the menu these dimensions will work for most logos.
+  width: 7.7em
   height: 1.5em
   margin: 0 auto
-  padding: 0 0.5em
+  //padding: 0
+
+.brand-left
+  background:
+    position: left
+
+.brand-center
+  background:
+    position: center
+
+.brand-right
+  background:
+    position: right
 
 .brand-dark
   overflow: hidden
-  text-indent: 150%
+  text-indent: 101%
   white-space: nowrap
   background:
     image: url(/assets/logos/affco-logo-black.png)
     size: contain
     repeat: no-repeat
-    position: center
+    //position: center
+  // Best to make width & height proportinate to logo
   width: 5.7em
   height: 1.5em
   margin: 0 auto
-  padding: 0 0.5em
+  //padding: 0
 
 sup
   vertical-align: top
