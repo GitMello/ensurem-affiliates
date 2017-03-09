@@ -2738,7 +2738,7 @@ body {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
-  background-image: url(/assets/logos/hw-logo.png);
+  background-image: url(/assets/logos/affco-logo-white.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 6.7em;
@@ -3285,7 +3285,7 @@ footer {
 
 .butt-link-mini a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #488933;
   background-color: transparent;
   white-space: nowrap;
@@ -3304,7 +3304,7 @@ footer {
 
 .butt-link-primary-mini a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: #63bc46;
   white-space: nowrap;
@@ -3323,7 +3323,7 @@ footer {
 
 .butt-link-mini-light a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: transparent;
   white-space: nowrap;
@@ -3342,7 +3342,7 @@ footer {
 
 .butt-link a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #488933;
   background-color: transparent;
   white-space: nowrap;
@@ -3361,7 +3361,7 @@ footer {
 
 .butt-link-light a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: transparent;
   white-space: nowrap;
@@ -3380,7 +3380,7 @@ footer {
 
 .butt-link-md a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #488933;
   background-color: transparent;
   white-space: nowrap;
@@ -3399,7 +3399,7 @@ footer {
 
 .butt-link-light-md a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: transparent;
   white-space: nowrap;
@@ -3418,7 +3418,7 @@ footer {
 
 .butt-link-lg a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #488933;
   background-color: transparent;
   white-space: nowrap;
@@ -3437,7 +3437,7 @@ footer {
 
 .butt-link-primary-lg a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: #63bc46;
   white-space: nowrap;
@@ -3456,7 +3456,7 @@ footer {
 
 .butt-link-light-lg a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: transparent;
   white-space: nowrap;
@@ -3475,7 +3475,7 @@ footer {
 
 .butt-link-xl a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #488933;
   background-color: transparent;
   white-space: nowrap;
@@ -3494,7 +3494,7 @@ footer {
 
 .butt-link-primary-xl a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: #63bc46;
   white-space: nowrap;
@@ -3513,7 +3513,7 @@ footer {
 
 .butt-link-light-xl a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   background-color: transparent;
   white-space: nowrap;
@@ -3654,6 +3654,7 @@ footer {
         text-align: left;
         padding: 1.5em;
         box-sizing: border-box;
+        width: 100%;
         opacity: 0;
         transition: all 500ms ease-in-out;
         line-height: 1em;

@@ -11,8 +11,8 @@
         <h1>Pet Insurance</h1>
         <hr>
         <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
-        <a href="#">LEARN MORE</a>
-        <a href="#">SHOP NOW</a>
+        <a href="#">Learn More</a>
+        <a href="#">Shop Now</a>
       </div>
     </div>
   </header>

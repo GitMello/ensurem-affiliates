@@ -6,7 +6,7 @@
       <h2>Life Insurance &amp; Living Insurance <span class="smart-break">Plans Tailored to YOUR Needs</span></h2>
       <hr>
       <h1>Explore Your Options</h1>
-      <a href="#life-insurance"><i class="fa fa-chevron-circle-down"></i> | SHOW ME!</a>
+      <a href="#life-insurance"><i class="fa fa-chevron-circle-down"></i> | Show Me!</a>
     </div>
   </header>
 
