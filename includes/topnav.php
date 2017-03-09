@@ -12,7 +12,7 @@
   <body>
     <div class="l-navbar-fixed-top">
       <nav class="l-navbar">
-        <a href="/"><h1 class="brand-light opacity-hover-80 l-float-l"><?php echo $coname;?></h1></a>
+        <a href="/"><h1 class="brand-light brand-left opacity-hover-80 l-float-l"><?php echo $coname;?></h1></a>
         <input type="checkbox" id="nav" /><label for="nav"></label>
         <ul>
           <?php include(includes.'main-nav.html'); ?>

@@ -33,6 +33,7 @@
   .butt-next
     margin-top: -0.3em
 
+
 @media screen and (min-width: 433px) and (max-width:640px)
   header
     font-size: 80%
@@ -69,21 +70,35 @@
     h1
       margin-left: 0.3em
     ul
-      border-top: solid 0.0625em $primary
+      //border-top: solid 0.0625em $primary
       display: none
       //background: pink
       li
+        border-top: solid 0.125em $mid-dark
         display: block
         padding: 1em 0
+        box-sizing: border-box
         float: none
         width: 100%
-        text-align: center
-        background: transparentize($dark, 0.05)
+        text-align: right
+        background: transparentize($black, 0.15)
+        .container
+          padding: 0
+
+        .menu-bump
+          padding-right: 1.5em
 
         &:hover
+          background: transparentize($alt, 0.15)
+          border-top: solid 0.125em $transparent
+
           ul
+            height: 17.25em
             display:block
             border-radius: 0 0 0 0
+            li
+              border-top: none
+              width: 100%
             //height: 100vh
         ul
           display: none
@@ -93,11 +108,17 @@
           z-index: 9999
           float: none
           top: 1em
+          padding: 0 7em 0 0
           //height: 25vh
           li
             display: block
-            float: none
+            text-align: left
+            //float: none
+            padding: 1.25em
+            box-sizing: border-box
             background: transparentize($dark, 1)
+            line-height: 1em
+
 
 
     label
@@ -126,6 +147,15 @@
       top: 4em
       left: 0
       width: 100%
+      &:after
+        content: ''
+        display: block
+        width: 2.5em
+        height: 0.3125em
+        border-radius: 50em
+        background: $white
+        margin: 0
+        box-shadow: 0px 10px 0px $primary, 0px 20px 0px $primary
 
   .anchor
     display: block
