@@ -2738,21 +2738,13 @@ body {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
-  background-image: url(/assets/logos/affco-logo-white.png);
+  background-image: url(/assets/logos/hw-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 7.7em;
+  background-position: center;
+  width: 6.7em;
   height: 1.5em;
   margin: 0 auto; }
-
-.brand-left {
-  background-position: left; }
-
-.brand-center {
-  background-position: center; }
-
-.brand-right {
-  background-position: right; }
 
 .brand-dark {
   overflow: hidden;
@@ -2761,6 +2753,7 @@ body {
   background-image: url(/assets/logos/affco-logo-black.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 5.7em;
   height: 1.5em;
   margin: 0 auto; }
@@ -3584,7 +3577,7 @@ footer {
   .l-navbar [type="checkbox"], .l-navbar label {
     display: none; }
   .l-navbar h1 {
-    margin: 0.3em 0; }
+    margin: 0.3em 0 0.3em 0.3em; }
   .l-navbar a {
     text-decoration: none; }
   .l-navbar ul {
@@ -3611,27 +3604,42 @@ footer {
         display: block;
         transition: 500ms;
         border-radius: 0 0 0.5em 0.5em;
-        overflow-y: scroll; }
+        overflow-y: scroll;
+        visibility: visible;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0%);
+        transition-delay: 0ms, 0ms, 500ms; }
         .l-navbar li:hover ul li {
-          vertical-align: middle;
-          color: #c4c4c4;
-          text-align: center;
-          display: inline-block;
+          font-size: 100%;
           width: 100%;
-          line-height: 0.25em; }
+          opacity: 1; }
           .l-navbar li:hover ul li:hover {
             color: #fff;
             background: rgba(99, 188, 70, 0.5);
-            font-size: 116%; }
+            font-size: 110%; }
     .l-navbar li ul {
-      display: none;
+      height: 0vh;
+      visibility: hidden;
+      opacity: 0;
       position: absolute;
+      width: 100%;
+      display: block;
+      transition: all 500ms ease-in-out 0ms;
+      transition-delay: 200ms;
       background: radial-gradient(rgba(0, 0, 0, 0.83), black);
       padding: 0;
       margin: 0;
       text-decoration: none;
       left: 0;
       top: 4.2em; }
+      .l-navbar li ul li {
+        color: #c4c4c4;
+        text-align: center;
+        display: inline-block;
+        width: 0%;
+        opacity: 0;
+        line-height: 0.25em; }
 
 .l-navlinks {
   text-transform: uppercase;
@@ -3767,12 +3775,13 @@ textarea {
   height: 1.25em; }
   textarea:focus {
     height: 10em;
-    border-radius: 2em; }
+    border-radius: 2.25em; }
 
 label {
   flex-grow: 1; }
   label span {
     text-transform: uppercase;
+    font-style: italic;
     font-size: 70%;
     position: absolute;
     top: 0.35em;
@@ -4237,7 +4246,7 @@ label {
   .l-navbar {
     font-size: 0.75em; }
     .l-navbar h1 {
-      margin-left: 0.2em; }
+      margin-left: 0.3em; }
     .l-navbar ul {
       border-top: solid 0.0625em #63bc46;
       display: none; }
@@ -4257,8 +4266,7 @@ label {
           width: 100%;
           z-index: 9999;
           float: none;
-          top: 1em;
-          height: 25vh; }
+          top: 1em; }
           .l-navbar ul li ul li {
             display: block;
             float: none;

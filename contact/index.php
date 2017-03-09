@@ -34,25 +34,25 @@
       <form class="flex flex-wrap just-center">
         <label class="flex relative">
           <span>First Name*</span>
-          <input  placeholder="Your first name?"type="text" tabindex="1" required>
+          <input  placeholder="Your first name?" type="text" tabindex="1" required="required">
         </label>
         <label class="flex relative">
           <span>Last Name*</span>
-          <input placeholder="Your last name?" type="text" tabindex="2" required>
+          <input placeholder="Your last name?" type="text" tabindex="2" required="required">
         </label>
         <label class="flex relative">
           <span>Email*</span>
-          <input placeholder="Your email?" type="email" tabindex="3" required>
+          <input placeholder="Your email?" type="email" tabindex="3" required="required">
         </label>
         <label class="flex relative">
           <span>Telephone*</span>
-          <input placeholder="Your phone #?" type="tel" tabindex="4" required>
+          <input placeholder="Your phone #?" type="tel" tabindex="4" required="required">
         </label>
         <label class="flex relative">
           <span>Message*</span>
-          <textarea cols="40" placeholder="Type your message..." type="email" tabindex="5" required></textarea>
+          <textarea cols="21" placeholder="Type your message..." type="email" tabindex="5" required="required"></textarea>
         </label>
-        <button name="submit" type="submit" id="contact">Send</button>
+        <button name="submit" type="submit" id="contact"><i class="fa fa-send"></i> | Send</button>
       </form>
     </div>
   </article>

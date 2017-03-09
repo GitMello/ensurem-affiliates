@@ -121,17 +121,17 @@
       <form class="flex flex-wrap just-center">
         <label class="flex relative">
           <span>First Name*</span>
-          <input  placeholder="What's your first name?"type="text" tabindex="1" required>
+          <input  placeholder="What's your first name?" type="text" tabindex="1" required="required">
         </label>
         <label class="flex relative">
           <span>Last Name*</span>
-          <input placeholder="What's your last name?" type="text" tabindex="2" required>
+          <input placeholder="What's your last name?" type="text" tabindex="2" required="required">
         </label>
         <label class="flex relative">
           <span>Email*</span>
-          <input placeholder="What's your email?" type="email" tabindex="3" required>
+          <input placeholder="What's your email?" type="email" tabindex="3" required="required">
         </label>
-        <button name="submit" type="submit" id="newsletter-signup">Sign Up</button>
+        <button name="submit" type="submit" id="newsletter-signup"><i class="fa fa-pencil-square-o"></i> | Sign Up</button>
       </form>
     </div>
   </article>
