@@ -4298,7 +4298,7 @@ label {
           z-index: 9999;
           float: none;
           top: 1em;
-          padding: 0 7em 0 0; }
+          padding: 0; }
           .l-navbar ul li ul li {
             display: block;
             text-align: left;
@@ -4330,15 +4330,6 @@ label {
       top: 4em;
       left: 0;
       width: 100%; }
-      .l-navbar [type="checkbox"]:checked ~ ul:after {
-        content: "";
-        display: block;
-        width: 2.5em;
-        height: 0.3125em;
-        border-radius: 50em;
-        background: #fff;
-        margin: 0;
-        box-shadow: 0px 10px 0px #63bc46, 0px 20px 0px #63bc46; }
 
   .anchor {
     display: block;
@@ -4378,6 +4369,9 @@ label {
         background: #f26429; }
     .modal p {
       clear: both; } }
+@media screen and (min-width: 641px) and (max-width: 837px) {
+  .l-navbar ul li ul li {
+    padding: 0.75em 1.5em; } }
 @media screen and (min-width: 1065px) {
   .product-break {
     white-space: nowrap; } }
