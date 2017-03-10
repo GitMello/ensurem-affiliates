@@ -41,17 +41,17 @@
       color: $white
       ul
         height: auto
+        max-height: 25em
         //border-bottom: solid 0.125em $primary
         width: 100%
         display: block
         transition: 500ms
         //border-radius: 0 0 0.5em 0.5em
         opacity: 1
-        overflow-y: scroll
         //padding: 0 2em 2em
         visibility: visible
         opacity: 1
-        z-index: 1
+        //z-index: 1
         //transform: translateY(0%)
         transition-delay: 100ms
         li
@@ -83,7 +83,7 @@
       position: absolute
       width: 100%
       //transform: translateY(1em)
-      z-index: -1
+      //z-index: -1
       display: block
       transition: all 500ms ease-in-out
       //transition-delay: 500ms
@@ -95,6 +95,7 @@
       text-decoration: none
       left: 0
       top: 4.2em
+      overflow-y: scroll
       li
         color: $light
         text-align: left
