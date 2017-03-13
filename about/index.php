@@ -24,7 +24,7 @@
       <h3>Our dependents deserve <span class="smart-break">to feel <strong>secure</strong></span></h3>
       <hr>
       <h2>Welcome to <em>YOUR</em> <span class="smart-break">Insurance Marketplace</span></h2>
-      <h1 class="brand-light"><?php echo $coname;?></h1>
+      <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
     </div>
   </article>
 

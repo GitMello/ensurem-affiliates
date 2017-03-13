@@ -24,7 +24,7 @@
       <h3>Discover Life Insurance <span class="smart-break">Options Below</span></h3>
       <hr>
       <h2>"Buying Insurance Just Got <span class="smart-break">A Whole Lot Easier."</span></h2>
-      <h1 class="brand-light"><?php echo $coname;?></h1>
+      <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
     </div>
   </article>
 
@@ -46,7 +46,7 @@
       <hr>
       <h5><sup>1</sup> Kaiser Family Foundation</h5>
       <h2>"Buying Insurance Just Got <span class="smart-break">A Whole Lot Easier."</span></h2>
-      <h1 class="brand-light"><?php echo $coname;?></h1>
+      <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
     </div>
   </article>
 

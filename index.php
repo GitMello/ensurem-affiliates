@@ -6,7 +6,7 @@
       <div class="l-fullpage-header-content xl no-pad-sides butt-link-primary-xl">
         <h1>Your Insurance<br>Marketplace</h1>
         <h2>Buying insurance just got awesome!</h2>
-        <a href="#">LORAT GO!</a>
+        <a href="#"><i class="fa fa-chevron-circle-right"></i> | Lorat Go!</a>
       </div>
     </div>
   </header>
