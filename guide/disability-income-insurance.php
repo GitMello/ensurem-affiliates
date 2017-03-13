@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-disco ">
         <div>
-          <div class="butt-prev"><a href="/guide/dental-and-vision-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/home-security-plans.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/dental-and-vision-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/home-security-plans" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Disability Income Insurance</span></h1>
         <hr>

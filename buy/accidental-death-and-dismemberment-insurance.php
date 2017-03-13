@@ -4,8 +4,8 @@
   <header class="addco butt-link-light-lg link-hover-addco">
     <div class="container no-pad">
       <div>
-        <div class="butt-prev"><a href="/buy/short-term-health-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-        <div class="butt-next"><a href="/buy/final-expense-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+        <div class="butt-prev"><a href="/buy/short-term-health-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+        <div class="butt-next"><a href="/buy/final-expense-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
       </div>
       <h1>Shop Accident <span class="smart-break">Insurance Plans</span></h1>
     </div>

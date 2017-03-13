@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-wholeco ">
         <div>
-          <div class="butt-prev"><a href="/guide/term-life-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/annuities.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/term-life-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/annuities" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Whole Life Insurance</span></h1>
         <hr>

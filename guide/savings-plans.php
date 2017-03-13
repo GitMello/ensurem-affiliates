@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-saveco ">
         <div>
-          <div class="butt-prev"><a href="/guide/pet-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/short-term-health-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/pet-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/short-term-health-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Savings Plans</h1>
         <hr>

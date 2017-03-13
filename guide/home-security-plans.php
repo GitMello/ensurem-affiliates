@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-homeseco ">
         <div>
-          <div class="butt-prev"><a href="/guide/disability-income-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/medical-cash-benefits-plans.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/disability-income-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/medical-cash-benefits-plans" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Home Security Plans</span></h1>
         <hr>

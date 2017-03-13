@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-unico ">
         <div>
-          <div class="butt-prev"><a href="/guide/term-life-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/whole-life-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/term-life-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/whole-life-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Universal Life Insurance</h1>
         <hr>

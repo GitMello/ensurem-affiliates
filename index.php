@@ -25,7 +25,7 @@
         <li>
           <h2><i class="fa fa-book"></i> <span class="text-accent">|</span> Why <?php echo $coname;?>?</h2>
           <h3>Get The <?php echo $coname;?> Story</h3>
-          <a href="#">Go Now</a>
+          <a href="/about/#our-story">Go Now</a>
         </li>
       </ul>
     </section>

@@ -4,8 +4,8 @@
   <header class="unico butt-link-light-lg link-hover-unico">
     <div class="container no-pad">
       <div>
-        <div class="butt-prev"><a href="/buy/term-life-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-        <div class="butt-next"><a href="/buy/whole-life-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+        <div class="butt-prev"><a href="/buy/term-life-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+        <div class="butt-next"><a href="/buy/whole-life-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
       </div>
       <h1>Shop Universal Life Insurance Plans</h1>
     </div>

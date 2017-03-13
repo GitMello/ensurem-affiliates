@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-dentco ">
         <div>
-          <div class="butt-prev"><a href="/guide/annuities.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/disability-income-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/annuities" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/disability-income-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Dental &amp; Vision</span></h1>
         <hr>

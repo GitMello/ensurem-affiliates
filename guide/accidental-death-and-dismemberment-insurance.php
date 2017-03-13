@@ -5,8 +5,8 @@
     <div class="container no-pad">
       <div class="l-fullpage-header-content no-pad-sides butt-link-light-lg link-hover-addco ">
         <div>
-          <div class="butt-prev"><a href="/guide/short-term-health-insurance.php" class=""><i class="fa fa-chevron-left"></i></a></div>
-          <div class="butt-next"><a href="/guide/final-expense-insurance.php" class=""><i class="fa fa-chevron-right"></i></a></div>
+          <div class="butt-prev"><a href="/guide/short-term-health-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/final-expense-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
         <h1>Accidental Death &amp; Dismemberment</span></h1>
         <hr>
