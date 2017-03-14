@@ -11,7 +11,7 @@
   </header>
 
   <a id="life-insurance" class="anchor"></a>
-  <article class="discover-content black text-center text-white">
+  <article class="discover-content black text-center text-white butt-link-light link-hover-black">
     <div class="container-900">
       <h1>Life Insurance</h1>
       <h3>Insurance coverage options <span class="smart-break">for every stage of life</span></h3>
@@ -21,7 +21,10 @@
         <p>Getting married? Now is the perfect time to buy Term Life Insurance for your spouse. Having children? Protect their financial future by buying a Whole Life <span class="smart-break">Insurance policy.</span></p>
         <p>You can also shop our selection of Universal Life Insurance plans, Final Expense Insurance, and Accidental Death &amp; Dismemberment Plans. We’ve streamlined the process of buying insurance online and you may not even have to talk to an agent to get what <span class="smart-break">you need.</span></p>
       </div>
-      <h3>Discover Life Insurance <span class="smart-break">Options Below</span></h3>
+      <h3>
+        <a href="/guide/life-insurance">Learn More</a>
+        Or Discover Life Insurance <span class="smart-break">Options Below</span>
+      </h3>
       <hr>
       <h2>"Buying Insurance Just Got <span class="smart-break">A Whole Lot Easier."</span></h2>
       <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
@@ -31,7 +34,7 @@
 <?php include(includes.'disco-life-insurance-products.html'); ?>
 
   <a id="living-insurance" class="anchor"></a>
-  <article class="discover-content black text-center text-white">
+  <article class="discover-content black text-center text-white butt-link-light link-hover-black">
     <div class="container-900">
       <h1>Living Insurance<sup>&trade;</sup></h1>
       <h3>Live life to the fullest <span class="smart-break">without financial stress</span></h3>
@@ -42,7 +45,10 @@
         <p>Living Insurance products like Savings Plans give you discounts on everything from groceries to dental visits. Reduce financial stress without paying a premium price for the things you and your family need. Other Living Insurance plans include Dental Insurance, Disability Income Insurance, <span class="smart-break">and Annuities.</span></p>
       </div>
       <p>Be financially prepared when <span class="smart-break">life gets unpredictable.</span></p>
-      <h3>Discover Living Insurance <span class="smart-break">Options Below</span></h3>
+      <h3>
+        <a href="/guide/living-insurance">Learn More</a>
+        Or Discover Living Insurance <span class="smart-break">Options Below</span>
+      </h3>
       <hr>
       <h5><sup>1</sup> Kaiser Family Foundation</h5>
       <h2>"Buying Insurance Just Got <span class="smart-break">A Whole Lot Easier."</span></h2>
