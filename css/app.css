@@ -2779,7 +2779,7 @@ a {
 
 hr {
   border: none;
-  border-top: solid 0.08em;
+  border-top: solid 0.0625em;
   border-radius: 50em;
   margin: 1em 0; }
 
@@ -3840,7 +3840,14 @@ label {
   transition: 300ms; }
   .l-16-9-responsive-text h2 {
     text-transform: uppercase;
-    margin: 0; }
+    margin: 0 0 0.5em; }
+  .l-16-9-responsive-text h3 {
+    text-transform: capitalize;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0 0 1em; }
+  .l-16-9-responsive-text hr {
+    margin: 0 0 0.5em; }
 
 .discover-content h1 {
   margin: 0.4em auto;
@@ -3930,6 +3937,11 @@ label {
       text-transform: capitalize;
       font-style: italic;
       font-weight: 600; }
+      .l-display-product-type-list li ul li:before {
+        font-family: FontAwesome;
+        content: "";
+        margin-right: 0.6em;
+        color: #63bc46; }
   .l-display-product-type-list li h3, .l-display-product-type-list li p {
     margin: 0.25em 0; }
   .l-display-product-type-list li h6 {
@@ -3950,7 +3962,23 @@ label {
     text-transform: uppercase;
     font-weight: 600; }
 .product-types article {
-  padding: 1.5em; }
+  padding: 1.5em 1.5em 2em; }
+  .product-types article p {
+    line-height: 1.5em; }
+  .product-types article ul {
+    border-top: 0.0625em solid #f1f1f1;
+    border-bottom: 0.0625em solid #f1f1f1;
+    padding: 1.5em 0;
+    font-style: italic;
+    font-weight: 600; }
+    .product-types article ul li {
+      margin-bottom: 0.5em;
+      padding-left: 1.5em;
+      text-indent: -1.5em; }
+      .product-types article ul li:before {
+        font-family: FontAwesome;
+        content: "";
+        margin-right: 0.6em; }
 
 #discover-grid {
   background-image: radial-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(/assets/discover/discover-bg.jpg);
@@ -3959,7 +3987,7 @@ label {
   background-repeat: no-repeat; }
 
 #term-1 {
-  background-image: radial-gradient(rgba(6, 76, 136, 0.9), rgba(6, 76, 136, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-image: radial-gradient(rgba(6, 76, 136, 0.8), rgba(6, 76, 136, 0.8)), url(/assets/discover/discover-term-life-insurance.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -3972,7 +4000,7 @@ label {
   background-position: center; }
 
 #whole-1 {
-  background-image: radial-gradient(rgba(21, 0, 133, 0.9), rgba(21, 0, 133, 0.9)), url(/assets/discover/discover-whole-life-insurance.jpg);
+  background-image: radial-gradient(rgba(21, 0, 133, 0.8), rgba(21, 0, 133, 0.8)), url(/assets/discover/discover-whole-life-insurance.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -3985,7 +4013,7 @@ label {
   background-position: center; }
 
 #uni-1 {
-  background-image: radial-gradient(rgba(111, 19, 98, 0.9), rgba(111, 19, 98, 0.9)), url(/assets/discover/discover-universal-life.jpg);
+  background-image: radial-gradient(rgba(111, 19, 98, 0.8), rgba(111, 19, 98, 0.8)), url(/assets/discover/discover-universal-life.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -3998,7 +4026,7 @@ label {
   background-position: center; }
 
 #fin-1 {
-  background-image: radial-gradient(rgba(194, 38, 37, 0.9), rgba(194, 38, 37, 0.9)), url(/assets/discover/discover-final-expense.jpg);
+  background-image: radial-gradient(rgba(194, 38, 37, 0.8), rgba(194, 38, 37, 0.8)), url(/assets/discover/discover-final-expense.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4011,7 +4039,7 @@ label {
   background-position: center; }
 
 #add-1 {
-  background-image: radial-gradient(rgba(242, 100, 41, 0.9), rgba(242, 100, 41, 0.9)), url(/assets/discover/discover-accidental-death-dismemberment.jpg);
+  background-image: radial-gradient(rgba(242, 100, 41, 0.8), rgba(242, 100, 41, 0.8)), url(/assets/discover/discover-accidental-death-dismemberment.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4024,7 +4052,7 @@ label {
   background-position: center; }
 
 #annu-1 {
-  background-image: radial-gradient(rgba(208, 173, 0, 0.9), rgba(208, 173, 0, 0.9)), url(/assets/discover/discover-annuities.jpg);
+  background-image: radial-gradient(rgba(208, 173, 0, 0.8), rgba(208, 173, 0, 0.8)), url(/assets/discover/discover-annuities.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4037,7 +4065,7 @@ label {
   background-position: center; }
 
 #dent-1 {
-  background-image: radial-gradient(rgba(99, 188, 70, 0.9), rgba(99, 188, 70, 0.9)), url(/assets/discover/discover-dental-insurance.jpg);
+  background-image: radial-gradient(rgba(99, 188, 70, 0.8), rgba(99, 188, 70, 0.8)), url(/assets/discover/discover-dental-insurance.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4050,7 +4078,7 @@ label {
   background-position: center; }
 
 #dis-1 {
-  background-image: radial-gradient(rgba(4, 47, 85, 0.9), rgba(4, 47, 85, 0.9)), url(/assets/discover/discover-disability-insurance.jpg);
+  background-image: radial-gradient(rgba(4, 47, 85, 0.8), rgba(4, 47, 85, 0.8)), url(/assets/discover/discover-disability-insurance.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4063,8 +4091,8 @@ label {
   background-position: center; }
 
 #stm-1 {
-  background-image: radial-gradient(rgba(29, 0, 133, 0.9), rgba(29, 0, 133, 0.9)), url(/assets/discover/discover-short-term-medical-insurance.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(29, 0, 133, 0.8), rgba(29, 0, 133, 0.8)), url(/assets/discover/discover-short-term-medical-insurance.jpg);
+  background-position: top;
   background-size: cover; }
 
 #stm-2 {
@@ -4076,7 +4104,7 @@ label {
   background-position: center; }
 
 #homesec-1 {
-  background-image: radial-gradient(rgba(60, 10, 53, 0.9), rgba(60, 10, 53, 0.9)), url(/assets/discover/discover-home-security.jpg);
+  background-image: radial-gradient(rgba(60, 10, 53, 0.8), rgba(60, 10, 53, 0.8)), url(/assets/discover/discover-home-security.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4089,7 +4117,7 @@ label {
   background-position: center; }
 
 #med-1 {
-  background-image: radial-gradient(rgba(143, 28, 27, 0.9), rgba(143, 28, 27, 0.9)), url(/assets/discover/discover-medical-cash-benefits.jpg);
+  background-image: radial-gradient(rgba(143, 28, 27, 0.8), rgba(143, 28, 27, 0.8)), url(/assets/discover/discover-medical-cash-benefits.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4102,7 +4130,7 @@ label {
   background-position: center; }
 
 #pet-1 {
-  background-image: radial-gradient(rgba(191, 79, 32, 0.9), rgba(191, 79, 32, 0.9)), url(/assets/discover/discover-pet-insurance.jpg);
+  background-image: radial-gradient(rgba(191, 79, 32, 0.8), rgba(191, 79, 32, 0.8)), url(/assets/discover/discover-pet-insurance.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4115,7 +4143,7 @@ label {
   background-position: center; }
 
 #save-1 {
-  background-image: radial-gradient(rgba(157, 131, 0, 0.9), rgba(157, 131, 0, 0.9)), url(/assets/discover/discover-savings-plans.jpg);
+  background-image: radial-gradient(rgba(157, 131, 0, 0.8), rgba(157, 131, 0, 0.8)), url(/assets/discover/discover-savings-plans.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4128,7 +4156,7 @@ label {
   background-position: center; }
 
 #msup-1 {
-  background-image: radial-gradient(rgba(72, 137, 51, 0.9), rgba(72, 137, 51, 0.9)), url(/assets/discover/discover-medsup.jpg);
+  background-image: radial-gradient(rgba(72, 137, 51, 0.8), rgba(72, 137, 51, 0.8)), url(/assets/discover/discover-medsup.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -4139,6 +4167,11 @@ label {
 #msup-3 {
   background-image: url(/assets/discover/discover-medsup-2.jpg);
   background-position: center; }
+
+#life-guide {
+  background-image: radial-gradient(rgba(72, 137, 51, 0.7), #488933), url(/assets/discover/life-insurance-guide.jpg);
+  background-position: top;
+  background-size: cover; }
 
 .we-believe h1 {
   margin: 0.4em auto;
@@ -4291,7 +4324,13 @@ label {
       display: block;
       border: none;
       margin: 0.5em 0 0;
-      text-transform: capitalize; }
+      text-transform: capitalize;
+      text-indent: -0.4em; }
+      .l-display-products-list li ul li:before {
+        font-family: FontAwesome;
+        content: "";
+        margin-right: 0.4em;
+        color: #63bc46; }
   .l-display-products-list li h3, .l-display-products-list li p {
     margin: 0.25em 0; }
   .l-display-products-list li h6 {

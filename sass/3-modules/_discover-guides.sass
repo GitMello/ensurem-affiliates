@@ -3,7 +3,15 @@
   transition: 300ms
   h2
     text-transform: uppercase
-    margin: 0
+    margin: 0 0 0.5em
+
+  h3
+    text-transform: capitalize
+    font-weight: 200
+    font-style: italic
+    margin: 0 0 1em
+  hr
+    margin: 0 0 0.5em
 
 .discover-content
   h1
@@ -116,6 +124,13 @@
         text-transform: capitalize
         font-style: italic
         font-weight: 600
+        //padding-left: 1.5em
+        //text-indent: -1.5em
+        &:before
+          font-family: FontAwesome
+          content: "\f00c"
+          margin-right: 0.6em
+          color: $primary
     h3, p
       margin: 0.25em 0
     h6
@@ -141,4 +156,21 @@
       text-transform: uppercase
       font-weight: 600
   article
-    padding: 1.5em
+    padding: 1.5em 1.5em 2em
+    p
+      line-height: 1.5em
+
+    ul
+      border-top: 0.0625em solid $light
+      border-bottom: 0.0625em solid $light
+      padding: 1.5em 0
+      font-style: italic
+      font-weight: 600
+      li
+        margin-bottom: 0.5em
+        padding-left: 1.5em
+        text-indent: -1.5em
+        &:before
+          font-family: FontAwesome
+          content: "\f00c"
+          margin-right: 0.6em

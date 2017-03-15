@@ -25,10 +25,10 @@
         </header>
         <article>
           <ul>
-            <li><i class="fa fa-check"></i> Guaranteed Approval</li>
-            <li><i class="fa fa-check"></i> No Medical Exam</li>
-            <li><i class="fa fa-check"></i> No Health Questions</li>
-            <li><i class="fa fa-check"></i> Affordable Rates</li>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
           </ul>
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
@@ -45,10 +45,10 @@
         </header>
         <article>
           <ul>
-            <li><i class="fa fa-check"></i> Guaranteed Approval</li>
-            <li><i class="fa fa-check"></i> No Medical Exam</li>
-            <li><i class="fa fa-check"></i> No Health Questions</li>
-            <li><i class="fa fa-check"></i> Affordable Rates</li>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
           </ul>
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
@@ -64,10 +64,10 @@
         </header>
         <article>
           <ul>
-            <li><i class="fa fa-check"></i> Guaranteed Approval</li>
-            <li><i class="fa fa-check"></i> No Medical Exam</li>
-            <li><i class="fa fa-check"></i> No Health Questions</li>
-            <li><i class="fa fa-check"></i> Affordable Rates</li>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
           </ul>
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
@@ -83,10 +83,10 @@
         </header>
         <article>
           <ul>
-            <li><i class="fa fa-check"></i> Guaranteed Approval</li>
-            <li><i class="fa fa-check"></i> No Medical Exam</li>
-            <li><i class="fa fa-check"></i> No Health Questions</li>
-            <li><i class="fa fa-check"></i> Affordable Rates</li>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
           </ul>
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
@@ -102,10 +102,10 @@
         </header>
         <article>
           <ul>
-            <li><i class="fa fa-check"></i> Guaranteed Approval</li>
-            <li><i class="fa fa-check"></i> No Medical Exam</li>
-            <li><i class="fa fa-check"></i> No Health Questions</li>
-            <li><i class="fa fa-check"></i> Affordable Rates</li>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
           </ul>
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
@@ -121,10 +121,10 @@
         </header>
         <article>
           <ul>
-            <li><i class="fa fa-check"></i> Guaranteed Approval</li>
-            <li><i class="fa fa-check"></i> No Medical Exam</li>
-            <li><i class="fa fa-check"></i> No Health Questions</li>
-            <li><i class="fa fa-check"></i> Affordable Rates</li>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
           </ul>
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
