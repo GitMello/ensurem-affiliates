@@ -190,18 +190,18 @@
   </ul>
 </article> -->
 
-<article class="flex flex-wrap text-center butt-link-light-lg l-16-9-responsive-text text-white link-hover-alt">
-  <div id="life-guide" class="col-lg-6">
+<article class="flex flex-wrap text-center butt-link-light l-16-9-responsive-text text-white link-hover-alt">
+  <div id="life-guide" class="col-md-6">
     <div class="l-16-9-aspect relative">
       <div class="abso-centered">
-        <h2>What you need to know about life insurance</h2>
+        <h2><span class="smart-break">What you need</span><br><span class="smart-break">to know about</span><br><span class="smart-break">life insurance</span></h2>
         <hr>
         <h3>A Free Guide</h3>
         <a href="#"><i class="fa fa-download"></i> | Download</a>
       </div>
     </div>
   </div>
-  <div class="col-lg-6">
+  <div class="col-md-6">
     <div class="video-wrap">
       <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521490723001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
     </div>

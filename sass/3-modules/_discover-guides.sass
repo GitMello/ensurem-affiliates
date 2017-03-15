@@ -1,15 +1,20 @@
+.briefing
+  h3
+    font-weight: 400
+
 .l-16-9-responsive-text
   font-size: 120%
   transition: 300ms
   h2
     text-transform: uppercase
     margin: 0 0 0.5em
+    transition: 300ms
 
   h3
     text-transform: capitalize
     font-weight: 200
     font-style: italic
-    margin: 0 0 1em
+    margin: 0 0 0.5em
   hr
     margin: 0 0 0.5em
 
@@ -174,3 +179,61 @@
           font-family: FontAwesome
           content: "\f00c"
           margin-right: 0.6em
+
+.add-list
+  +fa-list-left ("\f00c", $addco, $addco)
+
+.fin-list
+  +fa-list-left ("\f00c", $finco, $finco)
+
+.term-list
+  +fa-list-left ("\f00c", $termco, $termco)
+
+.whole-list
+  +fa-list-left ("\f00c", $wholeco, $wholeco)
+
+.annu-list
+  +fa-list-left ("\f00c", $annuco, $annuco)
+
+.dent-list
+  +fa-list-left ("\f00c", $dentco, $dentco)
+
+.dis-list
+  +fa-list-left ("\f00c", $disco, $disco)
+
+.homesec-list
+  +fa-list-left ("\f00c", $homeseco, $homeseco)
+
+.med-list
+  +fa-list-left ("\f00c", $medco, $medco)
+
+.msup-list
+  +fa-list-left ("\f00c", $msupco, $msupco)
+
+.pet-list
+  +fa-list-left ("\f00c", $petco, $petco)
+
+.save-list
+  +fa-list-left ("\f00c", $saveco, $saveco)
+
+.stm-list
+  +fa-list-left ("\f00c", $stmco, $stmco)
+
+.main-cta
+  text-align: center
+  text-transform: uppercase
+  font-weight: 600
+  a
+    text-decoration: none
+    font-size: 1.25em
+    width: 100vw
+    background: transparentize($primary, 0.05)
+    color: $white
+    padding: 1.5em
+    box-sizing: border-box
+    position: fixed
+    z-index: 9998
+    bottom: 0
+    transition: 500ms
+    &:hover
+      background: $accent

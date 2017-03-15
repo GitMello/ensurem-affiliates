@@ -22,3 +22,24 @@
       border: solid 0.08em $hoco
       background:
         color: $hoco
+
+=fa-list-left ($fali, $lico, $bordco)
+  ul
+    h2
+      margin-top: 0
+      color: $lico
+    border-top: 0.125em solid $bordco
+    border-bottom: 0.125em solid $bordco
+    padding: 2em 0
+    font-style: italic
+    font-weight: 600
+    border-radius: 1em
+    li
+      margin-bottom: 0.5em
+      padding-left: 1.5em
+      text-indent: -1.5em
+      &:before
+        font-family: FontAwesome
+        content: $fali
+        margin-right: 0.6em
+        color: $lico
