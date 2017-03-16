@@ -23,8 +23,8 @@
       </div>
       <div class="col-sm-12 col-lg-6 col-pad briefing">
         <ul>
-          <h2>Key Benefits of AD&amp;D Insurance</h2>
-          <li>Pays policy face amount to beneficiary in the event of death</li>
+          <h2>Key Benefits of <span class="smart-break">AD&amp;D Insurance</span></h2>
+          <li>Pays policy face amount to beneficiary in the <span class="smart-break">event of death</span></li>
           <li>Scheduled benefit for dismemberment</li>
           <li>More affordable than term life with similar limits</li>
           <li>No medical exam insurance options</li>
@@ -35,7 +35,7 @@
   </article>
 
   <article class="flex flex-wrap text-center butt-link-light l-16-9-responsive-text text-white link-hover-alt">
-    <div id="life-guide" class="col-md-6">
+    <div id="life-guide" class="col-md-6  flex-1-md flex-1-sm flex-1-xs">
       <div class="l-16-9-aspect relative">
         <div class="abso-centered">
           <h2><span class="smart-break">What you need</span><br><span class="smart-break">to know about</span><br><span class="smart-break">life insurance</span></h2>
