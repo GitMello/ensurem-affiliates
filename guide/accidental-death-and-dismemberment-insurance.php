@@ -52,6 +52,46 @@
     </div>
   </article>
 
+  <article id="" class="l-16-9-responsive-text flex flex-wrap img-responsive text-center text-white butt-link-light dark">
+    <div class="col-sm-12 col-md-6 link-hover-termco">
+      
+      <div id="term-2" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="term-3" class="col-md-6 col-sq col-sm-hide"></div>
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+      <div class="slider">
+        <div class="four-fact-slider">
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>611 Construction trade worker fatalities were reported in 2014.</h4>
+              <h6>(Source: Unknown)</h6>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>Accidents account for 1 of every 4 people treated in the emergency room.</h4>
+              <h6>(Source: Womenshealth.gov)</h6>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>4,679 workers were killed on the job in 2014.</h4>
+              <h6>(Source: bls.gov)</h6>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>Accidents happǝn.</h4>
+              <h6>(Source: Leonard Mello)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </article>
+
   <div class="main-cta flex">
     <a href="/buy/accidental-death-and-dismemberment-insurance"><i class="fa fa-cart-plus"></i> | Shop Now</a>
   </div>

@@ -1,0 +1,75 @@
+.slider
+  height: 25vw
+  min-height: 0.0625em
+  overflow: hidden
+
+.three-fact-slider
+  +slider (300%, 33.33333%, 9s)
+  @keyframes slide
+    0%, 100%
+      margin-left: 0%
+      background: $slidered
+    11.11111111111111%
+      margin-left: 0%
+      background: $slidered
+    22.22222222222222%
+      margin-left: 0%
+      background: $slidered
+    33.33333333333333%
+      margin-left: -100%
+      background: darken($slidered, 5%)
+    44.44444444444444%
+      margin-left: -100%
+      background: darken($slidered, 5%)
+    55.55555555555555%
+      margin-left: -100%
+      background: darken($slidered, 5%)
+    66.66666666666666%
+      margin-left: -200%
+      background: darken($slidered, 10%)
+    77.77777777777777%
+      margin-left: -200%
+      background: darken($slidered, 10%)
+    88.88888888888888%
+      margin-left: -200%
+      background: darken($slidered, 10%)
+
+.four-fact-slider
+  +slider (400%, 25%, 12s)
+  @keyframes slide
+    0%, 100%
+      margin-left: 0%
+      background: $slidered
+    8.333333333333333%
+      margin-left: 0%
+      background: $slidered
+    16.66666666666667%
+      margin-left: 0%
+      background: $slidered
+    25%
+      margin-left: -100%
+      background: darken($slidered, 5%)
+    33.33333333333333%
+      margin-left: -100%
+      background: darken($slidered, 5%)
+    41.66666666666667%
+      margin-left: -100%
+      background: darken($slidered, 5%)
+    50%
+      margin-left: -200%
+      background: darken($slidered, 10%)
+    58.333333333333333%
+      margin-left: -200%
+      background: darken($slidered, 10%)
+    66.666666666666667%
+      margin-left: -200%
+      background: darken($slidered, 10%)
+    75%
+      margin-left: -300%
+      background: darken($slidered, 15%)
+    83.333333333333333%
+      margin-left: -300%
+      background: darken($slidered, 15%)
+    91.666666666666667%
+      margin-left: -300%
+      background: darken($slidered, 15%)

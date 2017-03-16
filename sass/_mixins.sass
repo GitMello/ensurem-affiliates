@@ -43,3 +43,17 @@
         content: $fali
         margin-right: 0.6em
         color: $lico
+
+=slider ($wrapwidth, $slidewidth, $duration)
+  width: $wrapwidth
+  height: 100%
+  animation-name: slide
+  animation-duration: $duration
+  animation-iteration-count: infinite
+
+  .slide
+    position: relative
+    width: $slidewidth
+    height: 100%
+    float: left
+    //background: $slidered
