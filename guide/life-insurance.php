@@ -10,7 +10,7 @@
 </header>
 
 <article>
-  <div class="grid fluid flex flex-wrap butt-link-light text-white product-types l-stack-all dark">
+  <div class="grid fluid flex flex-wrap butt-link-light text-white product-types l-stack-all-ul dark">
 
       <div class="termco col-md-6 col-lg-3 link-hover-termco flex-grow-1">
         <header id="term-1" class="relative">

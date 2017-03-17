@@ -13,7 +13,7 @@
 
   <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
 
-    <h2>Accidental Death &amp; Dismemberment Insurance Plans</h2>
+    <h2>Accidental Death &amp; Dismemberment <span class="smart-break">Insurance Plans</span></h2>
     <h3>Shop AD&amp;D insurance plans from reputable carriers</h3>
 
     <ul>
