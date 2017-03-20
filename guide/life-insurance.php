@@ -3,7 +3,7 @@
 
 <header class="primary butt-link-light-lg link-hover-primary">
   <div class="container no-pad">
-    <h1>Life Insurance</h1>
+    <h1><i class="fa fa-heart-o"></i> | Life Insurance</h1>
     <h2>Products that provide benefits after you pass away</h2>
     <a href="/guide/living-insurance">View Living Insurance</a>
   </div>
@@ -13,7 +13,7 @@
   <div class="grid fluid flex flex-wrap butt-link-light text-white product-types l-stack-all-ul dark">
 
       <div class="termco col-md-6 col-lg-3 link-hover-termco flex-grow-1">
-        <header id="term-1" class="relative">
+        <header id="term-life-hero" class="relative">
           <div class="abso-centered">
             <h2>Term Life Insurance</h2>
           </div>
@@ -34,7 +34,7 @@
         </article>
       </div>
       <div class="wholeco col-md-6 col-lg-3 link-hover-wholeco flex-grow-1">
-        <header id="whole-1" class="relative">
+        <header id="whole-life-hero" class="relative">
           <div class="abso-centered">
             <h2>Whole Life Insurance</h2>
           </div>
@@ -57,7 +57,7 @@
 
       </div>
       <div class="finco col-md-6 col-lg-3 link-hover-finco flex-grow-1">
-        <header id="fin-1" class="relative">
+        <header id="fin-life-hero" class="relative">
           <div class="abso-centered">
             <h2>Final Expense Insurance</h2>
           </div>
@@ -81,7 +81,7 @@
 
       </div>
     <div class="addco col-md-6 col-lg-3 link-hover-addco flex-grow-1">
-      <header id="add-1" class="relative">
+      <header id="add-hero" class="relative">
         <div class="abso-centered">
           <h2>Accident plans</h2>
         </div>

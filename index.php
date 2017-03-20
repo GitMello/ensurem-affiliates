@@ -18,14 +18,14 @@
       <hr>
       <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap butt-link-md">
         <li>
-          <h2><i class="fa fa-compass"></i> <span class="text-accent">|</span> Discover</h2>
-          <h3>Insurance Basics</h3>
-          <a href="/guide">Go Now</a>
+          <h2><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</h2>
+          <h3>Products That Provide<br>Benefits After You Pass Away</h3>
+          <a href="/guide/life-insurance">Go Now</a>
         </li>
         <li>
-          <h2><i class="fa fa-book"></i> <span class="text-accent">|</span> Why <?php echo $coname;?>?</h2>
-          <h3>Get The <?php echo $coname;?> Story</h3>
-          <a href="/about/#our-story">Go Now</a>
+          <h2><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</h2>
+          <h3>Products That Provide You<br>Benefits While You Are Alive</h3>
+          <a href="/guide/living-insurance">Go Now</a>
         </li>
       </ul>
     </section>

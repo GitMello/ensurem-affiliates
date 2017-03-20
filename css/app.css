@@ -3727,59 +3727,59 @@ footer {
   background-position: center bottom; }
 
 #term-life-hero {
-  background-image: radial-gradient(rgba(6, 76, 136, 0.75), rgba(6, 76, 136, 0.9)), url(/assets/discover/discover-term-life-insurance.jpg);
+  background-image: radial-gradient(rgba(6, 76, 136, 0.75), rgba(6, 76, 136, 0.75)), url(/assets/discover/discover-term-life-insurance.jpg);
   background-position: center; }
 
 #uni-life-hero {
-  background-image: radial-gradient(rgba(111, 19, 98, 0.75), rgba(111, 19, 98, 0.9)), url(/assets/discover/discover-universal-life.jpg);
+  background-image: radial-gradient(rgba(111, 19, 98, 0.75), rgba(111, 19, 98, 0.75)), url(/assets/discover/discover-universal-life.jpg);
   background-position: center; }
 
 #whole-life-hero {
-  background-image: radial-gradient(rgba(21, 0, 133, 0.75), rgba(21, 0, 133, 0.9)), url(/assets/discover/discover-whole-life-insurance.jpg);
+  background-image: radial-gradient(rgba(21, 0, 133, 0.75), rgba(21, 0, 133, 0.75)), url(/assets/discover/discover-whole-life-insurance.jpg);
   background-position: center; }
 
 #add-hero {
-  background-image: radial-gradient(rgba(242, 100, 41, 0.75), rgba(242, 100, 41, 0.9)), url(/assets/discover/discover-accidental-death-dismemberment.jpg);
+  background-image: radial-gradient(rgba(242, 100, 41, 0.75), rgba(242, 100, 41, 0.75)), url(/assets/discover/discover-accidental-death-dismemberment.jpg);
   background-position: center; }
 
 #fin-life-hero {
-  background-image: radial-gradient(rgba(194, 38, 37, 0.75), rgba(194, 38, 37, 0.9)), url(/assets/discover/discover-final-expense.jpg);
+  background-image: radial-gradient(rgba(194, 38, 37, 0.75), rgba(194, 38, 37, 0.75)), url(/assets/discover/discover-final-expense.jpg);
   background-position: center; }
 
 #annu-hero {
-  background-image: radial-gradient(rgba(208, 173, 0, 0.75), rgba(208, 173, 0, 0.9)), url(/assets/discover/discover-annuities.jpg);
+  background-image: radial-gradient(rgba(208, 173, 0, 0.75), rgba(208, 173, 0, 0.75)), url(/assets/discover/discover-annuities.jpg);
   background-position: center; }
 
 #dent-hero {
-  background-image: radial-gradient(rgba(99, 188, 70, 0.75), rgba(99, 188, 70, 0.9)), url(/assets/discover/discover-dental-insurance.jpg);
+  background-image: radial-gradient(rgba(99, 188, 70, 0.75), rgba(99, 188, 70, 0.75)), url(/assets/discover/discover-dental-insurance.jpg);
   background-position: center; }
 
 #dis-hero {
-  background-image: radial-gradient(rgba(4, 47, 85, 0.75), rgba(4, 47, 85, 0.9)), url(/assets/discover/discover-disability-insurance.jpg);
+  background-image: radial-gradient(rgba(4, 47, 85, 0.75), rgba(4, 47, 85, 0.75)), url(/assets/discover/discover-disability-insurance.jpg);
   background-position: center; }
 
 #homesec-hero {
-  background-image: radial-gradient(rgba(60, 10, 53, 0.75), rgba(60, 10, 53, 0.9)), url(/assets/discover/discover-home-security.jpg);
+  background-image: radial-gradient(rgba(60, 10, 53, 0.75), rgba(60, 10, 53, 0.75)), url(/assets/discover/discover-home-security.jpg);
   background-position: center; }
 
 #med-hero {
-  background-image: radial-gradient(rgba(143, 28, 27, 0.75), rgba(143, 28, 27, 0.9)), url(/assets/discover/discover-medical-cash-benefits.jpg);
+  background-image: radial-gradient(rgba(143, 28, 27, 0.75), rgba(143, 28, 27, 0.75)), url(/assets/discover/discover-medical-cash-benefits.jpg);
   background-position: center; }
 
 #msup-hero {
-  background-image: radial-gradient(rgba(72, 137, 51, 0.75), rgba(72, 137, 51, 0.9)), url(/assets/discover/discover-medsup.jpg);
+  background-image: radial-gradient(rgba(72, 137, 51, 0.75), rgba(72, 137, 51, 0.75)), url(/assets/discover/discover-medsup.jpg);
   background-position: center; }
 
 #pet-hero {
-  background-image: radial-gradient(rgba(191, 79, 32, 0.75), rgba(191, 79, 32, 0.9)), url(/assets/discover/discover-pet-insurance.jpg);
+  background-image: radial-gradient(rgba(191, 79, 32, 0.75), rgba(191, 79, 32, 0.75)), url(/assets/discover/discover-pet-insurance.jpg);
   background-position: center; }
 
 #save-hero {
-  background-image: radial-gradient(rgba(157, 131, 0, 0.75), rgba(157, 131, 0, 0.9)), url(/assets/discover/discover-savings-plans.jpg);
+  background-image: radial-gradient(rgba(157, 131, 0, 0.75), rgba(157, 131, 0, 0.75)), url(/assets/discover/discover-savings-plans.jpg);
   background-position: center; }
 
 #stm-hero {
-  background-image: radial-gradient(rgba(29, 0, 133, 0.75), rgba(29, 0, 133, 0.9)), url(/assets/discover/discover-short-term-medical-insurance.jpg);
+  background-image: radial-gradient(rgba(29, 0, 133, 0.75), rgba(29, 0, 133, 0.75)), url(/assets/discover/discover-short-term-medical-insurance.jpg);
   background-position: center; }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
@@ -4308,30 +4308,30 @@ label {
   background-repeat: no-repeat; }
 
 #term-1 {
-  background-image: radial-gradient(rgba(6, 76, 136, 0.8), rgba(6, 76, 136, 0.8)), url(/assets/discover/discover-term-life-insurance.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(6, 76, 136, 0.8), rgba(6, 76, 136, 0.8)), url(/assets/discover/discover-sprite-5.jpg);
+  background-position: 0 0;
   background-size: cover; }
 
 #term-2 {
-  background-image: url(/assets/discover/discover-term-life-insurance-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 0 0; }
 
 #term-3 {
-  background-image: url(/assets/discover/discover-term-life-insurance-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 10% 0; }
 
 #whole-1 {
-  background-image: radial-gradient(rgba(21, 0, 133, 0.8), rgba(21, 0, 133, 0.8)), url(/assets/discover/discover-whole-life-insurance.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(21, 0, 133, 0.8), rgba(21, 0, 133, 0.8)), url(/assets/discover/discover-sprite-5.jpg);
+  background-position: 20% 0;
   background-size: cover; }
 
 #whole-2 {
-  background-image: url(/assets/discover/discover-whole-life-insurance-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 20% 0; }
 
 #whole-3 {
-  background-image: url(/assets/discover/discover-whole-life-insurance-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 29.99998% 0; }
 
 #uni-1 {
   background-image: radial-gradient(rgba(111, 19, 98, 0.8), rgba(111, 19, 98, 0.8)), url(/assets/discover/discover-universal-life.jpg);
@@ -4347,30 +4347,30 @@ label {
   background-position: center; }
 
 #fin-1 {
-  background-image: radial-gradient(rgba(194, 38, 37, 0.8), rgba(194, 38, 37, 0.8)), url(/assets/discover/discover-final-expense.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(194, 38, 37, 0.8), rgba(194, 38, 37, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 40% 0;
   background-size: cover; }
 
 #fin-2 {
-  background-image: url(/assets/discover/discover-final-expense-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 40% 0; }
 
 #fin-3 {
-  background-image: url(/assets/discover/discover-final-expense-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 50% 0; }
 
 #add-1 {
-  background-image: radial-gradient(rgba(242, 100, 41, 0.8), rgba(242, 100, 41, 0.8)), url(/assets/discover/discover-accidental-death-dismemberment.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(242, 100, 41, 0.8), rgba(242, 100, 41, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 0 0;
   background-size: cover; }
 
 #add-2 {
-  background-image: url(/assets/discover/discover-accidental-death-dismemberment-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 60% 0; }
 
 #add-3 {
-  background-image: url(/assets/discover/discover-accidental-death-dismemberment-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 70% 0; }
 
 #add-4 {
   background-image: url(/assets/discover/discover-accidental-death-dismemberment-4.jpg);
@@ -4381,125 +4381,125 @@ label {
   background-position: center; }
 
 #annu-1 {
-  background-image: radial-gradient(rgba(208, 173, 0, 0.8), rgba(208, 173, 0, 0.8)), url(/assets/discover/discover-annuities.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(208, 173, 0, 0.8), rgba(208, 173, 0, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 10% 0;
   background-size: cover; }
 
 #annu-2 {
-  background-image: url(/assets/discover/discover-annuities-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 80% 0; }
 
 #annu-3 {
-  background-image: url(/assets/discover/discover-annuities-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-1.jpg);
+  background-position: 90% 0; }
 
 #dent-1 {
-  background-image: radial-gradient(rgba(99, 188, 70, 0.8), rgba(99, 188, 70, 0.8)), url(/assets/discover/discover-dental-insurance.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(99, 188, 70, 0.8), rgba(99, 188, 70, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 10% 0;
   background-size: cover; }
 
 #dent-2 {
-  background-image: url(/assets/discover/discover-dental-vision-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 0 0; }
 
 #dent-3 {
-  background-image: url(/assets/discover/discover-dental-vision-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 10% 0; }
 
 #dis-1 {
-  background-image: radial-gradient(rgba(4, 47, 85, 0.8), rgba(4, 47, 85, 0.8)), url(/assets/discover/discover-disability-insurance.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(4, 47, 85, 0.8), rgba(4, 47, 85, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 30% 0;
   background-size: cover; }
 
 #dis-2 {
-  background-image: url(/assets/discover/discover-disability-income-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 20% 0; }
 
 #dis-3 {
-  background-image: url(/assets/discover/discover-disability-income-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 30% 0; }
 
 #stm-1 {
-  background-image: radial-gradient(rgba(29, 0, 133, 0.8), rgba(29, 0, 133, 0.8)), url(/assets/discover/discover-short-term-medical-insurance.jpg);
-  background-position: top;
+  background-image: radial-gradient(rgba(29, 0, 133, 0.8), rgba(29, 0, 133, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 100% 0;
   background-size: cover; }
 
 #stm-2 {
-  background-image: url(/assets/discover/discover-short-term-medical-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 80% 0; }
 
 #stm-3 {
-  background-image: url(/assets/discover/discover-short-term-medical-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 90% 0; }
 
 #homesec-1 {
-  background-image: radial-gradient(rgba(60, 10, 53, 0.8), rgba(60, 10, 53, 0.8)), url(/assets/discover/discover-home-security.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(60, 10, 53, 0.8), rgba(60, 10, 53, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 50% 0;
   background-size: cover; }
 
 #homesec-2 {
-  background-image: url(/assets/discover/discover-home-security-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 40% 0; }
 
 #homesec-3 {
-  background-image: url(/assets/discover/discover-home-security-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 50% 0; }
 
 #med-1 {
-  background-image: radial-gradient(rgba(143, 28, 27, 0.8), rgba(143, 28, 27, 0.8)), url(/assets/discover/discover-medical-cash-benefits.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(143, 28, 27, 0.8), rgba(143, 28, 27, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 60% 0;
   background-size: cover; }
 
 #med-2 {
-  background-image: url(/assets/discover/discover-medical-cash-benefits-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 60% 0; }
 
 #med-3 {
-  background-image: url(/assets/discover/discover-medical-cash-benefits-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-2.jpg);
+  background-position: 70% 0; }
 
 #pet-1 {
-  background-image: radial-gradient(rgba(191, 79, 32, 0.8), rgba(191, 79, 32, 0.8)), url(/assets/discover/discover-pet-insurance.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(191, 79, 32, 0.8), rgba(191, 79, 32, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 80% 0;
   background-size: cover; }
 
 #pet-2 {
-  background-image: url(/assets/discover/discover-pet-insurance-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-3.jpg);
+  background-position: 0 0; }
 
 #pet-3 {
-  background-image: url(/assets/discover/discover-pet-insurance-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-3.jpg);
+  background-position: 10% 0; }
 
 #save-1 {
-  background-image: radial-gradient(rgba(157, 131, 0, 0.8), rgba(157, 131, 0, 0.8)), url(/assets/discover/discover-savings-plans.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(157, 131, 0, 0.8), rgba(157, 131, 0, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 90% 0;
   background-size: cover; }
 
 #save-2 {
-  background-image: url(/assets/discover/discover-savings-plans-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-3.jpg);
+  background-position: 20% 0; }
 
 #save-3 {
-  background-image: url(/assets/discover/discover-savings-plans-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-3.jpg);
+  background-position: 29.99998% 0; }
 
 #msup-1 {
-  background-image: radial-gradient(rgba(72, 137, 51, 0.8), rgba(72, 137, 51, 0.8)), url(/assets/discover/discover-medsup.jpg);
-  background-position: center;
+  background-image: radial-gradient(rgba(72, 137, 51, 0.8), rgba(72, 137, 51, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
+  background-position: 70% 0;
   background-size: cover; }
 
 #msup-2 {
-  background-image: url(/assets/discover/discover-medsup-1.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-3.jpg);
+  background-position: 40% 0; }
 
 #msup-3 {
-  background-image: url(/assets/discover/discover-medsup-2.jpg);
-  background-position: center; }
+  background-image: url(/assets/discover/discover-sprite-3.jpg);
+  background-position: 50% 0; }
 
 #life-guide {
-  background-image: radial-gradient(rgba(72, 137, 51, 0.7), #488933), url(/assets/discover/life-insurance-guide.jpg);
-  background-position: top;
+  background-image: radial-gradient(rgba(72, 137, 51, 0.7), #488933), url(/assets/discover/discover-sprite-5.jpg);
+  background-position: 30% 0;
   background-size: cover; }
 
 .we-believe h1 {
@@ -4619,7 +4619,7 @@ label {
     .l-display-products-list li:hover article, .l-display-products-list li:focus article {
       transition: 500ms; }
   .l-display-products-list li header {
-    padding: 2em 2em 1em;
+    padding: 1.5em 2em;
     background-color: transparent;
     background-position: center;
     background-size: cover;
@@ -4678,18 +4678,20 @@ label {
   width: 15em;
   height: 4em;
   margin: 0 auto 0.5em;
-  background-position: center;
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat; }
 
 .hw {
-  background-image: url(/assets/logos/carriers/mutual-of-omaha-life-insurance-company-logo-white-wide.svg); }
+  background-image: url(/assets/logos/carriers/logo-test.png);
+  background-position: 0 0%; }
 
 .aff {
-  background-image: url(/assets/logos/carriers/gerber-logo-white.svg); }
+  background-image: url(/assets/logos/carriers/logo-test.png);
+  background-position: 0 4%; }
 
 .aff-2 {
-  background-image: url(/assets/logos/carriers/fidelity-life-association-logo-white.svg); }
+  background-image: url(/assets/logos/carriers/logo-test.png);
+  background-position: 0 8%; }
 
 .t1 {
   background-image: radial-gradient(rgba(91, 62, 108, 0.75), rgba(91, 62, 108, 0.85)), url(/assets/buy/prod-thumb-1.jpg); }
