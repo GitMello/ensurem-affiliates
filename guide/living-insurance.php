@@ -5,7 +5,7 @@
   <div class="container no-pad">
     <h1><i class="fa fa-heartbeat"></i> | Living Insurance</h1>
     <h2>Products that provide you benefits while you are alive</h2>
-    <a href="/guide/life-insurance">View Life Insurance</a>
+    <a href="/guide/life-insurance"><i class="fa fa-heart-o"></i> | View Life Insurance</a>
   </div>
 </header>
 
@@ -21,7 +21,7 @@
         <article>
           <p><strong>Short Term Health Insurance</strong> is coverage that provides temporary health care insurance during unexpected coverage gaps. Short term health insurance does not meet the standards for minimum essential coverage requirements of the Affordable Care Act (ACA).</p>
           <div class="text-center">
-            <a href="/guide/short-term-health-insurance">Learn More</a>
+            <a href="/guide/short-term-health-insurance"><i class="fa fa-heartbeat"></i> | Learn More</a>
           </div>
         </article>
       </div>
@@ -34,7 +34,7 @@
         <article>
           <p><strong>Medical Cash Benefits</strong> offer you a lump sum benefit when a qualifying event happens to you.</p>
           <div class="text-center">
-            <a href="/guide/medical-cash-benefits-plans">Learn More</a>
+            <a href="/guide/medical-cash-benefits-plans"><i class="fa fa-heartbeat"></i> | Learn More</a>
           </div>
         </article>
       </div>
@@ -48,7 +48,7 @@
           <p><strong>Medicare Supplement Insurance</strong> is private health insurance that helps supplement Original Medicare.</p>
 
           <div class="text-center">
-            <a href="/guide/medicare-supplement-insurance">Learn More</a>
+            <a href="/guide/medicare-supplement-insurance"><i class="fa fa-heartbeat"></i> | Learn More</a>
           </div>
         </article>
       </div>
@@ -61,7 +61,7 @@
       <article>
         <p><strong>Disability Income Insurance</strong> is protection for your income in the event you become disabled and can no longer work.</p>
         <div class="text-center">
-          <a href="/guide/disability-income-insurance">Learn More</a>
+          <a href="/guide/disability-income-insurance"><i class="fa fa-heartbeat"></i> | Learn More</a>
         </div>
       </article>
     </div>
@@ -74,7 +74,7 @@
       <article>
         <p>An <strong>Annuity</strong> is a contract between you and an insurance company that is designed to meet retirement and other long-range goals. Annuities earn competitive fixed rates of interest that accumulates on a tax deferred basis. Payout methods vary and offer consumers a wide variety of choices.</p>
         <div class="text-center">
-          <a href="/guide/annuities">Learn More</a>
+          <a href="/guide/annuities"><i class="fa fa-heartbeat"></i> | Learn More</a>
         </div>
       </article>
     </div>
@@ -87,7 +87,7 @@
       <article>
         <p><strong>Dental and Vision Insurance</strong> provides coverage to help with typical dental or vision services and goods.</p>
         <div class="text-center">
-          <a href="/guide/dental-and-vision-insurance">Learn More</a>
+          <a href="/guide/dental-and-vision-insurance"><i class="fa fa-heartbeat"></i> | Learn More</a>
         </div>
       </article>
     </div>
@@ -100,7 +100,7 @@
       <article>
         <p><strong>Pet Insurance</strong> provides coverage to help with costs associated with veterinarian expenses.</p>
         <div class="text-center">
-          <a href="/guide/pet-insurance">Learn More</a>
+          <a href="/guide/pet-insurance"><i class="fa fa-heartbeat"></i> | Learn More</a>
         </div>
       </article>
     </div>
@@ -113,7 +113,7 @@
       <article>
         <p><strong>Savings Plans</strong> are plans that charge a low monthly fee, or membership fee, for access to exclusive discounts and deals.</p>
         <div class="text-center">
-          <a href="/guide/savings-plans">Learn More</a>
+          <a href="/guide/savings-plans"><i class="fa fa-heartbeat"></i> | Learn More</a>
         </div>
       </article>
     </div>
@@ -126,7 +126,7 @@
       <article>
         <p><strong>Home Security Plans</strong> are designed to provide you coverage that keeps you and your home safe. Home security plans typically include 24 hour monitoring and affordable monthly payments.</p>
         <div class="text-center">
-          <a href="/guide/home-security-plans">Learn More</a>
+          <a href="/guide/home-security-plans"><i class="fa fa-heartbeat"></i> | Learn More</a>
         </div>
       </article>
     </div>

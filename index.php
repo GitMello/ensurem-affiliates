@@ -11,21 +11,23 @@
     </div>
   </header>
 
-  <article class="light text-center fa-primary">
+  <article class="light text-center">
     <section class="container-900">
       <h2>Explore Products</h2>
       <p>Discover the benefits of leading insurance products on the market. We make it easy to find solutions that help you secure your family’s future, build wealth, and protect your assets.</p>
       <hr>
       <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap butt-link-md">
         <li>
-          <h2><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</h2>
-          <h3>Products That Provide<br>Benefits After You Pass Away</h3>
-          <a href="/guide/life-insurance">Go Now</a>
+          <h2 class="fa-primary"><i class="fa fa-heart-o fa-4x"></i></h2>
+          <h3>Life Insurance</h3>
+          <h4>Products That Provide<br>Benefits After You Pass Away</h4>
+          <a href="/guide/life-insurance"><i class="fa fa-heart-o"></i> | Go Now</a>
         </li>
         <li>
-          <h2><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</h2>
-          <h3>Products That Provide You<br>Benefits While You Are Alive</h3>
-          <a href="/guide/living-insurance">Go Now</a>
+          <h2 class="fa-primary"><i class="fa fa-heartbeat fa-4x"></i></h2>
+          <h3>Living Insurance</h3>
+          <h4>Products That Provide You<br>Benefits While You Are Alive</h4>
+          <a href="/guide/living-insurance"><i class="fa fa-heartbeat"></i> | Go Now</a>
         </li>
       </ul>
     </section>

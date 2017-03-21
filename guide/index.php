@@ -13,7 +13,7 @@
   <a id="life-insurance" class="anchor"></a>
   <article class="discover-content black text-center text-white butt-link-light link-hover-black">
     <div class="container-900">
-      <h1>Life Insurance</h1>
+      <h1><i class="fa fa-heart-o"></i> | Life Insurance</h1>
       <h3>Insurance coverage options <span class="smart-break">for every stage of life</span></h3>
       <p>Financial Security. Peace of Mind. <span class="smart-break">A Brighter Future.</span></p>
       <div class="text-left">
@@ -22,7 +22,7 @@
         <p>You can also shop our selection of Universal Life Insurance plans, Final Expense Insurance, and Accidental Death &amp; Dismemberment Plans. We’ve streamlined the process of buying insurance online and you may not even have to talk to an agent to get what <span class="smart-break">you need.</span></p>
       </div>
       <h3>
-        <a href="/guide/life-insurance">Learn More</a>
+        <a href="/guide/life-insurance">Learn More</a><br>
         Or Discover Life Insurance <span class="smart-break">Options Below</span>
       </h3>
       <hr>
@@ -36,7 +36,7 @@
   <a id="living-insurance" class="anchor"></a>
   <article class="discover-content black text-center text-white butt-link-light link-hover-black">
     <div class="container-900">
-      <h1>Living Insurance<sup>&trade;</sup></h1>
+      <h1><i class="fa fa-heartbeat"></i> | Living Insurance<sup>&trade;</sup></h1>
       <h3>Live life to the fullest <span class="smart-break">without financial stress</span></h3>
       <div class="text-left">
         <p>High health insurance deductibles and a rising cost of living make it difficult to make ends meet. If you’re dealing with financial stress, protect your financial future now with Living Insurance plans — coverage and protection you need to live a better quality <span class="smart-break">of life.</span></p>
@@ -46,7 +46,7 @@
       </div>
       <p>Be financially prepared when <span class="smart-break">life gets unpredictable.</span></p>
       <h3>
-        <a href="/guide/living-insurance">Learn More</a>
+        <a href="/guide/living-insurance">Learn More</a><br>
         Or Discover Living Insurance <span class="smart-break">Options Below</span>
       </h3>
       <hr>

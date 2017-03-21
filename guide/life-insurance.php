@@ -5,7 +5,7 @@
   <div class="container no-pad">
     <h1><i class="fa fa-heart-o"></i> | Life Insurance</h1>
     <h2>Products that provide benefits after you pass away</h2>
-    <a href="/guide/living-insurance">View Living Insurance</a>
+    <a href="/guide/living-insurance"><i class="fa fa-heartbeat"></i> | View Living Insurance</a>
   </div>
 </header>
 
@@ -29,7 +29,7 @@
             <li>May be converted to permanent policy</li>
           </ul>
           <div class="text-center">
-            <a href="/guide/term-life-insurance">Learn More</a>
+            <a href="/guide/term-life-insurance"><i class="fa fa-heart-o"></i> | Learn More</a>
           </div>
         </article>
       </div>
@@ -51,7 +51,7 @@
             <li>Ability to borrow against your cash value</li>
           </ul>
           <div class="text-center">
-            <a href="/guide/whole-life-insurance">Learn More</a>
+            <a href="/guide/whole-life-insurance"><i class="fa fa-heart-o"></i> | Learn More</a>
           </div>
         </article>
 
@@ -75,7 +75,7 @@
             <li>Ability to borrow against your cash value</li>
           </ul>
           <div class="text-center">
-            <a href="/guide/final-expense-insurance">Learn More</a>
+            <a href="/guide/final-expense-insurance"><i class="fa fa-heart-o"></i> | Learn More</a>
           </div>
         </article>
 
@@ -97,7 +97,7 @@
           <li>Can be used to supplement a life insurance policy</li>
         </ul>
         <div class="text-center">
-          <a href="/guide/accidental-death-and-dismemberment-insurance">Learn More</a>
+          <a href="/guide/accidental-death-and-dismemberment-insurance"><i class="fa fa-heart-o"></i> | Learn More</a>
         </div>
       </article>
     </div>

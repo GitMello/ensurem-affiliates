@@ -20,7 +20,7 @@
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
         <header class="t1">
-          <div class="carrier-logo aff">Carrier Company</div>
+          <div class="carrier-logo gerber-logo-w">Carrier Company</div>
           <h3>Accident Protection</h3>
         </header>
         <article>
@@ -40,7 +40,7 @@
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
         <header class="t2">
-          <div class="carrier-logo aff-2">Carrier Company</div>
+          <div class="carrier-logo fidelity-life-logo-w">Carrier Company</div>
           <h3>ADB Accidental</h3>
         </header>
         <article>
@@ -59,7 +59,7 @@
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
         <header class="t3">
-          <div class="carrier-logo hw">Carrier Company</div>
+          <div class="carrier-logo mutual-omaha-logo-w">Carrier Company</div>
           <h3>Guaranteed ADvantage</h3>
         </header>
         <article>
@@ -78,7 +78,7 @@
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
         <header class="t1">
-          <div class="carrier-logo aff">Carrier Company</div>
+          <div class="carrier-logo voya-logo-w">Carrier Company</div>
           <h3>Accident Protection</h3>
         </header>
         <article>
@@ -97,7 +97,7 @@
       <li>
         <h6 class="wholeco">Whole Life Insurance</h6>
         <header class="t2">
-          <div class="carrier-logo aff-2">Carrier Company</div>
+          <div class="carrier-logo nationwide-logo-w">Carrier Company</div>
           <h3>ADB Accidental</h3>
         </header>
         <article>
@@ -116,7 +116,7 @@
       <li>
         <h6 class="saveco">Savings Plan</h6>
         <header class="t3">
-          <div class="carrier-logo hw">Carrier Company</div>
+          <div class="carrier-logo banner-logo-w">Carrier Company</div>
           <h3>Guaranteed ADvantage</h3>
         </header>
         <article>
