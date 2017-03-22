@@ -76,9 +76,9 @@
 <?php $team10quote="I like boats."; ?>
 <?php $team10pic="/assets/team/team-9.jpg"; ?>
 
-<?php $team11="Judith DeDeyn"; ?>
-<?php $team11bio="<p>Judith DeDeyn is focused on making Ensurem a destination that is engaging, entertaining and educational. She draws upon her experience as a licensed clinical psychologist and a mother of two. As a psychologist Judy has seen many patients whose mental and physical health has suffered due to the consequences of unexpected financial disaster. Judy believes that the individuals need to have the means to take charge of their life and Ensurem provides one of the tools to achieve that.</p><p>Judy has a Ph.D. from the University of Maryland, Baltimore County and her previous experience includes working with the Department of Defense, the Veterans Administration and private practice.</p>"; ?>
-<?php $team11linkedin="https://www.linkedin.com/in/judith-dedeyn-clifford-01927810/"; ?>
+<?php $team11="Ashley LeClaire"; ?>
+<?php $team11bio="<p></p>"; ?>
+<?php $team11linkedin="https://www.linkedin.com/in/ashley-leclaire-lssgb-lssbb-94a8b730/"; ?>
 <?php $team11email="mailto:info@ensurem.com"; ?>
 <?php $team11quote="I like boats."; ?>
 <?php $team11pic="/assets/team/team-10.jpg"; ?>

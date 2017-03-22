@@ -74,64 +74,7 @@
           <h4>24-Hour Accident Coverage</h4>
         </article>
       </li>
-
-      <li>
-        <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
-        <header class="t1">
-          <div class="carrier-logo voya-logo-w">Carrier Company</div>
-          <h3>Accident Protection</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Guaranteed Approval</li>
-            <li>No Medical Exam</li>
-            <li>No Health Questions</li>
-            <li>Affordable Rates</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>24-Hour Accident Coverage</h4>
-        </article>
-      </li>
-      <span class="product-break">
-      <li>
-        <h6 class="wholeco">Whole Life Insurance</h6>
-        <header class="t2">
-          <div class="carrier-logo nationwide-logo-w">Carrier Company</div>
-          <h3>ADB Accidental</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Guaranteed Approval</li>
-            <li>No Medical Exam</li>
-            <li>No Health Questions</li>
-            <li>Affordable Rates</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>24-Hour Accident Coverage</h4>
-        </article>
-      </li>
-
-      <li>
-        <h6 class="saveco">Savings Plan</h6>
-        <header class="t3">
-          <div class="carrier-logo banner-logo-w">Carrier Company</div>
-          <h3>Guaranteed ADvantage</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Guaranteed Approval</li>
-            <li>No Medical Exam</li>
-            <li>No Health Questions</li>
-            <li>Affordable Rates</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>24-Hour Accident Coverage</h4>
-        </article>
-      </li>
-      </span>
+      <span class="product-break"></span>
     </ul>
   </article>
 

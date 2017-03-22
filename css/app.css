@@ -2902,6 +2902,13 @@ footer {
   padding: 3em 1.5em 5em;
   box-sizing: border-box; }
 
+.headline-container {
+  max-width: 75em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em 1.5em 1.5em;
+  box-sizing: border-box; }
+
 .container-900 {
   max-width: 56.25em;
   width: 100%;
@@ -4410,6 +4417,30 @@ label {
   background-image: url(/assets/discover/discover-sprite-2.jpg);
   background-position: 10% 0; }
 
+#dent-4 {
+  background-image: url(/assets/discover/discover-dental-insurance-1.jpg);
+  background-position: center; }
+
+#dent-5 {
+  background-image: url(/assets/discover/discover-dental-insurance-2.jpg);
+  background-position: center; }
+
+#dent-6 {
+  background-image: url(/assets/discover/discover-dental-insurance-3.jpg);
+  background-position: center; }
+
+#dent-7 {
+  background-image: url(/assets/discover/discover-dental-insurance-4.jpg);
+  background-position: center; }
+
+#vis-1 {
+  background-image: url(/assets/discover/discover-vision-insurance-1.jpg);
+  background-position: top; }
+
+#vis-2 {
+  background-image: url(/assets/discover/discover-vision-insurance-2.jpg);
+  background-position: center; }
+
 #dis-1 {
   background-image: radial-gradient(rgba(4, 47, 85, 0.8), rgba(4, 47, 85, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
   background-position: 30% 0;
@@ -4698,7 +4729,7 @@ label {
   background-position: 0 48%; }
 
 .t1 {
-  background-image: radial-gradient(rgba(91, 62, 108, 0.75), rgba(91, 62, 108, 0.85)), url(/assets/buy/prod-thumb-1.jpg); }
+  background-image: radial-gradient(rgba(1, 67, 125, 0.75), rgba(1, 67, 125, 0.85)), url(/assets/buy/prod-thumb-1.jpg); }
 
 .t2 {
   background-image: radial-gradient(rgba(0, 57, 90, 0.75), rgba(0, 57, 90, 0.85)), url(/assets/buy/prod-thumb-2.jpg); }
@@ -5278,6 +5309,138 @@ label {
 .minnesota-life-logo {
   background-image: url(/assets/logos/carriers/logo-color-sprite-1.png);
   background-position: 0 100%; }
+
+.mtl-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 0%; }
+
+.mutual-omaha-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 4%; }
+
+.mutual-omaha-logo-stack-w {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 8%; }
+
+.national-general-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 12%; }
+
+.national-life-group-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 16%; }
+
+.nationwide-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 20%; }
+
+.new-york-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 24%; }
+
+.navy-federal-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 28%; }
+
+.no-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 32%; }
+
+.north-american-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 36%; }
+
+.pacific-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 40%; }
+
+.phoenix-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 44%; }
+
+.principal-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 48%; }
+
+.protective-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 52%; }
+
+.prudential-logo, .pruco-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 56%; }
+
+.voya-logo, .reliastar-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 60%; }
+
+.renaissance-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 64%; }
+
+.renaissance-dental-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 68%; }
+
+.restaurant-com-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 72%; }
+
+.sagicor-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 76%; }
+
+.sbli-logo, .savings-bank-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 80%; }
+
+.securian-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 84%; }
+
+.sentinel-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 88%; }
+
+.surebridge-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 92%; }
+
+.symetra-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 96%; }
+
+.thrivent-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-2.png);
+  background-position: 0 100%; }
+
+.toco-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 0%; }
+
+.transamerica-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 4%; }
+
+.unified-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 8%; }
+
+.united-healthcare-logo, .uhc-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 12%; }
+
+.united-home-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 16%; }
+
+.united-omaha-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 20%; }
+
+.vantis-life-logo {
+  background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
+  background-position: 0 24%; }
 
 @media screen and (max-width: 319px) {
   header {
