@@ -99,27 +99,29 @@
     </div>
   </article>
 
-  <article class="container content dent-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="col-sm-12 col-lg-6 col-pad hr-dentco">
-      <h2>Dental &amp; Vision Plans</h2>
-      <h3>Smile &amp; see the savings add up</h3>
-      <hr>
-      <p>The cost of dental cleanings, vision exams, and general dentistry and vision care can really add up. Save money while making sure you and your family maintain optimal oral health and healthy vision with the right dental and vision insurance plan. Many plans cover routine visits at 100% and pay up to half or more for treatment costs. For a low monthly payment, you can afford to have your family visit the dentist and eye doctor without worrying about excessively high fees.</p>
-      <h2>How Dental Insurance &amp; Vision Plans Work</h2>
-      <p>Dental and vision insurance plans can be added to existing healthcare plans so you have coverage for any health conditions related to your ocular and oral health. If you are currently paying for dental visits, vision exams, and other services at the dentist or eye doctor, you could be saving up to 50% or more with a basic insurance plan. These plans are designed to reduce your out-of-pocket costs for preventive care, routine services, and certain procedures.</p>
-    </div>
-    <div class="col-sm-12 col-lg-6 col-pad">
-      <ul>
-        <h2>Do I Really Need a Dental or <span class="smart-break">Vision Plan?</span></h2>
-        <p>You should consider Dental &amp; Vision Plans if you:</p>
-        <li>Have a high-deductible dental or vision insurance plan from your employer</li>
-        <li>Wear eyeglasses or contact lenses</li>
-        <li>Only see the dentist for checkups and occasional procedures</li>
-        <li>Want to reduce or eliminate co-pays for routine visits</li>
-        <li>Want access to a large network of reputable dental and vision care providers</li>
-        <li>Need an affordable way to maintain healthy vision and optimal oral health</li>
-        <li>Want discounted fees on dental procedures</li>
-      </ul>
+  <article class="content dent-list l-stack-all-ul flex flex-center just-center flex-wrap">
+    <div class="container">
+      <div class="col-sm-12 col-lg-6 col-pad hr-dentco">
+        <h2>Dental &amp; Vision Plans</h2>
+        <h3>Smile &amp; see the savings add up</h3>
+        <hr>
+        <p>The cost of dental cleanings, vision exams, and general dentistry and vision care can really add up. Save money while making sure you and your family maintain optimal oral health and healthy vision with the right dental and vision insurance plan. Many plans cover routine visits at 100% and pay up to half or more for treatment costs. For a low monthly payment, you can afford to have your family visit the dentist and eye doctor without worrying about excessively high fees.</p>
+        <h2>How Dental Insurance &amp; Vision Plans Work</h2>
+        <p>Dental and vision insurance plans can be added to existing healthcare plans so you have coverage for any health conditions related to your ocular and oral health. If you are currently paying for dental visits, vision exams, and other services at the dentist or eye doctor, you could be saving up to 50% or more with a basic insurance plan. These plans are designed to reduce your out-of-pocket costs for preventive care, routine services, and certain procedures.</p>
+      </div>
+      <div class="col-sm-12 col-lg-6 col-pad">
+        <ul>
+          <h2>Do I Really Need a Dental or <span class="smart-break">Vision Plan?</span></h2>
+          <p>You should consider Dental &amp; Vision Plans if you:</p>
+          <li>Have a high-deductible dental or vision insurance plan from your employer</li>
+          <li>Wear eyeglasses or contact lenses</li>
+          <li>Only see the dentist for checkups and occasional procedures</li>
+          <li>Want to reduce or eliminate co-pays for routine visits</li>
+          <li>Want access to a large network of reputable dental and vision care providers</li>
+          <li>Need an affordable way to maintain healthy vision and optimal oral health</li>
+          <li>Want discounted fees on dental procedures</li>
+        </ul>
+      </div>
     </div>
   </article>
 
@@ -129,26 +131,26 @@
         <div class="four-fact-slider">
           <div class="slide">
             <div class="abso-centered">
-              <h4>611 Construction trade worker fatalities were reported in 2014.</h4>
-              <h6>(Source: Unknown)</h6>
+              <h4>Vision exams cost $200 to $250 for new patients without insurance.</h4>
+              <h6>(Source: FAIR health Data)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>Accidents account for 1 of every 4 people treated in the emergency room.</h4>
-              <h6>(Source: Womenshealth.gov)</h6>
+              <h4>50% of Americans over 30 years of age have gum disease.</h4>
+              <h6>(Source: CDC)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>4,679 workers were killed on the job in 2014.</h4>
-              <h6>(Source: bls.gov)</h6>
+              <h4>More than 35 million Americans have lost all their teeth.</h4>
+              <h6>(Source: American College of Prosthodontists)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>Accidents happǝn.</h4>
-              <h6>(Source: Leonard Mello)</h6>
+              <h4>16.2 million Americans between 18 &amp; 64 years of age have experienced significant vision loss.</h4>
+              <h6>(Source: 2014 National Health Interview Survey)</h6>
             </div>
           </div>
         </div>

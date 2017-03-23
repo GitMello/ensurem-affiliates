@@ -4293,6 +4293,106 @@ label {
       margin-right: 0.6em;
       color: #1d0085; }
 
+.white-list ul {
+  border-top: 0.125em solid #ffffff;
+  border-bottom: 0.125em solid #ffffff;
+  padding: 2em;
+  font-style: italic;
+  font-weight: 600;
+  border-radius: 1em 0.5em 1em 0.5em; }
+  .white-list ul h2 {
+    margin-top: 0;
+    color: #ffffff; }
+  .white-list ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    text-indent: -1.5em; }
+    .white-list ul li:before {
+      font-family: FontAwesome;
+      content: "";
+      margin-right: 0.6em;
+      color: #ffffff; }
+
+.mid-light-list ul {
+  border-top: 0.125em solid #c4c4c4;
+  border-bottom: 0.125em solid #c4c4c4;
+  padding: 2em;
+  font-style: italic;
+  font-weight: 600;
+  border-radius: 1em 0.5em 1em 0.5em; }
+  .mid-light-list ul h2 {
+    margin-top: 0;
+    color: #c4c4c4; }
+  .mid-light-list ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    text-indent: -1.5em; }
+    .mid-light-list ul li:before {
+      font-family: FontAwesome;
+      content: "";
+      margin-right: 0.6em;
+      color: #c4c4c4; }
+
+.light-list ul {
+  border-top: 0.125em solid #f1f1f1;
+  border-bottom: 0.125em solid #f1f1f1;
+  padding: 2em;
+  font-style: italic;
+  font-weight: 600;
+  border-radius: 1em 0.5em 1em 0.5em; }
+  .light-list ul h2 {
+    margin-top: 0;
+    color: #f1f1f1; }
+  .light-list ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    text-indent: -1.5em; }
+    .light-list ul li:before {
+      font-family: FontAwesome;
+      content: "";
+      margin-right: 0.6em;
+      color: #f1f1f1; }
+
+.dark-list ul {
+  border-top: 0.125em solid #222222;
+  border-bottom: 0.125em solid #222222;
+  padding: 2em;
+  font-style: italic;
+  font-weight: 600;
+  border-radius: 1em 0.5em 1em 0.5em; }
+  .dark-list ul h2 {
+    margin-top: 0;
+    color: #222222; }
+  .dark-list ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    text-indent: -1.5em; }
+    .dark-list ul li:before {
+      font-family: FontAwesome;
+      content: "";
+      margin-right: 0.6em;
+      color: #222222; }
+
+.black-list ul {
+  border-top: 0.125em solid #000000;
+  border-bottom: 0.125em solid #000000;
+  padding: 2em;
+  font-style: italic;
+  font-weight: 600;
+  border-radius: 1em 0.5em 1em 0.5em; }
+  .black-list ul h2 {
+    margin-top: 0;
+    color: #000000; }
+  .black-list ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    text-indent: -1.5em; }
+    .black-list ul li:before {
+      font-family: FontAwesome;
+      content: "";
+      margin-right: 0.6em;
+      color: #000000; }
+
 .main-cta {
   text-align: center;
   text-transform: uppercase;
@@ -4453,6 +4553,11 @@ label {
 #dis-3 {
   background-image: url(/assets/discover/discover-sprite-2.jpg);
   background-position: 30% 0; }
+
+#dis-4 {
+  background-image: url(/assets/discover/discover-disability-income-insurance-2.jpg);
+  background-position: center;
+  background-size: cover; }
 
 #stm-1 {
   background-image: radial-gradient(rgba(29, 0, 133, 0.8), rgba(29, 0, 133, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
@@ -5733,6 +5838,12 @@ label {
   padding-left: 0;
   padding-right: 0; }
 
+.no-pad-top {
+  padding-top: 0; }
+
+.no-pad-bottom {
+  padding-bottom: 0; }
+
 .pad-right-edge {
   padding-right: 1.5em; }
 
@@ -5883,6 +5994,22 @@ label {
 .hr-msupco hr {
   border-width: 0.125em;
   border-color: #488933; }
+
+.hr-mid-light hr {
+  border-width: 0.125em;
+  border-color: #c4c4c4; }
+
+.hr-white hr {
+  border-width: 0.125em;
+  border-color: #ffffff; }
+
+.hr-black hr {
+  border-width: 0.125em;
+  border-color: #000000; }
+
+.hr-dark hr {
+  border-width: 0.125em;
+  border-color: #222222; }
 
 .font-12 {
   font-size: 0.75em; }
