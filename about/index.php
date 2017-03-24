@@ -11,23 +11,6 @@
     </div>
   </header>
 
-  <a id="we-believe" class="anchor"></a>
-  <article class="we-believe alt text-center text-white">
-    <div class="container-900">
-      <h1>We Believe...</h1>
-      <hr>
-      <h3>The <strong>American Dream</strong> <span class="smart-break">is still alive</span></h3>
-      <h3><strong>Financial Security</strong> is essential <span class="smart-break">to a better quality of life</span></h3>
-      <h3><strong>Freedom</strong> is about having choices</h3>
-      <h3><strong>Family</strong> is the bedrock <span class="smart-break">of this great country</span></h3>
-      <h3>Knowledge &amp; <strong>Education</strong> allow us <span class="smart-break">to make better choices</span></h3>
-      <h3>Our dependents deserve <span class="smart-break">to feel <strong>secure</strong></span></h3>
-      <hr>
-      <h2>Welcome to <em>YOUR</em> <span class="smart-break">Insurance Marketplace</span></h2>
-      <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
-    </div>
-  </article>
-
   <a id="team" class="anchor"></a>
   <article class="team l-team-list relative">
     <div class="container text-center butt-link-mini">

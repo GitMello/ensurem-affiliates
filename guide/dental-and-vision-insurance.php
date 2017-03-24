@@ -22,7 +22,7 @@
       </div>
       <div class="col-sm-12 col-lg-6 col-pad briefing">
         <ul>
-          <h2>Key Benefits of <span class="smart-break">Dental &amp; Vision Insurance</span></h2>
+          <h2>Key Benefits of Dental <span class="smart-break">&amp; Vision</span> Insurance</h2>
           <li>Can reduce per-visit costs</li>
           <li>May provide discounted rates on services</li>
           <li>Can cover many routine visits in full</li>

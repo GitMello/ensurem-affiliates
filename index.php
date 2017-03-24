@@ -33,7 +33,24 @@
     </section>
   </article>
 
-  <article class="white">
+  <a id="we-believe" class="anchor"></a>
+  <article class="we-believe alt text-center text-white">
+    <div class="container-900">
+      <h1>We Believe...</h1>
+      <hr>
+      <h3>The <strong>American Dream</strong> <span class="smart-break">is still alive</span></h3>
+      <h3><strong>Financial Security</strong> is essential <span class="smart-break">to a better quality of life</span></h3>
+      <h3><strong>Freedom</strong> is about having choices</h3>
+      <h3><strong>Family</strong> is the bedrock <span class="smart-break">of this great country</span></h3>
+      <h3>Knowledge &amp; <strong>Education</strong> allow us <span class="smart-break">to make better choices</span></h3>
+      <h3>Our dependents deserve <span class="smart-break">to feel <strong>secure</strong></span></h3>
+      <hr>
+      <h2>Welcome to <em>YOUR</em> <span class="smart-break">Insurance Marketplace</span></h2>
+      <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
+    </div>
+  </article>
+
+  <!-- <article class="white">
     <div class="container">
       <h2 class="text-center">About Us</h2>
       <div class="l-copy-3-300">
@@ -43,9 +60,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus.</p>
       </div>
     </div>
-  </article>
+  </article> -->
 
-  <article class="mid-light">
+  <!-- <article class="mid-light">
     <div class="grid fluid flex flex-wrap">
       <div class="row flex flex-wrap flex-stretch">
         <div class="light col-md-6 col-lg-4 col-pad butt-link-mini">
@@ -115,11 +132,11 @@
 
       </div>
     </div>
-  </article>
+  </article> -->
 
   <article class="light text-center">
     <div class="container">
-      <h2>Sign Up For Money Saving Tips</h2>
+      <h2 class="no-marg-top">Sign Up For Money <span class="smart-break">Saving Tips</span></h2>
       <form class="flex flex-wrap just-center">
         <label class="flex relative">
           <span>First Name*</span>

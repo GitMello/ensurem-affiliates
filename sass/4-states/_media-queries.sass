@@ -25,14 +25,6 @@
     h2
       font-size: 25%
 
-  .flex-1-xs
-    -webkit-order: 1
-    order: 1
-
-  .flex-2-xs
-    -webkit-order: 2
-    order: 2
-
 @media screen and (min-width:392px)
   .smart-break
     white-space: nowrap
@@ -41,14 +33,6 @@
   header
     font-size: 60%
     padding: 8.75em 1.5em 4.25em
-
-  .flex-1-sm
-    -webkit-order: 1
-    order: 1
-
-  .flex-2-sm
-    -webkit-order: 2
-    order: 2
 
   .display-products
     li
@@ -66,14 +50,6 @@
       font-size: 100%
 
 @media screen and (min-width: 433px) and (max-width:640px)
-  .flex-1-md
-    -webkit-order: 1
-    order: 1
-
-  .flex-2-md
-    -webkit-order: 2
-    order: 2
-
   header
     font-size: 80%
 
@@ -101,13 +77,21 @@
   .slider
     height: 50vw
 
-  .flex-1-lg
+  .flex-1-sm
     -webkit-order: 1
     order: 1
 
-  .flex-2-lg
+  .flex-2-sm
     -webkit-order: 2
     order: 2
+
+  .flex-3-sm
+    -webkit-order: 3
+    order: 3
+
+  .flex-4-sm
+    -webkit-order: 4
+    order: 4
 
   footer
     ul
@@ -289,7 +273,7 @@
     p
       clear: both
 
-@media screen and (min-width: 641px) and (max-width:837px)
+@media screen and (min-width: 641px) and (max-width: 837px)
   .l-navbar
     ul
       li
@@ -299,6 +283,40 @@
 
   .l-16-9-responsive-text
     font-size: 90%
+
+@media screen and (min-width: 640px) and (max-width: 959px)
+  .flex-1-md
+    -webkit-order: 1
+    order: 1
+
+  .flex-2-md
+    -webkit-order: 2
+    order: 2
+
+  .flex-3-md
+    -webkit-order: 3
+    order: 3
+
+  .flex-4-md
+    -webkit-order: 4
+    order: 4
+    
+@media screen and (min-width: 960px)
+  .flex-1-lg
+    -webkit-order: 1
+    order: 1
+
+  .flex-2-lg
+    -webkit-order: 2
+    order: 2
+
+  .flex-3-lg
+    -webkit-order: 3
+    order: 3
+
+  .flex-4-lg
+    -webkit-order: 4
+    order: 4
 
 @media screen and (min-width:1065px)
   .product-break
