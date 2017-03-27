@@ -2928,6 +2928,11 @@ footer {
   .l-copy-3-300 p {
     margin: 0 0 1.5em; }
 
+.disclaimer h5, .disclaimer h6 {
+  margin: 0 0 0.5em; }
+.disclaimer .container, .disclaimer .container-900 {
+  padding: 2em 1.5em; }
+
 .grid {
   max-width: 75em;
   width: 100%;
@@ -4726,6 +4731,14 @@ label {
   background-image: url(/assets/discover/discover-sprite-1.jpg);
   background-position: 50% 0; }
 
+#fin-4 {
+  background-image: url(/assets/discover/discover-final-expense-4.jpg);
+  background-position: center; }
+
+#fin-5 {
+  background-image: url(/assets/discover/discover-final-expense-5.jpg);
+  background-position: center; }
+
 #add-1 {
   background-image: radial-gradient(rgba(242, 100, 41, 0.8), rgba(242, 100, 41, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
   background-position: 0 0;
@@ -4840,6 +4853,21 @@ label {
 #homesec-3 {
   background-image: url(/assets/discover/discover-sprite-2.jpg);
   background-position: 50% 0; }
+
+#homesec-4 {
+  background-image: url(/assets/discover/discover-home-security-3.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#homesec-5 {
+  background-image: url(/assets/discover/discover-home-security-5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#homesec-6 {
+  background-image: url(/assets/discover/discover-home-security-6.jpg);
+  background-position: center;
+  background-size: cover; }
 
 #med-1 {
   background-image: radial-gradient(rgba(143, 28, 27, 0.8), rgba(143, 28, 27, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
@@ -6128,6 +6156,10 @@ label {
 .max-width {
   max-width: 75em; }
 
+.pad-1 {
+  padding: 1em;
+  box-sizing: border-box; }
+
 .white {
   background-color: #ffffff; }
 
@@ -6475,11 +6507,50 @@ label {
   box-sizing: border-box;
   border: solid 0.5em #ffffff; }
 
-.img-responsive img {
+.img-responsive-all img {
   width: 100%;
   height: auto; }
 
-.img-circle img {
+.img-responsive {
+  width: 100%;
+  height: auto; }
+
+.img-circle-all img {
   border-radius: 50em; }
+
+.img-circle {
+  border-radius: 50em; }
+
+.table h3 {
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.table-top {
+  border-radius: 1em 1em 0 0; }
+
+.table-top-left {
+  border-radius: 1em 0 0 0; }
+
+.table-top-right {
+  border-radius: 0 1em 0 0; }
+
+.table-bottom {
+  border-radius: 0 0 1em 1em; }
+
+.table-bottom-left {
+  border-radius: 0 0 0 1em; }
+
+.table-bottom-right {
+  border-radius: 0 0 1em 0; }
+
+.table-border {
+  border: solid 0.125em transparent;
+  box-sizing: border-box; }
+  .table-border p {
+    margin: 0; }
+
+.weight-400 {
+  font-weight: 400; }
 
 /*# sourceMappingURL=app.css.map */

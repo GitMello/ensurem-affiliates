@@ -125,7 +125,7 @@
     </div>
   </article>
 
-  <article id="" class="l-16-9-responsive-text flex flex-wrap img-responsive text-center text-white butt-link-light dark">
+  <article id="" class="l-16-9-responsive-text flex flex-wrap img-responsive-all text-center text-white butt-link-light dark">
     <div class="col-sm-12 col-md-6">
       <div class="slider">
         <div class="four-fact-slider">
@@ -156,7 +156,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-6 link-hover-termco">
+    <div class="col-sm-12 col-md-6">
       <div id="add-4" class="col-md-6 col-sq col-sm-hide"></div>
       <div id="add-5" class="col-md-6 col-sq col-sm-hide"></div>
     </div>

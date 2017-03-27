@@ -50,7 +50,7 @@
         <h2>How Dental Insurance &amp; Vision Plans Work</h2>
         <p>Dental and vision insurance plans can be added to existing healthcare plans so you have coverage for any health conditions related to your ocular and oral health. If you are currently paying for dental visits, vision exams, and other services at the dentist or eye doctor, you could be saving up to 50% or more with a basic insurance plan. These plans are designed to reduce your out-of-pocket costs for preventive care, routine services, and certain procedures.</p>
       </div>
-      <div class="col-sm-12 col-lg-6 col-pad img-responsive img-border-white">
+      <div class="col-sm-12 col-lg-6 col-pad img-responsive-all img-border-white">
         <ul>
           <h2>Should I buy Disability <span class="smart-break">Income Insurance?</span></h2>
           <p>You should consider Disability Income Insurance if you:</p>

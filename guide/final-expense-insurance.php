@@ -65,7 +65,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-2 col-pad flex-3-md img-shadow-mid-light img-circle img-border-white flex flex-center just-center">
+      <div class="col-lg-2 col-pad flex-3-md img-shadow-mid-light img-circle-all img-border-white flex flex-center just-center">
         <img src="/assets/discover/discover-final-expense-3.jpg" alt="Injured on the job. Income protected.">
       </div>
 
@@ -81,11 +81,10 @@
     </div>
   </article>
 
-  <article id="" class="l-16-9-responsive-text flex flex-wrap img-responsive text-center text-white butt-link-light dark">
-    <div class="col-sm-12 col-md-6 link-hover-termco">
-
-      <div id="add-4" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="add-5" class="col-md-6 col-sq col-sm-hide"></div>
+  <article id="" class="l-16-9-responsive-text flex flex-wrap img-responsive-all text-center text-white butt-link-light dark">
+    <div class="col-sm-12 col-md-6">
+      <div id="fin-4" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="fin-5" class="col-md-6 col-sq col-sm-hide"></div>
     </div>
 
     <div class="col-sm-12 col-md-6">
@@ -93,30 +92,38 @@
         <div class="four-fact-slider">
           <div class="slide">
             <div class="abso-centered">
-              <h4>611 Construction trade worker fatalities were reported in 2014.</h4>
-              <h6>(Source: Unknown)</h6>
+              <h4>Caskets cost anywhere from $2,000 to $10,000+.</h4>
+              <h6>(Source: Federal Trade Commission)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>Accidents account for 1 of every 4 people treated in the emergency room.</h4>
-              <h6>(Source: Womenshealth.gov)</h6>
+              <h4>Traditional funerals can cost $7,045 or more.</h4>
+              <h6>(Source: National Funeral Director's Association)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>4,679 workers were killed on the job in 2014.</h4>
-              <h6>(Source: bls.gov)</h6>
+              <h4>Median cost of a funeral with cremation is $6,078.</h4>
+              <h6>(Source: National Funeral Director's Association)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>Accidents happǝn.</h4>
-              <h6>(Source: Leonard Mello)</h6>
+              <h4>Cremations will represent 71% of funerals by 2030.</h4>
+              <h6>(Source: National Funeral Director's Association)</h6>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </article>
+
+  <article class="disclaimer mid-dark text-white">
+    <div class="container-900">
+      <h5>DISCLAIMER:</h5>
+      <h6>THIS LIFE INSURANCE DOES NOT SPECIFICALLY COVER FUNERAL GOODS OR SERVICES, AND MAY NOT COVER THE ENTIRE COST OF YOUR FUNERAL AT THE TIME OF YOUR DEATH. THE BENEFICIARY OF THIS LIFE INSURANCE MAY USE THE PROCEEDS FOR ANY PURPOSE, UNLESS OTHERWISE DIRECTED.</h6>
+      <h6>IN MOST STATES, IN THE EVENT OF SUICIDE DURING THE FIRST TWO POLICY YEARS, DEATH BENEFITS ARE LIMITED ONLY TO THE RETURN OF PREMIUMS PAID.</h6>
     </div>
   </article>
 
