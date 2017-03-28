@@ -31,7 +31,7 @@
     </div>
   </article>
 
-  <article class="dark text-white content l-stack-all-ul annu-list">
+  <article class="dark text-white content l-stack-all-ul annu-list img-responsive-all img-border-white">
     <div class="headline-container hr-annuco">
       <h2>Five Types of Annuites</h2>
       <h3>There are five major categories of annuities, learn more below</h3>
@@ -47,19 +47,21 @@
           <p>Fixed annuities are fixed interest investments issued by insurance companies. They pay guaranteed rates of interest, typically higher than bank CDs, wherein the owner and/or annuitant, can defer income or draw income immediately.</p>
           <p>An example of a fixed annuity is a Multi-Year Guaranteed Annuity, also known as a MYGA.</p>
         </div>
-        <div class="col-lg-7 col-pad white text-dark">
-          <h2>The Multi-Year <span class="smart-break">Guaranteed Annuity</span></h2>
-          <p>We offer one of the simplest annuities available. The Multi-Year Guaranteed Annuity (MYGA) offers a guaranteed rate of return from the beginning of the contract with tax-deferred growth and no hidden management or service fees.</p>
-          <p>A MYGA, also known as Fixed Rate annuity or CD alternative, is a type of fixed annuity that provides the annuitant with a pre-determined and guaranteed interest rate for the period of the annuity.</p>
-          <p>MYGAs tend to appeal to those that have money they don’t need to spend right away and are comfortable accessing their money at a later date. MYGAs are typically offered for terms lasting one, three, five, seven and 10 years, just like certificates of deposit (CD). Since the interest rate is guaranteed for the term of the contract, MYGAs offer predictable retirement savings options.</p>
-        </div>
-        <div class="col-lg-5 col-pad white text-dark">
-          <ul>
-            <h2>MYGA Advantages</h2>
-            <li>Complements other retirement income sources</li>
-            <li>Tax-deferred interest options</li>
-            <li>Nursing home care/terminal illness benefit <span class="smart-break">options available</span></li>
-          </ul>
+        <div class="col-sm-12 white borderad-1">
+          <div class="col-lg-7 col-pad text-dark">
+            <h2>The Multi-Year <span class="smart-break">Guaranteed Annuity</span></h2>
+            <p>We offer one of the simplest annuities available. The Multi-Year Guaranteed Annuity (MYGA) offers a guaranteed rate of return from the beginning of the contract with tax-deferred growth and no hidden management or service fees.</p>
+            <p>A MYGA, also known as Fixed Rate annuity or CD alternative, is a type of fixed annuity that provides the annuitant with a pre-determined and guaranteed interest rate for the period of the annuity.</p>
+            <p>MYGAs tend to appeal to those that have money they don’t need to spend right away and are comfortable accessing their money at a later date. MYGAs are typically offered for terms lasting one, three, five, seven and 10 years, just like certificates of deposit (CD). Since the interest rate is guaranteed for the term of the contract, MYGAs offer predictable retirement savings options.</p>
+          </div>
+          <div class="col-lg-5 col-pad text-dark">
+            <ul>
+              <h2>MYGA Advantages</h2>
+              <li>Complements other retirement income sources</li>
+              <li>Tax-deferred interest options</li>
+              <li>Nursing home care/terminal illness benefit <span class="smart-break">options available</span></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-pad flex-grow-1 black">
@@ -68,6 +70,7 @@
         <hr>
         <p>Variable annuities tend to appeal to pre-retirees and retirees who are interested in the possibility of capital appreciation in tandem with guaranteed lifetime income.</p>
         <p>Variable annuities allow investors to choose from a basket of subaccounts (mutual funds). Unlike fixed indexed annuities, the principal can go down in value based on market performance.</p>
+        <img src="/assets/discover/discover-annuities-3" alt="Injured on the job. Income protected.">
       </div>
       <div class="col-md-6 col-lg-4 col-pad flex-grow-1 mid">
         <h2>Fixed Indexed Annuities</h2>
@@ -96,11 +99,11 @@
   <article class="content fa-white">
     <div class="hr-annuco container">
       <h2>Fixed Annuities VS CDs</h2>
-      <hr>
+      
       <div class="grid flex flex-col flex-wrap table">
 
         <div class="col sm-12 flex flex-stretch table-border text-white">
-          <div class="col-sm-8 pad-1 flex flex-center annuco table-top-left">
+          <div class="col-sm-8 pad-1 flex flex-center annuco">
             <h3>Features</h3>
           </div>
           <div class="col-sm-2 pad-1 flex flex-center just-center annuco">
@@ -217,42 +220,41 @@
         <div class="four-fact-slider">
           <div class="slide">
             <div class="abso-centered">
-              <h4>Vision exams cost $200 to $250 for new patients without insurance.</h4>
-              <h6>(Source: FAIR health Data)</h6>
+              <h4>Approximately 50% of americans age 55 and older have no retirement savings.</h4>
+              <h6>(Source: GAO 2013 Survey of Consumer Finances)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>50% of Americans over 30 years of age have gum disease.</h4>
-              <h6>(Source: CDC)</h6>
+              <h4>Approximately $75 billion annuity benefits were paid to annuity owners in 2011.</h4>
+              <h6>(Source: ACLI 2012 Life Insurers Fact Book)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>More than 35 million Americans have lost all their teeth.</h4>
-              <h6>(Source: American College of Prosthodontists)</h6>
+              <h4>20% of Americans' long-term savings are provided by annuities and life insurance.</h4>
+              <h6>(Source: SecureFamily.org)</h6>
             </div>
           </div>
           <div class="slide">
             <div class="abso-centered">
-              <h4>16.2 million Americans between 18 &amp; 64 years of age have experienced significant vision loss.</h4>
-              <h6>(Source: 2014 National Health Interview Survey)</h6>
+              <h4>48% of workers plan to lock in an annuity at retirement.</h4>
+              <h6>(Source: AARP Public Policy Institute)</h6>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="col-sm-12 col-md-6">
-      <div id="add-4" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="add-5" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="annu-4" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="annu-5" class="col-md-6 col-sq col-sm-hide"></div>
     </div>
   </article>
 
   <article class="disclaimer mid-dark text-white">
     <div class="container-900">
       <h5>DISCLAIMER:</h5>
-      <h6>THIS LIFE INSURANCE DOES NOT SPECIFICALLY COVER FUNERAL GOODS OR SERVICES, AND MAY NOT COVER THE ENTIRE COST OF YOUR FUNERAL AT THE TIME OF YOUR DEATH. THE BENEFICIARY OF THIS LIFE INSURANCE MAY USE THE PROCEEDS FOR ANY PURPOSE, UNLESS OTHERWISE DIRECTED.</h6>
-      <h6>IN MOST STATES, IN THE EVENT OF SUICIDE DURING THE FIRST TWO POLICY YEARS, DEATH BENEFITS ARE LIMITED ONLY TO THE RETURN OF PREMIUMS PAID.</h6>
+      <h6>Withdrawals may be subject to regular income tax and, if made prior to age 59 1/2 may be subject to a 10% IRS penalty. Ensurem does not render legal or tax advice. If legal or tax advice is required, the services of a qualified competent professional should <span class="smart-break">be sought.</span></h6>
     </div>
   </article>
 

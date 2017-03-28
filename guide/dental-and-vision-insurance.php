@@ -157,8 +157,8 @@
       </div>
     </div>
     <div class="col-sm-12 col-md-6">
-      <div id="add-4" class="col-md-6 col-sq col-sm-hide"></div>
-      <div id="add-5" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="dent-8" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="vis-3" class="col-md-6 col-sq col-sm-hide"></div>
     </div>
   </article>
 

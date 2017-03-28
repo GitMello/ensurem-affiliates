@@ -77,10 +77,10 @@
 <?php $team10pic="/assets/team/team-9.jpg"; ?>
 
 <?php $team11="Ashley LeClaire"; ?>
-<?php $team11bio="<p></p>"; ?>
+<?php $team11bio="<p>A self-proclaimed Jeep enthusiast and Yankees fan, Ashley is originally from the great state of Connecticut. She moved to Florida for school and started her insurance career at one of the largest independently held, senior insurance distribution companies in the nation; AmeriLife.</p><p>Starting in 2008 as an administrative assistant, Ashley worked her way up through the company. During her first years in product development, Ashley worked under Dave Rich as the team’s first competitive market analyst.</p><p>Nine years later and she was director of carrier relations, overseeing the onboarding of all new carrier products for the distribution company. She also played a large role in the development of senior insurance products for 7 of her years with the company.</p><p>In 2013 and 2014 Ashley received her Lean Six Sigma green and black belts, and applies her process improvement skills across everything she does.</p><p>Ashley joined the Ensurem team because she truly believes the mission of the company: to aware America and help consumers take responsibility for their insurance choices. Being part of a team that is working to make buying insurance (a task that is notoriously difficult) simpler, is Ashley’s passion, and each day that she comes in to work she looks for even more inventive ways to make that happen.</p><p>Ashley lives in sunny Clearwater, Fla. with her husband Darren, daughter Chloe and their Old English Bulldog Brutus.</p>"; ?>
 <?php $team11linkedin="https://www.linkedin.com/in/ashley-leclaire-lssgb-lssbb-94a8b730/"; ?>
 <?php $team11email="mailto:info@ensurem.com"; ?>
-<?php $team11quote="I like boats."; ?>
+<?php $team11quote="I like Jeeps."; ?>
 <?php $team11pic="/assets/team/team-10.jpg"; ?>
 
 <?php $team12="Marc Rubinger"; ?>
