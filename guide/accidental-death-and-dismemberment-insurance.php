@@ -57,7 +57,7 @@
       <h3>Financial protection after a serious incident</h3>
       <hr>
       <p>Where would your family be if you died in a car accident tomorrow? How would you cope if you lost a limb after an accident at work?</p>
-      <p>Accidental death &amp; dismemberment (AD&amp;D) insurance plans cover unlikely events, such as dying in an accident versus dying from an illness. As a result, these insurance plans are fairly inexpensive. They pay full benefits to your beneficiaries if you die and benefits to you if you are dismembered. AD&D are substantially less expensive than other types of life insurance because they pay benefits only in the result of an accidental death or dismemberment.</p>
+      <p>Accidental death &amp; dismemberment (AD&amp;D) insurance plans cover unlikely events, such as dying in an accident versus dying from an illness. As a result, these insurance plans are fairly inexpensive. They pay full benefits to your beneficiaries if you die and benefits to you if you are dismembered. AD&amp;D are substantially less expensive than other types of life insurance because they pay benefits only in the result of an accidental death or dismemberment.</p>
     </div>
     <div class="col-sm-12 col-lg-6 col-pad">
       <ul>

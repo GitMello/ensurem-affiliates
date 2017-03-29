@@ -33,9 +33,9 @@
     </div>
   </article>
 
-  <article class="petco text-white content light-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="container">
-      <div class="col-sm-12 col-lg-6 col-pad hr-light">
+  <article class="petco text-white content light-list l-stack-all-ul">
+    <div class="container flex flex-center just-center flex-wrap">
+      <div class="col-sm-12 col-md-6 col-pad hr-light">
         <h2>Pet Insurance</h2>
         <h3>Keep your furry friends healthy <span class="smart-break">&amp; save on vet costs</span></h3>
         <hr>
@@ -43,7 +43,7 @@
         <h2>Would you be able to pay their vet bills without stress?</h2>
         <p>Pet insurance can provide the coverage you need to manage health care expenses for your best friend. The cost of treatment, emergency room visits, blood work, and surgery could be covered by pet insurance which means your best friend would be able to get the treatment they need right when they need it.</p>
       </div>
-      <div class="col-sm-12 col-lg-6 col-pad img-responsive-all img-border-white">
+      <div class="col-sm-12 col-md-6 col-pad img-responsive-all img-border-white">
         <img src="/assets/discover/discover-pet-insurance-3" alt="Keep your furry friend well.">
         <ul>
           <h2>Should I buy <span class="smart-break">Pet Insurance?</span></h2>
@@ -59,8 +59,8 @@
   </article>
 
   <article class="container content pet-list l-stack-all-ul flex flex-center just-center flex-wrap img-responsive-all img-border-white img-shadow-mid-light">
-    <div class="col-sm-12 col-lg-6 col-pad">
-      <img src="/assets/discover/discover-pet-insurance-4" alt="Even the vet loves your pet.\!">
+    <div class="col-sm-12 col-lg-6 col-pad col-md-hide">
+      <img src="/assets/discover/discover-pet-insurance-4.jpg" alt="Even the vet loves your pet.\!">
     </div>
     <div class="col-sm-12 col-lg-6 col-pad hr-petco">
       <h2>How Pet Insurance Works</h2>

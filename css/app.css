@@ -4694,6 +4694,16 @@ label {
   background-image: url(/assets/discover/discover-sprite-1.jpg);
   background-position: 10% 0; }
 
+#term-4 {
+  background-image: url(/assets/discover/discover-term-life-insurance-4.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#term-5 {
+  background-image: url(/assets/discover/discover-term-life-insurance-5.jpg);
+  background-position: center;
+  background-size: cover; }
+
 #whole-1 {
   background-image: radial-gradient(rgba(21, 0, 133, 0.8), rgba(21, 0, 133, 0.8)), url(/assets/discover/discover-sprite-5.jpg);
   background-position: 20% 0;
@@ -4861,6 +4871,16 @@ label {
   background-image: url(/assets/discover/discover-sprite-2.jpg);
   background-position: 90% 0; }
 
+#stm-4 {
+  background-image: url(/assets/discover/discover-short-term-medical-5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#stm-5 {
+  background-image: url(/assets/discover/discover-short-term-medical-6.jpg);
+  background-position: center;
+  background-size: cover; }
+
 #homesec-1 {
   background-image: radial-gradient(rgba(60, 10, 53, 0.8), rgba(60, 10, 53, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
   background-position: 50% 0;
@@ -4947,6 +4967,11 @@ label {
 #save-3 {
   background-image: url(/assets/discover/discover-sprite-3.jpg);
   background-position: 29.99998% 0; }
+
+#save-4 {
+  background-image: url(/assets/discover/discover-savings-plans-3.jpg);
+  background-position: center;
+  background-size: cover; }
 
 #msup-1 {
   background-image: radial-gradient(rgba(72, 137, 51, 0.8), rgba(72, 137, 51, 0.8)), url(/assets/discover/discover-sprite-4.jpg);
@@ -6192,6 +6217,24 @@ label {
 
 .pad-left-edge {
   padding-left: 1.5em; }
+
+.pad-top {
+  padding-top: 1.5em; }
+
+.pad-bottom {
+  padding-bottom: 1.5em; }
+
+.marg-right-edge {
+  margin-right: 1.5em; }
+
+.marg-left-edge {
+  margin-left: 1.5em; }
+
+.marg-top {
+  margin-top: 1.5em; }
+
+.marg-bottom {
+  margin-bottom: 1.5em; }
 
 .max-width {
   max-width: 75em; }

@@ -10,10 +10,12 @@
         </div>
         <h1>Medicare Supplement</h1>
         <hr>
-        <h2>Affordable Coverage to Protect <span class="smart-break">Your Family’s Future</span></h2>
+        <h2>Bridge the Medicare Gap with <span class="smart-break">a Medicare Supplement plan</span></h2>
       </div>
     </div>
   </header>
+
+
 
   <div class="main-cta flex">
     <a href="/buy/medicare-supplement-insurance"><i class="fa fa-cart-plus"></i> | Shop Now</a>

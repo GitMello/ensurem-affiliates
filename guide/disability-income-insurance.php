@@ -38,8 +38,8 @@
     <div class="container"></div>
   </article>
 
-  <article class="disco text-white content mid-light-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="container">
+  <article class="disco text-white content mid-light-list l-stack-all-ul">
+    <div class="container flex just-center flex-wrap">
       <div class="col-sm-12 col-lg-6 col-pad hr-mid-light">
         <h2>Disability Income Insurance</h2>
         <h3>Protect your paycheck when facing the unexpected</h3>
@@ -63,7 +63,7 @@
     </div>
   </article>
 
-  <article class="container content add-list l-stack-all-ul flex flex-end just-center flex-wrap">
+  <article class="container content flex flex-end just-center flex-wrap">
     <div class="col-sm-12 col-lg-6 col-pad hr-disco">
       <h2>How Disability Income Insurance Works</h2>
       <hr>

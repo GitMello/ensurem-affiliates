@@ -38,8 +38,8 @@
     <div class="container"></div>
   </article>
 
-  <article class="homeseco text-white content mid-light-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="container">
+  <article class="homeseco text-white content mid-light-list l-stack-all-ul">
+    <div class="container flex flex-center just-center flex-wrap">
       <div class="col-sm-12 col-lg-6 col-pad hr-mid-light">
         <h2>Home Security Plans</h2>
         <h3>Complete protection for your home &amp; your peace of mind</h3>
