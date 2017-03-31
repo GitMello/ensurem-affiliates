@@ -3060,7 +3060,10 @@ footer {
     display: none; }
 
   .col-lg-hide {
-    display: none; } }
+    display: none; }
+
+  .no-pad-bottom-md {
+    padding-bottom: 0; } }
 @media screen and (min-width: 960px) {
   .col-lg-1 {
     width: 8.33333%; }
@@ -4986,6 +4989,11 @@ label {
   background-image: url(/assets/discover/discover-sprite-3.jpg);
   background-position: 50% 0; }
 
+#msup-4 {
+  background-image: url(/assets/discover/discover-medsup-3.jpg);
+  background-position: top;
+  background-size: cover; }
+
 #life-guide {
   background-image: radial-gradient(rgba(72, 137, 51, 0.7), #488933), url(/assets/discover/discover-sprite-5.jpg);
   background-position: 30% 0;
@@ -6202,6 +6210,9 @@ label {
 .no-marg-top {
   margin-top: 0; }
 
+.no-marg-bottom {
+  margin-bottom: 0; }
+
 .no-pad-sides {
   padding-left: 0;
   padding-right: 0; }
@@ -6410,6 +6421,10 @@ label {
   border-width: 0.125em;
   border-color: #222222; }
 
+.hr-light hr {
+  border-width: 0.125em;
+  border-color: #f1f1f1; }
+
 .font-12 {
   font-size: 0.75em; }
 
@@ -6424,6 +6439,9 @@ label {
 
 .fa-primary i {
   color: #63bc46; }
+
+.fa-msupco i {
+  color: #488933; }
 
 .text-black {
   color: #000000; }
@@ -6620,6 +6638,8 @@ label {
   margin: 0;
   font-weight: 600;
   text-transform: uppercase; }
+.table h6 {
+  margin: 0; }
 
 .table-top {
   border-radius: 1em 1em 0 0; }

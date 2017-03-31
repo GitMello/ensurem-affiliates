@@ -74,7 +74,7 @@
     </div>
   </article>
 
-  <article class="stmco text-white content mid-light-list l-stack-all-ul">
+  <article class="stmco text-white content">
     <div class="container flex flex-center just-center flex-wrap">
       <div class="col-sm-12 col-pad hr-mid-light">
         <h2>Why Choose Short Term Medical Plans when there's Obamacare?</h2>
