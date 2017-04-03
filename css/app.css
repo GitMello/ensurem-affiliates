@@ -3884,6 +3884,8 @@ label {
 .content h2 {
   margin-bottom: 0.25em;
   text-transform: capitalize; }
+.content h1 {
+  text-transform: capitalize; }
 .content h3 {
   margin: 0 0 1em;
   font-weight: 400;
@@ -4992,6 +4994,21 @@ label {
 #msup-4 {
   background-image: url(/assets/discover/discover-medsup-3.jpg);
   background-position: top;
+  background-size: cover; }
+
+#msup-5 {
+  background-image: url(/assets/discover/discover-medsup-4.jpg);
+  background-position: top;
+  background-size: cover; }
+
+#msup-6 {
+  background-image: url(/assets/discover/discover-medsup-6.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#msup-7 {
+  background-image: url(/assets/discover/discover-medsup-7.jpg);
+  background-position: center;
   background-size: cover; }
 
 #life-guide {

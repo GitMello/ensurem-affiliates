@@ -66,13 +66,13 @@
     </div>
   </article>
 
-  <article class="container content homesec-list l-stack-all-ul flex flex-center flex-wrap img-responsive-all">
+  <article class="container content homesec-list l-stack-all-ul flex flex-center flex-wrap img-responsive-all img-border-white img-shadow-mid-light">
     <div class="col-sm-12 col-lg-6 col-pad hr-homeseco">
       <h2>How Home Security Systems Work</h2>
       <hr>
       <p>Home security systems provide a wide range of features to protect your home. You typically pay a low monthly rate for service and a specialist will come by and install all the sensors and alarms around your home.</p>
       <p>Preventing theft of your property is always a priority but you also need to consider ways to prevent house fires, detect high levels of carbon monoxide, and make sure your basement and garage are secure. You can do all of that — and more — with a home security system.</p>
-      <img src="/assets/discover/discover-home-security-4" alt="Automated Protection.">
+      <img class="marg-top" src="/assets/discover/discover-home-security-4.jpg" alt="Automated Protection.">
     </div>
     <div class="col-sm-12 col-lg-6 col-pad">
       <ul>
