@@ -11,4 +11,90 @@
     </div>
   </header>
 
+  <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
+
+    <h2>Whole Life Insurance</h2>
+    <h3>Shop permanent life insurance products from leading carriers</h3>
+
+    <ul>
+      <li>
+        <h6 class="wholeco">Whole Life</h6>
+        <header class="fidelityco">
+          <div class="carrier-logo fidelity-life-logo-w">Fidelity Life</div>
+          <h3>RD Senior Life</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Tax-Deferred</li>
+            <li>Max Premium $200,000</li>
+            <li>FREE Withdrawal Provision</li>
+            <li>Maturity Age: 100</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>Minimum Contribution $2,000</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="wholeco">Whole Life</h6>
+        <header class="sagico">
+          <div class="carrier-logo sagicor-logo-w">Sagicor Life</div>
+          <h3>Sage Whole Life</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Customizable</li>
+            <li>Death Benefit Feature</li>
+            <li>Single Premium</li>
+            <li>Tax-Deferred</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>Minimum Contribution $2,500</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="wholeco">Whole Life</h6>
+        <header class="amnatco">
+          <div class="carrier-logo american-national-logo-w">American National</div>
+          <h3>Anico Whole Life</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Tax-Deferred</li>
+            <li>Max Premium $200,000</li>
+            <li>FREE Withdrawal Provision</li>
+            <li>Maturity Age: 100</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>Minimum Contribution $2,000</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="wholeco">Whole Life</h6>
+        <header class="gerberco">
+          <div class="carrier-logo gerber-logo-w">Gerber Life Insurance Compnay</div>
+          <h3>Grow-Up Plan</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Customizable</li>
+            <li>Death Benefit Feature</li>
+            <li>Single Premium</li>
+            <li>Tax-Deferred</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>Minimum Contribution $2,500</h4>
+        </article>
+      </li>
+
+
+    </ul>
+  </article>
+
 <?php include(includes.'footer.php'); ?>

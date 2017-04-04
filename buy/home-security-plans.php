@@ -11,4 +11,33 @@
     </div>
   </header>
 
+  <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
+
+    <h2>Home Security Plans</h2>
+    <h3>Shop top Home Security plans from reputable carriers</h3>
+
+    <ul>
+      <li>
+        <h6 class="homeseco">Home Security</h6>
+        <header class="homeseco">
+          <div class="carrier-logo no-logo-w">ADT</div>
+          <h3>ADT</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Tax-Deferred</li>
+            <li>Max Premium $200,000</li>
+            <li>FREE Withdrawal Provision</li>
+            <li>Maturity Age: 100</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>Minimum Contribution $2,000</h4>
+        </article>
+      </li>
+
+      
+    </ul>
+  </article>
+
 <?php include(includes.'footer.php'); ?>

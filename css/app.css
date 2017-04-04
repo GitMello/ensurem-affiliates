@@ -5134,7 +5134,6 @@ label {
       transition: 500ms; }
   .l-display-products-list li header {
     padding: 1.5em 2em;
-    background-color: transparent;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -5194,6 +5193,21 @@ label {
   margin: 0 auto 0.5em;
   background-size: 100%;
   background-repeat: no-repeat; }
+
+.term-types header {
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .term-types header h2 {
+    margin: 0;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600; }
+.term-types article {
+  padding: 1.5em 2.5em 2em; }
+  .term-types article p {
+    line-height: 1.5em; }
 
 .hw {
   background-image: url(/assets/logos/carriers/logo-test.png);
@@ -6324,6 +6338,162 @@ label {
 .transparent {
   background-color: transparent; }
 
+.aetnaco {
+  background-color: #539542; }
+
+.aigco {
+  background-color: #1ca3dc; }
+
+.amnatco {
+  background-color: #005daa; }
+
+.americoco {
+  background-color: #002a5c; }
+
+.ameritasco {
+  background-color: #e82c2a; }
+
+.assurityco {
+  background-color: #cf1f43; }
+
+.atheneco {
+  background-color: #1f4281; }
+
+.axaco {
+  background-color: #00529c; }
+
+.baltlifeco {
+  background-color: #0075bd; }
+
+.legalgenco {
+  background-color: #009f4e; }
+
+.cignaco {
+  background-color: #0081c6; }
+
+.companlifeco {
+  background-color: #007ac2; }
+
+.fidelityco {
+  background-color: #00395a; }
+
+.gerberco {
+  background-color: #01437d; }
+
+.groceryco {
+  background-color: #ff4906; }
+
+.hccco {
+  background-color: #0069a8; }
+
+.hrightco {
+  background-color: #26b6ea; }
+
+.hpawsco {
+  background-color: #5a8a6c; }
+
+.icareco {
+  background-color: #26b6ea; }
+
+.ihcco {
+  background-color: #566c10; }
+
+.jhanco {
+  background-color: #00447c; }
+
+.abeco {
+  background-color: #98012e; }
+
+.manhatco {
+  background-color: #768892; }
+
+.metlifeco {
+  background-color: #007cc3; }
+
+.minnesotaco {
+  background-color: #efac14; }
+
+.mtlco {
+  background-color: #003e7e; }
+
+.mooco {
+  background-color: #003a70; }
+
+.natgenco {
+  background-color: #f38b00; }
+
+.natlifeco {
+  background-color: #c3cdc5; }
+
+.natwideco {
+  background-color: #1457a5; }
+
+.nylifeco {
+  background-color: #1683c6; }
+
+.northamco {
+  background-color: #006f3b; }
+
+.paclifeco {
+  background-color: #072669; }
+
+.phoenixco {
+  background-color: #0066a4; }
+
+.principalco {
+  background-color: #0978c0; }
+
+.protectco {
+  background-color: #00a4e3; }
+
+.prudco {
+  background-color: #0079c2; }
+
+.voyaco {
+  background-color: #f6861f; }
+
+.renco {
+  background-color: #0069aa; }
+
+.sagico {
+  background-color: #00b5ef; }
+
+.sblico {
+  background-color: #005677; }
+
+.securianco {
+  background-color: #efac14; }
+
+.sentco {
+  background-color: #990033; }
+
+.sureco {
+  background-color: #174a7c; }
+
+.symetraco {
+  background-color: #006fb8; }
+
+.thriveco {
+  background-color: #da1a32; }
+
+.tococo {
+  background-color: #557efa; }
+
+.transamco {
+  background-color: #004990; }
+
+.unifiedco {
+  background-color: #039ee2; }
+
+.uhcco {
+  background-color: #1c3e94; }
+
+.uhlco {
+  background-color: #aa273c; }
+
+.vantisco {
+  background-color: #007dc3; }
+
 .termco {
   background-color: #064C88; }
 
@@ -6483,6 +6653,9 @@ label {
 
 .text-accent {
   color: #f26429; }
+
+.text-termco {
+  color: #064C88; }
 
 .link-hover-accent a:hover {
   color: #f26429; }

@@ -19,8 +19,8 @@
     <ul>
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
-        <header class="t1">
-          <div class="carrier-logo gerber-logo-w">Carrier Company</div>
+        <header class="gerberco">
+          <div class="carrier-logo gerber-logo-w">Gerber Life Insurance</div>
           <h3>Accident Protection</h3>
         </header>
         <article>
@@ -39,8 +39,8 @@
 
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
-        <header class="t2">
-          <div class="carrier-logo fidelity-life-logo-w">Carrier Company</div>
+        <header class="fidelityco">
+          <div class="carrier-logo fidelity-life-logo-w">Fidelity Life Insurance</div>
           <h3>ADB Accidental</h3>
         </header>
         <article>
@@ -58,8 +58,8 @@
 
       <li>
         <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
-        <header class="t3">
-          <div class="carrier-logo mutual-omaha-logo-w">Carrier Company</div>
+        <header class="mooco">
+          <div class="carrier-logo mutual-omaha-logo-w">Mutual of Omaha</div>
           <h3>Guaranteed ADvantage</h3>
         </header>
         <article>
@@ -74,7 +74,7 @@
           <h4>24-Hour Accident Coverage</h4>
         </article>
       </li>
-      <span class="product-break"></span>
+      
     </ul>
   </article>
 
