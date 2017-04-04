@@ -8,7 +8,7 @@
           <div class="butt-prev"><a href="/guide/pet-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
           <div class="butt-next"><a href="/guide/short-term-health-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
         </div>
-        <h1>Savings Plans</h1>
+        <h1>Savings, Rewards &amp; More</h1>
         <hr>
         <h2>Saving money just got <span class="smart-break">a whole lot easier</span></h2>
       </div>
@@ -22,7 +22,7 @@
       </div>
       <div class="col-sm-12 col-lg-6 col-pad briefing">
         <ul>
-          <h2>Key Benefits of <span class="smart-break">Savings Plans</span></h2>
+          <h2>Key Benefits of Savings, <span class="smart-break">Rewards &amp; More</span></h2>
           <li>Discount shopping and entertainment plans available</li>
           <li>Vehicle towing and fuel delivery</li>
           <li>Cell phone protection and deductible reimbursement</li>
@@ -40,7 +40,7 @@
   <article class="saveco text-white content light-list l-stack-all-ul img-responsive-all img-border-white">
     <div class="container flex flex-center just-center flex-wrap">
       <div class="col-sm-12 col-lg-6 col-pad hr-light">
-        <h2>Savings Plans</h2>
+        <h2>Savings, Rewards &amp; More</h2>
         <h3>Saving money just got <span class="smart-break">a whole lot easier</span></h3>
         <hr>
         <p>If you want to make sure you’re paying the lowest possible price for everyday household and living expenses, you’ll probably benefit most from savings plans. With these plans, you pay a low monthly fee, or membership fee, for access to exclusive discounts and deals. You’ll find plenty of participating providers and companies offering discounted rates and offers year round so you won’t have to waste time shopping around for the best deal or waiting for a sale.</p>
@@ -50,7 +50,7 @@
       </div>
       <div class="col-sm-12 col-lg-6 col-pad">
         <ul>
-          <h2>Do I really need a <span class="smart-break">Savings Plan?</span></h2>
+          <h2>Do I really need Savings, <span class="smart-break">Rewards &amp; More?</span></h2>
           <p>Here are some things you can do with your savings plans:</p>
           <li>Travel with peace of mind. Even if you already have travel insurance, your insurance company might not cover the cost of trip cancellations provide lost luggage reimbursement. For just a few dollars a month, you could get extended travel benefits that end up saving you hundreds of dollars in the event of a travel emergency.</li>
           <li>Get grocery coupons and discounts on dining. Stop clipping coupons and save on weekly groceries. You can get hundreds of dollars of coupons in the mail and discounts at restaurants with a Grocery Rewards Plan.</li>

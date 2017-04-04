@@ -19,7 +19,7 @@
     </nav>
   </div>
   <div class="copyright">
-    <p class="font-12">&copy;2017 <?php echo $conamellc;?> <span class="text-accent">|</span> <?php echo $contactphone;?> <span class="smart-break"><span class="text-accent">|</span> <?php echo $addressStreet;?> <span class="text-accent">|</span> <?php echo $addressCityState;?> </span> <span class="smart-break"><span class="text-accent">|</span> <a href="#">Privacy Policy</a> <span class="text-accent">|</span> <a href="#">Terms of Use</a></span></p>
+    <p class="font-12">&copy;2017 <?php echo $conamellc;?> <span class="text-accent">|</span> <?php echo $contactphone;?> <span class="smart-break"><span class="text-accent">|</span> <?php echo $addressStreet;?> <span class="text-accent">|</span> <?php echo $addressCityState;?> </span> <span class="smart-break"><span class="text-accent">|</span> <a href="/privacy-policy">Privacy Policy</a> <span class="text-accent">|</span> <a href="/terms-of-use">Terms of Use</a></span></p>
   </div>
 <script>//css load fix</script>
 </footer>

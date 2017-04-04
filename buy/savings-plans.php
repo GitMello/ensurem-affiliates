@@ -7,13 +7,13 @@
         <div class="butt-prev"><a href="/buy/pet-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
         <div class="butt-next"><a href="/buy/short-term-health-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
       </div>
-      <h1>Shop Savings Plans</h1>
+      <h1>Shop Savings, Rewards &amp; More</h1>
     </div>
   </header>
 
   <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
 
-    <h2>Savings &amp; Discount Plans</span></h2>
+    <h2>Savings, Rewards &amp; More</h2>
     <h3>Get a whole lot more, for a whole lot less</h3>
 
     <ul>
@@ -136,6 +136,25 @@
           <a href="#">Get Quote</a>
           <h4>$8.95/Month</h4>
           <p>Great plan for people who are always on the go. This plan offers vehicle towing, $500 deductible reimbursement, flat tire assistance, and now includes cell phone protection.</p>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="saveco">Vehicle Service Contract</h6>
+        <header class="tococo">
+          <div class="carrier-logo toco-logo-w">Toco Warranty</div>
+          <h3>Vehicle Service Contract</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>Contact Us For A Quote!</h4>
         </article>
       </li>
 
