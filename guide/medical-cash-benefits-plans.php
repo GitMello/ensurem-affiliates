@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap med-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -61,8 +63,8 @@
     </div>
   </article>
 
-  <article class="container content add-list l-stack-all-ul flex flex-center just-center flex-wrap fa-white">
-    <div class="col-sm-12 col-lg-6 col-pad hr-addco">
+  <article class="container content l-stack-all-ul flex flex-center just-center flex-wrap fa-white">
+    <div class="col-sm-12 col-lg-6 col-pad hr-medco">
       <h2>Medical Cash Benefits Plans</h2>
       <h3>Designed to cover a variety of circumstances</h3>
       <hr>
@@ -126,6 +128,19 @@
 
         </div>
       </div>
+    </div>
+  </article>
+
+  <article id="" class="content hr-medco container fluid mid-light">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo surebridge-logo">Surebridge</h4></li>
+        <li><h4 class="carrier-logo sentinel-logo">Sentinel Security Life</h4></li>
+        <li><h4 class="carrier-logo ihc-logo">The IHC Group</h4></li>
+        <li><h4 class="carrier-logo national-general-logo">National General Insurance</h4></li>
+      </ul>
     </div>
   </article>
 

@@ -3,9 +3,9 @@
 
   <header id="shop-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
     <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
-      <h2>Shop Life &amp; Living <span class="smart-break">Insurance Plans</span></h2>
+      <h1><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Protection &amp; More</h1>
       <hr>
-      <h1>Protection &amp; More</h1>
+      <h2>Shop Life &amp; Living <span class="smart-break">Insurance Plans</span></h2>
     </div>
   </header>
 
@@ -15,6 +15,160 @@
     <h3>Shop life &amp; living insurance products from leading carriers</h3>
 
     <ul>
+      <li>
+        <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
+        <header class="gerberco">
+          <div class="carrier-logo gerber-logo-w">Gerber Life Insurance</div>
+          <h3>Accident Protection</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+
+      <li>
+        <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
+        <header class="fidelityco">
+          <div class="carrier-logo fidelity-life-logo-w">Fidelity Life Insurance</div>
+          <h3>ADB Accidental</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accidental Death &amp; Dismemberment</h6>
+        <header class="mooco">
+          <div class="carrier-logo mutual-omaha-logo-w">Mutual of Omaha</div>
+          <h3>Guaranteed ADvantage</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+
+      <li>
+        <h6 class="addco">Accidental Death</h6>
+        <header class="minnesotaco">
+          <div class="carrier-logo minnesota-life-logo-w">Minnesota Life</div>
+          <h3>Accidental Death Insurance</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accident Plan</h6>
+        <header class="sureco">
+          <div class="carrier-logo surebridge-logo-w">Surebridge</div>
+          <h3>Accident Companion</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accident Plan</h6>
+        <header class="sureco">
+          <div class="carrier-logo surebridge-logo-w">Surebridge</div>
+          <h3>Accident Direct</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accident Plan</h6>
+        <header class="sureco">
+          <div class="carrier-logo surebridge-logo-w">Surebridge</div>
+          <h3>Critical Accident Direct</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accidental/Critical</h6>
+        <header class="natgenco">
+          <div class="carrier-logo national-general-logo-w">National General Insurance</div>
+          <h3>TrioMed</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
       <li>
         <h6 class="wholeco">Whole Life</h6>
         <header class="fidelityco">
@@ -937,82 +1091,6 @@
           <a href="#">Learn More</a>
           <a href="#">Get Quote</a>
           <h4>24-Hour Accident Coverage</h4>
-        </article>
-      </li>
-
-      <li>
-        <h6 class="wholeco">Whole Life</h6>
-        <header class="fidelityco">
-          <div class="carrier-logo fidelity-life-logo-w">Fidelity Life</div>
-          <h3>RD Senior Life</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Tax-Deferred</li>
-            <li>Max Premium $200,000</li>
-            <li>FREE Withdrawal Provision</li>
-            <li>Maturity Age: 100</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>Minimum Contribution $2,000</h4>
-        </article>
-      </li>
-
-      <li>
-        <h6 class="wholeco">Whole Life</h6>
-        <header class="sagico">
-          <div class="carrier-logo sagicor-logo-w">Sagicor Life</div>
-          <h3>Sage Whole Life</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Customizable</li>
-            <li>Death Benefit Feature</li>
-            <li>Single Premium</li>
-            <li>Tax-Deferred</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>Minimum Contribution $2,500</h4>
-        </article>
-      </li>
-
-      <li>
-        <h6 class="wholeco">Whole Life</h6>
-        <header class="amnatco">
-          <div class="carrier-logo american-national-logo-w">American National</div>
-          <h3>Anico Whole Life</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Tax-Deferred</li>
-            <li>Max Premium $200,000</li>
-            <li>FREE Withdrawal Provision</li>
-            <li>Maturity Age: 100</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>Minimum Contribution $2,000</h4>
-        </article>
-      </li>
-
-      <li>
-        <h6 class="wholeco">Whole Life</h6>
-        <header class="gerberco">
-          <div class="carrier-logo gerber-logo-w">Gerber Life Insurance Compnay</div>
-          <h3>Grow-Up Plan</h3>
-        </header>
-        <article>
-          <ul>
-            <li>Customizable</li>
-            <li>Death Benefit Feature</li>
-            <li>Single Premium</li>
-            <li>Tax-Deferred</li>
-          </ul>
-          <a href="#">Learn More</a>
-          <a href="#">Get Quote</a>
-          <h4>Minimum Contribution $2,500</h4>
         </article>
       </li>
 

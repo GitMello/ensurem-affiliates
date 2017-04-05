@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap save-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">

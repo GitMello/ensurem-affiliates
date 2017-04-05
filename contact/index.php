@@ -3,7 +3,7 @@
 
   <header class="alt">
     <div class="container no-pad">
-      <h1>Contact Us</h1>
+      <h1><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact Us</h1>
     </div>
   </header>
 

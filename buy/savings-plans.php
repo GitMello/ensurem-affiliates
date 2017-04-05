@@ -11,6 +11,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-cart-plus"></i></h2></div>
+
   <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
 
     <h2>Savings, Rewards &amp; More</h2>

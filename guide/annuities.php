@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap annu-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -96,10 +98,21 @@
     </div>
   </article>
 
+  <article id="" class="content hr-annuco container fluid annuco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo sentinel-logo">Sentinel Security Life</h4></li>
+        <li><h4 class="carrier-logo sagicor-logo">Sagicor Life</h4></li>
+      </ul>
+    </div>
+  </article>
+
   <article class="content fa-white">
     <div class="hr-annuco container">
       <h2>Fixed Annuities VS CDs</h2>
-      
+
       <div class="grid flex flex-col flex-wrap table">
 
         <div class="col sm-12 flex flex-stretch table-border text-white">

@@ -3,9 +3,9 @@
 
   <header id="about-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
     <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
-      <h2>Choice. Freedom. Security. <span class="smart-break">A better quality of life for all…</span></h2>
+      <h1><i class="fa fa-hashtag"></i> <span class="text-accent">|</span> Why Us?</h1>
       <hr>
-      <h1>We Believe</h1>
+      <h2>Choice. Freedom. Security. <span class="smart-break">A better quality of life for all…</span></h2>
       <a href="#team"><i class="fa fa-chevron-circle-down"></i> | Meet the Team</a>
       <a href="#our-story"><i class="fa fa-chevron-circle-down"></i> | Our Story</a>
     </div>
@@ -13,8 +13,9 @@
 
   <a id="team" class="anchor"></a>
   <article class="team l-team-list relative">
-    <div class="container text-center butt-link-mini">
-      <h2>Meet The Team</h2>
+    <div class="container text-center butt-link-mini content hr-center hr-primary">
+      <h1><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet <span class="smart-break-mini">The Team</span></h1>
+      <hr>
       <?php include(includes.'team.php'); ?>
     </div>
     <!-- MODALS -->
@@ -24,7 +25,7 @@
   <a id="our-story" class="anchor"></a>
   <article class="our-story mid-dark text-white">
     <div class="container-900">
-      <h1>It Begins With You</h1>
+      <h1><i class="fa fa-book"></i> <span class="text-accent">|</span> It Begins <span class="smart-break-mini">With You</span></h1>
       <p><strong>The story of Ensurem is simple, and it begins with you.</strong> If you have a desire for financial security and believe in the promise of a brighter tomorrow for you and your family, we at Ensurem share your vision. With this vision in mind, Ensurem set out to revolutionize one of the most important choices you will ever make: investing in quality, cost-effective insurance and related products to protect you and the ones <span class="smart-break">you love.</span></p>
       <img src="/assets/our-story/our-story-1.jpg" alt="Always Remembered" class="img-responsive">
       <p><strong>Helping you create, grow, and protect wealth is our goal.</strong> We know financial stability enables you to focus on what matters most: living life to its fullest. Comprehensive insurance coverage gives you the peace of mind necessary to do just that. Prior to Ensurem, however, the process of researching and choosing the right insurance was often an intimidating, complex, and frustrating venture – not to mention time-consuming. No one company existed to enable consumers to freely explore options, compare benefits, and, in some cases, purchase insurance policies and related products instantly. With so much at stake, there simply had to be a better way – and with Ensurem, there <span class="smart-break">finally is.</span></p>

@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heart-o"></i></h2></div>
+
   <div class="main-cta flex">
     <a href="/buy/universal-life-insurance"><i class="fa fa-cart-plus"></i> | Shop Now</a>
   </div>

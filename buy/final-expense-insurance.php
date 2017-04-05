@@ -12,6 +12,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-cart-plus"></i></h2></div>
+
   <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
 
     <h2>Final Expense Insurance</span></h2>
@@ -132,7 +134,7 @@
           <h4>24-Hour Accident Coverage</h4>
         </article>
       </li>
-      
+
     </ul>
   </article>
 

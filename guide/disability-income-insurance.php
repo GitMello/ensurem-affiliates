@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap dis-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -71,6 +73,17 @@
     </div>
     <div class="col-sm-12 col-lg-6 col-pad">
       <p>Many disability policies include a waiting period that range anywhere from 90 to 365 days before you can receive income replacement benefits, depending on the policy. You need to consider the waiting period and also the length of the benefit period — the length of time you will receive benefits — which can range anywhere from one year to five or more years, when shopping for a policy. Many companies offer short term or long term policies and some policies also include other features that provide additional monetary benefits.</p>
+    </div>
+  </article>
+
+  <article id="" class="content hr-disco container fluid disco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo mutual-omaha-logo">Mutual of Omaha</h4></li>
+        <li><h4 class="carrier-logo ameritas-logo">Ameritas</h4></li>
+      </ul>
     </div>
   </article>
 

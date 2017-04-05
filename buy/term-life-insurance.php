@@ -11,12 +11,20 @@
     </div>
   </header>
 
-  <article>
-    <div class="grid fluid flex flex-wrap butt-link-light term-types term-list light">
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-cart-plus"></i></h2></div>
+
+  <article class="text-center display-products no-pad-bottom">
+    <h2>Term Life Insurance Plans</h2>
+    <h3>Shop three types of Term Life Insurance categories from reputable carriers</h3>
+  </article>
+
+  <article class="light">
+    <div class="grid fluid flex flex-wrap butt-link-light term-types term-list">
       <div class="col-md-6 col-lg-4 flex-grow-1">
         <article>
           <ul class="l-stack">
-            <h2>INSTANT POLICY ISSUE<br>NO AGENT REQUIRED!</h2>
+            <h2>INSTANT POLICY ISSUE</h2>
+            <h3>NO AGENT REQUIRED!</h3>
             <li>Quick &amp; Easy Process</li>
             <li>Online Application</li>
             <li>e-Sign Application Today</li>
@@ -29,12 +37,13 @@
       <div class="col-md-6 col-lg-4 link-hover-msupco flex-grow-1">
         <article>
           <ul class="l-stack">
-            <h2>DECISION IN 48 HOURS<br>WE MAY CALL!</h2>
+            <h2>DECISION IN 48 HOURS</h2>
+            <h3>WE MAY CALL!</h3>
             <li>Quick &amp; Easy Process</li>
-            <li>Online Application</li>
-            <li>e-Sign Application Today</li>
-            <li>No Phone Call or Agent</li>
-            <li>Decision in Under 10 Mins.</li>
+            <li>Online or Phone Application</li>
+            <li>Policy May Be Mailed</li>
+            <li>May Require Phone Call</li>
+            <li>Decision in Under 48 Hours</li>
             <li>No Medical Exam Required</li>
           </ul>
         </article>
@@ -42,23 +51,21 @@
       <div class="col-md-6 col-lg-4 link-hover-msupco flex-grow-1">
         <article>
           <ul class="l-stack">
-            <h2>COMPETITIVE RATES<br>WE’LL CALL YOU!</h2>
-            <li>Quick &amp; Easy Process</li>
-            <li>Online Application</li>
-            <li>e-Sign Application Today</li>
-            <li>No Phone Call or Agent</li>
-            <li>Decision in Under 10 Mins.</li>
-            <li>No Medical Exam Required</li>
+            <h2>COMPETITIVE RATES</h2>
+            <h3>WE WILL CALL YOU!</h3>
+            <li>Most Competitive Rates</li>
+            <li>Phone Application</li>
+            <li>Policy in the Mail</li>
+            <li>Will Require Phone Call</li>
+            <li>Decision in 30-90 Days</li>
+            <li>Medical Exam Required</li>
           </ul>
         </article>
       </div>
     </div>
   </article>
 
-  <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
-
-    <h2>Term Life Insurance Plans</h2>
-    <h3>Shop three types of Term Life Insurance categories from reputable carriers</h3>
+  <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary no-pad-top">
 
     <ul>
       <li>

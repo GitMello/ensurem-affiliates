@@ -3300,6 +3300,11 @@ footer {
   .l-inline li {
     display: inline-block; }
 
+.l-inline-all-ul ul {
+  padding: 0; }
+  .l-inline-all-ul ul li {
+    display: inline-block; }
+
 .l-stack {
   padding-left: 0; }
   .l-stack li {
@@ -3750,6 +3755,10 @@ footer {
   background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/about.jpg);
   background-position: center bottom; }
 
+#blog-hero {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.15), rgba(34, 34, 34, 0.45)), url(/assets/heros/blog.jpg);
+  background-position: center; }
+
 #term-life-hero {
   background-image: radial-gradient(rgba(6, 76, 136, 0.75), rgba(6, 76, 136, 0.75)), url(/assets/discover/discover-term-life-insurance.jpg);
   background-position: center; }
@@ -4049,6 +4058,30 @@ label {
         content: "";
         margin-right: 0.6em; }
 
+.wax-seal {
+  background: #63bc46;
+  margin: -2.5em auto;
+  border-radius: 50em;
+  width: 5em;
+  height: 5em;
+  border: solid 0.0625em #ffffff;
+  box-sizing: border-box;
+  transition: 300ms; }
+  .wax-seal i {
+    color: #ffffff;
+    margin-top: 0.1em; }
+  .wax-seal h2 {
+    font-size: 200%; }
+
+.featured-carriers {
+  box-shadow: 0 0 3em #343434;
+  background: white;
+  padding: 1em 0;
+  border-top: 0.5em solid;
+  border-bottom: 0.5em solid;
+  border-color: #f1f1f1;
+  border-radius: 1em; }
+
 .add-list ul {
   border-top: 0.125em solid #f26429;
   border-bottom: 0.125em solid #f26429;
@@ -4059,6 +4092,8 @@ label {
   .add-list ul h2 {
     margin-top: 0;
     color: #f26429; }
+  .add-list ul h3 {
+    margin-top: -1em; }
   .add-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4093,6 +4128,8 @@ label {
   .fin-list ul h2 {
     margin-top: 0;
     color: #c22625; }
+  .fin-list ul h3 {
+    margin-top: -1em; }
   .fin-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4127,6 +4164,8 @@ label {
   .term-list ul h2 {
     margin-top: 0;
     color: #064C88; }
+  .term-list ul h3 {
+    margin-top: -1em; }
   .term-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4161,6 +4200,8 @@ label {
   .whole-list ul h2 {
     margin-top: 0;
     color: #150085; }
+  .whole-list ul h3 {
+    margin-top: -1em; }
   .whole-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4195,6 +4236,8 @@ label {
   .annu-list ul h2 {
     margin-top: 0;
     color: #d0ad00; }
+  .annu-list ul h3 {
+    margin-top: -1em; }
   .annu-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4229,6 +4272,8 @@ label {
   .dent-list ul h2 {
     margin-top: 0;
     color: #63bc46; }
+  .dent-list ul h3 {
+    margin-top: -1em; }
   .dent-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4263,6 +4308,8 @@ label {
   .dis-list ul h2 {
     margin-top: 0;
     color: #042f55; }
+  .dis-list ul h3 {
+    margin-top: -1em; }
   .dis-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4297,6 +4344,8 @@ label {
   .homesec-list ul h2 {
     margin-top: 0;
     color: #3c0a35; }
+  .homesec-list ul h3 {
+    margin-top: -1em; }
   .homesec-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4331,6 +4380,8 @@ label {
   .med-list ul h2 {
     margin-top: 0;
     color: #8f1c1b; }
+  .med-list ul h3 {
+    margin-top: -1em; }
   .med-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4365,6 +4416,8 @@ label {
   .msup-list ul h2 {
     margin-top: 0;
     color: #488933; }
+  .msup-list ul h3 {
+    margin-top: -1em; }
   .msup-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4399,6 +4452,8 @@ label {
   .pet-list ul h2 {
     margin-top: 0;
     color: #bf4f20; }
+  .pet-list ul h3 {
+    margin-top: -1em; }
   .pet-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4433,6 +4488,8 @@ label {
   .save-list ul h2 {
     margin-top: 0;
     color: #9d8300; }
+  .save-list ul h3 {
+    margin-top: -1em; }
   .save-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4467,6 +4524,8 @@ label {
   .stm-list ul h2 {
     margin-top: 0;
     color: #1d0085; }
+  .stm-list ul h3 {
+    margin-top: -1em; }
   .stm-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4501,6 +4560,8 @@ label {
   .white-list ul h2 {
     margin-top: 0;
     color: #ffffff; }
+  .white-list ul h3 {
+    margin-top: -1em; }
   .white-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4535,6 +4596,8 @@ label {
   .mid-light-list ul h2 {
     margin-top: 0;
     color: #c4c4c4; }
+  .mid-light-list ul h3 {
+    margin-top: -1em; }
   .mid-light-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4569,6 +4632,8 @@ label {
   .light-list ul h2 {
     margin-top: 0;
     color: #f1f1f1; }
+  .light-list ul h3 {
+    margin-top: -1em; }
   .light-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4603,6 +4668,8 @@ label {
   .dark-list ul h2 {
     margin-top: 0;
     color: #222222; }
+  .dark-list ul h3 {
+    margin-top: -1em; }
   .dark-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -4637,6 +4704,8 @@ label {
   .black-list ul h2 {
     margin-top: 0;
     color: #000000; }
+  .black-list ul h3 {
+    margin-top: -1em; }
   .black-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
@@ -5935,6 +6004,9 @@ label {
   background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
   background-position: 0 24%; }
 
+.smart-break-mini {
+  white-space: nowrap; }
+
 @media screen and (max-width: 319px) {
   header {
     font-size: 50%;
@@ -5973,7 +6045,7 @@ label {
 
   .l-16-9-responsive-text h2 {
     font-size: 100%; } }
-@media screen and (min-width: 433px) and (max-width: 640px) {
+@media screen and (min-width: 433px) and (max-width: 639px) {
   header {
     font-size: 80%; }
 
@@ -5985,10 +6057,17 @@ label {
 @media screen and (max-width: 600px) {
   .l-display-products-list li {
     margin: 1em 0; } }
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 640px) {
   header {
     font-size: 100%; } }
 @media screen and (max-width: 639px) {
+  .wax-seal {
+    margin: -1.45em auto;
+    width: 3em;
+    height: 3em; }
+    .wax-seal h2 {
+      font-size: 150%; }
+
   .l-16-9-responsive-text {
     font-size: 85%; }
 
@@ -6611,6 +6690,9 @@ label {
 .hr-light hr {
   border-width: 0.125em;
   border-color: #f1f1f1; }
+
+.hr-center hr {
+  margin: 1em auto 1.5em; }
 
 .font-12 {
   font-size: 0.75em; }

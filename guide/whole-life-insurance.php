@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heart-o"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap whole-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -49,6 +51,19 @@
       <div class="video-wrap">
         <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521490723001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
       </div>
+    </div>
+  </article>
+
+  <article id="" class="content hr-wholeco container fluid wholeco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo fidelity-life-logo">Fidelity Life</h4></li>
+        <li><h4 class="carrier-logo sagicor-logo">Sagicor Life</h4></li>
+        <li><h4 class="carrier-logo american-national-logo">American National</h4></li>
+        <li><h4 class="carrier-logo gerber-logo">Gerber Life Insurance Company</h4></li>
+      </ul>
     </div>
   </article>
 

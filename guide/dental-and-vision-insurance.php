@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap dent-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -96,6 +98,18 @@
           </article>
         </div>
       </div>
+    </div>
+  </article>
+
+  <article id="" class="content hr-dentco container fluid dentco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo renaissance-dental-logo">Renaissance Dental</h4></li>
+        <li><h4 class="carrier-logo ihc-logo">The IHC Group</h4></li>
+        <li><h4 class="carrier-logo surebridge-logo">Surebridge</h4></li>
+      </ul>
     </div>
   </article>
 

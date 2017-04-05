@@ -1,11 +1,11 @@
-<?php $title="Discover Products"; ?>
+<?php $title="Product Guides"; ?>
 <?php include('../includes/topnav.php'); ?>
 
   <header id="guide-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
     <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
-      <h2>Life Insurance &amp; Living Insurance <span class="smart-break">Plans Tailored to YOUR Needs</span></h2>
+      <h1><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</h1>
       <hr>
-      <h1>Explore Your Options</h1>
+      <h2>Life Insurance &amp; Living Insurance <span class="smart-break">Plans Tailored to YOUR Needs</span></h2>
       <a href="#life-insurance"><i class="fa fa-chevron-circle-down"></i> | Show Me!</a>
     </div>
   </header>

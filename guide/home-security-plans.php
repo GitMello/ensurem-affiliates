@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap homesec-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -85,6 +87,16 @@
         <li>Remote Lock Controls: <span class="weight-400">Open and close locks remotely using your smartphone when you need to let housekeepers, maintenance service providers, and other individuals into your home.</span></li>
         <li>Garage Door Control: <span class="weight-400">Open and close your garage doors using the smartphone app and get an alert if the door stays open for too long.</span></li>
         <li>Temperature &amp; Light Controls: <span class="weight-400">Adjust your home’s temperature remotely so rooms are always just hot or cool enough when you get back home. Save money on energy bills with light controls.</span></li>
+      </ul>
+    </div>
+  </article>
+
+  <article id="" class="content hr-homeseco container fluid homeseco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carrier</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo no-logo">ADT</h4></li>
       </ul>
     </div>
   </article>

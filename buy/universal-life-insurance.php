@@ -11,4 +11,6 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-cart-plus"></i></h2></div>
+
 <?php include(includes.'footer.php'); ?>

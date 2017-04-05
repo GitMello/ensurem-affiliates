@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap stm-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -74,9 +76,21 @@
     </div>
   </article>
 
-  <article class="stmco text-white content">
+  <article id="" class="content hr-stmco container fluid stmco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo uhc-logo">United Healthcare</h4></li>
+        <li><h4 class="carrier-logo ihc-logo">The IHC Group</h4></li>
+        <li><h4 class="carrier-logo national-general-logo">National General Insurance</h4></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="content">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-pad hr-mid-light">
+      <div class="col-sm-12 col-pad hr-stmco">
         <h2>Why Choose Short Term Medical Plans when there's Obamacare?</h2>
         <hr>
         <p>Obamacare plans provide comprehensive coverage which is why they are often called major medical plans. These plans will pay for almost all of your healthcare expenses after your deductible is met and you can choose from several different plans with different premiums and deductibles.</p>

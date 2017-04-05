@@ -1,5 +1,8 @@
 // MEDIA QUERIES
 
+.smart-break-mini
+  white-space: nowrap
+
 @media screen and (max-width:319px)
   header
     font-size: 50%
@@ -49,7 +52,7 @@
     h2
       font-size: 100%
 
-@media screen and (min-width: 433px) and (max-width:640px)
+@media screen and (min-width: 433px) and (max-width:639px)
   header
     font-size: 80%
 
@@ -66,11 +69,18 @@
     li
       margin: 1em 0
 
-@media screen and (min-width: 641px)
+@media screen and (min-width: 640px)
   header
     font-size: 100%
 
 @media screen and (max-width: 639px)
+  .wax-seal
+    margin: -1.45em auto
+    width: 3em
+    height: 3em
+    h2
+      font-size: 150%
+
   .l-16-9-responsive-text
     font-size: 85%
 
@@ -300,7 +310,7 @@
   .flex-4-md
     -webkit-order: 4
     order: 4
-    
+
 @media screen and (min-width: 960px)
   .flex-1-lg
     -webkit-order: 1

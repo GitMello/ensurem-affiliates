@@ -1,7 +1,7 @@
 <?php $title="Final Expense Insurance Guide"; ?>
 <?php include('../includes/topnav.php'); ?>
 
-  <header id="fin-life-hero" class="flex flex-center just-center flex-wrap relative">
+  <header id="fin-life-hero" class="flex flex-center just-center flex-wrap">
     <div class="container no-pad">
       <div class="no-pad-sides butt-link-light-lg link-hover-finco ">
         <div>
@@ -14,6 +14,8 @@
       </div>
     </div>
   </header>
+
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heart-o"></i></h2></div>
 
   <article class="">
     <div class="container flex flex-center flex-wrap fin-list l-stack-all-ul">
@@ -47,6 +49,21 @@
       <div class="video-wrap">
         <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521490723001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
       </div>
+    </div>
+  </article>
+
+  <article id="" class="content hr-finco container fluid finco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo united-omaha-logo">United of Omaha Life Insurance Company</h4></li>
+        <li><h4 class="carrier-logo sentinel-logo">Sentinel Security Life</h4></li>
+        <li><h4 class="carrier-logo fidelity-life-logo">Fidelity Life</h4></li>
+        <li><h4 class="carrier-logo gerber-logo">Gerber Life Insurance Company</h4></li>
+        <li><h4 class="carrier-logo american-national-logo">American National</h4></li>
+        <li><h4 class="carrier-logo vantis-life-logo">Vantis Life</h4></li>
+      </ul>
     </div>
   </article>
 

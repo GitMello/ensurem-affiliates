@@ -11,6 +11,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-cart-plus"></i></h2></div>
+
   <article class="display-products l-display-products-list text-center butt-link-primary-mini fa-primary">
 
     <h2>Accidental Death &amp; Dismemberment <span class="smart-break">Insurance Plans</span></h2>
@@ -74,7 +76,104 @@
           <h4>24-Hour Accident Coverage</h4>
         </article>
       </li>
+
       
+      <li>
+        <h6 class="addco">Accidental Death</h6>
+        <header class="minnesotaco">
+          <div class="carrier-logo minnesota-life-logo-w">Minnesota Life</div>
+          <h3>Accidental Death Insurance</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accident Plan</h6>
+        <header class="sureco">
+          <div class="carrier-logo surebridge-logo-w">Surebridge</div>
+          <h3>Accident Companion</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accident Plan</h6>
+        <header class="sureco">
+          <div class="carrier-logo surebridge-logo-w">Surebridge</div>
+          <h3>Accident Direct</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+      <li>
+        <h6 class="addco">Accident Plan</h6>
+        <header class="sureco">
+          <div class="carrier-logo surebridge-logo-w">Surebridge</div>
+          <h3>Critical Accident Direct</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
+
+      <li>
+        <h6 class="addco">Accidental/Critical</h6>
+        <header class="natgenco">
+          <div class="carrier-logo national-general-logo-w">National General Insurance</div>
+          <h3>TrioMed</h3>
+        </header>
+        <article>
+          <ul>
+            <li>Guaranteed Approval</li>
+            <li>No Medical Exam</li>
+            <li>No Health Questions</li>
+            <li>Affordable Rates</li>
+          </ul>
+          <a href="#">Learn More</a>
+          <a href="#">Get Quote</a>
+          <h4>24-Hour Accident Coverage</h4>
+        </article>
+      </li>
+
     </ul>
   </article>
 

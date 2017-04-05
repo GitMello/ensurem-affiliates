@@ -15,6 +15,8 @@
     </div>
   </header>
 
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heartbeat"></i></h2></div>
+
   <article class="">
     <div class="container flex flex-center flex-wrap pet-list l-stack-all-ul">
       <div class="col-sm-12 col-lg-6 col-pad briefing">
@@ -75,6 +77,16 @@
         <li>Prescription Medications</li>
       </ul>
       <p>Office visits are generally not covered — you are responsible for paying a co-pay — but your monthly premium ensures coverage for all other treatment costs with no caps or maximum limits.</p>
+    </div>
+  </article>
+
+  <article id="" class="content hr-petco container fluid petco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carrier</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo healthy-paws-logo">Healthy Paws Pet Insurance &amp; Foundation</h4></li>
+      </ul>
     </div>
   </article>
 
