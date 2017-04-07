@@ -3,7 +3,7 @@
 
   <header id="about-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
     <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
-      <h1><i class="fa fa-hashtag"></i> <span class="text-accent">|</span> Why Us?</h1>
+      <h1><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</h1>
       <hr>
       <h2>Choice. Freedom. Security. <span class="smart-break">A better quality of life for all…</span></h2>
       <a href="#team"><i class="fa fa-chevron-circle-down"></i> | Meet the Team</a>

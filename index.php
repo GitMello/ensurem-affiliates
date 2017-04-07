@@ -11,7 +11,7 @@
     </div>
   </header>
 
-  <article class="light text-center">
+  <article class="text-center">
     <section class="container-900">
       <h2>Explore Products</h2>
       <p>Discover the benefits of leading insurance products on the market. We make it easy to find solutions that help you secure your family’s future, build wealth, and protect your assets.</p>
