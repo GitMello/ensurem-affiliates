@@ -6004,6 +6004,58 @@ label {
   background-image: url(/assets/logos/carriers/logo-color-sprite-3.png);
   background-position: 0 24%; }
 
+#blog-test {
+  background-image: radial-gradient(rgba(72, 137, 51, 0.5), rgba(72, 137, 51, 0.8)), url(/assets/blog/test-thumb.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.blog {
+  color: #ffffff; }
+  .blog h1 {
+    font-weight: 300;
+    font-style: italic; }
+  .blog ul li {
+    padding: 1em 0.5em;
+    box-sizing: border-box;
+    transition: 500ms;
+    border-radius: 0 2em 2em; }
+    .blog ul li h6 {
+      margin: 0 0.25em 0.5em;
+      padding: 0.25em 0.5em;
+      color: #ffffff;
+      border-radius: 5em; }
+    .blog ul li header {
+      box-sizing: border-box;
+      border-radius: 0 2em 0 0; }
+      .blog ul li header h6 {
+        text-transform: none; }
+    .blog ul li article {
+      color: #343434;
+      box-sizing: border-box;
+      border-radius: 0 0 2em 2em;
+      border: solid 0.125em #f1f1f1;
+      border-top: none;
+      background: #ffffff; }
+    .blog ul li h3 {
+      margin: 1em 0 0; }
+    .blog ul li h4 {
+      margin: 0.15em 0;
+      font-weight: 300;
+      font-style: italic;
+      text-transform: capitalize; }
+    .blog ul li hr {
+      width: 12em; }
+
+.cat {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em; }
+
+.cat-2 {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em; }
+
 .smart-break-mini {
   white-space: nowrap; }
 

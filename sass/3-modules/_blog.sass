@@ -1,0 +1,64 @@
+#blog-test
+  background:
+    image: radial-gradient(transparentize($alt, 0.5),transparentize($alt, 0.2)), url(/assets/blog/test-thumb.jpg)
+    position: center
+    size: cover
+
+.blog
+  color: $white
+  h1
+    font-weight: 300
+    font-style: italic
+  ul
+    li
+      //max-width: 22em
+      padding: 1em 0.5em
+      box-sizing: border-box
+      transition: 500ms
+      border-radius: 0 2em 2em
+      //&:hover, &:focus
+        box-shadow: 0 0 2em $mid-light
+        transition: 500ms
+      h6
+        margin: 0 0.25em 0.5em
+        //background: $primary
+        //width: 100%
+        padding: 0.25em 0.5em
+        color: $white
+        border-radius: 5em
+      header
+        box-sizing: border-box
+        border-radius: 0 2em 0 0
+        //padding: 30% 0 20%
+        h6
+          text-transform: none
+      article
+        color: $mid-dark
+        box-sizing: border-box
+        border-radius: 0 0 2em 2em
+        border: solid 0.125em $light
+        border-top: none
+        background: $white
+      h3
+        //font-size: $base-size * 2
+        margin: 1em 0 0
+      h4
+        margin: 0.15em 0
+        font:
+          weight: 300
+          style: italic
+        text-transform: capitalize
+      hr
+        //border-color: $white
+        width: 12em
+        //margin: 1em auto
+
+.cat
+  position: absolute
+  top: 0.5em
+  left: 0.5em
+
+.cat-2
+  position: absolute
+  bottom: 0.5em
+  left: 0.5em
