@@ -111,7 +111,7 @@
 
   <article class="content fa-white">
     <div class="hr-annuco container">
-      <h2>Fixed Annuities VS CDs</h2>
+      <h2>MYGAs VS CDs</h2>
 
       <div class="grid flex flex-col flex-wrap table">
 
@@ -120,7 +120,7 @@
             <h3>Features</h3>
           </div>
           <div class="col-sm-2 pad-1 flex flex-center just-center annuco">
-            <h3>ANN.</h3>
+            <h3>MYGA</h3>
           </div>
           <div class="col-sm-2 pad-1 flex flex-center just-center annuco table-top-right">
             <h3>CD</h3>

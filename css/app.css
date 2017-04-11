@@ -3606,6 +3606,25 @@ footer {
     border: solid 0.08em #ffffff;
     background-color: #ffffff; }
 
+.butt-link-light-mini a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: transparent;
+  white-space: nowrap;
+  border: solid 0.08em #ffffff;
+    border-radius: 50em;
+  padding: 0.5em 1em;
+  line-height: 3em;
+  font-size: 0.65em;
+  font-weight: 500;
+  display: inline;
+  transition: 300ms; }
+  .butt-link-light-mini a:hover {
+    color: #488933;
+    border: solid 0.08em #ffffff;
+    background-color: #ffffff; }
+
 .scroll-y {
   overflow-y: scroll;
   overflow-x: hidden; }
@@ -3742,6 +3761,12 @@ footer {
 #homepage-hero {
   background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/home.jpg);
   background-position: right top; }
+
+#lora-hero {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/lora-hero-inline.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 #guide-hero {
   background-image: radial-gradient(rgba(34, 34, 34, 0.55), rgba(34, 34, 34, 0.65)), url(/assets/heros/discover.jpg);
@@ -6005,46 +6030,48 @@ label {
   background-position: 0 24%; }
 
 #blog-test {
-  background-image: radial-gradient(rgba(72, 137, 51, 0.5), rgba(72, 137, 51, 0.8)), url(/assets/blog/test-thumb.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.75), rgba(34, 34, 34, 0)), url(/assets/blog/test-thumb.jpg);
   background-position: center;
   background-size: cover; }
 
-.blog {
-  color: #ffffff; }
-  .blog h1 {
-    font-weight: 300;
-    font-style: italic; }
-  .blog ul li {
-    padding: 1em 0.5em;
+.blog ul li {
+  padding: 1em 0.5em;
+  box-sizing: border-box;
+  transition: 500ms; }
+  .blog ul li h6 {
+    margin: 0 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+    color: #ffffff;
+    border-radius: 5em; }
+  .blog ul li header {
+    font-size: 100%;
     box-sizing: border-box;
-    transition: 500ms;
-    border-radius: 0 2em 2em; }
-    .blog ul li h6 {
-      margin: 0 0.25em 0.5em;
-      padding: 0.25em 0.5em;
-      color: #ffffff;
-      border-radius: 5em; }
-    .blog ul li header {
-      box-sizing: border-box;
-      border-radius: 0 2em 0 0; }
-      .blog ul li header h6 {
-        text-transform: none; }
-    .blog ul li article {
-      color: #343434;
-      box-sizing: border-box;
-      border-radius: 0 0 2em 2em;
-      border: solid 0.125em #f1f1f1;
-      border-top: none;
-      background: #ffffff; }
-    .blog ul li h3 {
-      margin: 1em 0 0; }
-    .blog ul li h4 {
-      margin: 0.15em 0;
-      font-weight: 300;
-      font-style: italic;
-      text-transform: capitalize; }
-    .blog ul li hr {
-      width: 12em; }
+    border-radius: 0 2em 0 0;
+    padding-left: 0;
+    padding-right: 0; }
+    .blog ul li header h6 {
+      text-transform: none; }
+  .blog ul li article {
+    color: #343434;
+    box-sizing: border-box;
+    border-radius: 0 0 2em 2em;
+    border: solid 0.125em #f1f1f1;
+    border-top: none;
+    background: #ffffff; }
+  .blog ul li h3 {
+    margin: 1em 0 0.5em; }
+  .blog ul li h4 {
+    margin: 0.15em 0;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize; }
+  .blog ul li hr {
+    width: 12em; }
+.blog header hr {
+  margin: 0 auto 0.5em; }
+
+.blog-cat {
+  padding: 0.5em 0.5em 0 2em; }
 
 .cat {
   position: absolute;
@@ -6055,6 +6082,46 @@ label {
   position: absolute;
   bottom: 0.5em;
   left: 0.5em; }
+
+.blog-intro-lifeins {
+  border-top: solid 0.0625em;
+  border-color: #0000ff;
+  border-radius: 2em 0 0 0;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: -10em 0 0 #0000ff; }
+
+.blog-intro-livingins {
+  border-top: solid 0.0625em;
+  border-color: #800080;
+  border-radius: 2em 0 0 0;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: -10em 0 0 #800080; }
+
+.blog-intro-health {
+  border-top: solid 0.0625em;
+  border-color: #ffa500;
+  border-radius: 2em 0 0 0;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: -10em 0 0 #ffa500; }
+
+.blog-intro-wealth {
+  border-top: solid 0.0625em;
+  border-color: #008000;
+  border-radius: 2em 0 0 0;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: -10em 0 0 #008000; }
+
+.blog-intro-life {
+  border-top: solid 0.0625em;
+  border-color: #ffd700;
+  border-radius: 2em 0 0 0;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: -10em 0 0 #ffd700; }
 
 .smart-break-mini {
   white-space: nowrap; }
@@ -6426,6 +6493,26 @@ label {
   border-width: 0.125em;
   border-color: #63bc46; }
 
+.hr-lifeins hr {
+  border-width: 0.125em;
+  border-color: #0000ff; }
+
+.hr-livingins hr {
+  border-width: 0.125em;
+  border-color: #800080; }
+
+.hr-life hr {
+  border-width: 0.125em;
+  border-color: #ffd700; }
+
+.hr-health hr {
+  border-width: 0.125em;
+  border-color: #ffa500; }
+
+.hr-wealth hr {
+  border-width: 0.125em;
+  border-color: #008000; }
+
 .black {
   background-color: #000000; }
 
@@ -6440,6 +6527,21 @@ label {
 
 .light {
   background-color: #f1f1f1; }
+
+.livingins {
+  background-color: #800080; }
+
+.lifeins {
+  background-color: #0000ff; }
+
+.life {
+  background-color: #ffd700; }
+
+.health {
+  background-color: #ffa500; }
+
+.wealth {
+  background-color: #008000; }
 
 .accent {
   background-color: #f26429; }

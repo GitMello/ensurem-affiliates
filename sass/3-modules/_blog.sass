@@ -1,21 +1,22 @@
 #blog-test
   background:
-    image: radial-gradient(transparentize($alt, 0.5),transparentize($alt, 0.2)), url(/assets/blog/test-thumb.jpg)
+    image: radial-gradient(transparentize($dark, 0.25),transparentize($dark, 1)), url(/assets/blog/test-thumb.jpg)
+    //image: url(/assets/blog/test-thumb.jpg)
     position: center
     size: cover
 
 .blog
-  color: $white
+  //color: $white
   h1
-    font-weight: 300
-    font-style: italic
+    //font-weight: 300
+    //font-style: italic
   ul
     li
       //max-width: 22em
       padding: 1em 0.5em
       box-sizing: border-box
       transition: 500ms
-      border-radius: 0 2em 2em
+      //border-radius: 0 2em 2em
       //&:hover, &:focus
         box-shadow: 0 0 2em $mid-light
         transition: 500ms
@@ -27,8 +28,11 @@
         color: $white
         border-radius: 5em
       header
+        font-size: 100%
         box-sizing: border-box
         border-radius: 0 2em 0 0
+        padding-left: 0
+        padding-right: 0
         //padding: 30% 0 20%
         h6
           text-transform: none
@@ -41,7 +45,7 @@
         background: $white
       h3
         //font-size: $base-size * 2
-        margin: 1em 0 0
+        margin: 1em 0 0.5em
       h4
         margin: 0.15em 0
         font:
@@ -53,6 +57,13 @@
         width: 12em
         //margin: 1em auto
 
+  header
+    hr
+      margin: 0 auto 0.5em
+
+.blog-cat
+  padding: 0.5em 0.5em 0 2em
+
 .cat
   position: absolute
   top: 0.5em
@@ -62,3 +73,18 @@
   position: absolute
   bottom: 0.5em
   left: 0.5em
+
+.blog-intro-lifeins
+  +blogco ($lifeins)
+
+.blog-intro-livingins
+  +blogco ($livingins)
+
+.blog-intro-health
+  +blogco ($health)
+
+.blog-intro-wealth
+  +blogco ($wealth)
+
+.blog-intro-life
+  +blogco ($life)
