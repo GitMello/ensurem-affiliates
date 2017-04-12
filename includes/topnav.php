@@ -19,3 +19,4 @@
         </ul>
       </nav>
     </div>
+    <?php include(includes.'search.php'); ?>

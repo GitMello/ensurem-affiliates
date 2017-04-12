@@ -73,50 +73,7 @@
   header
     font-size: 100%
 
-@media screen and (max-width: 639px)
-  .wax-seal
-    margin: -1.45em auto
-    width: 3em
-    height: 3em
-    h2
-      font-size: 150%
-
-  .l-16-9-responsive-text
-    font-size: 85%
-
-  .slider
-    height: 50vw
-
-  .flex-1-sm
-    -webkit-order: 1
-    order: 1
-
-  .flex-2-sm
-    -webkit-order: 2
-    order: 2
-
-  .flex-3-sm
-    -webkit-order: 3
-    order: 3
-
-  .flex-4-sm
-    -webkit-order: 4
-    order: 4
-
-  footer
-    ul
-      margin-left: 0
-      border-left: none
-      padding-left: 0
-    .container
-      li
-        margin-left: 0
-        ul
-          border-top: solid 0.0625em $mid
-          margin: 0.5em 0
-
-
-
+@media screen and (max-width: 724px)
   .l-navbar
     .main-wrapper
       width: 100vw
@@ -243,6 +200,52 @@
         right: 2.5em
         top: 1.1em
 
+@media screen and (max-width: 639px)
+  .wax-seal
+    margin: -1.45em auto
+    width: 3em
+    height: 3em
+    h2
+      font-size: 150%
+
+  .l-16-9-responsive-text
+    font-size: 85%
+
+  .slider
+    height: 50vw
+
+  .flex-1-sm
+    -webkit-order: 1
+    order: 1
+
+  .flex-2-sm
+    -webkit-order: 2
+    order: 2
+
+  .flex-3-sm
+    -webkit-order: 3
+    order: 3
+
+  .flex-4-sm
+    -webkit-order: 4
+    order: 4
+
+  footer
+    ul
+      margin-left: 0
+      border-left: none
+      padding-left: 0
+    .container
+      li
+        margin-left: 0
+        ul
+          border-top: solid 0.0625em $mid
+          margin: 0.5em 0
+
+
+
+
+
   .anchor
     display: block
     height: 3.1em
@@ -282,6 +285,16 @@
         background: $accent
     p
       clear: both
+  .search
+    &:target
+      position: absolute
+      z-index: 9999999
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      border-radius: 0 0 0 0
+
 
 @media screen and (min-width: 641px) and (max-width: 837px)
   .l-navbar

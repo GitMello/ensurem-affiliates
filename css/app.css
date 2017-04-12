@@ -3687,7 +3687,7 @@ footer {
     padding: 0; }
   .l-navbar li {
     background: rgba(99, 188, 70, 0);
-    padding: 1.03125em 1.75em;
+    padding: 1.03125em 1.5em;
     margin: 0;
     display: inline-block;
     float: left;
@@ -3765,6 +3765,18 @@ footer {
 #lora-hero {
   background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/lora-hero-inline.jpg);
   background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#money-save-hero {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(34, 34, 34, 0.5)), url(/assets/heros/money-save.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#we-believe-hero {
+  background-image: radial-gradient(rgba(72, 137, 51, 0.75), rgba(72, 137, 51, 0.75)), url(/assets/heros/we-believe.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -5193,6 +5205,22 @@ label {
     display: none;
     z-index: 1000; }
 
+.search {
+  position: absolute;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff; }
+  .search:target {
+    z-index: 9999999; }
+  .search a {
+    color: #f26429;
+    transition: 300ms; }
+    .search a:hover {
+      color: #bf4f20; }
+
 .display-products {
   padding: 3em 1.5em 5em;
   box-sizing: border-box; }
@@ -6042,7 +6070,7 @@ label {
     margin: 0 0.25em 0.5em;
     padding: 0.25em 0.5em;
     color: #ffffff;
-    border-radius: 5em; }
+    border-radius: 0.5em; }
   .blog ul li header {
     font-size: 100%;
     box-sizing: border-box;
@@ -6083,45 +6111,53 @@ label {
   bottom: 0.5em;
   left: 0.5em; }
 
+.blog-intro-primary {
+  border-top: solid 0.125em;
+  border-color: #63bc46;
+  border-radius: 0 0 0 2em;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: -10em 0 0 #63bc46; }
+
 .blog-intro-lifeins {
-  border-top: solid 0.0625em;
+  border-top: solid 0.125em;
   border-color: #0000ff;
-  border-radius: 2em 0 0 0;
+  border-radius: 0 0 0 2em;
   height: 100%;
   box-sizing: border-box;
   box-shadow: -10em 0 0 #0000ff; }
 
 .blog-intro-livingins {
-  border-top: solid 0.0625em;
+  border-top: solid 0.125em;
   border-color: #800080;
-  border-radius: 2em 0 0 0;
+  border-radius: 0 0 0 2em;
   height: 100%;
   box-sizing: border-box;
   box-shadow: -10em 0 0 #800080; }
 
 .blog-intro-health {
-  border-top: solid 0.0625em;
+  border-top: solid 0.125em;
   border-color: #ffa500;
-  border-radius: 2em 0 0 0;
+  border-radius: 0 0 0 2em;
   height: 100%;
   box-sizing: border-box;
   box-shadow: -10em 0 0 #ffa500; }
 
 .blog-intro-wealth {
-  border-top: solid 0.0625em;
+  border-top: solid 0.125em;
   border-color: #008000;
-  border-radius: 2em 0 0 0;
+  border-radius: 0 0 0 2em;
   height: 100%;
   box-sizing: border-box;
   box-shadow: -10em 0 0 #008000; }
 
 .blog-intro-life {
-  border-top: solid 0.0625em;
-  border-color: #ffd700;
-  border-radius: 2em 0 0 0;
+  border-top: solid 0.125em;
+  border-color: #b9b503;
+  border-radius: 0 0 0 2em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #ffd700; }
+  box-shadow: -10em 0 0 #b9b503; }
 
 .smart-break-mini {
   white-space: nowrap; }
@@ -6179,46 +6215,7 @@ label {
 @media screen and (min-width: 640px) {
   header {
     font-size: 100%; } }
-@media screen and (max-width: 639px) {
-  .wax-seal {
-    margin: -1.45em auto;
-    width: 3em;
-    height: 3em; }
-    .wax-seal h2 {
-      font-size: 150%; }
-
-  .l-16-9-responsive-text {
-    font-size: 85%; }
-
-  .slider {
-    height: 50vw; }
-
-  .flex-1-sm {
-    -webkit-order: 1;
-    order: 1; }
-
-  .flex-2-sm {
-    -webkit-order: 2;
-    order: 2; }
-
-  .flex-3-sm {
-    -webkit-order: 3;
-    order: 3; }
-
-  .flex-4-sm {
-    -webkit-order: 4;
-    order: 4; }
-
-  footer ul {
-    margin-left: 0;
-    border-left: none;
-    padding-left: 0; }
-  footer .container li {
-    margin-left: 0; }
-    footer .container li ul {
-      border-top: solid 0.0625em #777777;
-      margin: 0.5em 0; }
-
+@media screen and (max-width: 724px) {
   .l-navbar {
     font-size: 0.75em; }
     .l-navbar .main-wrapper {
@@ -6325,7 +6322,46 @@ label {
         position: absolute;
         color: #ffffff;
         right: 2.5em;
-        top: 1.1em; }
+        top: 1.1em; } }
+@media screen and (max-width: 639px) {
+  .wax-seal {
+    margin: -1.45em auto;
+    width: 3em;
+    height: 3em; }
+    .wax-seal h2 {
+      font-size: 150%; }
+
+  .l-16-9-responsive-text {
+    font-size: 85%; }
+
+  .slider {
+    height: 50vw; }
+
+  .flex-1-sm {
+    -webkit-order: 1;
+    order: 1; }
+
+  .flex-2-sm {
+    -webkit-order: 2;
+    order: 2; }
+
+  .flex-3-sm {
+    -webkit-order: 3;
+    order: 3; }
+
+  .flex-4-sm {
+    -webkit-order: 4;
+    order: 4; }
+
+  footer ul {
+    margin-left: 0;
+    border-left: none;
+    padding-left: 0; }
+  footer .container li {
+    margin-left: 0; }
+    footer .container li ul {
+      border-top: solid 0.0625em #777777;
+      margin: 0.5em 0; }
 
   .anchor {
     display: block;
@@ -6364,7 +6400,16 @@ label {
         border: solid 0.08em #f26429;
         background: #f26429; }
     .modal p {
-      clear: both; } }
+      clear: both; }
+
+  .search:target {
+    position: absolute;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 0 0; } }
 @media screen and (min-width: 641px) and (max-width: 837px) {
   .l-navbar ul li ul li {
     padding: 0.75em 1.5em; }
@@ -6503,7 +6548,7 @@ label {
 
 .hr-life hr {
   border-width: 0.125em;
-  border-color: #ffd700; }
+  border-color: #b9b503; }
 
 .hr-health hr {
   border-width: 0.125em;
@@ -6535,7 +6580,7 @@ label {
   background-color: #0000ff; }
 
 .life {
-  background-color: #ffd700; }
+  background-color: #b9b503; }
 
 .health {
   background-color: #ffa500; }
@@ -6546,9 +6591,44 @@ label {
 .accent {
   background-color: #f26429; }
 
+.text-lifeins {
+  color: #0000ff; }
+
+.text-livingins {
+  color: #800080; }
+
+.text-life {
+  color: #b9b503; }
+
+.text-health {
+  color: #ffa500; }
+
+.text-wealth {
+  color: #008000; }
+
 .hr-accent hr {
   border-width: 0.125em;
   border-color: #f26429; }
+
+.hr-lifeins hr {
+  border-width: 0.125em;
+  border-color: #0000ff; }
+
+.hr-livingins hr {
+  border-width: 0.125em;
+  border-color: #800080; }
+
+.hr-life hr {
+  border-width: 0.125em;
+  border-color: #b9b503; }
+
+.hr-health hr {
+  border-width: 0.125em;
+  border-color: #ffa500; }
+
+.hr-wealth hr {
+  border-width: 0.125em;
+  border-color: #008000; }
 
 .dark {
   background-color: #222222; }

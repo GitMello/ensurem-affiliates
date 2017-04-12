@@ -34,8 +34,21 @@
   .close
     display: none
     z-index: 1000
-
-
+.search
+  position: absolute
+  z-index: 9999999
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: #fff
+  &:target
+    z-index: 9999999
+  a
+    color: $accent
+    transition: 300ms
+    &:hover
+      color: $altaccent
 
 
 //.modal-content
