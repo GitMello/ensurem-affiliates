@@ -7,10 +7,9 @@
       <div class="butt-prev"><a href="/buy/accidental-death-and-dismemberment-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
       <div class="butt-next"><a href="/buy/term-life-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
     </div>
-    </div>
-      <h1>Shop Final Expense Insurance Plans</h1>
-    </div>
-  </header>
+    <h1>Shop Final Expense Insurance Plans</h1>
+  </div>
+</header>
 
   <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-cart-plus"></i></h2></div>
 

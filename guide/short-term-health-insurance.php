@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="stm-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-stmco ">
         <div>
           <div class="butt-prev"><a href="/guide/savings-plans" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -37,7 +37,7 @@
 
   <article class="stmco text-white content mid-light-list l-stack-all-ul">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-lg-6 col-pad hr-mid-light">
+      <div class="col-sm-12 col-lg-6 col-pad hr-mid-light hr-left">
         <h2>Short Term Health Insurance</h2>
         <h3>Fast health care coverage Outside <span class="smart-break">of Obamacare's marketplace</span></h3>
         <hr>
@@ -61,7 +61,7 @@
   </article>
 
   <article class="container content flex just-center flex-wrap img-responsive-all img-border-white img-shadow-mid-light">
-    <div class="col-sm-12 col-lg-6 col-pad hr-stmco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-stmco hr-left">
       <h2>Understanding Health Care Costs</h2>
       <h3>With Short Term Medical Plans</h3>
       <hr>
@@ -90,7 +90,7 @@
 
   <article class="content">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-pad hr-stmco">
+      <div class="col-sm-12 col-pad hr-stmco hr-left">
         <h2>Why Choose Short Term Medical Plans when there's Obamacare?</h2>
         <hr>
         <p>Obamacare plans provide comprehensive coverage which is why they are often called major medical plans. These plans will pay for almost all of your healthcare expenses after your deductible is met and you can choose from several different plans with different premiums and deductibles.</p>

@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="annu-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-annuco">
         <div>
           <div class="butt-prev"><a href="/guide/whole-life-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -34,12 +34,12 @@
   </article>
 
   <article class="dark text-white content l-stack-all-ul annu-list img-responsive-all img-border-white">
-    <div class="headline-container hr-annuco">
+    <div class="headline-container hr-annuco hr-left">
       <h2>Five Types of Annuites</h2>
       <h3>There are five major categories of annuities, learn more below</h3>
       <hr>
     </div>
-    <div class="grid fluid flex flex-wrap hr-annuco">
+    <div class="grid fluid flex flex-wrap hr-annuco hr-left">
       <div class="col-md-12 col-lg-8 col-pad flex-grow-1 annuco flex flex-wrap">
         <div class="col-lg-12 hr-white">
           <h2>Fixed Annuities</h2>

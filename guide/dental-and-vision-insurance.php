@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="dent-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-dentco ">
         <div>
           <div class="butt-prev"><a href="/guide/annuities" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -36,7 +36,7 @@
   </article>
 
   <article class="dark text-white content">
-    <div class="headline-container hr-dentco">
+    <div class="headline-container hr-dentco hr-left">
       <h2>Types of Dental Plans</h2>
       <hr>
     </div>
@@ -77,7 +77,7 @@
   </article>
 
   <article class="content light">
-    <div class="hr-dentco container">
+    <div class="hr-dentco container hr-left">
       <h2>Types of Vision Plans</h2>
       <hr>
       <div class="grid flex flex-wrap product-types">
@@ -114,8 +114,8 @@
   </article>
 
   <article class="content dent-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="container">
-      <div class="col-sm-12 col-lg-6 col-pad hr-dentco">
+    <div class="container no-marg">
+      <div class="col-sm-12 col-lg-6 col-pad hr-dentco hr-left">
         <h2>Dental &amp; Vision Plans</h2>
         <h3>Smile &amp; see the savings add up</h3>
         <hr>

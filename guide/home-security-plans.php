@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="homesec-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-homeseco ">
         <div>
           <div class="butt-prev"><a href="/guide/disability-income-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -42,7 +42,7 @@
 
   <article class="homeseco text-white content mid-light-list l-stack-all-ul">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-lg-6 col-pad hr-mid-light">
+      <div class="col-sm-12 col-lg-6 col-pad hr-mid-light hr-left">
         <h2>Home Security Plans</h2>
         <h3>Complete protection for your home &amp; your peace of mind</h3>
         <hr>
@@ -69,7 +69,7 @@
   </article>
 
   <article class="container content homesec-list l-stack-all-ul flex flex-center flex-wrap img-responsive-all img-border-white img-shadow-mid-light">
-    <div class="col-sm-12 col-lg-6 col-pad hr-homeseco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-homeseco hr-left">
       <h2>How Home Security Systems Work</h2>
       <hr>
       <p>Home security systems provide a wide range of features to protect your home. You typically pay a low monthly rate for service and a specialist will come by and install all the sensors and alarms around your home.</p>

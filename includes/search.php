@@ -2,7 +2,7 @@
   <div class="container-900">
     <div class="flex flex-center just-between fa-accent">
       <h2 class=""><i class="fa fa-search"></i> <span class="text-accent">|</span> Search Our Site</h2>
-      <a href="#"  onClick="history.go(-1);return true;" class=""><i class="fa fa-3x fa-close"></i></a>
+      <a href="#top" class=""><i class="fa fa-3x fa-close"></i></a>
     </div>
     <form class="flex flex-wrap just-center">
       <label class="flex relative">

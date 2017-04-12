@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="whole-life-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-wholeco ">
         <div>
           <div class="butt-prev"><a href="/guide/term-life-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -68,7 +68,7 @@
   </article>
 
   <article class="container content whole-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="col-sm-12 col-lg-6 col-pad hr-wholeco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-wholeco hr-left">
       <h2>Whole Life Insurance</h2>
       <h3>Coverage for Life with Fixed Premiums</h3>
       <hr>
@@ -93,7 +93,7 @@
 
   <article class="wholeco text-white content mid-light-list l-stack-all-ul img-responsive-all img-border-white">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-md-6 col-pad hr-mid-light">
+      <div class="col-sm-12 col-md-6 col-pad hr-mid-light hr-left">
         <h2>The difference between Whole Life Insurance &amp; Term Life Insurance</h2>
         <hr>
         <p>As compared to term life insurance, whole life insurance is permanent and you never need to re-qualify medically to continue your coverage. Also, whole life insurance premiums stay level whereas term life insurance premiums increase as you get older.</p>
@@ -105,7 +105,7 @@
   </article>
 
   <article class="light container fluid content flex flex-center just-center flex-wrap">
-    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-termco">
+    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-termco hr-left">
       <h2>Financial security after a devastating loss</h2>
       <hr>
       <p>Laurie, a single mom, had a whole life insurance policy in force since the mid-80s because she knew there was value in having such a policy. When Laurie needed cash to buy a new car and pay for her daughter’s Make-A-Wish trip, she wanted to cash out and cancel her policy. Laurie’s agent cautioned against cancelling the policy and suggested getting a loan against the policy instead.</p>
@@ -124,7 +124,7 @@
         <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521634049001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
       </div>
     </div>
-    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-white">
+    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-white hr-left">
       <h2>Harsh consequences after a dropped policy</h2>
       <hr>
       <p>Jermaine lost his grandmother and his father within a week’s time, a devastating turn of events that left Jermaine struggling to find direction and handle the family’s finances. Jermaine’s father was in the National Guard and had a life insurance policy but he dropped it, leaving nothing behind for his children.</p>

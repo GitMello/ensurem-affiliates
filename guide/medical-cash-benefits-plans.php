@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="med-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-medco ">
         <div>
           <div class="butt-prev"><a href="/guide/home-security-plans" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -64,7 +64,7 @@
   </article>
 
   <article class="container content l-stack-all-ul flex flex-center just-center flex-wrap fa-white">
-    <div class="col-sm-12 col-lg-6 col-pad hr-medco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-medco hr-left">
       <h2>Medical Cash Benefits Plans</h2>
       <h3>Designed to cover a variety of circumstances</h3>
       <hr>
@@ -145,12 +145,12 @@
   </article>
 
   <article class="medco text-white content l-stack-all-ul med-list img-responsive-all img-border-white">
-    <div class="headline-container hr-white">
+    <div class="headline-container hr-white hr-left">
       <h1>Medical Cash Benefits <span class="smart-break">Plan Types</span></h1>
       <p>A Medical Cash Benefits plan can shield you from this type of financial impact by providing a lump sum cash payout as your benefit. <span class="smart-break">Plan types include the following:</span></p>
       <hr>
     </div>
-    <div class="grid fluid flex flex-wrap hr-medco">
+    <div class="grid fluid flex flex-wrap hr-medco hr-left">
       <div class="col-md-12 col-lg-2 col-pad flex-grow-1 dark">
         <h2>Critical Illness Insurance</h2>
         <hr>

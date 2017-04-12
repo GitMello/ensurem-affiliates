@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="save-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-saveco ">
         <div>
           <div class="butt-prev"><a href="/guide/pet-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -41,7 +41,7 @@
 
   <article class="saveco text-white content light-list l-stack-all-ul img-responsive-all img-border-white">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-lg-6 col-pad hr-light">
+      <div class="col-sm-12 col-lg-6 col-pad hr-light hr-left">
         <h2>Savings, Rewards &amp; More</h2>
         <h3>Saving money just got <span class="smart-break">a whole lot easier</span></h3>
         <hr>

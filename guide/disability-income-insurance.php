@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="dis-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-disco ">
         <div>
           <div class="butt-prev"><a href="/guide/dental-and-vision-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -42,7 +42,7 @@
 
   <article class="disco text-white content mid-light-list l-stack-all-ul">
     <div class="container flex just-center flex-wrap">
-      <div class="col-sm-12 col-lg-6 col-pad hr-mid-light">
+      <div class="col-sm-12 col-lg-6 col-pad hr-mid-light hr-left">
         <h2>Disability Income Insurance</h2>
         <h3>Protect your paycheck when facing the unexpected</h3>
         <hr>
@@ -66,7 +66,7 @@
   </article>
 
   <article class="container content flex flex-end just-center flex-wrap">
-    <div class="col-sm-12 col-lg-6 col-pad hr-disco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-disco hr-left">
       <h2>How Disability Income Insurance Works</h2>
       <hr>
       <p>You will receive disability income benefits when you meet the definition of total disability or partial disability defined by your insurance company. In most cases, partial disability is when you are unable to perform essential tasks of employment or have to reduce your hours (and compensation) significantly because of your disability. Total disability is when you cannot perform any basic duties of you job and at the end of a specified period outlined in your policy.</p>
@@ -93,7 +93,7 @@
         <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521669576001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
       </div>
     </div>
-    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-disco">
+    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-disco hr-left">
       <h2>Funding dreams even after a health scare</h2>
       <hr>
       <p>When these newlyweds were purchasing their first house, they discovered that long-term disability insurance coverage would help them protect their future in the event someone was unable to work. When Cindy had a stroke and underwent surgery for an aneurysm, she was out of work for almost eight months. Find out how Cindy’s disability policy allowed her to have an income to buy their dream home.</p>

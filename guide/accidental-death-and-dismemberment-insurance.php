@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="add-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-addco ">
         <div>
           <div class="butt-prev"><a href="/guide/short-term-health-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -66,7 +66,7 @@
   </article>
 
   <article class="container content add-list l-stack-all-ul flex flex-center just-center flex-wrap">
-    <div class="col-sm-12 col-lg-6 col-pad hr-addco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-addco hr-left">
       <h2>Accidental Death &amp; Dismemberment</h2>
       <h3>Financial protection after a serious incident</h3>
       <hr>
@@ -130,7 +130,7 @@
         <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521702043001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
       </div>
     </div>
-    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-addco">
+    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-addco hr-left">
       <h2>Financial recovery after a train accident</h2>
       <hr>
       <p>April was a competitive track athlete through high school and college. After she was seriously injured in a train accident, the doctors had to amputate one of her legs. April’s dream to be a runner was now on hold but her passion was reignited when she learned about the Paralympics.</p>

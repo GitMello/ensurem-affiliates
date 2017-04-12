@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="uni-life-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-unico ">
         <div>
           <div class="butt-prev"><a href="/guide/term-life-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>

@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="term-life-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-termco ">
         <div>
           <div class="butt-prev"><a href="/guide/final-expense-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -137,7 +137,7 @@
   </article>
 
   <article class="light container fluid content flex flex-center just-center flex-wrap">
-    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-termco">
+    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-termco hr-left">
       <h2>Prepared firefighter family</h2>
       <hr>
       <p>Jim, a 28-year-old firefighter, bought his first life insurance policy for his wife and then a term policy when he and his wife started a family — he was a planner. Tragically, Jim was diagnosed with colon cancer shortly after the birth of their second child.</p>
@@ -156,7 +156,7 @@
         <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521634051001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
       </div>
     </div>
-    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-white">
+    <div class="col-md-5 col-lg-7 col-vid-pad col-pad hr-white hr-left">
       <h2>Tragic reality of being uninsured</h2>
       <hr>
       <p>Hannah’s mother was being treated for undiagnosed diabetes before she passed away. The family realized that there was no life insurance policy and then Hannah’s father lost his job. The family had to sell their house to recover financially.</p>

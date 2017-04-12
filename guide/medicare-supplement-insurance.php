@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="msup-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-msupco ">
         <div>
           <div class="butt-prev"><a href="/guide/medical-cash-benefits-plans" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -41,7 +41,7 @@
   <article class="msupco content flex flex-col">
 
     <div class="container flex flex-center just-center flex-wrap no-pad-bottom-md">
-      <div class="col-sm-12 col-pad hr-light text-white">
+      <div class="col-sm-12 col-pad hr-light text-white hr-left">
         <h1>Original Medicare</h1>
         <hr>
         <p>Original Medicare is coverage managed by the federal government. In most cases, Original Medicare Part A and B are available to you on the first day of the month you turn 65. If your birthday is on the first day of the month, Part A and Part B will start the first day of the prior month. Be sure to review the ‘Choosing a Medigap Policy’ guide to see if you are automatically enrolled in Original Medicare.</p>
@@ -256,7 +256,7 @@
   </article>
 
   <article class="content l-stack-all-ul msup-list img-responsive-all img-border-white butt-link-primary">
-    <div class="headline-container hr-msupco">
+    <div class="headline-container hr-msupco hr-left">
       <h1>Medicare Coverage Choices at <span class="smart-break">a Glance</span></h1>
       <hr>
       <p>There are 2 main ways to get your Medicare coverage – Original Medicare or a Medicare Advantage Plan. Click the button below and follow the steps to help you decide which way to get <span class="smart-break">your coverage.</span></p>
@@ -308,7 +308,7 @@
   </article>
 
   <article class="msupco">
-    <div class="container hr-light text-white content butt-link-light link-hover-msupco">
+    <div class="container hr-light text-white content butt-link-light link-hover-msupco hr-left">
       <h1>6 things you need to know</h1>
       <h3>When purchasing a new medicare supplement policy</h3>
       <hr>
@@ -368,7 +368,7 @@
   </article>
 
   <article class="container content flex just-center flex-wrap l-stack-all-ul msup-list butt-link-primary">
-    <div class="col-sm-12 col-lg-6 col-pad hr-msupco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-msupco hr-left">
       <h2>Understanding Your Enrollment Options</h2>
       <h3>Currently enrolled and have a Medicare Supplement (Medigap) insurance policy</h3>
       <hr>
@@ -396,7 +396,7 @@
   </article>
 
   <article class="msupco">
-    <div class="container hr-light text-white content butt-link-light link-hover-msupco flex flex-end flex-wrap">
+    <div class="container hr-light text-white content butt-link-light link-hover-msupco flex flex-end flex-wrap hr-left">
       <div class="col-sm-12 col-lg-6 col-pad">
         <h1>Purchasing Your First Medicare Supplement Policy</h1>
         <hr>
@@ -421,7 +421,7 @@
       </ul>
       <img class="marg-top" src="/assets/discover/discover-medsup-5.jpg" alt="Lunch with friends, check. Medigap plan, check.">
     </div>
-    <div class="col-sm-12 col-lg-6 col-pad hr-msupco img-border-white img-shadow-mid-light img-responsive-all">
+    <div class="col-sm-12 col-lg-6 col-pad hr-msupco img-border-white img-shadow-mid-light img-responsive-all hr-left">
       <h2>Some Exceptions</h2>
       <hr>
       <p>While the insurance company can’t make you wait for your coverage to start, it may be able to make you wait for coverage related to a pre-existing condition. A pre-existing condition is a health problem you have before the date a new insurance policy starts. In some cases, the Medicare Supplement insurance company can refuse to cover your out-of-pocket costs for these pre-existing health problems for up to 6 months. This is called a “pre-existing condition waiting period.” After 6 months, the Medicare Supplement policy will cover the pre-existing condition.</p>

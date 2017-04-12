@@ -60,8 +60,12 @@
             You love the thrill of outdoor adventures.
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+            <div class="author-lockup flex flex-center text-mid">
+              <div class="author"></div>
+              <h5>Leonard Mello</h5>
+            </div>
+            <div><a href="/blog/post">Read Now</a></div>
             </div>
           </article>
         </li>
@@ -75,9 +79,9 @@
             <hr>
             <h4>Life Insurance Advice for Adventurers</h4></div>
             <div class="cat flex flex-wrap">
-              <h6 class="blog-wealth wealth">#Wealth</h6>
-              <h6 class="blog-wealth lifeins">#Life-Insurance</h6>
-              <h6 class="blog-wealth livingins">#Living-Insurance</h6>
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
             </div>
           </header>
           <article class="col-pad">
@@ -86,8 +90,12 @@
             You love the thrill of outdoor adventures.
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+            <div class="author-lockup flex flex-center text-mid">
+              <div class="author"></div>
+              <h5>Leonard Mello</h5>
+            </div>
+            <div><a href="#">Read Now</a></div>
             </div>
           </article>
         </li>
@@ -101,9 +109,9 @@
             <hr>
             <h4>Life Insurance Advice for Adventurers</h4></div>
             <div class="cat flex flex-wrap">
-              <h6 class="blog-wealth wealth">#Wealth</h6>
-              <h6 class="blog-wealth lifeins">#Life-Insurance</h6>
-              <h6 class="blog-wealth livingins">#Living-Insurance</h6>
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
             </div>
           </header>
           <article class="col-pad">
@@ -112,8 +120,12 @@
             You love the thrill of outdoor adventures.
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+            <div class="author-lockup flex flex-center text-mid">
+              <div class="author"></div>
+              <h5>Leonard Mello</h5>
+            </div>
+            <div><a href="#">Read Now</a></div>
             </div>
           </article>
         </li>
@@ -127,9 +139,9 @@
             <hr>
             <h4>Life Insurance Advice for Adventurers</h4></div>
             <div class="cat flex flex-wrap">
-              <h6 class="blog-wealth wealth">#Wealth</h6>
-              <h6 class="blog-wealth lifeins">#Life-Insurance</h6>
-              <h6 class="blog-wealth livingins">#Living-Insurance</h6>
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
             </div>
           </header>
           <article class="col-pad">
@@ -138,8 +150,12 @@
             You love the thrill of outdoor adventures.
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+            <div class="author-lockup flex flex-center text-mid">
+              <div class="author"></div>
+              <h5>Leonard Mello</h5>
+            </div>
+            <div><a href="#">Read Now</a></div>
             </div>
           </article>
         </li>

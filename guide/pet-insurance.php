@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="pet-hero" class="flex flex-center just-center flex-wrap">
-    <div class="container no-pad">
+    <div class="container no-pad no-marg">
       <div class="no-pad-sides butt-link-light-lg link-hover-petco ">
         <div>
           <div class="butt-prev"><a href="/guide/medicare-supplement-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -37,7 +37,7 @@
 
   <article class="petco text-white content light-list l-stack-all-ul">
     <div class="container flex flex-center just-center flex-wrap">
-      <div class="col-sm-12 col-md-6 col-pad hr-light">
+      <div class="col-sm-12 col-md-6 col-pad hr-light hr-left">
         <h2>Pet Insurance</h2>
         <h3>Keep your furry friends healthy <span class="smart-break">&amp; save on vet costs</span></h3>
         <hr>
@@ -64,7 +64,7 @@
     <div class="col-sm-12 col-lg-6 col-pad col-md-hide">
       <img src="/assets/discover/discover-pet-insurance-4.jpg" alt="Even the vet loves your pet.\!">
     </div>
-    <div class="col-sm-12 col-lg-6 col-pad hr-petco">
+    <div class="col-sm-12 col-lg-6 col-pad hr-petco hr-left">
       <h2>How Pet Insurance Works</h2>
       <hr>
       <p>Pet insurance works slightly differently than regular health insurance plans. When your pet is covered and you find yourself at the vet’s office in an emergency, you simply submit a claim and will get reimbursed for covered expenses. You can customize your plan with different reimbursement levels and deductibles. This makes it easy to get the coverage you want at a price you can afford. As long as your pet is receiving treatment for anything unrelated to a pre-existing condition, you will be covered for services such as:</p>
