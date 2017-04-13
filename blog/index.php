@@ -40,7 +40,7 @@
 
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
           <header class="mid relative" id="blog-test">
             <div class="abso-centered">
@@ -56,16 +56,21 @@
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>You’re a risk taker.
+              You love the thrill of outdoor adventures.
+              You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="flex flex-center just-between">
-            <div class="author-lockup flex flex-center text-mid">
-              <div class="author"></div>
-              <h5>Leonard Mello</h5>
-            </div>
-            <div><a href="/blog/post">Read Now</a></div>
+              <div class="author-lockup text-mid">
+                <a href="#" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post">Read Now</a></div>
             </div>
           </article>
         </li>
@@ -92,37 +97,7 @@
             </div>
             <div class="flex flex-center just-between">
             <div class="author-lockup flex flex-center text-mid">
-              <div class="author"></div>
-              <h5>Leonard Mello</h5>
-            </div>
-            <div><a href="#">Read Now</a></div>
-            </div>
-          </article>
-        </li>
-
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
-
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
-
-            <h3>Risky Business</h3>
-            <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
-            <div class="cat flex flex-wrap">
-              <h6 class="lifeins">#Life-Insurance</h6>
-              <h6 class="termco">#Term-Life</h6>
-              <h6 class="addco">#Accident-Plans</h6>
-            </div>
-          </header>
-          <article class="col-pad">
-            <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
-            </div>
-            <div class="flex flex-center just-between">
-            <div class="author-lockup flex flex-center text-mid">
-              <div class="author"></div>
+              <div class="author-thumb"></div>
               <h5>Leonard Mello</h5>
             </div>
             <div><a href="#">Read Now</a></div>
@@ -152,7 +127,37 @@
             </div>
             <div class="flex flex-center just-between">
             <div class="author-lockup flex flex-center text-mid">
-              <div class="author"></div>
+              <div class="author-thumb"></div>
+              <h5>Leonard Mello</h5>
+            </div>
+            <div><a href="#">Read Now</a></div>
+            </div>
+          </article>
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+
+          <header class="mid relative" id="blog-test">
+            <div class="abso-centered">
+
+            <h3>Risky Business</h3>
+            <hr>
+            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <div class="cat flex flex-wrap">
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
+            </div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+            <p>You’re a risk taker.
+            You love the thrill of outdoor adventures.
+            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+            </div>
+            <div class="flex flex-center just-between">
+            <div class="author-lockup flex flex-center text-mid">
+              <div class="author-thumb"></div>
               <h5>Leonard Mello</h5>
             </div>
             <div><a href="#">Read Now</a></div>

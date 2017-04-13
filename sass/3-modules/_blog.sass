@@ -1,6 +1,6 @@
 #blog-test
   background:
-    image: radial-gradient(transparentize($dark, 0.25),transparentize($dark, 1)), url(/assets/blog/test-thumb.jpg)
+    image: radial-gradient(transparentize($dark, 0.55),transparentize($dark, 0.55)), url(/assets/blog/test-thumb.jpg)
     //image: url(/assets/blog/test-thumb.jpg)
     position: center
     size: cover
@@ -20,17 +20,11 @@
       //&:hover, &:focus
         box-shadow: 0 0 2em $mid-light
         transition: 500ms
-      h6
-        margin: 0 0.25em 0.5em
-        //background: $primary
-        //width: 100%
-        padding: 0.25em 0.5em
-        color: $white
-        border-radius: 0.5em
+
       header
         font-size: 100%
         box-sizing: border-box
-        border-radius: 0 2em 0 0
+        border-radius: 0 1em 0 0
         padding-left: 0
         padding-right: 0
         //padding: 30% 0 20%
@@ -39,7 +33,7 @@
       article
         color: $mid-dark
         box-sizing: border-box
-        border-radius: 0 0 2em 2em
+        border-radius: 0 0 1em 1em
         border: solid 0.125em $light
         border-top: none
         background: $white
@@ -68,11 +62,23 @@
   position: absolute
   top: 0.5em
   left: 0.5em
+  h6
+    margin: 0 0.25em 0.5em
+    //background: $primary
+    //width: 100%
+    padding: 0.25em 0.5em
+    //color: $white
+    border-radius: 50em
 
-.cat-2
-  position: absolute
-  bottom: 0.5em
-  left: 0.5em
+.cat-post
+  h6
+    margin: 0 0.25em 0.5em
+    //background: $primary
+    //width: 100%
+    padding: 0.25em 0.5em
+    //color: $white
+    border-radius: 50em
+    text-shadow: none
 
 .post-hero
   width: 100%
@@ -80,27 +86,171 @@
 .author-lockup
   font-style: italic
   h5
-    font-weight: 400
+    font-weight: 600
+    text-transform: uppercase
+    line-height: 0.95em
+  h6
+    line-height: 0.85em
+  a
+    text-decoration: none
+  &:hover
+    .author-thumb
+      border: solid 0.125em $transparent
 
-.author
+.author-thumb
   height: 3em
   width: 3em
   border-radius: 50em
   border: solid 0.125em $light
   margin-right: 0.25em
+  transition: 300ms
   background:
     image: url(/assets/team/team-6.jpg)
     size: cover
 
-.author-lg
-  margin: 1em auto
-  height: 6em
-  width: 6em
+.author-name-title
+  h6
+    margin: 0
+  h5
+    font-size: 65%
+    margin: 0.15em 0
+
+
+.author-seal
+  margin: -5em auto
+  height: 10em
+  width: 10em
   border-radius: 50em
-  border: solid 0.125em $light
+  border: solid 0.125em $white
+  transition: 300ms
   background:
     image: url(/assets/team/team-6.jpg)
     size: cover
+
+.author-post-details
+  margin: 5.5em auto 0
+  max-width: 25em
+  h3
+    text-transform: uppercase
+    font-style: italic
+    margin: 0
+  h4
+    margin: 0
+  a
+    text-decoration: none
+  hr
+    margin: 1em auto 0
+
+.post-content
+  overflow-x: hidden
+  img
+    margin: 2em 0
+    border-radius: 0 2em 2em 2em
+    transition: 300ms
+    &:hover
+      //width: auto
+      //height: 25vh
+      max-width: 50em
+      //max-height: 75vh
+      background: $dark
+      padding: 2em 100em
+      margin: 0 -100em
+      position: relative
+  p
+    line-height: 1.5em
+  .container
+    max-width: 48em
+    padding: 3em 1.5em
+  h1
+    font-weight: 700
+  h4
+    font-style: italic
+    font-weight: 400
+  li
+
+
+  ul
+    li
+      margin: 0.75em 0
+      padding-left: 2.5em
+      text-indent: -1.6em
+      &:before
+        font-family: FontAwesome
+        content: "\f00c"
+        margin-right: 0.6em
+        color: $primary
+      ul
+        border-top: none
+        border-bottom: none
+        font-weight: 400
+        padding: 1em 1em 0
+        font-size: 90%
+        li
+          padding-left: 1.5em
+          text-indent: -1.4em
+          &:before
+            font-family: FontAwesome
+            content: "\f046"
+            margin-right: 0.6em
+            color: $primary
+          ul
+            li
+              &:before
+                font-family: FontAwesome
+                content: "\f14a"
+                margin-right: 0.6em
+                color: $primary
+
+  blockquote
+    margin: 1.25em 0
+    //font-size: 125%
+    //color: $mid
+    font-style: italic
+    text-align: center
+    border-top: solid 0.0525em $primary
+    border-bottom: solid 0.0525em $primary
+    border-left: solid 0.525em $primary
+    border-radius: 0 0em 0em 1em
+    padding: 2em
+
+.featured-posts
+  .container
+    padding: 1em 1em 0
+    max-width: 90em
+  ul
+    margin: 0
+    li
+      padding: 1em 0.5em
+      box-sizing: border-box
+  header
+    font-size: 100%
+    box-sizing: border-box
+    border: solid 0.0625em $mid
+    border-radius: 0 1em 1em 1em
+    padding-left: 0
+    padding-right: 0
+    a
+      position: absolute
+      bottom: 0.5em
+      right: 0.5em
+    h6
+      text-transform: none
+    h3
+      margin: 1em 0 0.5em
+    h4
+      margin: 0.15em 0
+      font:
+        weight: 300
+        style: italic
+      text-transform: capitalize
+    hr
+      width: 12em
+      margin: 0 auto 0.5em
+    &:hover
+      //border: solid 0.0625em $mid-dark
+      box-shadow: 0 0 2em $mid
+
+
 
 .blog-intro-primary
   +blogco ($primary)

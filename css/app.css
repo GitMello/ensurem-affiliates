@@ -4140,7 +4140,7 @@ label {
   .add-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .add-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4176,7 +4176,7 @@ label {
   .fin-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .fin-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4212,7 +4212,7 @@ label {
   .term-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .term-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4248,7 +4248,7 @@ label {
   .whole-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .whole-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4284,7 +4284,7 @@ label {
   .annu-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .annu-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4320,7 +4320,7 @@ label {
   .dent-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .dent-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4356,7 +4356,7 @@ label {
   .dis-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .dis-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4392,7 +4392,7 @@ label {
   .homesec-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .homesec-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4428,7 +4428,7 @@ label {
   .med-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .med-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4464,7 +4464,7 @@ label {
   .msup-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .msup-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4500,7 +4500,7 @@ label {
   .pet-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .pet-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4536,7 +4536,7 @@ label {
   .save-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .save-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4572,7 +4572,7 @@ label {
   .stm-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .stm-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4608,7 +4608,7 @@ label {
   .white-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .white-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4644,7 +4644,7 @@ label {
   .mid-light-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .mid-light-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4680,7 +4680,7 @@ label {
   .light-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .light-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4716,7 +4716,7 @@ label {
   .dark-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .dark-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -4752,7 +4752,7 @@ label {
   .black-list ul li {
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-    text-indent: -1.5em; }
+    text-indent: -1.6em; }
     .black-list ul li:before {
       font-family: FontAwesome;
       content: "";
@@ -5212,12 +5212,9 @@ label {
     z-index: 1000; }
 
 .search {
-  position: absolute;
   z-index: 9999999;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  height: 100vh;
+  width: 100vw;
   background: #fff; }
   .search:target {
     z-index: 9999999; }
@@ -6064,7 +6061,7 @@ label {
   background-position: 0 24%; }
 
 #blog-test {
-  background-image: radial-gradient(rgba(34, 34, 34, 0.75), rgba(34, 34, 34, 0)), url(/assets/blog/test-thumb.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.45), rgba(34, 34, 34, 0.45)), url(/assets/blog/test-thumb.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -6072,15 +6069,10 @@ label {
   padding: 1em 0.5em;
   box-sizing: border-box;
   transition: 500ms; }
-  .blog ul li h6 {
-    margin: 0 0.25em 0.5em;
-    padding: 0.25em 0.5em;
-    color: #ffffff;
-    border-radius: 0.5em; }
   .blog ul li header {
     font-size: 100%;
     box-sizing: border-box;
-    border-radius: 0 2em 0 0;
+    border-radius: 0 1em 0 0;
     padding-left: 0;
     padding-right: 0; }
     .blog ul li header h6 {
@@ -6088,7 +6080,7 @@ label {
   .blog ul li article {
     color: #343434;
     box-sizing: border-box;
-    border-radius: 0 0 2em 2em;
+    border-radius: 0 0 1em 1em;
     border: solid 0.125em #f1f1f1;
     border-top: none;
     background: #ffffff; }
@@ -6111,11 +6103,16 @@ label {
   position: absolute;
   top: 0.5em;
   left: 0.5em; }
+  .cat h6 {
+    margin: 0 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+    border-radius: 50em; }
 
-.cat-2 {
-  position: absolute;
-  bottom: 0.5em;
-  left: 0.5em; }
+.cat-post h6 {
+  margin: 0 0.25em 0.5em;
+  padding: 0.25em 0.5em;
+  border-radius: 50em;
+  text-shadow: none; }
 
 .post-hero {
   width: 100%; }
@@ -6123,73 +6120,191 @@ label {
 .author-lockup {
   font-style: italic; }
   .author-lockup h5 {
-    font-weight: 400; }
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0.95em; }
+  .author-lockup h6 {
+    line-height: 0.85em; }
+  .author-lockup a {
+    text-decoration: none; }
+  .author-lockup:hover .author-thumb {
+    border: solid 0.125em transparent; }
 
-.author {
+.author-thumb {
   height: 3em;
   width: 3em;
   border-radius: 50em;
   border: solid 0.125em #f1f1f1;
   margin-right: 0.25em;
+  transition: 300ms;
   background-image: url(/assets/team/team-6.jpg);
   background-size: cover; }
 
-.author-lg {
-  margin: 1em auto;
-  height: 6em;
-  width: 6em;
+.author-name-title h6 {
+  margin: 0; }
+.author-name-title h5 {
+  font-size: 65%;
+  margin: 0.15em 0; }
+
+.author-seal {
+  margin: -5em auto;
+  height: 10em;
+  width: 10em;
   border-radius: 50em;
-  border: solid 0.125em #f1f1f1;
+  border: solid 0.125em #ffffff;
+  transition: 300ms;
   background-image: url(/assets/team/team-6.jpg);
   background-size: cover; }
+
+.author-post-details {
+  margin: 5.5em auto 0;
+  max-width: 25em; }
+  .author-post-details h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0; }
+  .author-post-details h4 {
+    margin: 0; }
+  .author-post-details a {
+    text-decoration: none; }
+  .author-post-details hr {
+    margin: 1em auto 0; }
+
+.post-content {
+  overflow-x: hidden; }
+  .post-content img {
+    margin: 2em 0;
+    border-radius: 0 2em 2em 2em;
+    transition: 300ms; }
+    .post-content img:hover {
+      max-width: 50em;
+      background: #222222;
+      padding: 2em 100em;
+      margin: 0 -100em;
+      position: relative; }
+  .post-content p {
+    line-height: 1.5em; }
+  .post-content .container {
+    max-width: 48em;
+    padding: 3em 1.5em; }
+  .post-content h1 {
+    font-weight: 700; }
+  .post-content h4 {
+    font-style: italic;
+    font-weight: 400; }
+  .post-content ul li {
+    margin: 0.75em 0;
+    padding-left: 2.5em;
+    text-indent: -1.6em; }
+    .post-content ul li:before {
+      font-family: FontAwesome;
+      content: "";
+      margin-right: 0.6em;
+      color: #63bc46; }
+    .post-content ul li ul {
+      border-top: none;
+      border-bottom: none;
+      font-weight: 400;
+      padding: 1em 1em 0;
+      font-size: 90%; }
+      .post-content ul li ul li {
+        padding-left: 1.5em;
+        text-indent: -1.4em; }
+        .post-content ul li ul li:before {
+          font-family: FontAwesome;
+          content: "";
+          margin-right: 0.6em;
+          color: #63bc46; }
+        .post-content ul li ul li ul li:before {
+          font-family: FontAwesome;
+          content: "";
+          margin-right: 0.6em;
+          color: #63bc46; }
+  .post-content blockquote {
+    margin: 1.25em 0;
+    font-style: italic;
+    text-align: center;
+    border-top: solid 0.0525em #63bc46;
+    border-bottom: solid 0.0525em #63bc46;
+    border-left: solid 0.525em #63bc46;
+    border-radius: 0 0em 0em 1em;
+    padding: 2em; }
+
+.featured-posts .container {
+  padding: 1em 1em 0;
+  max-width: 90em; }
+.featured-posts ul {
+  margin: 0; }
+  .featured-posts ul li {
+    padding: 1em 0.5em;
+    box-sizing: border-box; }
+.featured-posts header {
+  font-size: 100%;
+  box-sizing: border-box;
+  border: solid 0.0625em #777777;
+  border-radius: 0 1em 1em 1em;
+  padding-left: 0;
+  padding-right: 0; }
+  .featured-posts header a {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em; }
+  .featured-posts header h6 {
+    text-transform: none; }
+  .featured-posts header h3 {
+    margin: 1em 0 0.5em; }
+  .featured-posts header h4 {
+    margin: 0.15em 0;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize; }
+  .featured-posts header hr {
+    width: 12em;
+    margin: 0 auto 0.5em; }
+  .featured-posts header:hover {
+    box-shadow: 0 0 2em #777777; }
 
 .blog-intro-primary {
-  border-top: solid 0.125em;
   border-color: #63bc46;
-  border-radius: 0 2em 2em 2em;
+  border-radius: 0 1em 1em 1em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #63bc46; }
+  box-shadow: -10em 0 0 #63bc46, 20em 0 0 #63bc46, -20em 0 0 #63bc46; }
 
 .blog-intro-lifeins {
-  border-top: solid 0.125em;
   border-color: #0000ff;
-  border-radius: 0 2em 2em 2em;
+  border-radius: 0 1em 1em 1em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #0000ff; }
+  box-shadow: -10em 0 0 #0000ff, 20em 0 0 #0000ff, -20em 0 0 #0000ff; }
 
 .blog-intro-livingins {
-  border-top: solid 0.125em;
   border-color: #800080;
-  border-radius: 0 2em 2em 2em;
+  border-radius: 0 1em 1em 1em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #800080; }
+  box-shadow: -10em 0 0 #800080, 20em 0 0 #800080, -20em 0 0 #800080; }
 
 .blog-intro-health {
-  border-top: solid 0.125em;
   border-color: #ffa500;
-  border-radius: 0 2em 2em 2em;
+  border-radius: 0 1em 1em 1em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #ffa500; }
+  box-shadow: -10em 0 0 #ffa500, 20em 0 0 #ffa500, -20em 0 0 #ffa500; }
 
 .blog-intro-wealth {
-  border-top: solid 0.125em;
   border-color: #008000;
-  border-radius: 0 2em 2em 2em;
+  border-radius: 0 1em 1em 1em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #008000; }
+  box-shadow: -10em 0 0 #008000, 20em 0 0 #008000, -20em 0 0 #008000; }
 
 .blog-intro-life {
-  border-top: solid 0.125em;
   border-color: #b9b503;
-  border-radius: 0 2em 2em 2em;
+  border-radius: 0 1em 1em 1em;
   height: 100%;
   box-sizing: border-box;
-  box-shadow: -10em 0 0 #b9b503; }
+  box-shadow: -10em 0 0 #b9b503, 20em 0 0 #b9b503, -20em 0 0 #b9b503; }
 
 .smart-break-mini {
   white-space: nowrap; }
@@ -6362,6 +6477,14 @@ label {
     height: 3em; }
     .wax-seal h2 {
       font-size: 150%; }
+
+  .author-seal {
+    margin: -2.5em auto;
+    height: 5em;
+    width: 5em; }
+
+  .author-post-details {
+    margin: 3em auto 0; }
 
   .l-16-9-responsive-text {
     font-size: 85%; }
