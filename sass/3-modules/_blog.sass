@@ -143,7 +143,7 @@
 
 .post-content
   overflow-x: hidden
-  img
+  //img
     margin: 2em 0
     border-radius: 0 2em 2em 2em
     transition: 300ms
@@ -156,6 +156,57 @@
       padding: 2em 100em
       margin: 0 -100em
       position: relative
+  .img-container
+    height: 37em
+    width: 0vw
+    background-image: url(/assets/blog/test-wide.jpg)
+    background-position: center
+    //background-size: cover
+    overflow: hidden
+    position: absolute
+    transition: all ease 500ms
+    border-radius: 0 2em 2em 2em
+    left: 50%
+
+
+
+  .img-container-2
+    height: 37em
+    width: 100%
+    background-image: url(/assets/blog/test-wide.jpg)
+    background-position: center
+    //background-size: cover
+    border-radius: 0 2em 2em 2em
+    margin: 2em 0
+    &:hover
+      .img-container
+        width: 100vw
+        left: 0
+        border-radius: 0
+
+    img
+      //height: 100%
+      //width: 100vw
+      transition: 500ms
+      visibility: hidden
+      //margin: 0 auto
+      width: 0
+      //position: absolute
+    //&:hover
+      width: 100vw
+      left: 0
+
+    &:hover
+      img
+        visibility: visible
+        display: block
+        position: absolute
+        left: 0
+        right: 0
+        width: 100vw
+
+
+
   p
     line-height: 1.5em
   .container

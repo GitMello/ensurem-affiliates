@@ -6172,16 +6172,38 @@ label {
 
 .post-content {
   overflow-x: hidden; }
-  .post-content img {
-    margin: 2em 0;
+  .post-content .img-container {
+    height: 37em;
+    width: 0vw;
+    background-image: url(/assets/blog/test-wide.jpg);
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    transition: all ease 500ms;
     border-radius: 0 2em 2em 2em;
-    transition: 300ms; }
-    .post-content img:hover {
-      max-width: 50em;
-      background: #222222;
-      padding: 2em 100em;
-      margin: 0 -100em;
-      position: relative; }
+    left: 50%; }
+  .post-content .img-container-2 {
+    height: 37em;
+    width: 100%;
+    background-image: url(/assets/blog/test-wide.jpg);
+    background-position: center;
+    border-radius: 0 2em 2em 2em;
+    margin: 2em 0; }
+    .post-content .img-container-2:hover .img-container {
+      width: 100vw;
+      left: 0;
+      border-radius: 0; }
+    .post-content .img-container-2 img {
+      transition: 500ms;
+      visibility: hidden;
+      width: 0; }
+    .post-content .img-container-2:hover img {
+      visibility: visible;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100vw; }
   .post-content p {
     line-height: 1.5em; }
   .post-content .container {

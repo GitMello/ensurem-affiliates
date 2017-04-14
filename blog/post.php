@@ -43,10 +43,13 @@
       <img src="/assets/blog/test-vert.png" alt="">
       <p>While it’s a total buzzkill to think about a more serious accident or your untimely demise (knock on wood), it’s possible the unthinkable could happen.</p>
       <p>It’s time to face reality and put a plan in place to protect against a big OOOPS. And, that plan should involve life insurance. Check out the advice below before you start shopping life insurance policies.</p>
-      <img src="/assets/heros/main.jpg" alt="">
+      <img src="/assets/blog/test-wide.jpg" alt="">
       <h2>LIFE INSURANCE FOR THE ADVENTUROUS</h2>
       <p>FACT 1: Life insurance is not one bit as exciting as your adventurous pursuits.</p>
       <p>FACT 2: Accidents happen.</p>
+      <div class="img-container-2"><div class="img-container">
+
+      </div></div>
       <p>It’s time to get real.</p>
       <p>You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
       <blockquote cite="http://">
