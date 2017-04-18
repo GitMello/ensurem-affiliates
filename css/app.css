@@ -6172,38 +6172,43 @@ label {
 
 .post-content {
   overflow-x: hidden; }
-  .post-content .img-container {
-    height: 37em;
-    width: 0vw;
+  .post-content .img-focus {
+    margin: 2em 0;
+    border-radius: 0 2em 2em 2em;
+    transition: 300ms; }
+    .post-content .img-focus:hover {
+      max-width: 48em;
+      background: #222222;
+      padding: 2em 100em;
+      margin: 0 -100em;
+      position: relative; }
+  .post-content .img-reveal {
+    height: 31.5vw;
+    width: 0%;
     background-image: url(/assets/blog/test-wide.jpg);
+    background-color: #222222;
     background-position: center;
+    background-size: cover;
     overflow: hidden;
     position: absolute;
     transition: all ease 500ms;
     border-radius: 0 2em 2em 2em;
-    left: 50%; }
-  .post-content .img-container-2 {
-    height: 37em;
+    left: 50%;
+    box-sizing: border-box; }
+    .post-content .img-reveal img {
+      opacity: 0; }
+  .post-content .img-reveal-wrap {
+    height: 31.5vw;
     width: 100%;
     background-image: url(/assets/blog/test-wide.jpg);
     background-position: center;
+    background-size: cover;
     border-radius: 0 2em 2em 2em;
     margin: 2em 0; }
-    .post-content .img-container-2:hover .img-container {
-      width: 100vw;
-      left: 0;
+    .post-content .img-reveal-wrap:hover .img-reveal {
+      width: 100%;
+      left: 0%;
       border-radius: 0; }
-    .post-content .img-container-2 img {
-      transition: 500ms;
-      visibility: hidden;
-      width: 0; }
-    .post-content .img-container-2:hover img {
-      visibility: visible;
-      display: block;
-      position: absolute;
-      left: 0;
-      right: 0;
-      width: 100vw; }
   .post-content p {
     line-height: 1.5em; }
   .post-content .container {
@@ -6704,6 +6709,9 @@ label {
 .pad-1 {
   padding: 1em;
   box-sizing: border-box; }
+
+.ens-frame {
+  border-radius: 0 1em 1em 1em; }
 
 .white {
   background-color: #ffffff; }

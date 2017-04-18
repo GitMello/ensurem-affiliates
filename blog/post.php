@@ -3,11 +3,7 @@
 
   <header id="test-hero" class="text-center flex flex-center just-center text-shade link-no-shad link-hover-dark">
     <div class="post-hero l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
-      <div class="cat-post flex just-center flex-wrap">
-        <h6 class="lifeins">#Life-Insurance</h6>
-        <h6 class="termco">#Term-Life</h6>
-        <h6 class="addco">#Accident-Plans</h6>
-      </div>
+
       <h1><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Risky Business</h1>
       <div>
         <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i></a></div>
@@ -15,7 +11,11 @@
       </div>
       <hr>
       <h2>Life Insurance Advice for Adventurers</h2>
-
+      <div class="cat-post flex just-center flex-wrap">
+        <h6 class="lifeins">#Life-Insurance</h6>
+        <h6 class="termco">#Term-Life</h6>
+        <h6 class="addco">#Accident-Plans</h6>
+      </div>
     </div>
   </header>
 
@@ -31,7 +31,7 @@
     </div>
   </article>
 
-  <article class="post-content l-stack-all-ul img-responsive-all">
+  <article class="post-content l-stack-all-ul img-responsive-all relative">
     <div class="container">
       <h1>RISK TAKERS, TAKE NOTICE: LIFE INSURANCE ADVICE JUST FOR YOU</h1>
       <h4>“Before you start looking for life insurance coverage for extreme sports, read this advice”</h4>
@@ -40,24 +40,25 @@
       <p>You love the thrill of outdoor adventures.</p>
       <p>You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
       <p>If you are like most adventure-seekers, you have encountered a few bumps and bruises along the way – maybe even broken a bone or two. Fortunate for you, it has been nothing too serious thus far.</p>
-      <img src="/assets/blog/test-vert.png" alt="">
+      <img class="img-focus" src="/assets/blog/test-vert.png" alt="">
       <p>While it’s a total buzzkill to think about a more serious accident or your untimely demise (knock on wood), it’s possible the unthinkable could happen.</p>
       <p>It’s time to face reality and put a plan in place to protect against a big OOOPS. And, that plan should involve life insurance. Check out the advice below before you start shopping life insurance policies.</p>
-      <img src="/assets/blog/test-wide.jpg" alt="">
+      <img class="img-focus" src="/assets/blog/test-wide.jpg" alt="">
       <h2>LIFE INSURANCE FOR THE ADVENTUROUS</h2>
       <p>FACT 1: Life insurance is not one bit as exciting as your adventurous pursuits.</p>
       <p>FACT 2: Accidents happen.</p>
-      <div class="img-container-2"><div class="img-container">
-
-      </div></div>
+      <div class="img-reveal-wrap">
+        <div class="img-reveal flex flex-center">
+          <img src="/assets/blog/test-wide.jpg" alt="">
+        </div>
+      </div>
       <p>It’s time to get real.</p>
       <p>You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
       <blockquote cite="http://">
         <h3>"There are so many useful things that come from life insurance. There are so many useful things that come from life insurance."</h3>
         <h5>-Joe Somebody</h5>
-
       </blockquote>
-      <article id="money-save-hero" class="dark text-white text-center">
+      <article id="money-save-hero" class="dark text-white text-center ens-frame">
         <div class="container">
           <h1 class="no-marg-top">Sign Up For Money <span class="smart-break">Saving Tips</span></h1>
           <form class="flex flex-wrap just-center">

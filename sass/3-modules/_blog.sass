@@ -143,67 +143,48 @@
 
 .post-content
   overflow-x: hidden
-  //img
+  .img-focus
     margin: 2em 0
     border-radius: 0 2em 2em 2em
     transition: 300ms
     &:hover
-      //width: auto
-      //height: 25vh
-      max-width: 50em
-      //max-height: 75vh
+      max-width: 48em
       background: $dark
       padding: 2em 100em
       margin: 0 -100em
       position: relative
-  .img-container
-    height: 37em
-    width: 0vw
+
+  .img-reveal
+    height: 31.5vw
+    width: 0%
     background-image: url(/assets/blog/test-wide.jpg)
+    background-color: $dark
     background-position: center
-    //background-size: cover
+    background-size: cover
     overflow: hidden
     position: absolute
     transition: all ease 500ms
     border-radius: 0 2em 2em 2em
     left: 50%
+    box-sizing: border-box
+    img
+      opacity: 0
 
-
-
-  .img-container-2
-    height: 37em
+  .img-reveal-wrap
+    height: 31.5vw
     width: 100%
     background-image: url(/assets/blog/test-wide.jpg)
     background-position: center
-    //background-size: cover
+    background-size: cover
     border-radius: 0 2em 2em 2em
     margin: 2em 0
     &:hover
-      .img-container
-        width: 100vw
-        left: 0
+      .img-reveal
+        width: 100%
+        left: 0%
         border-radius: 0
 
-    img
-      //height: 100%
-      //width: 100vw
-      transition: 500ms
-      visibility: hidden
-      //margin: 0 auto
-      width: 0
-      //position: absolute
-    //&:hover
-      width: 100vw
-      left: 0
 
-    &:hover
-      img
-        visibility: visible
-        display: block
-        position: absolute
-        left: 0
-        right: 0
-        width: 100vw
 
 
 
@@ -217,7 +198,7 @@
   h4
     font-style: italic
     font-weight: 400
-  li
+
 
 
   ul
