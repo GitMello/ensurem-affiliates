@@ -42,12 +42,12 @@
 
         <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
@@ -56,13 +56,11 @@
           </header>
           <article class="col-pad">
             <div class="">
-              <p>You’re a risk taker.
-              You love the thrill of outdoor adventures.
-              You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
             <div class="flex flex-center just-between">
               <div class="author-lockup text-mid">
-                <a href="#" class="flex flex-center flex-wrap">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
                   <div class="author-thumb"></div>
                   <div class="author-name-title">
                     <h5>Leonard Mello</h5>
@@ -70,19 +68,19 @@
                   </div>
                 </a>
               </div>
-              <div class="butt-link-primary"><a href="/blog/post">Read Now</a></div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
@@ -91,28 +89,31 @@
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
             <div class="flex flex-center just-between">
-            <div class="author-lockup flex flex-center text-mid">
-              <div class="author-thumb"></div>
-              <h5>Leonard Mello</h5>
-            </div>
-            <div><a href="#">Read Now</a></div>
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
@@ -121,28 +122,31 @@
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
             <div class="flex flex-center just-between">
-            <div class="author-lockup flex flex-center text-mid">
-              <div class="author-thumb"></div>
-              <h5>Leonard Mello</h5>
-            </div>
-            <div><a href="#">Read Now</a></div>
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
@@ -151,16 +155,19 @@
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
             <div class="flex flex-center just-between">
-            <div class="author-lockup flex flex-center text-mid">
-              <div class="author-thumb"></div>
-              <h5>Leonard Mello</h5>
-            </div>
-            <div><a href="#">Read Now</a></div>
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>
@@ -171,7 +178,7 @@
             <h6 class="blog-wealth finco">#Life-Insurance</h6>
           </div>
           <header class="relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -184,14 +191,14 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
 
         <li class="flex-grow-1 col-md-6 col-lg-4">
           <header class="relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -205,7 +212,7 @@
             </div>
             <hr>
             <div class="text-center">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
             <div class="flex just-center flex-wrap">
               <h6 class="blog-wealth termco">#Wealth</h6>
@@ -217,7 +224,7 @@
 
       </ul>
       <div class="butt-link-primary-lg text-right">
-        <a href="#">View More</a>
+        <a href="#">View More <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </article>
@@ -251,7 +258,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -269,7 +276,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -277,7 +284,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -295,7 +302,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -303,7 +310,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -321,7 +328,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -329,7 +336,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -347,7 +354,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -358,7 +365,7 @@
             <h6 class="blog-wealth finco">#Life-Insurance</h6>
           </div>
           <header class="relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -371,14 +378,14 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
 
         <li class="flex-grow-1 col-md-6 col-lg-4">
           <header class="relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -392,7 +399,7 @@
             </div>
             <hr>
             <div class="text-center">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
             <div class="flex just-center flex-wrap">
               <h6 class="blog-wealth termco">#Wealth</h6>
@@ -404,7 +411,7 @@
 
       </ul>
       <div class="butt-link-primary-lg text-right">
-        <a href="#">View More</a>
+        <a href="#">View More <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </article>
@@ -438,7 +445,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -456,7 +463,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -464,7 +471,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -482,7 +489,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -490,7 +497,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -508,7 +515,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -516,7 +523,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -534,13 +541,13 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
       </ul>
       <div class="butt-link-primary-lg text-right">
-        <a href="#">View More</a>
+        <a href="#">View More <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </article>
@@ -583,7 +590,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -601,7 +608,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -609,7 +616,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -627,7 +634,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -635,7 +642,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -653,7 +660,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -661,7 +668,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -679,13 +686,13 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
       </ul>
       <div class="butt-link-primary-lg text-right">
-        <a href="#">View More</a>
+        <a href="#">View More <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </article>
@@ -719,7 +726,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -737,7 +744,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -745,7 +752,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -763,7 +770,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -771,7 +778,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -789,7 +796,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -797,7 +804,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -815,13 +822,13 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
       </ul>
       <div class="butt-link-primary-lg text-right">
-        <a href="#">View More</a>
+        <a href="#">View More <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </article>
@@ -855,7 +862,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -873,7 +880,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -881,7 +888,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -899,7 +906,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -907,7 +914,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -925,7 +932,7 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
@@ -933,7 +940,7 @@
         <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
 
           <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+            <div class="abso-centered post-hero">
 
             <h3>Risky Business</h3>
             <hr>
@@ -951,13 +958,13 @@
             You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
             </div>
             <div class="text-right">
-            <a href="#">Read Now</a>
+            <a href="#"><i class="fa fa-newspaper-o"></i> | Read</a>
             </div>
           </article>
         </li>
       </ul>
       <div class="butt-link-primary-lg text-right">
-        <a href="#">View More</a>
+        <a href="#">View More <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
   </article>

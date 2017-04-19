@@ -3799,7 +3799,11 @@ footer {
   background-position: center; }
 
 #test-hero {
-  background-image: radial-gradient(rgba(34, 34, 34, 0.45), rgba(34, 34, 34, 0.75)), url(/assets/blog/test-hero.jpg);
+  background-image: radial-gradient(rgba(34, 34, 34, 0.45), rgba(34, 34, 34, 0.75)), url(/assets/blog/test-hero-2.jpg);
+  background-position: top; }
+
+#test-hero-2 {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.45), rgba(34, 34, 34, 0.75)), url(/assets/heros/light.jpg);
   background-position: center; }
 
 #term-life-hero {
@@ -3932,6 +3936,10 @@ label {
 
 .briefing h3 {
   font-weight: 400; }
+.briefing h2, .briefing h4 {
+  margin: 0; }
+.briefing h4 {
+  color: #c4c4c4; }
 
 .content h2 {
   margin-bottom: 0.25em;
@@ -6065,6 +6073,11 @@ label {
   background-position: center;
   background-size: cover; }
 
+#blog-test-2 {
+  background-image: radial-gradient(rgba(34, 34, 34, 0.45), rgba(34, 34, 34, 0.45)), url(/assets/blog/test-thumb-2.jpg);
+  background-position: top;
+  background-size: cover; }
+
 .blog ul li {
   padding: 1em 0.5em;
   box-sizing: border-box;
@@ -6257,9 +6270,10 @@ label {
     border-radius: 0 0em 0em 1em;
     padding: 2em; }
 
-.featured-posts .container {
+.featured-posts-container {
   padding: 1em 1em 0;
   max-width: 90em; }
+
 .featured-posts ul {
   margin: 0; }
   .featured-posts ul li {
@@ -6290,6 +6304,12 @@ label {
     margin: 0 auto 0.5em; }
   .featured-posts header:hover {
     box-shadow: 0 0 2em #777777; }
+
+.last-p:after {
+  font-family: FontAwesome;
+  content: "";
+  margin-left: 0.5em;
+  color: #f26429; }
 
 .blog-intro-primary {
   border-color: #63bc46;
@@ -6720,26 +6740,38 @@ label {
   background-color: #63bc46; }
 
 .hr-primary hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #63bc46; }
 
 .hr-lifeins hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #0000ff; }
 
 .hr-livingins hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #800080; }
 
 .hr-life hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #b9b503; }
 
 .hr-health hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #ffa500; }
 
 .hr-wealth hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #008000; }
 
@@ -6792,26 +6824,38 @@ label {
   color: #008000; }
 
 .hr-accent hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #f26429; }
 
 .hr-lifeins hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #0000ff; }
 
 .hr-livingins hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #800080; }
 
 .hr-life hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #b9b503; }
 
 .hr-health hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #ffa500; }
 
 .hr-wealth hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #008000; }
 
@@ -6996,6 +7040,8 @@ label {
   background-color: #064C88; }
 
 .hr-termco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #064C88; }
 
@@ -7003,6 +7049,8 @@ label {
   background-color: #150085; }
 
 .hr-wholeco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #150085; }
 
@@ -7010,6 +7058,8 @@ label {
   background-color: #6f1362; }
 
 .hr-unico hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #6f1362; }
 
@@ -7017,6 +7067,8 @@ label {
   background-color: #c22625; }
 
 .hr-finco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #c22625; }
 
@@ -7024,6 +7076,8 @@ label {
   background-color: #f26429; }
 
 .hr-addco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #f26429; }
 
@@ -7031,6 +7085,8 @@ label {
   background-color: #d0ad00; }
 
 .hr-annuco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #d0ad00; }
 
@@ -7038,6 +7094,8 @@ label {
   background-color: #63bc46; }
 
 .hr-dentco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #63bc46; }
 
@@ -7045,6 +7103,8 @@ label {
   background-color: #042f55; }
 
 .hr-disco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #042f55; }
 
@@ -7052,6 +7112,8 @@ label {
   background-color: #1d0085; }
 
 .hr-stmco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #1d0085; }
 
@@ -7059,6 +7121,8 @@ label {
   background-color: #3c0a35; }
 
 .hr-homeseco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #3c0a35; }
 
@@ -7066,6 +7130,8 @@ label {
   background-color: #8f1c1b; }
 
 .hr-medco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #8f1c1b; }
 
@@ -7073,6 +7139,8 @@ label {
   background-color: #bf4f20; }
 
 .hr-petco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #bf4f20; }
 
@@ -7080,6 +7148,8 @@ label {
   background-color: #9d8300; }
 
 .hr-saveco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #9d8300; }
 
@@ -7087,26 +7157,38 @@ label {
   background-color: #488933; }
 
 .hr-msupco hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #488933; }
 
 .hr-mid-light hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #c4c4c4; }
 
 .hr-white hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #ffffff; }
 
 .hr-black hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #000000; }
 
 .hr-dark hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #222222; }
 
 .hr-light hr {
+  width: 6em;
+  margin-bottom: 1.5em;
   border-width: 0.125em;
   border-color: #f1f1f1; }
 

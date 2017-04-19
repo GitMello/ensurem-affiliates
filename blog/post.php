@@ -1,10 +1,10 @@
-<?php $title="Awaring America | Ensurem Blog"; ?>
+<?php $title="Travel After College | Ensurem Blog Article"; ?>
 <?php include('../includes/topnav.php'); ?>
 
   <header id="test-hero" class="text-center flex flex-center just-center text-shade link-no-shad link-hover-dark">
     <div class="post-hero l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
 
-      <h1><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Risky Business</h1>
+      <h1><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Travel After College</h1>
       <div>
         <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i></a></div>
         <div class="butt-next"><a href="#" class=""><i class="fa fa-chevron-right"></i></a></div>
@@ -22,7 +22,7 @@
   <article class="text-center content">
     <div class="author-seal"></div>
     <div class="author-post-details hr-mid-light text-mid">
-      <a href="#">
+      <a href="/blog/author">
         <h3>Leonard Mello</h3>
         <h4>Creative Director</h4>
       </a>
@@ -48,9 +48,8 @@
       <p>FACT 1: Life insurance is not one bit as exciting as your adventurous pursuits.</p>
       <p>FACT 2: Accidents happen.</p>
       <div class="img-reveal-wrap">
-        <div class="img-reveal flex flex-center">
-          <img src="/assets/blog/test-wide.jpg" alt="">
-        </div>
+        <img style="opacity:0;position: absolute;width:45em;height:31.5vw" src="/assets/blog/test-wide.jpg" alt="">
+        <div class="img-reveal flex flex-center"></div>
       </div>
       <p>It’s time to get real.</p>
       <p>You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
@@ -108,8 +107,9 @@
       <p>FACT 1: Life insurance is not one bit as exciting as your adventurous pursuits.</p>
       <p>FACT 2: Accidents happen.</p>
       <p>It’s time to get real.</p>
-      <p>You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
+      <p class="last-p">You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
 
+      <hr>
       <div class="butt-link-primary-lg flex flex-center just-around flex-wrap">
         <div>
           <a href="#"><i class="fa fa-chevron-circle-right"></i> | Shop Term Life Plans</a>
@@ -118,8 +118,9 @@
           <a href="#"><i class="fa fa-chevron-circle-right"></i> | Save On Travel</a>
         </div>
       </div>
-      <h6>Disclaimer: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu</h6>
       <hr>
+      <h6>Disclaimer: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu</h6>
+
       <div class="butt-link flex flex-center just-between">
         <div class="butt-prev"><a href="#" class=""><i class="fa fa-chevron-left"></i>  Previous Article</a></div>
         <div class="butt-next"><a href="#" class="">Next Article  <i class="fa fa-chevron-right"></i></a></div>
@@ -133,7 +134,7 @@
 
 
   <article id="" class="featured-posts l-inline-all-ul dark">
-    <div class="container text-white">
+    <div class="container featured-posts-container text-white">
       <h2 class="no-marg">You May Enjoy...</h2>
       <ul class="flex flex-stretch flex-wrap">
 

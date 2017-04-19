@@ -138,7 +138,7 @@
     <div class="container white">
 
       <ul class="flex flex-stretch flex-wrap blog-intro-primary">
-        <li class="flex-grow-1 col-md-6 col-lg-6 butt-link-primary-mini hr-primary hr-left col-pad">
+        <li class="flex-grow-1 col-md-6 col-lg-6 butt-link-mini hr-primary hr-left col-pad">
           <div class="blog-cat">
             <h1 class="text-primary">Latest from Awaring America<sup>&trade;</sup></h1>
 
@@ -150,24 +150,21 @@
             <a href="#">#final-expense</a>
             <a href="#">#accident-plans</a>
             <a href="#">#life-insurance-tips</a>
-            <form class="flex flex-wrap just-center" style="margin-top:2em">
-              <label class="flex relative">
-                <span>Search All Blogs</span>
-                <input  placeholder="Start typing..." type="search" tabindex="1" required="required">
-              </label>
-              <button name="submit" type="submit" id="contact"><i class="fa fa-search"></i> | Search</button>
-            </form>
+            <div class="butt-link-primary-lg">
+              <a href="#modal-search"><i class="fa fa-search"></i> | search</a>
+            </div>
           </div>
+
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
@@ -176,90 +173,118 @@
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
-            </div>
-          </article>
-        </li>
-
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
-
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
-
-            <h3>Risky Business</h3>
-            <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
-            <div class="cat flex flex-wrap">
-              <h6 class="blog-wealth wealth">#Wealth</h6>
-              <h6 class="blog-wealth lifeins">#Life-Insurance</h6>
-              <h6 class="blog-wealth livingins">#Living-Insurance</h6>
-            </div>
-          </header>
-          <article class="col-pad">
-            <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
-            </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
-              <h6 class="blog-wealth wealth">#Wealth</h6>
-              <h6 class="blog-wealth lifeins">#Life-Insurance</h6>
-              <h6 class="blog-wealth livingins">#Living-Insurance</h6>
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
             </div>
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>
 
-        <li class="flex-grow-1 col-md-6 col-lg-4 butt-link-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-4">
 
-          <header class="mid relative" id="blog-test">
-            <div class="abso-centered">
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
 
-            <h3>Risky Business</h3>
+            <h3>Travel After College</h3>
             <hr>
-            <h4>Life Insurance Advice for Adventurers</h4></div>
+            <h4>On the Cheap</h4></div>
             <div class="cat flex flex-wrap">
-              <h6 class="blog-wealth wealth">#Wealth</h6>
-              <h6 class="blog-wealth lifeins">#Life-Insurance</h6>
-              <h6 class="blog-wealth livingins">#Living-Insurance</h6>
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
             </div>
           </header>
           <article class="col-pad">
             <div class="">
-            <p>You’re a risk taker.
-            You love the thrill of outdoor adventures.
-            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
             </div>
-            <div class="text-right">
-            <a href="#">Read Now</a>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
+            </div>
+          </article>
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4">
+
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
+
+            <h3>Travel After College</h3>
+            <hr>
+            <h4>On the Cheap</h4></div>
+            <div class="cat flex flex-wrap">
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
+            </div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
+            </div>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
             </div>
           </article>
         </li>

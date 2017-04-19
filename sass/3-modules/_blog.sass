@@ -5,6 +5,13 @@
     position: center
     size: cover
 
+#blog-test-2
+  background:
+    image: radial-gradient(transparentize($dark, 0.55),transparentize($dark, 0.55)), url(/assets/blog/test-thumb-2.jpg)
+    //image: url(/assets/blog/test-thumb.jpg)
+    position: top
+    size: cover
+
 .blog
   //color: $white
   h1
@@ -245,10 +252,12 @@
     border-radius: 0 0em 0em 1em
     padding: 2em
 
+
+.featured-posts-container
+  padding: 1em 1em 0
+  max-width: 90em
+
 .featured-posts
-  .container
-    padding: 1em 1em 0
-    max-width: 90em
   ul
     margin: 0
     li
@@ -282,6 +291,13 @@
       //border: solid 0.0625em $mid-dark
       box-shadow: 0 0 2em $mid
 
+.last-p
+
+  &:after
+    font-family: FontAwesome
+    content: "\f11e"
+    margin-left: 0.5em
+    color: $accent
 
 
 .blog-intro-primary
