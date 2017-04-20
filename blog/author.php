@@ -25,17 +25,17 @@
         <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Donec nec dolor erat, <span class="smart-break">condimentum sagitti.</span></h3>
       </div>
 
-      <div class="col-sm-12 col-lg-6 blog">
+      <div class="col-sm-12 col-lg-6 blog-ul">
         <ul class="">
 
           <li class="flex-grow-1">
             <h3 class="">Author's Choice</h3>
             <header class="mid relative" id="blog-test-2">
-              <div class="abso-centered post-hero">
+              <div class="abso-centered l-100-width">
               <h3>Travel After College</h3>
               <hr>
               <h4>On the Cheap</h4></div>
-              <div class="cat flex flex-wrap">
+              <div class="blog-cat-pill flex flex-wrap">
                 <h6 class="lifeins">#Life-Insurance</h6>
                 <h6 class="termco">#Term-Life</h6>
                 <h6 class="addco">#Accident-Plans</h6>
@@ -56,7 +56,7 @@
     </div>
   </article>
 
-  <article id="" class="featured-posts l-inline-all-ul mid-dark">
+  <article id="" class="featured-posts-ul l-inline-all-ul mid-dark">
     <div class="container text-white">
       <h2 class="no-marg">All Articles by Leonard Mello</h2>
       <ul class="flex flex-stretch flex-wrap">
@@ -68,7 +68,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -84,7 +84,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -100,7 +100,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers who always be adventurin' on adventures</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -116,7 +116,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -132,7 +132,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -148,7 +148,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -164,7 +164,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>

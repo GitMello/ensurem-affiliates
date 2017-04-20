@@ -2,7 +2,7 @@
 <?php include('../includes/topnav.php'); ?>
 
   <header id="test-hero" class="text-center flex flex-center just-center text-shade link-no-shad link-hover-dark">
-    <div class="post-hero l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
+    <div class="l-100-width l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
 
       <h1><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Travel After College</h1>
       <div>
@@ -11,7 +11,7 @@
       </div>
       <hr>
       <h2>Life Insurance Advice for Adventurers</h2>
-      <div class="cat-post flex just-center flex-wrap">
+      <div class="post-cat-pill flex just-center flex-wrap">
         <h6 class="lifeins">#Life-Insurance</h6>
         <h6 class="termco">#Term-Life</h6>
         <h6 class="addco">#Accident-Plans</h6>
@@ -107,7 +107,7 @@
       <p>FACT 1: Life insurance is not one bit as exciting as your adventurous pursuits.</p>
       <p>FACT 2: Accidents happen.</p>
       <p>It’s time to get real.</p>
-      <p class="last-p">You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
+      <p class="post-last-p">You likely have people that depend on you. Perhaps it’s a spouse or partner. Maybe it’s a young child. No matter your position in life, life insurance is worth a second thought.</p>
 
       <hr>
       <div class="butt-link-primary-lg flex flex-center just-around flex-wrap">
@@ -133,7 +133,7 @@
 
 
 
-  <article id="" class="featured-posts l-inline-all-ul dark">
+  <article id="" class="featured-posts-ul l-inline-all-ul dark">
     <div class="container featured-posts-container text-white">
       <h2 class="no-marg">You May Enjoy...</h2>
       <ul class="flex flex-stretch flex-wrap">
@@ -145,7 +145,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -161,7 +161,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -177,7 +177,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers who always be adventurin' on adventures</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -193,7 +193,7 @@
               <hr>
               <h4>Life Insurance Advice for Adventurers</h4>
             </div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -210,6 +210,15 @@
     <div class="container">
       <h1 class="no-marg-top">Sign Up For Money <span class="smart-break">Saving Tips</span></h1>
       <form class="flex flex-wrap just-center">
+        <label class="flex relative">
+          <span>Choice*</span>
+          <select name="cars">
+            <option value="volvo">Volvoptuosocar</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+        </label>
         <label class="flex relative">
           <span>First Name*</span>
           <input  placeholder="What's your first name?" type="text" tabindex="1" required="required">

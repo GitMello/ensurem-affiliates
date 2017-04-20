@@ -2,7 +2,7 @@
 
 // INPUTS
 
-#{$all-text-inputs}
+#{$all-text-inputs}, select
   position: relative
   padding: 1.25em 1.75em
   font:
@@ -17,12 +17,12 @@
   flex-grow: 1
 
 
-#{$all-text-inputs-focus},
+#{$all-text-inputs-focus}, select,
 #{$all-text-inputs-hover}
   border: solid 0.0625em $primary
   outline: none
 
-#{$all-text-inputs-focus}
+#{$all-text-inputs-focus}, select
   border: solid 0.0625em $white
   box-shadow: 0 0 0.125em $alt
   padding: 1.25em 3em 1.25em 1.75em
@@ -66,7 +66,8 @@ textarea
   &:focus
     height: 10em
     border-radius: 2.25em
-
+option
+  padding-left: 2em
 label
   flex-grow: 1
   span

@@ -1,22 +1,4 @@
-#blog-test
-  background:
-    image: radial-gradient(transparentize($dark, 0.55),transparentize($dark, 0.55)), url(/assets/blog/test-thumb.jpg)
-    //image: url(/assets/blog/test-thumb.jpg)
-    position: center
-    size: cover
-
-#blog-test-2
-  background:
-    image: radial-gradient(transparentize($dark, 0.55),transparentize($dark, 0.55)), url(/assets/blog/test-thumb-2.jpg)
-    //image: url(/assets/blog/test-thumb.jpg)
-    position: top
-    size: cover
-
-.blog
-  //color: $white
-  h1
-    //font-weight: 300
-    //font-style: italic
+.blog-ul
   ul
     li
       //max-width: 22em
@@ -62,10 +44,10 @@
     hr
       margin: 0 auto 0.5em
 
-.blog-cat
+.blog-cat-intro-padding
   padding: 0.5em 0.5em 0 2em
 
-.cat
+.blog-cat-pill
   position: absolute
   top: 0.5em
   left: 0.5em
@@ -77,9 +59,9 @@
     //color: $white
     border-radius: 50em
 
-.cat-post
+.post-cat-pill
   h6
-    margin: 0 0.25em 0.5em
+    margin: 0.5em 0.25em
     //background: $primary
     //width: 100%
     padding: 0.25em 0.5em
@@ -87,7 +69,7 @@
     border-radius: 50em
     text-shadow: none
 
-.post-hero
+.l-100-width
   width: 100%
 
 .author-lockup
@@ -150,51 +132,6 @@
 
 .post-content
   overflow-x: hidden
-  .img-focus
-    margin: 2em 0
-    border-radius: 0 2em 2em 2em
-    transition: 300ms
-    &:hover
-      max-width: 48em
-      background: $dark
-      padding: 2em 100em
-      margin: 0 -100em
-      position: relative
-
-  .img-reveal
-    height: 31.5vw
-    width: 0%
-    background-image: url(/assets/blog/test-wide.jpg)
-    background-color: $dark
-    background-position: center
-    background-size: cover
-    overflow: hidden
-    position: absolute
-    transition: all ease 500ms
-    border-radius: 0 2em 2em 2em
-    left: 50%
-    box-sizing: border-box
-    img
-      opacity: 0
-
-  .img-reveal-wrap
-    height: 31.5vw
-    width: 100%
-    background-image: url(/assets/blog/test-wide.jpg)
-    background-position: center
-    background-size: cover
-    border-radius: 0 2em 2em 2em
-    margin: 2em 0
-    &:hover
-      .img-reveal
-        width: 100%
-        left: 0%
-        border-radius: 0
-
-
-
-
-
   p
     line-height: 1.5em
   .container
@@ -252,12 +189,53 @@
     border-radius: 0 0em 0em 1em
     padding: 2em
 
+.img-focus
+  margin: 2em 0
+  border-radius: 0 2em 2em 2em
+  transition: 300ms
+  &:hover
+    max-width: 48em
+    background: $dark
+    padding: 2em 100em
+    margin: 0 -100em
+    position: relative
+
+.img-reveal
+  height: 31.5vw
+  width: 0%
+  background-image: url(/assets/blog/test-wide.jpg)
+  background-color: $dark
+  background-position: center
+  background-size: cover
+  overflow: hidden
+  position: absolute
+  transition: all ease 500ms
+  border-radius: 0 2em 2em 2em
+  left: 50%
+  box-sizing: border-box
+  img
+    opacity: 0
+
+.img-reveal-wrap
+  height: 31.5vw
+  width: 100%
+  background-image: url(/assets/blog/test-wide.jpg)
+  background-position: center
+  background-size: cover
+  border-radius: 0 2em 2em 2em
+  margin: 2em 0
+  &:hover
+    .img-reveal
+      width: 100%
+      left: 0%
+      border-radius: 0
+
 
 .featured-posts-container
-  padding: 1em 1em 0
+  padding: 1em 1em
   max-width: 90em
 
-.featured-posts
+.featured-posts-ul
   ul
     margin: 0
     li
@@ -288,10 +266,10 @@
       width: 12em
       margin: 0 auto 0.5em
     &:hover
-      //border: solid 0.0625em $mid-dark
+      border: solid 0.0625em $mid-light
       box-shadow: 0 0 2em $mid
 
-.last-p
+.post-last-p
 
   &:after
     font-family: FontAwesome

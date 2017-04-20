@@ -19,7 +19,7 @@
   </article>
 
   <article class="light">
-    <div class="grid fluid flex flex-wrap butt-link-light term-types term-list">
+    <div class="grid fluid flex flex-wrap butt-link-light term-types-padding term-list">
       <div class="col-md-6 col-lg-4 flex-grow-1">
         <article>
           <ul class="l-stack">
@@ -69,7 +69,7 @@
 
     <ul>
       <li>
-        <h6 class="termco">Instant Policy Issue</h6>
+        <h6 class="termco">Term Life | Instant Policy Issue</h6>
         <header class="amnatco">
           <div class="carrier-logo american-national-logo-w">American National</div>
           <h3>Anico Term</h3>
@@ -88,7 +88,7 @@
       </li>
 
       <li>
-        <h6 class="termco">Competitive Rates</h6>
+        <h6 class="termco">Term Life | Competitive Rates</h6>
         <header class="mid-dark">
           <div class="carrier-logo no-logo-w">Multiple Carriers</div>
           <h3>Multi-Quote Tool</h3>
@@ -107,7 +107,7 @@
       </li>
 
       <li>
-        <h6 class="termco">Decision in 48 Hours</h6>
+        <h6 class="termco">Term Life | Decision in 48 Hours</h6>
         <header class="mooco">
           <div class="carrier-logo united-omaha-logo-w">United of Omaha Life Insurance Company</div>
           <h3>Term Life Express</h3>
@@ -126,7 +126,7 @@
       </li>
 
       <li>
-        <h6 class="termco">Decision in 48 Hours</h6>
+        <h6 class="termco">Term Life | Decision in 48 Hours</h6>
         <header class="sagico">
           <div class="carrier-logo sagicor-logo-w">Sagicor Life</div>
           <h3>Sage Term</h3>
@@ -145,7 +145,7 @@
       </li>
 
       <li>
-        <h6 class="termco">Decision in 48 Hours</h6>
+        <h6 class="termco">Term Life | Decision in 48 Hours</h6>
         <header class="fidelityco">
           <div class="carrier-logo fidelity-life-logo-w">Fidelity Life</div>
           <h3>RD Express Term</h3>
@@ -164,7 +164,7 @@
       </li>
 
       <li>
-        <h6 class="termco">Decision in 48 Hours</h6>
+        <h6 class="termco">Term Life | Decision in 48 Hours</h6>
         <header class="fidelityco">
           <div class="carrier-logo fidelity-life-logo-w">Fidelity Life</div>
           <h3>RD Senior Life</h3>
@@ -183,7 +183,7 @@
       </li>
 
       <li>
-        <h6 class="termco">Decision in 48 Hours</h6>
+        <h6 class="termco">Term Life | Decision in 48 Hours</h6>
         <header class="sureco">
           <div class="carrier-logo surebridge-logo-w">Surebridge</div>
           <h3>Simplified Term</h3>

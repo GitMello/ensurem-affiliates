@@ -35,7 +35,7 @@
   </article>
 
   <article class="flex flex-wrap text-center butt-link-light l-16-9-responsive-text text-white link-hover-alt">
-    <div id="life-guide" class="col-md-6  flex-1-sm">
+    <div id="life-guide" class="col-md-6 flex-1-sm">
       <div class="l-16-9-aspect relative">
         <div class="abso-centered">
           <h2><span class="smart-break">What you need</span><br><span class="smart-break">to know about</span><br><span class="smart-break">life insurance</span></h2>
