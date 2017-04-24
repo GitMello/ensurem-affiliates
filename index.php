@@ -50,12 +50,12 @@
     </div>
   </article>
 
-  <article id="awaring" class="blog l-inline-all-ul">
+  <article id="awaring" class="blog-ul l-inline-all-ul">
     <div class="container white">
 
       <ul class="flex flex-stretch flex-wrap blog-intro-primary">
         <li class="flex-grow-1 col-md-6 col-lg-6 butt-link-mini hr-primary hr-left col-pad">
-          <div class="blog-cat">
+          <div class="blog-cat-intro-padding">
             <h1 class="text-primary">Latest from Awaring America<sup>&trade;</sup></h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -81,7 +81,7 @@
             <h3>Travel After College</h3>
             <hr>
             <h4>On the Cheap</h4></div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -114,7 +114,7 @@
             <h3>Travel After College</h3>
             <hr>
             <h4>On the Cheap</h4></div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -147,7 +147,7 @@
             <h3>Travel After College</h3>
             <hr>
             <h4>On the Cheap</h4></div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
@@ -180,7 +180,7 @@
             <h3>Travel After College</h3>
             <hr>
             <h4>On the Cheap</h4></div>
-            <div class="cat flex flex-wrap">
+            <div class="blog-cat-pill flex flex-wrap">
               <h6 class="lifeins">#Life-Insurance</h6>
               <h6 class="termco">#Term-Life</h6>
               <h6 class="addco">#Accident-Plans</h6>
