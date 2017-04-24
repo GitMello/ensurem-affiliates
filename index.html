@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title></title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+  <body id="top">
+    <div class="l-navbar-fixed-top">
+      <nav class="l-navbar">
+        <a href="/"><h1 class="brand-light brand-left opacity-hover-80 l-float-l">Ensurem</h1></a>
+        <input type="checkbox" id="nav" /><label for="nav"></label>
+        <ul>
+          <li id="learn" onclick=""><span class="menu-bump">Learn <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/guide/life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</li></a>
+                <a href="/guide/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                <a href="/guide/final-expense-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                <a href="/guide/term-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Term Life</li></a>
+                <!-- <a href="/guide/universal-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                <a href="/guide/whole-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                <a href="/guide/living-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</li></a>
+                <a href="/guide/annuities"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Annuities</li></a>
+                <a href="/guide/dental-and-vision-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                <a href="/guide/disability-income-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                <a href="/guide/home-security-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Home Security</li></a>
+                <a href="/guide/medical-cash-benefits-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                <a href="/guide/medicare-supplement-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                <a href="/guide/pet-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                <a href="/guide/savings-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                <a href="/guide/short-term-health-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+              </div>
+            </ul>
+          </li>
+          <li id="shop" onclick=""><span class="menu-bump">Shop <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/buy"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> All Plans</li></a>
+                <a href="/buy/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                <a href="/buy/final-expense-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                <a href="/buy/term-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Term Life</li></a>
+                <!-- <a href="/buy/universal-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                <a href="/buy/whole-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                <a href="/buy/annuities"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Annuities</li></a>
+                <a href="/buy/dental-and-vision-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                <a href="/buy/disability-income-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                <a href="/buy/home-security-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Home Security</li></a>
+                <a href="/buy/medical-cash-benefits-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                <a href="/buy/medicare-supplement-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                <a href="/buy/pet-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                <a href="/buy/savings-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                <a href="/buy/short-term-health-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                <!-- <a href="/buy/vehicle-service-contracts"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Toco Warranty</li></a> -->
+              </div>
+            </ul>
+          </li>
+          <li id="about" onclick=""><span class="menu-bump">About <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/about"><li><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</li></a>
+                <a href="/about#team"><li><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet the Team</li></a>
+                <a href="/about#our-story"><li><i class="fa fa-book"></i> <span class="text-accent">|</span> Our Story</li></a>
+                <a href="/guide"><li><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</li></a>
+                <a href="/blog"><li><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Awaring America&trade;</li></a>
+                <a href="/contact"><li><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact</li></a>
+              </div>
+            </ul>
+          </li>
+          <a href="/blog"><li><span class="menu-bump">Blog</span></li></a>
+          <a href="#modal-search"><li><span class="menu-bump"><i class="fa fa-search"></i></span></li></a>
+
+        </ul>
+      </nav>
+    </div>
+    <div id="modal-search" class="modal search flex flex-center just-center" style="">
+      <div class="container-900">
+        <div class="flex flex-center just-between fa-accent">
+          <h2 class=""><i class="fa fa-search"></i> <span class="text-accent">|</span> Search Our Site</h2>
+          <a href="#top" class=""><i class="fa fa-3x fa-close"></i></a>
+        </div>
+        <form class="flex flex-wrap just-center">
+          <label class="flex relative">
+            <span>Search</span>
+            <input autofocus placeholder="Type here..." type="search" tabindex="1" required="required">
+          </label>
+          <button name="submit" type="submit" id="contact"><i class="fa fa-search"></i> | Search</button>
+        </form>
+      </div>
+    </div>
+
+
+  <header id="homepage-hero" class="l-fullpage-header flex flex-center just-start flex-wrap text-shade link-no-shad text-left">
+    <div class="container no-pad">
+      <div class="l-fullpage-header-content xl no-pad-sides butt-link-primary-xl">
+        <h1>Your Insurance<br>Marketplace</h1>
+        <h2>Need help finding the right products?<br>Take our <strong>Life Optimized&trade; Risk Assessment</strong></h2>
+        <a href="#"><i class="fa fa-chevron-circle-right"></i> | Meet LORA</a>
+      </div>
+    </div>
+  </header>
+
+  <article class="text-center butt-link-md">
+    <section class="container-900">
+      <h2>Explore Products</h2>
+      <p>Discover the benefits of leading insurance products on the market. We make it easy to find solutions that help you secure your family’s future, build wealth, and protect your assets.</p>
+      <hr>
+      <ul class="l-inline l-feature-list flex just-around flex-start flex-wrap ">
+        <li>
+          <h2 class="fa-primary"><i class="fa fa-heart-o fa-4x"></i></h2>
+          <h3>Life Insurance</h3>
+          <h4>Products That Provide<br>Benefits After You Pass Away</h4>
+          <a href="/guide/life-insurance"><i class="fa fa-heart-o"></i> | Go Now</a>
+        </li>
+        <li>
+          <h2 class="fa-primary"><i class="fa fa-heartbeat fa-4x"></i></h2>
+          <h3>Living Insurance</h3>
+          <h4>Products That Provide You<br>Benefits While You Are Alive</h4>
+          <a href="/guide/living-insurance"><i class="fa fa-heartbeat"></i> | Go Now</a>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+  <a id="we-believe" class="anchor"></a>
+  <article id="we-believe-hero" class="we-believe alt text-center text-white">
+    <div class="container-900">
+      <h1>We Believe...</h1>
+      <hr>
+      <h3>The <strong>American Dream</strong> <span class="smart-break">is still alive</span></h3>
+      <h3><strong>Financial Security</strong> is essential <span class="smart-break">to a better quality of life</span></h3>
+      <h3><strong>Freedom</strong> is about having choices</h3>
+      <h3><strong>Family</strong> is the bedrock <span class="smart-break">of this great country</span></h3>
+      <h3>Knowledge &amp; <strong>Education</strong> allow us <span class="smart-break">to make better choices</span></h3>
+      <h3>Our dependents deserve <span class="smart-break">to feel <strong>secure</strong></span></h3>
+      <hr>
+      <h2>Welcome to <em>YOUR</em> <span class="smart-break">Insurance Marketplace</span></h2>
+      <h1 class="brand-light brand-center"><?php echo $coname;?></h1>
+    </div>
+  </article>
+
+  <article id="awaring" class="blog-ul l-inline-all-ul">
+    <div class="container white">
+
+      <ul class="flex flex-stretch flex-wrap blog-intro-primary">
+        <li class="flex-grow-1 col-md-6 col-lg-6 butt-link-mini hr-primary hr-left col-pad">
+          <div class="blog-cat-intro-padding">
+            <h1 class="text-primary">Latest from Awaring America<sup>&trade;</sup></h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <hr>
+            <h3>Subcategories</h3>
+            <a href="#">#term-life</a>
+            <a href="#">#whole-life</a>
+            <a href="#">#final-expense</a>
+            <a href="#">#accident-plans</a>
+            <a href="#">#life-insurance-tips</a>
+            <div class="butt-link-primary-lg">
+              <a href="#modal-search"><i class="fa fa-search"></i> | search</a>
+            </div>
+          </div>
+
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4">
+
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
+
+            <h3>Travel After College</h3>
+            <hr>
+            <h4>On the Cheap</h4></div>
+            <div class="blog-cat-pill flex flex-wrap">
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
+            </div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
+            </div>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
+            </div>
+          </article>
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4">
+
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
+
+            <h3>Travel After College</h3>
+            <hr>
+            <h4>On the Cheap</h4></div>
+            <div class="blog-cat-pill flex flex-wrap">
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
+            </div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
+            </div>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
+            </div>
+          </article>
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4">
+
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
+
+            <h3>Travel After College</h3>
+            <hr>
+            <h4>On the Cheap</h4></div>
+            <div class="blog-cat-pill flex flex-wrap">
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
+            </div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
+            </div>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
+            </div>
+          </article>
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4">
+
+          <header class="mid relative" id="blog-test-2">
+            <div class="abso-centered post-hero">
+
+            <h3>Travel After College</h3>
+            <hr>
+            <h4>On the Cheap</h4></div>
+            <div class="blog-cat-pill flex flex-wrap">
+              <h6 class="lifeins">#Life-Insurance</h6>
+              <h6 class="termco">#Term-Life</h6>
+              <h6 class="addco">#Accident-Plans</h6>
+            </div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+              <p>What are your plans for after graduation? It’s a question I’m sure you’re tired of hearing. But, it’s one that you’re probably pondering yourself. What are you going to do?</p>
+            </div>
+            <div class="flex flex-center just-between">
+              <div class="author-lockup text-mid">
+                <a href="/blog/author" class="flex flex-center flex-wrap">
+                  <div class="author-thumb"></div>
+                  <div class="author-name-title">
+                    <h5>Leonard Mello</h5>
+                    <h6>Creative Director</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="butt-link-primary"><a href="/blog/post"><i class="fa fa-newspaper-o"></i> | Read</a></div>
+            </div>
+          </article>
+        </li>
+
+        <!--<li class="flex-grow-1 col-md-6 col-lg-4">
+          <div class="flex">
+            <h6 class="blog-wealth termco">#Wealth</h6>
+            <h6 class="blog-wealth finco">#Life-Insurance</h6>
+          </div>
+          <header class="relative" id="blog-test">
+            <div class="abso-centered">
+
+            <h3>Risky Business</h3>
+            <hr>
+            <h4>Life Insurance Advice for Adventurers</h4></div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+            <p>You’re a risk taker.
+            You love the thrill of outdoor adventures.
+            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+            </div>
+            <div class="text-right">
+            <a href="#">Read Now</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="flex-grow-1 col-md-6 col-lg-4">
+          <header class="relative" id="blog-test">
+            <div class="abso-centered">
+
+            <h3>Risky Business</h3>
+            <hr>
+            <h4>Life Insurance Advice for Adventurers</h4></div>
+          </header>
+          <article class="col-pad">
+            <div class="">
+            <p>You’re a risk taker.
+            You love the thrill of outdoor adventures.
+            You know the ones – the ones that get your blood pumping and your adrenaline flowing. Extreme sports and adrenaline-fueled activities of any (and ALL!) kinds, they define you.</p>
+            </div>
+            <hr>
+            <div class="text-center">
+            <a href="#">Read Now</a>
+            </div>
+            <div class="flex just-center flex-wrap">
+              <h6 class="blog-wealth termco">#Wealth</h6>
+              <h6 class="blog-wealth finco">#Life-Insurance</h6>
+            </div>
+          </article>
+
+        </li> -->
+
+      </ul>
+      <div class="butt-link-primary-lg text-right">
+        <a href="#">View More</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="money-save-hero" class="dark text-white text-center">
+    <div class="container">
+      <h1 class="no-marg-top">Sign Up For Money <span class="smart-break">Saving Tips</span></h1>
+      <form class="flex flex-wrap just-center">
+        <label class="flex relative">
+          <span>First Name*</span>
+          <input  placeholder="What's your first name?" type="text" tabindex="1" required="required">
+        </label>
+        <label class="flex relative">
+          <span>Last Name*</span>
+          <input placeholder="What's your last name?" type="text" tabindex="2" required="required">
+        </label>
+        <label class="flex relative">
+          <span>Email*</span>
+          <input placeholder="What's your email?" type="email" tabindex="3" required="required">
+        </label>
+        <button name="submit" type="submit" id="newsletter-signup"><i class="fa fa-pencil-square-o"></i> | Sign Up</button>
+      </form>
+    </div>
+  </article>
+
+  <footer class="black">
+    <div class="container">
+      <nav class="l-navlinks flex just-between flex-center flex-wrap">
+        <div class="col-md-6">
+          <a href="/"><h1 class="brand-light brand-center opacity-hover-opaque">Ensurem</h1></a>
+          <ul class="social">
+            <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
+            <li><span class="text-accent">|</span></li>
+            <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+            <li><span class="text-accent">|</span></li>
+            <li><a href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="text-left">
+            <li id="learn" onclick=""><span class="menu-bump">Learn <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/guide/life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</li></a>
+                  <a href="/guide/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                  <a href="/guide/final-expense-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                  <a href="/guide/term-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Term Life</li></a>
+                  <!-- <a href="/guide/universal-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                  <a href="/guide/whole-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                  <a href="/guide/living-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</li></a>
+                  <a href="/guide/annuities"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Annuities</li></a>
+                  <a href="/guide/dental-and-vision-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                  <a href="/guide/disability-income-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                  <a href="/guide/home-security-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Home Security</li></a>
+                  <a href="/guide/medical-cash-benefits-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                  <a href="/guide/medicare-supplement-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                  <a href="/guide/pet-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                  <a href="/guide/savings-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                  <a href="/guide/short-term-health-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                </div>
+              </ul>
+            </li>
+            <li id="shop" onclick=""><span class="menu-bump">Shop <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/buy"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> All Plans</li></a>
+                  <a href="/buy/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                  <a href="/buy/final-expense-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                  <a href="/buy/term-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Term Life</li></a>
+                  <!-- <a href="/buy/universal-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                  <a href="/buy/whole-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                  <a href="/buy/annuities"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Annuities</li></a>
+                  <a href="/buy/dental-and-vision-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                  <a href="/buy/disability-income-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                  <a href="/buy/home-security-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Home Security</li></a>
+                  <a href="/buy/medical-cash-benefits-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                  <a href="/buy/medicare-supplement-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                  <a href="/buy/pet-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                  <a href="/buy/savings-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                  <a href="/buy/short-term-health-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                  <!-- <a href="/buy/vehicle-service-contracts"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Toco Warranty</li></a> -->
+                </div>
+              </ul>
+            </li>
+            <li id="about" onclick=""><span class="menu-bump">About <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/about"><li><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</li></a>
+                  <a href="/about#team"><li><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet the Team</li></a>
+                  <a href="/about#our-story"><li><i class="fa fa-book"></i> <span class="text-accent">|</span> Our Story</li></a>
+                  <a href="/guide"><li><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</li></a>
+                  <a href="/blog"><li><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Awaring America&trade;</li></a>
+                  <a href="/contact"><li><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact</li></a>
+                </div>
+              </ul>
+            </li>
+            <a href="/blog"><li><span class="menu-bump">Blog</span></li></a>
+            <a href="#modal-search"><li><span class="menu-bump"><i class="fa fa-search"></i></span></li></a>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="copyright">
+      <p class="font-12">&copy;2017 Ensurem, LLC. <span class="text-accent">|</span> 844.847.3800 <span class="smart-break"><span class="text-accent">|</span> 11595 66th Street <span class="text-accent">|</span> Largo, Florida 33773 </span> <span class="smart-break"><span class="text-accent">|</span> <a href="/privacy-policy">Privacy Policy</a> <span class="text-accent">|</span> <a href="/terms-of-use">Terms of Use</a></span></p>
+    </div>
+  <script>//css load fix </script>
+  </footer>
+
+  </body>
+  </html>

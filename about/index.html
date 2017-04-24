@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+  <body id="top">
+    <div class="l-navbar-fixed-top">
+      <nav class="l-navbar">
+        <a href="/"><h1 class="brand-light brand-left opacity-hover-80 l-float-l">Ensurem</h1></a>
+        <input type="checkbox" id="nav" /><label for="nav"></label>
+        <ul>
+          <li id="learn" onclick=""><span class="menu-bump">Learn <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/guide/life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</li></a>
+                <a href="/guide/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                <a href="/guide/final-expense-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                <a href="/guide/term-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Term Life</li></a>
+                <!-- <a href="/guide/universal-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                <a href="/guide/whole-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                <a href="/guide/living-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</li></a>
+                <a href="/guide/annuities"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Annuities</li></a>
+                <a href="/guide/dental-and-vision-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                <a href="/guide/disability-income-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                <a href="/guide/home-security-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Home Security</li></a>
+                <a href="/guide/medical-cash-benefits-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                <a href="/guide/medicare-supplement-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                <a href="/guide/pet-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                <a href="/guide/savings-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                <a href="/guide/short-term-health-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+              </div>
+            </ul>
+          </li>
+          <li id="shop" onclick=""><span class="menu-bump">Shop <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/buy"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> All Plans</li></a>
+                <a href="/buy/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                <a href="/buy/final-expense-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                <a href="/buy/term-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Term Life</li></a>
+                <!-- <a href="/buy/universal-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                <a href="/buy/whole-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                <a href="/buy/annuities"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Annuities</li></a>
+                <a href="/buy/dental-and-vision-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                <a href="/buy/disability-income-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                <a href="/buy/home-security-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Home Security</li></a>
+                <a href="/buy/medical-cash-benefits-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                <a href="/buy/medicare-supplement-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                <a href="/buy/pet-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                <a href="/buy/savings-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                <a href="/buy/short-term-health-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                <!-- <a href="/buy/vehicle-service-contracts"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Toco Warranty</li></a> -->
+              </div>
+            </ul>
+          </li>
+          <li id="about" onclick=""><span class="menu-bump">About <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/about"><li><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</li></a>
+                <a href="/about#team"><li><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet the Team</li></a>
+                <a href="/about#our-story"><li><i class="fa fa-book"></i> <span class="text-accent">|</span> Our Story</li></a>
+                <a href="/guide"><li><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</li></a>
+                <a href="/blog"><li><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Awaring America&trade;</li></a>
+                <a href="/contact"><li><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact</li></a>
+              </div>
+            </ul>
+          </li>
+          <a href="/blog"><li><span class="menu-bump">Blog</span></li></a>
+          <a href="#modal-search"><li><span class="menu-bump"><i class="fa fa-search"></i></span></li></a>
+
+        </ul>
+      </nav>
+    </div>
+    <div id="modal-search" class="modal search flex flex-center just-center" style="">
+      <div class="container-900">
+        <div class="flex flex-center just-between fa-accent">
+          <h2 class=""><i class="fa fa-search"></i> <span class="text-accent">|</span> Search Our Site</h2>
+          <a href="#top" class=""><i class="fa fa-3x fa-close"></i></a>
+        </div>
+        <form class="flex flex-wrap just-center">
+          <label class="flex relative">
+            <span>Search</span>
+            <input autofocus placeholder="Type here..." type="search" tabindex="1" required="required">
+          </label>
+          <button name="submit" type="submit" id="contact"><i class="fa fa-search"></i> | Search</button>
+        </form>
+      </div>
+    </div>
+
+
+  <header id="about-hero" class="l-fullpage-header flex flex-center just-center text-center flex-wrap text-shade link-no-shad link-hover-dark">
+    <div class="l-fullpage-header-content xl no-pad-sides butt-link-light-lg">
+      <h1><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</h1>
+      <hr>
+      <h2>Choice. Freedom. Security. <span class="smart-break">A better quality of life for all…</span></h2>
+      <a href="#team"><i class="fa fa-chevron-circle-down"></i> | Meet the Team</a>
+      <a href="#our-story"><i class="fa fa-chevron-circle-down"></i> | Our Story</a>
+    </div>
+  </header>
+
+  <a id="team" class="anchor"></a>
+  <article class="team l-team-list relative">
+    <div class="container text-center butt-link-mini content hr-center hr-primary">
+      <h1><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet <span class="smart-break-mini">The Team</span></h1>
+      <hr>
+      <ul>
+        <li>
+          <span id="Dave Rich" class="anchor-team"></span>
+          <img src="/assets/team/team-1.jpg" alt="Dave Rich">
+          <h3>Dave Rich</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-1">Read Bio</a>
+        </li>
+        <li>
+          <span id="Scott Roix" class="anchor-team"></span>
+          <img src="/assets/team/team-2.jpg" alt="Scott Roix">
+          <h3>Scott Roix</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-2">Read Bio</a>
+        </li>
+        <li>
+          <span id="David Lukrich" class="anchor-team"></span>
+          <img src="/assets/team/team-11.jpg" alt="David Lukrich">
+          <h3>David Lukrich</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-3">Read Bio</a>
+        </li>
+        <li>
+          <span id="Vince DelCorso" class="anchor-team"></span>
+          <img src="/assets/team/team-3.jpg" alt="Vince DelCorso">
+          <h3>Vince DelCorso</h3>
+          <h4>"I like the Steelers."</h4>
+          <a href="#modal-team-4">Read Bio</a>
+        </li>
+        <li>
+          <span id="John Clifford" class="anchor-team"></span>
+          <img src="/assets/team/team-4.jpg" alt="John Clifford">
+          <h3>John Clifford</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-5">Read Bio</a>
+        </li>
+        <li>
+          <span id="JR Keene" class="anchor-team"></span>
+          <img src="/assets/team/team-5.jpg" alt="JR Keene">
+          <h3>JR Keene</h3>
+          <h4>"I like fast cars."</h4>
+          <a href="#modal-team-6">Read Bio</a>
+        </li>
+        <li>
+          <span id="Leonard Mello" class="anchor-team"></span>
+          <img src="/assets/team/team-6.jpg" alt="Leonard Mello">
+          <h3>Leonard Mello</h3>
+          <h4>"I like comic books."</h4>
+          <a href="#modal-team-7">Read Bio</a>
+        </li>
+        <li>
+          <span id="Danielle Hutchins" class="anchor-team"></span>
+          <img src="/assets/team/team-7.jpg" alt="Danielle Hutchins">
+          <h3>Danielle Hutchins</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-8">Read Bio</a>
+        </li>
+        <li>
+          <span id="Zachary Sprague" class="anchor-team"></span>
+          <img src="/assets/team/team-8.jpg" alt="Zachary Sprague">
+          <h3>Zachary Sprague</h3>
+          <h4>"I like dogs."</h4>
+          <a href="#modal-team-9">Read Bio</a>
+        </li>
+        <li>
+          <span id="Steve Burks" class="anchor-team"></span>
+          <img src="/assets/team/team-9.jpg" alt="Steve Burks">
+          <h3>Steve Burks</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-10">Read Bio</a>
+        </li>
+        <li>
+          <span id="Ashley LeClaire" class="anchor-team"></span>
+          <img src="/assets/team/team-10.jpg" alt="Ashley LeClaire">
+          <h3>Ashley LeClaire</h3>
+          <h4>"I like Jeeps."</h4>
+          <a href="#modal-team-11">Read Bio</a>
+        </li>
+        <li>
+          <span id="Marc Rubinger" class="anchor-team"></span>
+          <img src="/assets/team/team-12.jpg" alt="Marc Rubinger">
+          <h3>Marc Rubinger</h3>
+          <h4>"I like boats."</h4>
+          <a href="#modal-team-12">Read Bio</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- MODALS -->
+    <div id="modal-team-1" class="modal white butt-link">
+      <a href="#Dave Rich" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-1.jpg" alt="Dave Rich">
+        <h2>Dave Rich</h2>
+        <a href="https://www.linkedin.com/in/dave-rich-262ba397" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>Dave has held various positions over his 35-year career in the insurance industry. Experienced in both the home office environment and independent distribution companies, Dave has a unique understanding of home office decision-making as well as agent and consumer preferences.</p><p>Having spent over two decades in executive positions with major insurers, including Great American Financial Resources, Manhattan National Life Insurance Company and Life Partners Group, Dave is fluent in the corporate environment and the needs for insurance profitability and risk management.</p><p>Holding the position of Group President for Great American Financial Resources, which included oversight of Great American Life Insurance Company, Annuity Investors Life Insurance Company, Loyal American Life Insurance Company and Great American Life of New York, Dave directed marketing and operations for the life insurance and annuity product lines.</p><p>For the last 10 years, Dave has held the positions of Chief Operating Officer and Chief Marketing Officer of Amerilife Group LLC., one of the largest insurance marketing companies in the country. As Chief Marketing Officer, Dave participated in acquiring distribution and designing unique products in the life, health and annuity marketplace. As Chief Operating Officer, Dave helped facilitate the reduction of expenses while increasing data security by consolidating servers, instituting security protocols and firewall systems.</p>
+        <a href="#Dave Rich">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-2" class="modal white butt-link">
+      <a href="#Scott Roix" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-2.jpg" alt="Scott Roix">
+        <h2>Scott Roix</h2>
+        <a href="https://www.linkedin.com/in/scott-roix-66964939" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>His inspiration is helping the entire Ensurem organization achieve the highest levels of performance in order to deliver on the Ensurem mission of bringing the efficiency, convenience, and cost savings to every household across America. Scott Roix is an accomplished entrepreneur and business leader. With more than 20 years in business operations as a Founder and CEO, Scott joined Angelrush in 2012 as the COO and played a pivotal role in developing the direct-to-consumer platform. From day one at Angelrush, Scott improved efficiencies across the board. Scott’s considerable experience in operations management and building top-performing sales teams makes him an invaluable asset of the HealthRight team.</p>
+        <a href="#Scott Roix">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-3" class="modal white butt-link">
+      <a href="#David Lukrich" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-11.jpg" alt="David Lukrich">
+        <h2>David Lukrich</h2>
+        <a href="https://www.linkedin.com/in/dave-lukrich-2796341/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>David, a sales executive and serial entrepreneur, began his career in 1995 as District Manager at Network Appliance (NASDAQ: NTAP), where he successfully launched and developed the sales initiatives for the San Francisco Bay Area. In 2002, David moved on to serve as Sales Director at Decru Inc., where he was responsible for building the sales team and implementing the national sales plan. Decru was later acquired by Network Appliance for $262M. In 2005, David entered his first venture as the founder of Syndero, one of the first companies to pave the way in online, direct-to-consumer product marketing. Within three years, the San Francisco Business Times named Syndero as the “Fastest Growing Company in the San Francisco Bay Area.” Through his experience at Syndero, David saw huge potential in developing an end-to-end customer ecosystem online, which led to his departure from Syndero and full time investment in Angelrush Ventures. Over the next five years, David would develop a premiere platform for direct-to-consumer health care internet marketing.</p>
+        <a href="#David Lukrich">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-4" class="modal white butt-link">
+      <a href="#Vince DelCorso" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-3.jpg" alt="Vince DelCorso">
+        <h2>Vince DelCorso</h2>
+        <!--<a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>--> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>Vince is an accomplished entrepreneur who has started and ran several direct marketing businesses over the last 20 years in various industries. He specializes in lead acquisition, data management and data mining. Vince’s many years in this field has enabled him to analyze the highest qualified level of prospects for any marketing campaign we undertake, resulting in more happy customers for the company. He is determined to make a difference in people’s lives by “Awaring America” of the value of Ensurem’s products and he strongly believes that “Nobody plans to fail; they just fail to plan.” Our Job here at Ensurem is to help everyday people plan for their future and that of their loved ones.</p>
+        <a href="#Vince DelCorso">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-5" class="modal white butt-link">
+      <a href="#John Clifford" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-4.jpg" alt="John Clifford">
+        <h2>John Clifford</h2>
+        <a href="https://www.linkedin.com/in/johnpclifford/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>John has extensive international insurance experience ranging from startups to multi-billion dollar corporations. He is a passionate believer in the use of technology and the need to fundamentally change how insurance is sold so that more Americans can enjoy the benefits of these products. John has a history of working in insurance startups both on the distribution and manufacturing side. His previous roles include co-founder of P2 Group and president of Old Mutual plc’s US and International insurance businesses where he oversaw $26 billion of assets and $4 billion of annual insurance sales starting from a zero base. Prior to Old Mutual, John was with Jackson National Life and Prudential plc both in the United States and the United Kingdom. John began his career with the Financial Institutions Group of Touché Ross in London. He graduated from the University of Bristol and is a Fellow of the Institute of Chartered Accountants in England and Wales.</p>
+        <a href="#John Clifford">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-6" class="modal white butt-link">
+      <a href="#JR Keene" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-5.jpg" alt="JR Keene">
+        <h2>JR Keene</h2>
+        <a href="https://www.linkedin.com/in/jrkeene/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>Mr. Keene has an early background in computer programming language and development specifically with databases such as dBase, Microsoft Access, MySQL. JR’s Primary skills are HTML5, CSS3, PHP, MySQL and CRM Systems and worked as a business systems analyst, developer and on-site consultant for Infusionsoft for five years until founding Vital Consulting in 2010.</p><p>Vital Consulting has worked with hundreds of clients since 2010 including Shark Tank and Jordon Belfort, the main character in which the movie “The Wolfe of Wall Street” was based. Vital Consulting specializes in automation of sales processes, work flows, API connectivity and software development.</p>
+        <a href="#JR Keene">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-7" class="modal white butt-link">
+      <a href="#Leonard Mello" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-6.jpg" alt="Leonard Mello">
+        <h2>Leonard Mello</h2>
+        <a href="https://www.linkedin.com/in/leonardmello/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>Hi, I’m Leonard and I believe in making a difference in the lives of others & uncovering a better way to live life. I contribute to Ensurem by ‘ensuring’ we shine in our own unique light; because we aren’t just an insurance company, we’re built on the foundation of facilitating financial freedom for you and your loved ones. We do this by raising your awareness, providing you with the knowledge you need to make informed choices, and ultimately by connecting you to a centralized network of life optimized solutions to take action on, so you can live the life you’ve always imagined. Who am I? What do I do? I’m just a regular guy with a creative vision and a wandering mind who loves to design.</p>
+        <a href="#Leonard Mello">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-8" class="modal white butt-link">
+      <a href="#Danielle Hutchins" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-7.jpg" alt="Danielle Hutchins">
+        <h2>Danielle Hutchins</h2>
+        <a href="https://www.linkedin.com/in/daniellehutchins/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>My name is Danielle and I believe in the value Ensurem brings to the American people. Prior to Ensurem, I marketed for a multi-million dollar third-party freight logistics provider. Through my efforts of becoming a well-rounded young professional while I was there, I acquired a blend of public relations, marketing communications, online reputation management, analytics and social media management expertise. My title at Ensurem may be Sr. Content Manager, but above all, I’m a communicator. I’m passionate about communicating Ensurem’s value to the public and turning those conversations into long-lasting relationships.</p>
+        <a href="#Danielle Hutchins">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-9" class="modal white butt-link">
+      <a href="#Zachary Sprague" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-8.jpg" alt="Zachary Sprague">
+        <h2>Zachary Sprague</h2>
+        <a href="https://www.linkedin.com/in/zachary-sprague-66499aa7/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>My name is Zach and I have a serious passion for all things creative. My role at Ensurem is to keep ensurem.com looking fresh and snazzy. I want your experience at Ensurem to be super easy peasy and lemon squeezy. Because I believe in a world where all user experience is fun, interactive and engaging. Also be sure to check out our social media channels for more amazing content on all that is Ensurem! Until next time, peace out.</p>
+        <a href="#Zachary Sprague">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-10" class="modal white butt-link">
+      <a href="#Steve Burks" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-9.jpg" alt="Steve Burks">
+        <h2>Steve Burks</h2>
+        <a href="https://www.linkedin.com/in/steve-burks-76401911/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>Steve Burks is a senior sales and marketing executive with over 20 years of experience. He has held many senior sales and marketing positions with Disney Vacation Club, Ritz Carlton Destination Club, Marriott Vacation Club and Bluegreen Resorts.</p><p>Burks has developed a special skill set in forging strategic alliances with the largest companies in travel such as American Airlines, Delta, Hertz, Universal Studios, Six Flags, Priceline, Expedia, Travelocity and more. As well as in banking, with Bank of America, American Express and Barclays Bank.</p><p>Burks helped procure and execute over $6 billion dollars in strategic alliance sales through various marketing channels that has spanned over 15 years. He has a passion for finding the right set of alliances, forging the relationships and developing the execution and successful velocity with the various teams.</p><p>Burks has also been classically trained in the sales disciplines which include recruiting, selection, training, reward and recognition along with performance coaching. He worked on the Marriott Vacation Club executive team that was voted the #1 sales force in the world by the American Business Awards – hailed as the Oscars for business.​</p>
+        <a href="#Steve Burks">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-11" class="modal white butt-link">
+      <a href="#Ashley LeClaire" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-10.jpg" alt="Ashley LeClaire">
+        <h2>Ashley LeClaire</h2>
+        <a href="https://www.linkedin.com/in/ashley-leclaire-lssgb-lssbb-94a8b730/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>A self-proclaimed Jeep enthusiast and Yankees fan, Ashley is originally from the great state of Connecticut. She moved to Florida for school and started her insurance career at one of the largest independently held, senior insurance distribution companies in the nation; AmeriLife.</p><p>Starting in 2008 as an administrative assistant, Ashley worked her way up through the company. During her first years in product development, Ashley worked under Dave Rich as the team’s first competitive market analyst.</p><p>Nine years later and she was director of carrier relations, overseeing the onboarding of all new carrier products for the distribution company. She also played a large role in the development of senior insurance products for 7 of her years with the company.</p><p>In 2013 and 2014 Ashley received her Lean Six Sigma green and black belts, and applies her process improvement skills across everything she does.</p><p>Ashley joined the Ensurem team because she truly believes the mission of the company: to aware America and help consumers take responsibility for their insurance choices. Being part of a team that is working to make buying insurance (a task that is notoriously difficult) simpler, is Ashley’s passion, and each day that she comes in to work she looks for even more inventive ways to make that happen.</p><p>Ashley lives in sunny Clearwater, Fla. with her husband Darren, daughter Chloe and their Old English Bulldog Brutus.</p>
+        <a href="#Ashley LeClaire">Go Back</a>
+      </div>
+    </div>
+
+    <div id="modal-team-12" class="modal white butt-link">
+      <a href="#Marc Rubinger" class="close"><i class="fa fa-close"></i></a>
+      <div class="container-900 relative">
+        <img src="/assets/team/team-12.jpg" alt="Marc Rubinger">
+        <h2>Marc Rubinger</h2>
+        <a href="https://www.linkedin.com/in/marcrubinger/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:mailto:info@ensurem.com"><i class="fa fa-envelope"></i></a>
+        <p>As founder and CEO of Compass Solutions, he ran a successful health care consulting firm for over 10 years, focused on helping health care organizations generate positive returns from IT investments. Previously, Marc served as Senior Vice President, Business Services, with Genesis Health, a 3B health care services company, where he led interdisciplinary teams from Operations, Finance, and IT in the overhaul and reengineering of the company’s admissions, intake functions, and business office functions. For the five previous years, Marc was Genesis Health’s Senior Vice President and Chief Information Officer, developing the corporation’s IT functions and establishing the core technology platforms of a national network with over 500 sites. During this tenure, he introduced systems capabilities that resulted in major operating and market advantages.</p><p>Earlier, Marc served as a Senior Operations Executive with Shared Medical Systems, now Siemens Medical, and was an Ernst & Young National Partner in charge of health care software. Each of these positions had him designing, developing, and implementing systems for a nationwide audience. Marc also has been an investor/board member of two start-up software and consulting companies, and currently serves on two boards of directors. He earned a Master’s Degree in Planning and Health Management from The George Washington University. He is the past chair of AHCA’s Knowledge Management Committee and a former member of AHCA’s Policy Council. He served for five years as a member of the GWU Health Management Program Alumni Board.</p>
+        <a href="#Marc Rubinger">Go Back</a>
+      </div>
+    </div>
+
+  </article>
+
+  <a id="our-story" class="anchor"></a>
+  <article class="our-story mid-dark text-white">
+    <div class="container-900">
+      <h1><i class="fa fa-book"></i> <span class="text-accent">|</span> It Begins <span class="smart-break-mini">With You</span></h1>
+      <p><strong>The story of Ensurem is simple, and it begins with you.</strong> If you have a desire for financial security and believe in the promise of a brighter tomorrow for you and your family, we at Ensurem share your vision. With this vision in mind, Ensurem set out to revolutionize one of the most important choices you will ever make: investing in quality, cost-effective insurance and related products to protect you and the ones <span class="smart-break">you love.</span></p>
+      <img src="/assets/our-story/our-story-1.jpg" alt="Always Remembered" class="img-responsive">
+      <p><strong>Helping you create, grow, and protect wealth is our goal.</strong> We know financial stability enables you to focus on what matters most: living life to its fullest. Comprehensive insurance coverage gives you the peace of mind necessary to do just that. Prior to Ensurem, however, the process of researching and choosing the right insurance was often an intimidating, complex, and frustrating venture – not to mention time-consuming. No one company existed to enable consumers to freely explore options, compare benefits, and, in some cases, purchase insurance policies and related products instantly. With so much at stake, there simply had to be a better way – and with Ensurem, there <span class="smart-break">finally is.</span></p>
+      <p><img src="/assets/our-story/our-story-2.jpg" alt="Protect Your Children" class="l-float-r l-gut-l"><strong>Having insurance is crucial to safeguarding hard-earned assets.</strong> Yet many people believe that purchasing insurance is a cumbersome, confusing, and frustrating endeavor. Experiences in the past may have caused these beliefs. For this reason, postponing the purchase of insurance is an all too common – and costly – mistake. Ensurem’s streamlined, holistic approach to insurance purchase eliminates many of the past roadblocks that prevented people from taking that first important step toward protecting their assets. We believe raising awareness is crucial for folks to make the right choices. We call it “Awaring America™,” and it’s a key way that we differ from other websites. We put the power of information to work for you and your budget by partnering with some of the most reputable names in the insurance industry. Ensurem gives you the freedom to learn the facts from a wealth of sources, compare merits of different companies, confidently weigh your options, and, instantly purchase coverage, all with the confidence of knowing that you made the right choice for you and <span class="smart-break">your family.</span></p>
+      <h2><strong>Freedom for you to make informed choices</strong> regarding your insurance needs and immediately act is what makes Ensurem unique. With choice comes strength, independence, and growth. A life optimized is what we want for you and your family, and the benefits <span class="smart-break">are clear.</span></h2>
+      <img src="/assets/our-story/our-story-3.jpg" alt="Awaring America&trade;" class="img-responsive">
+      <p><strong>Ensurem believes creating—and protecting—wealth is fundamental to the American Dream.</strong> We offer a wide variety of choices that can shield your income and save you money, including policies that pay medical deductibles, warranty products, discount programs, and, quite simply, help you reduce the risk of financial loss. Ensurem has made many revolutionary, positive changes in the way people search for and purchase products. One time-honored component of good business, however, remains the same: trust. Earning and keeping your trust is the foundation of our belief system. Our agency is fully licensed, regulated, and compliant in all states we do business, and our founders have a wealth of successful experience in all facets of the insurance industry. We believe that building – and keeping – relationships is what sets <span class="smart-break">Ensurem apart.</span></p>
+      <blockquote>At Ensurem, the e <span class="smart-break">represents <strong>everyone.</strong></span></blockquote>
+      <p><strong>By now you understand our emphasis is on you, your family, and the importance of investing today to safeguard all of your tomorrows.</strong> As your own story unfolds, experience the strength, independence, and growth our vision can provide. At Ensurem, the “e” represents everyone. We believe the American Dream is alive and well, and everyone deserves a way to safeguard its potential. Optimize your life through the power of choice, experience, and trust. Optimize your life <span class="smart-break">through Ensurem.</span></p>
+    </div>
+  </article>
+
+  <footer class="black">
+    <div class="container">
+      <nav class="l-navlinks flex just-between flex-center flex-wrap">
+        <div class="col-md-6">
+          <a href="/"><h1 class="brand-light brand-center opacity-hover-opaque">Ensurem</h1></a>
+          <ul class="social">
+            <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
+            <li><span class="text-accent">|</span></li>
+            <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+            <li><span class="text-accent">|</span></li>
+            <li><a href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="text-left">
+            <li id="learn" onclick=""><span class="menu-bump">Learn <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/guide/life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</li></a>
+                  <a href="/guide/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                  <a href="/guide/final-expense-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                  <a href="/guide/term-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Term Life</li></a>
+                  <!-- <a href="/guide/universal-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                  <a href="/guide/whole-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                  <a href="/guide/living-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</li></a>
+                  <a href="/guide/annuities"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Annuities</li></a>
+                  <a href="/guide/dental-and-vision-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                  <a href="/guide/disability-income-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                  <a href="/guide/home-security-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Home Security</li></a>
+                  <a href="/guide/medical-cash-benefits-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                  <a href="/guide/medicare-supplement-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                  <a href="/guide/pet-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                  <a href="/guide/savings-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                  <a href="/guide/short-term-health-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                </div>
+              </ul>
+            </li>
+            <li id="shop" onclick=""><span class="menu-bump">Shop <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/buy"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> All Plans</li></a>
+                  <a href="/buy/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                  <a href="/buy/final-expense-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                  <a href="/buy/term-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Term Life</li></a>
+                  <!-- <a href="/buy/universal-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                  <a href="/buy/whole-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                  <a href="/buy/annuities"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Annuities</li></a>
+                  <a href="/buy/dental-and-vision-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                  <a href="/buy/disability-income-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                  <a href="/buy/home-security-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Home Security</li></a>
+                  <a href="/buy/medical-cash-benefits-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                  <a href="/buy/medicare-supplement-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                  <a href="/buy/pet-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                  <a href="/buy/savings-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                  <a href="/buy/short-term-health-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                  <!-- <a href="/buy/vehicle-service-contracts"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Toco Warranty</li></a> -->
+                </div>
+              </ul>
+            </li>
+            <li id="about" onclick=""><span class="menu-bump">About <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/about"><li><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</li></a>
+                  <a href="/about#team"><li><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet the Team</li></a>
+                  <a href="/about#our-story"><li><i class="fa fa-book"></i> <span class="text-accent">|</span> Our Story</li></a>
+                  <a href="/guide"><li><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</li></a>
+                  <a href="/blog"><li><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Awaring America&trade;</li></a>
+                  <a href="/contact"><li><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact</li></a>
+                </div>
+              </ul>
+            </li>
+            <a href="/blog"><li><span class="menu-bump">Blog</span></li></a>
+            <a href="#modal-search"><li><span class="menu-bump"><i class="fa fa-search"></i></span></li></a>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="copyright">
+      <p class="font-12">&copy;2017 Ensurem, LLC. <span class="text-accent">|</span> 844.847.3800 <span class="smart-break"><span class="text-accent">|</span> 11595 66th Street <span class="text-accent">|</span> Largo, Florida 33773 </span> <span class="smart-break"><span class="text-accent">|</span> <a href="/privacy-policy">Privacy Policy</a> <span class="text-accent">|</span> <a href="/terms-of-use">Terms of Use</a></span></p>
+    </div>
+  <script>//css load fix </script>
+  </footer>
+
+  </body>
+  </html>

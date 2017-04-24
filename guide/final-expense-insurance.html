@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title></title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+  <body id="top">
+    <div class="l-navbar-fixed-top">
+      <nav class="l-navbar">
+        <a href="/"><h1 class="brand-light brand-left opacity-hover-80 l-float-l">Ensurem</h1></a>
+        <input type="checkbox" id="nav" /><label for="nav"></label>
+        <ul>
+          <li id="learn" onclick=""><span class="menu-bump">Learn <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/guide/life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</li></a>
+                <a href="/guide/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                <a href="/guide/final-expense-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                <a href="/guide/term-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Term Life</li></a>
+                <!-- <a href="/guide/universal-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                <a href="/guide/whole-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                <a href="/guide/living-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</li></a>
+                <a href="/guide/annuities"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Annuities</li></a>
+                <a href="/guide/dental-and-vision-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                <a href="/guide/disability-income-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                <a href="/guide/home-security-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Home Security</li></a>
+                <a href="/guide/medical-cash-benefits-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                <a href="/guide/medicare-supplement-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                <a href="/guide/pet-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                <a href="/guide/savings-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                <a href="/guide/short-term-health-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+              </div>
+            </ul>
+          </li>
+          <li id="shop" onclick=""><span class="menu-bump">Shop <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/buy"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> All Plans</li></a>
+                <a href="/buy/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                <a href="/buy/final-expense-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                <a href="/buy/term-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Term Life</li></a>
+                <!-- <a href="/buy/universal-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                <a href="/buy/whole-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                <a href="/buy/annuities"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Annuities</li></a>
+                <a href="/buy/dental-and-vision-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                <a href="/buy/disability-income-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                <a href="/buy/home-security-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Home Security</li></a>
+                <a href="/buy/medical-cash-benefits-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                <a href="/buy/medicare-supplement-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                <a href="/buy/pet-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                <a href="/buy/savings-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                <a href="/buy/short-term-health-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                <!-- <a href="/buy/vehicle-service-contracts"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Toco Warranty</li></a> -->
+              </div>
+            </ul>
+          </li>
+          <li id="about" onclick=""><span class="menu-bump">About <i class="fa fa-caret-down"></i></span>
+            <ul class="main-wrapper">
+              <div class="container">
+                <a href="/about"><li><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</li></a>
+                <a href="/about#team"><li><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet the Team</li></a>
+                <a href="/about#our-story"><li><i class="fa fa-book"></i> <span class="text-accent">|</span> Our Story</li></a>
+                <a href="/guide"><li><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</li></a>
+                <a href="/blog"><li><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Awaring America&trade;</li></a>
+                <a href="/contact"><li><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact</li></a>
+              </div>
+            </ul>
+          </li>
+          <a href="/blog"><li><span class="menu-bump">Blog</span></li></a>
+          <a href="#modal-search"><li><span class="menu-bump"><i class="fa fa-search"></i></span></li></a>
+
+        </ul>
+      </nav>
+    </div>
+    <div id="modal-search" class="modal search flex flex-center just-center" style="">
+      <div class="container-900">
+        <div class="flex flex-center just-between fa-accent">
+          <h2 class=""><i class="fa fa-search"></i> <span class="text-accent">|</span> Search Our Site</h2>
+          <a href="#top" class=""><i class="fa fa-3x fa-close"></i></a>
+        </div>
+        <form class="flex flex-wrap just-center">
+          <label class="flex relative">
+            <span>Search</span>
+            <input autofocus placeholder="Type here..." type="search" tabindex="1" required="required">
+          </label>
+          <button name="submit" type="submit" id="contact"><i class="fa fa-search"></i> | Search</button>
+        </form>
+      </div>
+    </div>
+
+
+  <header id="fin-life-hero" class="flex flex-center just-center flex-wrap">
+    <div class="container no-pad no-marg">
+      <div class="no-pad-sides butt-link-light-lg link-hover-finco ">
+        <div>
+          <div class="butt-prev"><a href="/guide/accidental-death-and-dismemberment-insurance" class=""><i class="fa fa-chevron-left"></i></a></div>
+          <div class="butt-next"><a href="/guide/term-life-insurance" class=""><i class="fa fa-chevron-right"></i></a></div>
+        </div>
+        <h1>Final Expense Insurance</span></h1>
+        <hr>
+        <h2>A financial safety net <span class="smart-break">for your family</span></h2>
+      </div>
+    </div>
+  </header>
+
+  <div class="wax-seal flex flex-center just-center"><h2><i class="fa fa-heart-o"></i></h2></div>
+
+  <article class="">
+    <div class="container flex flex-center flex-wrap fin-list l-stack-all-ul">
+      <div class="col-sm-12 col-lg-6 col-pad briefing">
+        <h3><strong>Final Expense Insurance</strong> is a form of life insurance that is similar to whole life insurance. Final Expense insurance is designed to offer coverage for your entire life, that pays a benefit at the time of your death. This coverage is designed to cover any funeral or final expenses your family and loved ones might incur after you pass. Final expense monthly payments are affordable and will remain the same for the life of <span class="smart-break">the contract.</span></h3>
+      </div>
+      <div class="col-sm-12 col-lg-6 col-pad briefing">
+        <ul>
+          <h2>Key Benefits of Final <span class="smart-break">Expense Insurance</span></h2>
+          <li>Lump sum tax-free cash benefit <span class="smart-break">to your beneficiaries</span></li>
+          <li>$2,000 to $40,000 of available benefits</li>
+          <li>Premiums do not increase</li>
+          <li>Benefits do not decrease</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="flex flex-wrap text-center butt-link-light l-16-9-responsive-text text-white link-hover-alt">
+    <div id="life-guide" class="col-md-6 flex-1-sm">
+      <div class="l-16-9-aspect relative">
+        <div class="abso-centered">
+          <h2><span class="smart-break">What you need</span><br><span class="smart-break">to know about</span><br><span class="smart-break">life insurance</span></h2>
+          <hr>
+          <h3>A Free Guide</h3>
+          <a href="#"><i class="fa fa-download"></i> | Download</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="video-wrap">
+        <iframe src="//www.lifehappens.org/brightcove/player.php?userId=18726&videoId=4521490723001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+      </div>
+    </div>
+  </article>
+
+  <article id="" class="content hr-finco container fluid finco">
+    <div class="container featured-carriers l-inline-all-ul text-center hr-center">
+      <h2>Featured Carriers</h2>
+      <hr>
+      <ul>
+        <li><h4 class="carrier-logo united-omaha-logo">United of Omaha Life Insurance Company</h4></li>
+        <li><h4 class="carrier-logo sentinel-logo">Sentinel Security Life</h4></li>
+        <li><h4 class="carrier-logo fidelity-life-logo">Fidelity Life</h4></li>
+        <li><h4 class="carrier-logo gerber-logo">Gerber Life Insurance Company</h4></li>
+        <li><h4 class="carrier-logo american-national-logo">American National</h4></li>
+        <li><h4 class="carrier-logo vantis-life-logo">Vantis Life</h4></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="">
+    <div class="container flex flex-center flex-wrap fin-list l-stack-all-ul">
+      <div class="col-sm-12 col-md-6 col-lg-5 col-pad flex-1-md">
+        <ul>
+          <h2>Common uses for <span class="smart-break">Final Expense</span> Insurance</h2>
+          <li>Ease the financial burden for your family following your death</li>
+          <li>Cover any expenses that your selected beneficiaries may encounter including:
+            <ul>
+              <li>Cost of the casket, head stone, vault, burial site, cremation services and memorial service</li>
+              <li>In-state and out-of-state travel and transportation costs</li>
+              <li>Outstanding bills, mortgage payments and credit card debt</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-pad flex-3-md img-shadow-mid-light img-circle-all img-border-white flex flex-center just-center">
+        <img src="/assets/discover/discover-final-expense-3.jpg" alt="Injured on the job. Income protected.">
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-5 col-pad flex-2-md">
+        <ul>
+          <h2>Life stages and circumstances where final expense insurance should be considered...</h2>
+          <li>Pre-retirement</li>
+          <li>Typically, age 50 and older</li>
+          <li>Individuals that don't have a term or whole life policy already allocated for funeral expenses</li>
+          <p>Under these circumstances, Final Expense insurance can protect your family and designated beneficiaries from a final crisis.</p>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article id="" class="l-16-9-responsive-text flex flex-wrap img-responsive-all text-center text-white butt-link-light dark">
+    <div class="col-sm-12 col-md-6">
+      <div id="fin-4" class="col-md-6 col-sq col-sm-hide"></div>
+      <div id="fin-5" class="col-md-6 col-sq col-sm-hide"></div>
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+      <div class="slider">
+        <div class="four-fact-slider">
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>Caskets cost anywhere from $2,000 to $10,000+.</h4>
+              <h6>(Source: Federal Trade Commission)</h6>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>Traditional funerals can cost $7,045 or more.</h4>
+              <h6>(Source: National Funeral Director's Association)</h6>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>Median cost of a funeral with cremation is $6,078.</h4>
+              <h6>(Source: National Funeral Director's Association)</h6>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="abso-centered">
+              <h4>Cremations will represent 71% of funerals by 2030.</h4>
+              <h6>(Source: National Funeral Director's Association)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="disclaimer mid-dark text-white">
+    <div class="container-900">
+      <h5>Disclaimer:</h5>
+      <h6>THIS LIFE INSURANCE DOES NOT SPECIFICALLY COVER FUNERAL GOODS OR SERVICES, AND MAY NOT COVER THE ENTIRE COST OF YOUR FUNERAL AT THE TIME OF YOUR DEATH. THE BENEFICIARY OF THIS LIFE INSURANCE MAY USE THE PROCEEDS FOR ANY PURPOSE, UNLESS OTHERWISE DIRECTED. IN MOST STATES, IN THE EVENT OF SUICIDE DURING THE FIRST TWO POLICY YEARS, DEATH BENEFITS ARE LIMITED ONLY TO THE RETURN OF PREMIUMS PAID.</h6>
+    </div>
+  </article>
+
+  <div class="main-cta flex">
+    <a href="/buy/final-expense-insurance"><i class="fa fa-cart-plus"></i> | Shop Now</a>
+  </div>
+
+  <footer class="black">
+    <div class="container">
+      <nav class="l-navlinks flex just-between flex-center flex-wrap">
+        <div class="col-md-6">
+          <a href="/"><h1 class="brand-light brand-center opacity-hover-opaque">Ensurem</h1></a>
+          <ul class="social">
+            <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
+            <li><span class="text-accent">|</span></li>
+            <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+            <li><span class="text-accent">|</span></li>
+            <li><a href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="text-left">
+            <li id="learn" onclick=""><span class="menu-bump">Learn <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/guide/life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Life Insurance</li></a>
+                  <a href="/guide/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                  <a href="/guide/final-expense-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                  <a href="/guide/term-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Term Life</li></a>
+                  <!-- <a href="/guide/universal-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                  <a href="/guide/whole-life-insurance"><li><i class="fa fa-heart-o"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                  <a href="/guide/living-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Living Insurance</li></a>
+                  <a href="/guide/annuities"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Annuities</li></a>
+                  <a href="/guide/dental-and-vision-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                  <a href="/guide/disability-income-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                  <a href="/guide/home-security-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Home Security</li></a>
+                  <a href="/guide/medical-cash-benefits-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                  <a href="/guide/medicare-supplement-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                  <a href="/guide/pet-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                  <a href="/guide/savings-plans"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                  <a href="/guide/short-term-health-insurance"><li><i class="fa fa-heartbeat"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                </div>
+              </ul>
+            </li>
+            <li id="shop" onclick=""><span class="menu-bump">Shop <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/buy"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> All Plans</li></a>
+                  <a href="/buy/accidental-death-and-dismemberment-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Accident Plans</li></a>
+                  <a href="/buy/final-expense-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Final Expense</li></a>
+                  <a href="/buy/term-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Term Life</li></a>
+                  <!-- <a href="/buy/universal-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Universal Life</li></a> -->
+                  <a href="/buy/whole-life-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Whole Life</li></a>
+                  <a href="/buy/annuities"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Annuities</li></a>
+                  <a href="/buy/dental-and-vision-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Dental &amp; Vision Plans</li></a>
+                  <a href="/buy/disability-income-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Disability Income</li></a>
+                  <a href="/buy/home-security-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Home Security</li></a>
+                  <a href="/buy/medical-cash-benefits-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medical Cash Benefits</li></a>
+                  <a href="/buy/medicare-supplement-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Medicare Supplement</li></a>
+                  <a href="/buy/pet-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Pet Insurance</li></a>
+                  <a href="/buy/savings-plans"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Savings, Rewards &amp; More</li></a>
+                  <a href="/buy/short-term-health-insurance"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Short Term Health</li></a>
+                  <!-- <a href="/buy/vehicle-service-contracts"><li><i class="fa fa-cart-plus"></i> <span class="text-accent">|</span> Toco Warranty</li></a> -->
+                </div>
+              </ul>
+            </li>
+            <li id="about" onclick=""><span class="menu-bump">About <i class="fa fa-caret-down"></i></span>
+              <ul class="main-wrapper">
+                <div class="container">
+                  <a href="/about"><li><i class="fa fa-asterisk"></i> <span class="text-accent">|</span> Why Us?</li></a>
+                  <a href="/about#team"><li><i class="fa fa-group"></i> <span class="text-accent">|</span> Meet the Team</li></a>
+                  <a href="/about#our-story"><li><i class="fa fa-book"></i> <span class="text-accent">|</span> Our Story</li></a>
+                  <a href="/guide"><li><i class="fa fa-map"></i> <span class="text-accent">|</span> Product Guides</li></a>
+                  <a href="/blog"><li><i class="fa fa-newspaper-o"></i> <span class="text-accent">|</span> Awaring America&trade;</li></a>
+                  <a href="/contact"><li><i class="fa fa-comments"></i> <span class="text-accent">|</span> Contact</li></a>
+                </div>
+              </ul>
+            </li>
+            <a href="/blog"><li><span class="menu-bump">Blog</span></li></a>
+            <a href="#modal-search"><li><span class="menu-bump"><i class="fa fa-search"></i></span></li></a>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="copyright">
+      <p class="font-12">&copy;2017 Ensurem, LLC. <span class="text-accent">|</span> 844.847.3800 <span class="smart-break"><span class="text-accent">|</span> 11595 66th Street <span class="text-accent">|</span> Largo, Florida 33773 </span> <span class="smart-break"><span class="text-accent">|</span> <a href="/privacy-policy">Privacy Policy</a> <span class="text-accent">|</span> <a href="/terms-of-use">Terms of Use</a></span></p>
+    </div>
+  <script>//css load fix </script>
+  </footer>
+
+  </body>
+  </html>
